@@ -203,6 +203,7 @@
   # Sets up all the libraries to load
   programs.nix-ld.libraries = with pkgs; [
     # Required libraries
+    pkgs.stdenv.cc.cc.lib
   ];
 
   # List packages installed in system profile. To search, run:
