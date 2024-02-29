@@ -215,8 +215,8 @@
     pkgs.wacomtablet
     pkgs.gh
     pkgs.alejandra
-    pkgs.gcc
-    pkgs.cargo
+    # pkgs.gcc
+    # pkgs.cargo
     pkgs.rustc
     pkgs.rustup
     pkgs.obsidian
