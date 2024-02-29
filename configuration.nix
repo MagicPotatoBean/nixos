@@ -3,12 +3,6 @@
   pkgs,
   ...
 }: {
-  imports =
-    [ # Include the results of the hardware scan.
-      ./rebuild.nix
-    ];
-
-
   # Bootloader.
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
@@ -215,6 +209,7 @@
           ];
       }
     )
+    (import "/home/zoe/dotfiles/nixos/rebuild.nix")
     pkgs.openssl
     pkgs.wacomtablet
     pkgs.gh
