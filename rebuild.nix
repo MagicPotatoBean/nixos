@@ -5,7 +5,7 @@ with import <nixpkgs> {};
     set -e
 
     # cd to your config dir
-    pushd ~/dotfiles/nixos/
+    pushd ~/dotfiles/nixos/ > /dev/null
 
     # Autoformat your nix files
     alejandra . &>/dev/null
@@ -25,7 +25,7 @@ with import <nixpkgs> {};
     git commit -am "$current"
 
     # Back to where you were
-    popd
+    popd > /dev/null
 
     # Notify all OK!
     echo -e "NixOS Rebuilt OK!"
