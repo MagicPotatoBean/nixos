@@ -216,8 +216,7 @@
     pkgs.gh
     pkgs.alejandra
     pkgs.gcc
-    # pkgs.cargo
-    pkgs.rustc
+    # pkgs.rustc
     pkgs.rustup
     pkgs.obsidian
     pkgs.git
