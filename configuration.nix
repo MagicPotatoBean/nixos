@@ -194,6 +194,14 @@
         #   ''
   ];
 
+  # Sets up nix-ld to allow arbitrary binaries
+  programs.nix-ld.enable = true;
+
+  # Sets up all the libraries to load
+  programs.nix-ld.libraries = with pkgs; [
+    # Required libraries
+  ];
+
   # List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = with pkgs; [
@@ -204,8 +212,10 @@
             bbenoist.nix
             rust-lang.rust-analyzer
             jnoortheen.nix-ide
+            # Built in extensions
           ]
           ++ pkgs.vscode-utils.extensionsFromVscodeMarketplace [
+            # Custom extensions
           ];
       }
     )
@@ -216,13 +226,12 @@
     pkgs.gh
     pkgs.alejandra
     pkgs.gcc
-    # pkgs.rustc
     pkgs.rustup
     pkgs.obsidian
     pkgs.git
     pkgs.home-manager
-    pkgs.steam-run
     pkgs.neovim
+    pkgs.nix-ld
     wget
   ];
   nixpkgs.config.permittedInsecurePackages = [
