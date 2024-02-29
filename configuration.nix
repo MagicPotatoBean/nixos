@@ -126,6 +126,7 @@
           ];
       }
     )
+    pkgs.gh
     pkgs.alejandra
     pkgs.gcc
     pkgs.cargo
