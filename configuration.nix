@@ -222,6 +222,8 @@
           ];
       }
     )
+    pkgs.wineWowPackages.stable
+    pkgs.fbida
     pkgs.steam
     pkgs.discord
     pkgs.keepassxc
