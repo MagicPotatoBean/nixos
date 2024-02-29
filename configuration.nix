@@ -110,6 +110,19 @@
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
 
+  # Add new CA certificates
+  # security.pki.certificates = [
+  #   ''
+  #     NixOS.org
+  #     =========
+  #     -----BEGIN CERTIFICATE-----
+  #     MIIGUDCCBTigAwIBAgIDD8KWMA0GCSqGSIb3DQEBBQUAMIGMMQswCQYDVQQGEwJJ
+  #     TDEWMBQGA1UEChMNU3RhcnRDb20gTHRkLjErMCkGA1UECxMiU2VjdXJlIERpZ2l0
+  #     ...
+  #     -----END CERTIFICATE-----
+  #   ''
+  # ]
+
   # List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = with pkgs; [
@@ -125,6 +138,7 @@
           ];
       }
     )
+    pkgs.openssl
     pkgs.wacomtablet
     pkgs.gh
     pkgs.alejandra
