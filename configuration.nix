@@ -222,6 +222,7 @@
           ];
       }
     )
+    pkgs.unzip
     pkgs.wineWowPackages.stable
     pkgs.fbida
     pkgs.steam
