@@ -194,6 +194,9 @@
         #   ''
   ];
 
+  # Enable steam
+  programs.steam.enable = true;
+
   # Sets up nix-ld to allow arbitrary binaries
   programs.nix-ld.enable = true;
 
