@@ -204,6 +204,7 @@
   programs.nix-ld.libraries = with pkgs; [
     # Required libraries
     pkgs.stdenv.cc.cc.lib
+    pkgs.libuuid
   ];
 
   # List packages installed in system profile. To search, run:
