@@ -219,6 +219,8 @@
           ];
       }
     )
+    pkgs.steam
+    pkgs.discord
     pkgs.keepassxc
     pkgs.libreoffice
     pkgs.libtelnet
