@@ -137,6 +137,7 @@
     pkgs.home-manager
     pkgs.steam-run
     pkgs.neovim
+    pkgs.mako
     wget
   ];
   nixpkgs.config.permittedInsecurePackages = [

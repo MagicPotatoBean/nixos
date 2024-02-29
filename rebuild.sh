@@ -5,9 +5,6 @@ set -e
 # cd to your config dir
 pushd ~/dotfiles/nixos/
 
-# Edit your config
-code configuration.nix
-
 # Autoformat your nix files
 alejandra . &>/dev/null
 
