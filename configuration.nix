@@ -209,6 +209,7 @@
           ];
       }
     )
+    pkgs.libtelnet
     (import "/home/zoe/dotfiles/nixos/rebuild.nix")
     pkgs.openssl
     pkgs.wacomtablet
