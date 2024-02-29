@@ -205,6 +205,7 @@
     # Required libraries
     pkgs.stdenv.cc.cc.lib
     pkgs.libGL
+    pkgs.libz
   ];
 
   # List packages installed in system profile. To search, run:

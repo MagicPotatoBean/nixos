@@ -21,8 +21,9 @@ with import <nixpkgs> {};
     # Get current generation metadata
     current=$(nixos-rebuild list-generations | grep current)
 
-    # Commit all changes witih the generation metadata
+    # Commit all changes with the generation metadata, and pushing it
     git commit -am "$current"
+    git push
 
     # Back to where you were
     popd > /dev/null
