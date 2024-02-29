@@ -219,7 +219,7 @@
           ];
       }
     )
-    pkgs.keepass
+    pkgs.keepassxc
     pkgs.libreoffice
     pkgs.libtelnet
     (import "/home/zoe/dotfiles/nixos/rebuild.nix")
