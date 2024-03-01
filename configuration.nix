@@ -194,6 +194,10 @@
         #   ''
   ];
 
+  # Disable gnome-tour, xterm
+  environment.gnome.excludePackages = [pkgs.gnome-tour];
+  services.xserver.excludePackages = [pkgs.xterm];
+
   # Enable steam
   programs.steam.enable = true;
 
