@@ -6,34 +6,340 @@ setting up tmpfiles
 reloading the following units: dbus.service
 restarting the following units: polkit.service
 starting the following units: accounts-daemon.service
-51wxg9g1mjplfcsdv-unit-dbus.service.drv
-  /nix/store/19dv7rl4p7yyzdgyb03a9ijdrz71cjn7-user-units.drv
-  /nix/store/7g1ap6xvhg1ld8565sa34hrm70w31mxc-set-environment.drv
-  /nix/store/6jr4a2rb4v17q42vpgfwm3hmdc57sfgg-etc-profile.drv
-  /nix/store/k2xja483wgx0jqw3vcab7jq7gf5hnmvr-etc-pam-environment.drv
-  /nix/store/fwn1jdnfing5nhk64dal8sq1nd6ini91-unit-dbus.service.drv
-  /nix/store/hhna42c7w9gbbiq1w0v1xvfr5j5fhdcd-unit-accounts-daemon.service.drv
-  /nix/store/nhny87kzhydwa2639pasn4qwlwkmfpn0-X-Restart-Triggers-polkit.drv
-  /nix/store/svp4mavgm4850bmahgz5ii92z40wg6wb-unit-polkit.service.drv
-  /nix/store/qp62wi2lamw6qzf7jgg3r0348bm8if9r-system-units.drv
-  /nix/store/gkcbnv4ai0sqdc31pdgswh3hbym76ds1-etc.drv
-  /nix/store/8di33vppz6rqbwx6zrg63fi6jg3n321y-nixos-system-nixos-23.11.4801.b7ee09cf5614.drv
-building '/nix/store/68yh6z1rxrdxhwdixq0s83cl63ssllaw-system-path.drv'...
+4a96vszyixw1732k1p6jz04r0s0i-unit-console-getty.service-disabled.drv
+  /nix/store/wmqa1zrp9bmcyq9nmfnrfkdvkv13bb99-steam-usr-multi.drv
+  /nix/store/6p60p2zaqlhxfkjfkp4dqy5rqfkf7k42-steam-fhs.drv
+  /nix/store/pn8fpbklynmkg3a460gq83yrc9mhyf5w-steam-bwrap.drv
+  /nix/store/ddv7pk62xc6s0zbgj1sgj280ffqq9ly7-steam.drv
+  /nix/store/vn440wazzrgak5rvl9gr4ccqzjpziqds-gc.drv
+  /nix/store/vmdzgmg82ja74c3rshsdg5imqgmly3jz-system-path.drv
+  /nix/store/5bkyc756r3vfjyf5vp3jp4wqcxyzk10s-etc-pam-environment.drv
+  /nix/store/6gdx8hx2v5y5m3bhb6dfywiwd4lahwlc-xkb-validated.drv
+  /nix/store/a20d13lln7d0s4mc7vp4wmm5i0j6yk4g-stage-2-init.sh.drv
+  /nix/store/kbvy9706y8qwms09bajrnsdcrv9kr16y-boot.json.drv
+  /nix/store/8hzb2mmbwzc28lpcswx8a16xldnq6rwi-unit-wireplumber.service-disabled.drv
+  /nix/store/flygaym61xbfwb4q0z1pkv3byikivkqk-unit-accounts-daemon.service.drv
+  /nix/store/xc08h3sy3r787bpkip0aq0ryb28qi0kw-X-Restart-Triggers-polkit.drv
+  /nix/store/lldlgss8cak3wgwhwgb3yqplh6q5srn4-unit-polkit.service.drv
+  /nix/store/mnynlv83xpwjhnd1nz7lz4w5z5rvpgvs-unit-pipewire.socket-disabled.drv
+  /nix/store/kfw5cxsrkaxsb6ik0q9cxqwwb0w2s906-dbus-1.drv
+  /nix/store/ygnq8i0a26vg9v70w009qgbarj2p6inf-X-Restart-Triggers-dbus.drv
+  /nix/store/simn7xwwv1hf7rr9g3hh8czydwq2bavs-unit-dbus.service.drv
+  /nix/store/vq99sgrl38w4nsrz9wbpj86nx29sdc0q-unit-pipewire.service-disabled.drv
+  /nix/store/71q2pynac3rhfsz5w3wm17fgzxn9k5g0-system-units.drv
+  /nix/store/ryljmi4m8pw524g4rz3gsj4sm08xvdf3-set-environment.drv
+  /nix/store/7vykz630qimj60hxdrjy18zr9dqqi7la-etc-profile.drv
+  /nix/store/84amckx2406hisf9bblsaib9hb6pp790-unit-dbus.service.drv
+  /nix/store/r4pj1yzx8xskbl8iklldgds0pk49xx12-user-units.drv
+  /nix/store/vb20ihhkpzvnip1ms9xna46shafjavnq-etc.drv
+  /nix/store/zi4ik6m5pc8gax3s6acpy6fzyb73aphq-ensure-all-wrappers-paths-exist.drv
+  /nix/store/5wpwlc699klql4dsgwqxzfanynkd229h-nixos-system-nixos-23.11.4801.b7ee09cf5614.drv
+these 15 paths will be fetched (2.22 MiB download, 21.34 MiB unpacked):
+  /nix/store/pydslbb966l59wv4jlpw19vmg7m5jbbk-desktop-file-utils-0.26
+  /nix/store/8g92ldqmrss0lhh0r9nkpavmqp9z6i02-ffmpeg-6.0
+  /nix/store/majikpmimd094nd65dmnazv6pnvi72iq-ffmpeg-6.0
+  /nix/store/vaxfvjxn5cydk56222dnzi9ka192g9js-file-5.45
+  /nix/store/y7p55am734rwkw5ry6c9py2yl1b57csp-getconf-glibc-2.38-44
+  /nix/store/1xy5lmrra4nhd12afsqfid2951k5vd7x-gnu-config-2023-09-19
+  /nix/store/rkv8vjbydj8sfd31plfdkfqy5g134glv-gnumake-4.4.1
+  /nix/store/bdk8yf44x7qzzk6ac1hv4v5ld8r90cjc-libpng-1.2.59-man
+  /nix/store/bqbmxmxgx1c60qhpi8vx1dfww8d1nv3c-libpng-1.2.59-man
+  /nix/store/0inbra4f20v94bhx7grk7n14lsszyv1g-libxslt-1.1.38-bin
+  /nix/store/lw1hcdzh8bdxym09krd4hq4cm6ksl8gx-lndir-1.0.4
+  /nix/store/rrisfqxxibsyfkzg77hlbp7wxwhi3myy-stdenv-linux
+  /nix/store/czs8hv48ckj3wgi0j8927nxhm18hisyy-texinfo-7.0.3
+  /nix/store/lidl4pi3fwjn7b5d2khj4g7wxwpxzjdm-update-autotools-gnu-config-scripts-hook
+  /nix/store/r0i8fi5arfrxbhi882gzxf3kv3bdvjf9-xkbvalidate
+copying path '/nix/store/1xy5lmrra4nhd12afsqfid2951k5vd7x-gnu-config-2023-09-19' from 'https://cache.nixos.org'...
+copying path '/nix/store/pydslbb966l59wv4jlpw19vmg7m5jbbk-desktop-file-utils-0.26' from 'https://cache.nixos.org'...
+copying path '/nix/store/vaxfvjxn5cydk56222dnzi9ka192g9js-file-5.45' from 'https://cache.nixos.org'...
+copying path '/nix/store/y7p55am734rwkw5ry6c9py2yl1b57csp-getconf-glibc-2.38-44' from 'https://cache.nixos.org'...
+copying path '/nix/store/rkv8vjbydj8sfd31plfdkfqy5g134glv-gnumake-4.4.1' from 'https://cache.nixos.org'...
+copying path '/nix/store/czs8hv48ckj3wgi0j8927nxhm18hisyy-texinfo-7.0.3' from 'https://cache.nixos.org'...
+copying path '/nix/store/0inbra4f20v94bhx7grk7n14lsszyv1g-libxslt-1.1.38-bin' from 'https://cache.nixos.org'...
+copying path '/nix/store/lw1hcdzh8bdxym09krd4hq4cm6ksl8gx-lndir-1.0.4' from 'https://cache.nixos.org'...
+copying path '/nix/store/8g92ldqmrss0lhh0r9nkpavmqp9z6i02-ffmpeg-6.0' from 'https://cache.nixos.org'...
+copying path '/nix/store/majikpmimd094nd65dmnazv6pnvi72iq-ffmpeg-6.0' from 'https://cache.nixos.org'...
+copying path '/nix/store/bdk8yf44x7qzzk6ac1hv4v5ld8r90cjc-libpng-1.2.59-man' from 'https://cache.nixos.org'...
+copying path '/nix/store/bqbmxmxgx1c60qhpi8vx1dfww8d1nv3c-libpng-1.2.59-man' from 'https://cache.nixos.org'...
+copying path '/nix/store/r0i8fi5arfrxbhi882gzxf3kv3bdvjf9-xkbvalidate' from 'https://cache.nixos.org'...
+copying path '/nix/store/lidl4pi3fwjn7b5d2khj4g7wxwpxzjdm-update-autotools-gnu-config-scripts-hook' from 'https://cache.nixos.org'...
+copying path '/nix/store/rrisfqxxibsyfkzg77hlbp7wxwhi3myy-stdenv-linux' from 'https://cache.nixos.org'...
+building '/nix/store/kbvy9706y8qwms09bajrnsdcrv9kr16y-boot.json.drv'...
+building '/nix/store/lz3kpbrq47813z5c5zlfkqq58bz9y92y-builder.pl.drv'...
+building '/nix/store/zi4ik6m5pc8gax3s6acpy6fzyb73aphq-ensure-all-wrappers-paths-exist.drv'...
+building '/nix/store/vn440wazzrgak5rvl9gr4ccqzjpziqds-gc.drv'...
+building '/nix/store/a20d13lln7d0s4mc7vp4wmm5i0j6yk4g-stage-2-init.sh.drv'...
+building '/nix/store/5ax24a96vszyixw1732k1p6jz04r0s0i-unit-console-getty.service-disabled.drv'...
+building '/nix/store/59jzi1ycjnmdqx880474jln57xpi5lz2-unit-gdm.service-disabled.drv'...
+building '/nix/store/vq99sgrl38w4nsrz9wbpj86nx29sdc0q-unit-pipewire.service-disabled.drv'...
+Checking that Nix store paths of all wrapped programs exist... OK
+building '/nix/store/mnynlv83xpwjhnd1nz7lz4w5z5rvpgvs-unit-pipewire.socket-disabled.drv'...
+building '/nix/store/8hzb2mmbwzc28lpcswx8a16xldnq6rwi-unit-wireplumber.service-disabled.drv'...
+building '/nix/store/6gdx8hx2v5y5m3bhb6dfywiwd4lahwlc-xkb-validated.drv'...
+building '/nix/store/wmqa1zrp9bmcyq9nmfnrfkdvkv13bb99-steam-usr-multi.drv'...
+building '/nix/store/2j5scm44yady774c72af0wrbdq01mkdx-steam-usr-target.drv'...
+warning: collision between `/nix/store/kf7agcam8lm1azmlfj639vzprz7p2701-elfutils-0.190/lib/libelf.so' and `/nix/store/frry7r0vbkqrk2gx1qyrdiqzxqiz5c01-libelf-0.8.13/lib/libelf.so'
+warning: collision between `/nix/store/kf7agcam8lm1azmlfj639vzprz7p2701-elfutils-0.190/lib/libelf.a' and `/nix/store/frry7r0vbkqrk2gx1qyrdiqzxqiz5c01-libelf-0.8.13/lib/libelf.a'
+warning: collision between `/nix/store/bkssb3alm0ig4k4ib0a3bh5xznh7rayb-glibc-multi-2.38-44-bin/bin/ldconfig' and `/nix/store/kz0srkkm8f6in1dd9d02qgadjb93f8yk-ldconfig/bin/ldconfig'
+warning: collision between `/nix/store/zygzvz3s80kn45dspd7c1n79ki1315gb-glibc-multi-2.38-44/lib/locale/locale-archive' and `/nix/store/6pxhsaxcnkw363y6hdifzwqdn8v7nizd-glibc-locales-2.38-44/lib/locale/locale-archive'
+warning: creating dangling symlink `/nix/store/c9sc09fs2b849qv40vcnxi26ii6pvfjx-steam-usr-target//bin/steam' -> `/nix/store/ya0ir271561b68x7r4nv39l5n77gfh4b-steam-original-1.0.0.74/bin/steam' -> `/lib/steam/bin_steam.sh'
+warning: collision between `/nix/store/q6rvvgyxz75xhdnpxqhildkqsj4xiddd-libpng-1.2.59/lib/libpng.la' and `/nix/store/6i3a2bbww6pnqhm8rbzf7i5vwxhjv0v4-libpng-apng-1.6.40/lib/libpng.la'
+warning: collision between `/nix/store/q6rvvgyxz75xhdnpxqhildkqsj4xiddd-libpng-1.2.59/lib/libpng.so' and `/nix/store/6i3a2bbww6pnqhm8rbzf7i5vwxhjv0v4-libpng-apng-1.6.40/lib/libpng.so'
+warning: collision between `/nix/store/bqbmxmxgx1c60qhpi8vx1dfww8d1nv3c-libpng-1.2.59-man/share/man/man5/png.5.gz' and `/nix/store/m22as4kn94d7qnvyini91i5x7qvbhmd6-libpng-apng-1.6.40-man/share/man/man5/png.5.gz'
+warning: collision between `/nix/store/bqbmxmxgx1c60qhpi8vx1dfww8d1nv3c-libpng-1.2.59-man/share/man/man3/libpng.3.gz' and `/nix/store/m22as4kn94d7qnvyini91i5x7qvbhmd6-libpng-apng-1.6.40-man/share/man/man3/libpng.3.gz'
+warning: collision between `/nix/store/bqbmxmxgx1c60qhpi8vx1dfww8d1nv3c-libpng-1.2.59-man/share/man/man3/libpngpf.3.gz' and `/nix/store/m22as4kn94d7qnvyini91i5x7qvbhmd6-libpng-apng-1.6.40-man/share/man/man3/libpngpf.3.gz'
+warning: collision between `/nix/store/w08kdqy3jsn0ya7dpsb1d6r95r66mlqz-elfutils-0.190/lib/libelf.so' and `/nix/store/06qx1fv0cvws59zd2djs5943wgvzjjcn-libelf-0.8.13/lib/libelf.so'
+warning: collision between `/nix/store/w08kdqy3jsn0ya7dpsb1d6r95r66mlqz-elfutils-0.190/lib/libelf.a' and `/nix/store/06qx1fv0cvws59zd2djs5943wgvzjjcn-libelf-0.8.13/lib/libelf.a'
+warning: collision between `/nix/store/95xz08lgljvg3vbckzq75xzh0xc6h7b8-libpng-1.2.59/lib/libpng.la' and `/nix/store/0yw1wdi1wifd7lqjd2cn11f1fkld8mad-libpng-apng-1.6.40/lib/libpng.la'
+warning: collision between `/nix/store/95xz08lgljvg3vbckzq75xzh0xc6h7b8-libpng-1.2.59/lib/libpng.so' and `/nix/store/0yw1wdi1wifd7lqjd2cn11f1fkld8mad-libpng-apng-1.6.40/lib/libpng.so'
+warning: collision between `/nix/store/bdk8yf44x7qzzk6ac1hv4v5ld8r90cjc-libpng-1.2.59-man/share/man/man5/png.5.gz' and `/nix/store/lbzm0ini9s8jvri3hywb3g9fmp236m23-libpng-apng-1.6.40-man/share/man/man5/png.5.gz'
+warning: collision between `/nix/store/bdk8yf44x7qzzk6ac1hv4v5ld8r90cjc-libpng-1.2.59-man/share/man/man3/libpng.3.gz' and `/nix/store/lbzm0ini9s8jvri3hywb3g9fmp236m23-libpng-apng-1.6.40-man/share/man/man3/libpng.3.gz'
+warning: collision between `/nix/store/bdk8yf44x7qzzk6ac1hv4v5ld8r90cjc-libpng-1.2.59-man/share/man/man3/libpngpf.3.gz' and `/nix/store/lbzm0ini9s8jvri3hywb3g9fmp236m23-libpng-apng-1.6.40-man/share/man/man3/libpngpf.3.gz'
+warning: collision between `/nix/store/iykw3w3206f7ci7gc8qnmsda740a10vk-gtk+3-3.24.41/bin/gtk-update-icon-cache' and `/nix/store/8pz05cnv2rdraa2gljfsy1d94zmakyln-gtk+-2.24.33/bin/gtk-update-icon-cache'
+warning: collision between `/nix/store/fzrh5n11f1pymcb3lfq2i5faqp48ck34-gdk-pixbuf-2.42.10/lib/gdk-pixbuf-2.0/2.10.0/loaders.cache' and `/nix/store/jp8d2ssg6n0lahlwgqndwq90im8r1i4n-librsvg-2.57.0/lib/gdk-pixbuf-2.0/2.10.0/loaders.cache'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/mkfs.cramfs' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/mkfs.cramfs'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/setpriv' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/setpriv'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/chsh' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/chsh'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/uuidparse' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/uuidparse'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/ionice' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/ionice'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/logger' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/logger'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/resizepart' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/resizepart'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/ldattach' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/ldattach'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/mesg' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/mesg'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/lsmem' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/lsmem'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/pivot_root' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/pivot_root'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/rename' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/rename'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/blkdiscard' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/blkdiscard'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/scriptlive' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/scriptlive'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/blkid' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/blkid'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/colrm' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/colrm'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/getopt' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/getopt'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/fsck.minix' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/fsck.minix'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/chrt' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/chrt'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/lsipc' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/lsipc'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/uclampset' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/uclampset'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/fsfreeze' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/fsfreeze'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/blkzone' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/blkzone'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/ipcrm' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/ipcrm'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/lslogins' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/lslogins'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/ipcs' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/ipcs'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/column' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/column'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/utmpdump' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/utmpdump'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/setarch' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/setarch'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/rtcwake' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/rtcwake'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/wipefs' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/wipefs'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/swaplabel' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/swaplabel'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/hardlink' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/hardlink'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/namei' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/namei'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/script' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/script'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/rev' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/rev'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/wdctl' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/wdctl'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/pipesz' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/pipesz'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/fadvise' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/fadvise'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/nsenter' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/nsenter'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/mkfs.bfs' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/mkfs.bfs'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/readprofile' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/readprofile'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/ipcmk' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/ipcmk'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/fallocate' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/fallocate'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/lsns' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/lsns'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/partx' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/partx'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/col' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/col'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/lscpu' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/lscpu'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/zramctl' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/zramctl'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/chcpu' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/chcpu'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/mcookie' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/mcookie'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/swapon' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/swapon'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/eject' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/eject'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/rfkill' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/rfkill'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/write' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/write'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/hexdump' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/hexdump'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/blockdev' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/blockdev'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/ctrlaltdel' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/ctrlaltdel'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/delpart' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/delpart'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/prlimit' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/prlimit'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/mkfs.minix' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/mkfs.minix'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/setsid' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/setsid'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/findmnt' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/findmnt'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/fstrim' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/fstrim'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/fdisk' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/fdisk'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/mkswap' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/mkswap'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/look' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/look'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/lslocks' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/lslocks'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/sfdisk' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/sfdisk'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/waitpid' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/waitpid'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/cal' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/cal'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/flock' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/flock'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/umount' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/umount'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/addpart' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/addpart'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/fincore' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/fincore'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/lsirq' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/lsirq'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/last' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/last'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/renice' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/renice'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/mount' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/mount'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/chmem' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/chmem'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/fsck' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/fsck'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/swapoff' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/swapoff'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/mkfs' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/mkfs'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/losetup' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/losetup'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/findfs' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/findfs'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/uuidd' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/uuidd'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/wall' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/wall'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/fsck.cramfs' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/fsck.cramfs'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/scriptreplay' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/scriptreplay'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/isosize' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/isosize'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/lsblk' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/lsblk'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/uuidgen' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/uuidgen'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/mountpoint' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/mountpoint'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/hwclock' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/hwclock'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/dmesg' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/dmesg'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/chfn' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/chfn'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/unshare' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/unshare'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/taskset' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/taskset'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/whereis' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/whereis'
+warning: collision between `/nix/store/bn5dm25b3h9imh13cgnpisjm3lkgf5n3-util-linux-minimal-2.39.2/share/bash-completion/completions/colcrt' and `/nix/store/x317133a9z0hk35pvd52v9nnicdmz5p1-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/colcrt'
+warning: collision between `/nix/store/7dlrjjyxcaiwhw2krmngs6q2yz62wpnh-libva-1.8.3/lib/libva-glx.so' and `/nix/store/qbdzcsjqnmy9gg8i7w6gl4jr3j50yylr-libva-2.20.0/lib/libva-glx.so'
+warning: collision between `/nix/store/7dlrjjyxcaiwhw2krmngs6q2yz62wpnh-libva-1.8.3/lib/libva-wayland.so' and `/nix/store/qbdzcsjqnmy9gg8i7w6gl4jr3j50yylr-libva-2.20.0/lib/libva-wayland.so'
+warning: collision between `/nix/store/7dlrjjyxcaiwhw2krmngs6q2yz62wpnh-libva-1.8.3/lib/libva.so' and `/nix/store/qbdzcsjqnmy9gg8i7w6gl4jr3j50yylr-libva-2.20.0/lib/libva.so'
+warning: collision between `/nix/store/7dlrjjyxcaiwhw2krmngs6q2yz62wpnh-libva-1.8.3/lib/libva-x11.so' and `/nix/store/qbdzcsjqnmy9gg8i7w6gl4jr3j50yylr-libva-2.20.0/lib/libva-x11.so'
+warning: collision between `/nix/store/7dlrjjyxcaiwhw2krmngs6q2yz62wpnh-libva-1.8.3/lib/libva-drm.so' and `/nix/store/qbdzcsjqnmy9gg8i7w6gl4jr3j50yylr-libva-2.20.0/lib/libva-drm.so'
+warning: collision between `/nix/store/isr05s98lahxzss24g219jhvpy4f3qbr-gtk+3-3.24.41/bin/gtk-update-icon-cache' and `/nix/store/f6cm4lm5942wvr31k1zv2zkjq5qmrb1x-gtk+-2.24.33/bin/gtk-update-icon-cache'
+warning: collision between `/nix/store/a4vwys8v7yjdlfpz2kzlmgvr9bsnvr17-gdk-pixbuf-2.42.10/lib/gdk-pixbuf-2.0/2.10.0/loaders.cache' and `/nix/store/qqq9fshq5f94r3fz7ix3i0a80z99h32m-librsvg-2.57.0/lib/gdk-pixbuf-2.0/2.10.0/loaders.cache'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/mkfs.cramfs' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/mkfs.cramfs'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/setpriv' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/setpriv'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/chsh' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/chsh'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/uuidparse' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/uuidparse'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/ionice' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/ionice'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/logger' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/logger'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/resizepart' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/resizepart'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/ldattach' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/ldattach'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/mesg' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/mesg'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/lsmem' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/lsmem'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/pivot_root' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/pivot_root'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/rename' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/rename'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/blkdiscard' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/blkdiscard'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/scriptlive' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/scriptlive'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/blkid' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/blkid'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/colrm' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/colrm'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/getopt' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/getopt'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/fsck.minix' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/fsck.minix'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/chrt' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/chrt'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/lsipc' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/lsipc'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/uclampset' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/uclampset'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/fsfreeze' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/fsfreeze'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/blkzone' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/blkzone'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/ipcrm' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/ipcrm'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/lslogins' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/lslogins'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/ipcs' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/ipcs'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/column' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/column'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/utmpdump' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/utmpdump'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/setarch' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/setarch'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/rtcwake' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/rtcwake'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/wipefs' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/wipefs'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/swaplabel' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/swaplabel'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/hardlink' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/hardlink'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/namei' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/namei'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/script' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/script'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/rev' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/rev'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/wdctl' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/wdctl'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/pipesz' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/pipesz'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/fadvise' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/fadvise'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/nsenter' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/nsenter'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/mkfs.bfs' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/mkfs.bfs'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/readprofile' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/readprofile'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/ipcmk' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/ipcmk'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/fallocate' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/fallocate'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/lsns' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/lsns'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/partx' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/partx'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/col' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/col'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/lscpu' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/lscpu'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/zramctl' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/zramctl'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/chcpu' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/chcpu'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/mcookie' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/mcookie'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/swapon' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/swapon'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/eject' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/eject'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/rfkill' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/rfkill'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/write' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/write'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/hexdump' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/hexdump'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/blockdev' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/blockdev'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/ctrlaltdel' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/ctrlaltdel'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/delpart' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/delpart'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/prlimit' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/prlimit'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/mkfs.minix' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/mkfs.minix'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/setsid' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/setsid'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/findmnt' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/findmnt'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/fstrim' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/fstrim'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/fdisk' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/fdisk'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/mkswap' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/mkswap'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/look' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/look'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/lslocks' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/lslocks'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/sfdisk' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/sfdisk'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/waitpid' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/waitpid'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/cal' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/cal'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/flock' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/flock'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/umount' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/umount'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/addpart' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/addpart'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/fincore' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/fincore'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/lsirq' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/lsirq'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/last' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/last'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/renice' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/renice'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/mount' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/mount'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/chmem' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/chmem'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/fsck' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/fsck'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/swapoff' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/swapoff'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/mkfs' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/mkfs'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/losetup' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/losetup'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/findfs' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/findfs'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/uuidd' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/uuidd'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/wall' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/wall'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/fsck.cramfs' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/fsck.cramfs'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/scriptreplay' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/scriptreplay'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/isosize' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/isosize'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/lsblk' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/lsblk'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/uuidgen' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/uuidgen'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/mountpoint' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/mountpoint'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/hwclock' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/hwclock'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/dmesg' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/dmesg'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/chfn' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/chfn'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/unshare' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/unshare'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/taskset' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/taskset'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/whereis' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/whereis'
+warning: collision between `/nix/store/81v783wwd2f47v0w92n646la21fc0nsx-util-linux-minimal-2.39.2/share/bash-completion/completions/colcrt' and `/nix/store/v6lwy30l8p7412hkv0f037nlj6vvvbwh-util-linux-minimal-2.39.2-bin/share/bash-completion/completions/colcrt'
+warning: collision between `/nix/store/b1ishp9hjldclw3p5xiz55ylywracycx-libva-1.8.3/lib/libva-glx.so' and `/nix/store/f8qi038c761yks9x5awbwqkn4qjvkgds-libva-2.20.0/lib/libva-glx.so'
+warning: collision between `/nix/store/b1ishp9hjldclw3p5xiz55ylywracycx-libva-1.8.3/lib/libva-wayland.so' and `/nix/store/f8qi038c761yks9x5awbwqkn4qjvkgds-libva-2.20.0/lib/libva-wayland.so'
+warning: collision between `/nix/store/b1ishp9hjldclw3p5xiz55ylywracycx-libva-1.8.3/lib/libva.so' and `/nix/store/f8qi038c761yks9x5awbwqkn4qjvkgds-libva-2.20.0/lib/libva.so'
+warning: collision between `/nix/store/b1ishp9hjldclw3p5xiz55ylywracycx-libva-1.8.3/lib/libva-x11.so' and `/nix/store/f8qi038c761yks9x5awbwqkn4qjvkgds-libva-2.20.0/lib/libva-x11.so'
+warning: collision between `/nix/store/b1ishp9hjldclw3p5xiz55ylywracycx-libva-1.8.3/lib/libva-drm.so' and `/nix/store/f8qi038c761yks9x5awbwqkn4qjvkgds-libva-2.20.0/lib/libva-drm.so'
+created 14559 symlinks in user environment
+created 16443 symlinks in user environment
+Warning: Schema ?org.gnome.system.locale? has path ?/system/locale/?.  Paths starting with ?/apps/?, ?/desktop/? or ?/system/? are deprecated.
+Warning: Schema ?org.gnome.system.proxy? has path ?/system/proxy/?.  Paths starting with ?/apps/?, ?/desktop/? or ?/system/? are deprecated.
+Warning: Schema ?org.gnome.system.proxy.http? has path ?/system/proxy/http/?.  Paths starting with ?/apps/?, ?/desktop/? or ?/system/? are deprecated.
+Warning: Schema ?org.gnome.system.proxy.https? has path ?/system/proxy/https/?.  Paths starting with ?/apps/?, ?/desktop/? or ?/system/? are deprecated.
+Warning: Schema ?org.gnome.system.proxy.ftp? has path ?/system/proxy/ftp/?.  Paths starting with ?/apps/?, ?/desktop/? or ?/system/? are deprecated.
+Warning: Schema ?org.gnome.system.proxy.socks? has path ?/system/proxy/socks/?.  Paths starting with ?/apps/?, ?/desktop/? or ?/system/? are deprecated.
+building '/nix/store/6p60p2zaqlhxfkjfkp4dqy5rqfkf7k42-steam-fhs.drv'...
+/nix/store/nrlva9qrpxp0w0i4a166z43xs7rxv0v8-steam-fhs /build
+/nix/store/nrlva9qrpxp0w0i4a166z43xs7rxv0v8-steam-fhs/usr /nix/store/nrlva9qrpxp0w0i4a166z43xs7rxv0v8-steam-fhs /build
+/nix/store/nrlva9qrpxp0w0i4a166z43xs7rxv0v8-steam-fhs /build
+building '/nix/store/pn8fpbklynmkg3a460gq83yrc9mhyf5w-steam-bwrap.drv'...
+building '/nix/store/ddv7pk62xc6s0zbgj1sgj280ffqq9ly7-steam.drv'...
+building '/nix/store/vmdzgmg82ja74c3rshsdg5imqgmly3jz-system-path.drv'...
 warning: collision between `/nix/store/yqvzsmrx22s3hab6fcrfcvgsj426x07y-steam/bin/steam' and `/nix/store/vhivrpp8q82wfp8lddpf8pa1irwq5qv0-steam/bin/steam'
-created 22181 symlinks in user environment
+created 22182 symlinks in user environment
 gtk-update-icon-cache: Cache file created successfully.
 gtk-update-icon-cache: Cache file created successfully.
-building '/nix/store/nhny87kzhydwa2639pasn4qwlwkmfpn0-X-Restart-Triggers-polkit.drv'...
-building '/nix/store/d3jsawhw5yd4nv1c5s29853gl4ndz0dz-dbus-1.drv'...
-building '/nix/store/k2xja483wgx0jqw3vcab7jq7gf5hnmvr-etc-pam-environment.drv'...
-building '/nix/store/7g1ap6xvhg1ld8565sa34hrm70w31mxc-set-environment.drv'...
-building '/nix/store/hhna42c7w9gbbiq1w0v1xvfr5j5fhdcd-unit-accounts-daemon.service.drv'...
-building '/nix/store/zz1g0k8kh6k923lppqllh27hancn370p-X-Restart-Triggers-dbus.drv'...
-building '/nix/store/6jr4a2rb4v17q42vpgfwm3hmdc57sfgg-etc-profile.drv'...
-building '/nix/store/svp4mavgm4850bmahgz5ii92z40wg6wb-unit-polkit.service.drv'...
-building '/nix/store/1lg30rn1rj0d1rh51wxg9g1mjplfcsdv-unit-dbus.service.drv'...
-building '/nix/store/fwn1jdnfing5nhk64dal8sq1nd6ini91-unit-dbus.service.drv'...
-building '/nix/store/19dv7rl4p7yyzdgyb03a9ijdrz71cjn7-user-units.drv'...
-building '/nix/store/qp62wi2lamw6qzf7jgg3r0348bm8if9r-system-units.drv'...
-building '/nix/store/gkcbnv4ai0sqdc31pdgswh3hbym76ds1-etc.drv'...
-building '/nix/store/8di33vppz6rqbwx6zrg63fi6jg3n321y-nixos-system-nixos-23.11.4801.b7ee09cf5614.drv'...
+building '/nix/store/xc08h3sy3r787bpkip0aq0ryb28qi0kw-X-Restart-Triggers-polkit.drv'...
+building '/nix/store/kfw5cxsrkaxsb6ik0q9cxqwwb0w2s906-dbus-1.drv'...
+building '/nix/store/5bkyc756r3vfjyf5vp3jp4wqcxyzk10s-etc-pam-environment.drv'...
+building '/nix/store/ryljmi4m8pw524g4rz3gsj4sm08xvdf3-set-environment.drv'...
+building '/nix/store/flygaym61xbfwb4q0z1pkv3byikivkqk-unit-accounts-daemon.service.drv'...
+building '/nix/store/ygnq8i0a26vg9v70w009qgbarj2p6inf-X-Restart-Triggers-dbus.drv'...
+building '/nix/store/7vykz630qimj60hxdrjy18zr9dqqi7la-etc-profile.drv'...
+building '/nix/store/lldlgss8cak3wgwhwgb3yqplh6q5srn4-unit-polkit.service.drv'...
+building '/nix/store/84amckx2406hisf9bblsaib9hb6pp790-unit-dbus.service.drv'...
+building '/nix/store/simn7xwwv1hf7rr9g3hh8czydwq2bavs-unit-dbus.service.drv'...
+building '/nix/store/r4pj1yzx8xskbl8iklldgds0pk49xx12-user-units.drv'...
+building '/nix/store/71q2pynac3rhfsz5w3wm17fgzxn9k5g0-system-units.drv'...
+building '/nix/store/vb20ihhkpzvnip1ms9xna46shafjavnq-etc.drv'...
+building '/nix/store/5wpwlc699klql4dsgwqxzfanynkd229h-nixos-system-nixos-23.11.4801.b7ee09cf5614.drv'...

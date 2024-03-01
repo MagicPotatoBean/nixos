@@ -230,6 +230,7 @@
           ];
       }
     )
+    (import /home/zoe/dotfiles/nixos/gc.nix)
     pkgs.unzip
     pkgs.winetricks
     pkgs.wineWowPackages.stable
