@@ -248,7 +248,6 @@
     pkgs.obsidian
     pkgs.git
     pkgs.home-manager
-    pkgs.neovim
     pkgs.nix-ld
     wget
   ];
