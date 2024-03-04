@@ -243,7 +243,8 @@
     pkgs.gh
     pkgs.alejandra
     pkgs.gcc
-    pkgs.rustup
+    pkgs.cargo
+    pkgs.rustc
     pkgs.obsidian
     pkgs.git
     pkgs.home-manager
