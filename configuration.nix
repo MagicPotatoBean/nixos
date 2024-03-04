@@ -117,10 +117,9 @@
 
   # Add new CA certificates
   security.pki.certificates = [
-    ''
-          SFCF
-          =========
-          -----BEGIN CERTIFICATE-----
+    ''      SFCF
+      =========
+      -----BEGIN CERTIFICATE-----
       MIIFjjCCA3agAwIBAgIQI87wLzNIIJVA6vZV85W6IDANBgkqhkiG9w0BAQsFADBH
       MRUwEwYKCZImiZPyLGQBGRYFbG9jYWwxFDASBgoJkiaJk/IsZAEZFgRTRkNGMRgw
       FgYDVQQDEw9TRkNGLVNFUlZFUkMtQ0EwHhcNMTcwMjEwMDg1OTQzWhcNMjUwNjAy
@@ -151,12 +150,10 @@
       UGryF3jT/zYxIYmUgZ9ZyKd5MSj6ps0ZeSO87WeyVx+nu/Q2QELveeJZ+c/WZ51t
       uBrArnciSlFXbj4voU3dlJs9bamPNl1plC/qIF+6Ko9gGXlbPkMpgQ9+Y82ROwPr
       JAgWu6MuXOaK9nhYwCZerV82lAVlxvIX2qqv0wga+kGh3A==
-      -----END CERTIFICATE-----
-    ''
-    ''
-            Smoothwall
-            =========
-            -----BEGIN CERTIFICATE-----
+      -----END CERTIFICATE-----''
+    ''      Smoothwall
+      =========
+      -----BEGIN CERTIFICATE-----
       MIIGGDCCBACgAwIBAgIHBfVGNdAHhTANBgkqhkiG9w0BAQwFADCBijEoMCYGA1UE
       AxMfU21vb3Rod2FsbCBEZWZhdWx0IHJvb3QgQ0EgMjAyMzEnMCUGA1UEChMeU2l4
       dGggRm9ybSBDb2xsZWdlIEZhcm5ib3JvdWdoMRQwEgYDVQQHEwtGYXJuYm9yb3Vn
@@ -190,8 +187,7 @@
       T7JmKulidkt1cxIgLC/0eOP2rZvKr4D+WbUqEWIMnwpY80sXtBS+54NZlPDYX5o6
       3gLUe8cZLoBSzvafb33hDs+SlnYgC72gJxRTKuWuKfh/apGZtkkJu4+mtr2c1PNY
       ntNGe+V1+s6MhuJGs8Dyd6pqOi+ki5u2SY59mw==
-        # -----END CERTIFICATE-----
-        #   ''
+      -----END CERTIFICATE-----''
   ];
 
   # Disable gnome-tour, xterm
@@ -230,6 +226,7 @@
           ];
       }
     )
+    pkgs.jellyfin-ffmpeg
     (import /home/zoe/dotfiles/nixos/edit.nix)
     (import /home/zoe/dotfiles/nixos/gc.nix)
     pkgs.unzip
