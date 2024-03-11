@@ -226,6 +226,7 @@
           ];
       }
     )
+    pkgs.bluej
     pkgs.jellyfin-ffmpeg
     (import /home/zoe/dotfiles/nixos/edit.nix)
     (import /home/zoe/dotfiles/nixos/gc.nix)
