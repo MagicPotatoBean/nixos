@@ -219,6 +219,7 @@
             bbenoist.nix
             rust-lang.rust-analyzer
             jnoortheen.nix-ide
+            usernamehw.errorlens
             # Built in extensions
           ]
           ++ pkgs.vscode-utils.extensionsFromVscodeMarketplace [
