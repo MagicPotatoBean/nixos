@@ -1,8 +1,15 @@
+# Edit this configuration file to define what should be installed on
+# your system.  Help is available in the configuration.nix(5) man page
+# and in the NixOS manual (accessible by running ‘nixos-help’).
 {
   config,
   pkgs,
   ...
 }: {
+  imports = [
+    # Include the results of the hardware scan.
+    ./hardware-configuration.nix
+  ];
   # Bootloader.
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
@@ -227,10 +234,12 @@
           ];
       }
     )
+    pkgs.spotify
+    pkgs.gimp
     pkgs.drive
     pkgs.jellyfin-ffmpeg
-    (import /home/zoe/dotfiles/nixos/edit.nix)
-    (import /home/zoe/dotfiles/nixos/gc.nix)
+    (import /home/zoe/.dotfiles/nixos/edit.nix)
+    (import /home/zoe/.dotfiles/nixos/gc.nix)
     pkgs.unzip
     pkgs.winetricks
     pkgs.wineWowPackages.stable
@@ -239,7 +248,7 @@
     pkgs.keepassxc
     pkgs.libreoffice
     pkgs.libtelnet
-    (import "/home/zoe/dotfiles/nixos/rebuild.nix")
+    (import "/home/zoe/.dotfiles/nixos/rebuild.nix")
     pkgs.openssl
     pkgs.wacomtablet
     pkgs.gh
@@ -270,7 +279,7 @@
   # services.openssh.enable = true;
 
   # Open ports in the firewall.
-  # networking.firewall.allowedTCPPorts = [ ... ];
+  networking.firewall.allowedTCPPorts = [80];
   # networking.firewall.allowedUDPPorts = [ ... ];
   # Or disable the firewall altogether.
   # networking.firewall.enable = false;
