@@ -5,10 +5,10 @@ with import <nixpkgs> {};
     set -e
 
     # cd to your config dir
-    pushd ~/dotfiles/nixos/ > /dev/null
+    pushd ~/.dotfiles/nixos/ > /dev/null
 
     # Autoformat your nix files
-    alejandra . &>/dev/null
+    sudo alejandra . &>/dev/null
 
     # Shows your changes
     git diff -U0 *.nix
