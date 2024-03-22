@@ -234,6 +234,7 @@
           ];
       }
     )
+    pkgs.bacon
     pkgs.spotify
     pkgs.gimp
     pkgs.drive
