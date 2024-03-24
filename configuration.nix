@@ -265,7 +265,6 @@
   nixpkgs.config.permittedInsecurePackages = [
     "electron-25.9.0"
   ];
-  PKG_CONFIG_PATH = "${pkgs.openssl.dev}/lib/pkgconfig";
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
   # programs.mtr.enable = true;
