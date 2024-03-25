@@ -234,6 +234,7 @@
           ];
       }
     )
+    pkgs.typescript
     pkgs.nodejs
     pkgs.bacon
     pkgs.spotify
