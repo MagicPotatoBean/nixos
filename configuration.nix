@@ -234,6 +234,7 @@
           ];
       }
     )
+    pkgs.nodejs
     pkgs.bacon
     pkgs.spotify
     pkgs.gimp
