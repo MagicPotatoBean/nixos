@@ -234,6 +234,7 @@
           ];
       }
     )
+    pkgs.vscode-extensions.ms-vscode.live-server
     pkgs.typescript
     pkgs.nodejs
     pkgs.bacon
