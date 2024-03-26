@@ -235,6 +235,7 @@
           ];
       }
     )
+    pkgs.go
     pkgs.typescript
     pkgs.nodejs
     pkgs.bacon
