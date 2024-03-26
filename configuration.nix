@@ -227,6 +227,7 @@
             rust-lang.rust-analyzer
             jnoortheen.nix-ide
             usernamehw.errorlens
+            ms-vscode.live-server
             # Built in extensions
           ]
           ++ pkgs.vscode-utils.extensionsFromVscodeMarketplace [
@@ -234,7 +235,6 @@
           ];
       }
     )
-    pkgs.vscode-extensions.ms-vscode.live-server
     pkgs.typescript
     pkgs.nodejs
     pkgs.bacon
