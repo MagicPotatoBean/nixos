@@ -235,6 +235,7 @@
           ];
       }
     )
+    pkgs.tree
     pkgs.netcat-gnu
     pkgs.go
     pkgs.typescript
