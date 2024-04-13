@@ -235,6 +235,7 @@
           ];
       }
     )
+    pkgs.netcat-gnu
     pkgs.go
     pkgs.typescript
     pkgs.nodejs
