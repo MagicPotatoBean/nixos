@@ -235,6 +235,7 @@
           ];
       }
     )
+    pkgs.vscode-extensions.ms-vscode.cpptools
     pkgs.tree
     pkgs.netcat-gnu
     pkgs.go
