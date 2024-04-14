@@ -223,6 +223,7 @@
       pkgs.vscode-with-extensions.override {
         vscodeExtensions = with pkgs.vscode-extensions;
           [
+            ms-vscode.cpptools
             bbenoist.nix
             rust-lang.rust-analyzer
             jnoortheen.nix-ide
@@ -235,7 +236,6 @@
           ];
       }
     )
-    pkgs.vscode-extensions.ms-vscode.cpptools
     pkgs.tree
     pkgs.netcat-gnu
     pkgs.go

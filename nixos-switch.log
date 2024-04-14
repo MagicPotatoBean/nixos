@@ -6,235 +6,41 @@ setting up tmpfiles
 reloading the following units: dbus.service
 restarting the following units: polkit.service
 starting the following units: accounts-daemon.service
-the following new units were started: NetworkManager-dispatcher.service
-olkit.drv
-  /nix/store/209fd1zcy046h64j08xixh1rpinxal89-unit-polkit.service.drv
-  /nix/store/5c16y2czfmvkrf1ahl1v12yraw8961kn-dbus-1.drv
-  /nix/store/8zpy5c04lf84r7dil33mj3as5vwnpwm1-X-Restart-Triggers-dbus.drv
-  /nix/store/2psw9p8qrfpx7b4jlg9h2hsx613i0g8i-unit-dbus.service.drv
-  /nix/store/6bxx99nx9s34sfdnasw7iili2xq6ysyw-user-units.drv
-  /nix/store/77vkg99j0fv2qgim3na399xswazg9ikj-set-environment.drv
-  /nix/store/ds9bn5qjjnxn73a44ajc4m2rasi9rf6d-etc-profile.drv
-  /nix/store/ic733y2qs9fqlr0pchmz8p2454qp1zih-unit-accounts-daemon.service.drv
-  /nix/store/vzlak5h7iljh53wc60kgbk1jyizlz5rq-unit-dbus.service.drv
-  /nix/store/may7dr85zdhzfhvj7562dzvgp14xlxh4-system-units.drv
-  /nix/store/yzn0dsd0pjq2w5wb3q1i7dn4ppk4fk9z-etc-pam-environment.drv
-  /nix/store/da33pf3qxqq8mz533jicgljz5qafj7j4-etc.drv
-  /nix/store/8zr1i3zi1dlb4y7lmjhqvbwz0igmbly3-nixos-system-nixos-23.11.4801.b7ee09cf5614.drv
-these 21 paths will be fetched (140.53 MiB download, 1166.56 MiB unpacked):
-  /nix/store/q1xnxka62qm7x7kaxcswifdbbz9z762v-auto-patchelf-hook
-  /nix/store/505l13qqnpp0rvrja5s7rgwz5nzir579-binutils-wrapper-2.40
-  /nix/store/a24p4h2y4b9pdjvyfbcpggdlc7dl5l4d-clang-14.0.6
-  /nix/store/d9dji1wd5nn5i578zg0v6ahbd28j82db-clang-14.0.6-lib
-  /nix/store/qz1f9rs2pra85yd6sj462agkvkf5yl7r-clang-tools-14.0.6
-  /nix/store/1hd7rnhsmndbzplaf2xzysamhi6cbk0v-clang-wrapper-14.0.6
-  /nix/store/7w5alcmm9a7lxgxwqqkndddgvl8hyik7-compiler-rt-libc-14.0.6
-  /nix/store/8ilq89wqlgv54wh16bryavlsxwfqdmvd-compiler-rt-libc-14.0.6-dev
-  /nix/store/2da1fi6fdfbizbjwk69j6rp8jymy8r1k-expand-response-params
-  /nix/store/y91lpn78cz90mw05ny9kiald6gdmyl0q-gdb-13.2
-  /nix/store/k3zfa3wlj6nra0k21814m5xfzly0br0c-jq-1.7.1-dev
-  /nix/store/idn1f145bvib51gmdf3iifydyci6zsmf-libipt-2.0.6
-  /nix/store/590nisw43227g2542m9bgs6d3fr6zykm-libkrb5-1.20.2-dev
-  /nix/store/m6hgpq4k549ly9dppw2mvivnx0s24674-liburcu-0.14.0-dev
-  /nix/store/dnqhxzfpxa61i31d7j8d0g26dz2f87jb-llvm-14.0.6-lib
-  /nix/store/inzhc4zq96s34xhq8bl661gykp27a5in-lttng-ust-2.13.6-bin
-  /nix/store/xqyg1a4f98vvy6yi4i0p9jkqrvd0y8ji-lttng-ust-2.13.6-dev
-  /nix/store/f1iwc9nxyx6inyfm8gkzh89s3p7qmy1b-python3-3.11.6-env
-  /nix/store/ndg81ajpgc3x5cs71incavxf5gxw203z-python3.11-pyelftools-0.29
-  /nix/store/zzhs64fwq3gjmj5n7c99bm4fnrxmzkfv-setup-debug-info-dirs-hook
-  /nix/store/8i6z643l40z907clfnc74vf48i0rxwkg-source-highlight-3.1.9
-copying path '/nix/store/zzhs64fwq3gjmj5n7c99bm4fnrxmzkfv-setup-debug-info-dirs-hook' from 'https://cache.nixos.org'...
-copying path '/nix/store/k3zfa3wlj6nra0k21814m5xfzly0br0c-jq-1.7.1-dev' from 'https://cache.nixos.org'...
-copying path '/nix/store/590nisw43227g2542m9bgs6d3fr6zykm-libkrb5-1.20.2-dev' from 'https://cache.nixos.org'...
-copying path '/nix/store/inzhc4zq96s34xhq8bl661gykp27a5in-lttng-ust-2.13.6-bin' from 'https://cache.nixos.org'...
-copying path '/nix/store/2da1fi6fdfbizbjwk69j6rp8jymy8r1k-expand-response-params' from 'https://cache.nixos.org'...
-copying path '/nix/store/7w5alcmm9a7lxgxwqqkndddgvl8hyik7-compiler-rt-libc-14.0.6' from 'https://cache.nixos.org'...
-copying path '/nix/store/idn1f145bvib51gmdf3iifydyci6zsmf-libipt-2.0.6' from 'https://cache.nixos.org'...
-copying path '/nix/store/m6hgpq4k549ly9dppw2mvivnx0s24674-liburcu-0.14.0-dev' from 'https://cache.nixos.org'...
-copying path '/nix/store/8i6z643l40z907clfnc74vf48i0rxwkg-source-highlight-3.1.9' from 'https://cache.nixos.org'...
-copying path '/nix/store/dnqhxzfpxa61i31d7j8d0g26dz2f87jb-llvm-14.0.6-lib' from 'https://cache.nixos.org'...
-copying path '/nix/store/ndg81ajpgc3x5cs71incavxf5gxw203z-python3.11-pyelftools-0.29' from 'https://cache.nixos.org'...
-building '/nix/store/akjd04jl85q5cz9ci3whn8k4s5cnhi2a-ms-vscode-cpptools.zip.drv'...
-copying path '/nix/store/505l13qqnpp0rvrja5s7rgwz5nzir579-binutils-wrapper-2.40' from 'https://cache.nixos.org'...
-copying path '/nix/store/y91lpn78cz90mw05ny9kiald6gdmyl0q-gdb-13.2' from 'https://cache.nixos.org'...
-copying path '/nix/store/f1iwc9nxyx6inyfm8gkzh89s3p7qmy1b-python3-3.11.6-env' from 'https://cache.nixos.org'...
-copying path '/nix/store/xqyg1a4f98vvy6yi4i0p9jkqrvd0y8ji-lttng-ust-2.13.6-dev' from 'https://cache.nixos.org'...
-copying path '/nix/store/q1xnxka62qm7x7kaxcswifdbbz9z762v-auto-patchelf-hook' from 'https://cache.nixos.org'...
-
-trying https://ms-vscode.gallery.vsassets.io/_apis/public/gallery/publisher/ms-vscode/extension/cpptools/1.17.3/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage?targetPlatform=linux-x64
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-copying path '/nix/store/8ilq89wqlgv54wh16bryavlsxwfqdmvd-compiler-rt-libc-14.0.6-dev' from 'https://cache.nixos.org'...
-copying path '/nix/store/d9dji1wd5nn5i578zg0v6ahbd28j82db-clang-14.0.6-lib' from 'https://cache.nixos.org'...
-100 88.7M  100 88.7M    0     0  5521k      0  0:00:16  0:00:16 --:--:-- 3546k
-copying path '/nix/store/a24p4h2y4b9pdjvyfbcpggdlc7dl5l4d-clang-14.0.6' from 'https://cache.nixos.org'...
-copying path '/nix/store/1hd7rnhsmndbzplaf2xzysamhi6cbk0v-clang-wrapper-14.0.6' from 'https://cache.nixos.org'...
-copying path '/nix/store/qz1f9rs2pra85yd6sj462agkvkf5yl7r-clang-tools-14.0.6' from 'https://cache.nixos.org'...
-building '/nix/store/c1fl5y5p9fnc3p4s9mrhsmr667bhfjpn-vscode-extension-ms-vscode-cpptools-1.17.3.drv'...
-Running phase: unpackPhase
-unpacking source archive /nix/store/g50z6bzi5cvw3r3d523jy77ay6g9l51x-ms-vscode-cpptools.zip
-source root is extension
-setting SOURCE_DATE_EPOCH to timestamp 1692236734 of file extension/README.md
-Running phase: patchPhase
-Running phase: updateAutotoolsGnuConfigScriptsPhase
-Running phase: configurePhase
-Running phase: buildPhase
-Running phase: installPhase
-Running phase: fixupPhase
-checking for references to /build/ in /nix/store/nsw5zk3f167wgj2gzzs0anhfr7waamkd-vscode-extension-ms-vscode-cpptools-1.17.3...
-patchelf: cannot find section '.dynamic'. The input file is most likely statically linked
-patching script interpreter paths in /nix/store/nsw5zk3f167wgj2gzzs0anhfr7waamkd-vscode-extension-ms-vscode-cpptools-1.17.3
-automatically fixing dependencies for ELF files
-{'append_rpaths': [],
- 'extra_args': [],
- 'ignore_missing': [],
- 'libs': [PosixPath('/nix/store/8l04llw2dv5m4jsvcnfvln9fccqvzkf6-unzip-6.0/lib'),
-          PosixPath('/nix/store/q1xnxka62qm7x7kaxcswifdbbz9z762v-auto-patchelf-hook/lib'),
-          PosixPath('/nix/store/505l13qqnpp0rvrja5s7rgwz5nzir579-binutils-wrapper-2.40/lib'),
-          PosixPath('/nix/store/7fwhcwh9dgyz8h1f9s9m25iwsvk5cyvf-make-shell-wrapper-hook/lib'),
-          PosixPath('/nix/store/0ccs6hz7sc4awva8a8sjnzgga12nay4h-die-hook/lib'),
-          PosixPath('/nix/store/2cwm5mjdq4p3agjqm8k0641xi9s2rxv3-patchelf-0.15.0/lib'),
-          PosixPath('/nix/store/lidl4pi3fwjn7b5d2khj4g7wxwpxzjdm-update-autotools-gnu-config-scripts-hook/lib'),
-          PosixPath('/nix/store/h9lc1dpi14z7is86ffhl3ld569138595-audit-tmpdir.sh/lib'),
-          PosixPath('/nix/store/m54bmrhj6fqz8nds5zcj97w9s9bckc9v-compress-man-pages.sh/lib'),
-          PosixPath('/nix/store/wgrbkkaldkrlrni33ccvm3b6vbxzb656-make-symlinks-relative.sh/lib'),
-          PosixPath('/nix/store/5yzw0vhkyszf2d179m0qfkgxmp5wjjx4-move-docs.sh/lib'),
-          PosixPath('/nix/store/fyaryjvghbkpfnsyw97hb3lyb37s1pd6-move-lib64.sh/lib'),
-          PosixPath('/nix/store/kd4xwxjpjxi71jkm6ka0np72if9rm3y0-move-sbin.sh/lib'),
-          PosixPath('/nix/store/pag6l61paj1dc9sv15l7bm5c17xn5kyk-move-systemd-user-units.sh/lib'),
-          PosixPath('/nix/store/jivxp510zxakaaic7qkrb7v1dd2rdbw9-multiple-outputs.sh/lib'),
-          PosixPath('/nix/store/wzdsbnv2ba3nj91aql8jjdddfmkkdh7h-patch-shebangs.sh/lib'),
-          PosixPath('/nix/store/cickvswrvann041nqxb0rxilc46svw1n-prune-libtool-files.sh/lib'),
-          PosixPath('/nix/store/xyff06pkhki3qy1ls77w10s0v79c9il0-reproducible-builds.sh/lib'),
-          PosixPath('/nix/store/ngg1cv31c8c7bcm2n8ww4g06nq7s4zhm-set-source-date-epoch-to-latest.sh/lib'),
-          PosixPath('/nix/store/wmknncrif06fqxa16hpdldhixk95nds0-strip.sh/lib'),
-          PosixPath('/nix/store/i6zjqpawh725z1lyg3alglzlabnzbjx7-gcc-wrapper-12.3.0/lib'),
-          PosixPath('/nix/store/44dkqk3h8xp81ff6wr11f37kgvwzw1gh-binutils-wrapper-2.40/lib'),
-          PosixPath('/nix/store/k3zfa3wlj6nra0k21814m5xfzly0br0c-jq-1.7.1-dev/lib'),
-          PosixPath('/nix/store/wvvmpfckjzyxbpgs00gxdva8dd60rflv-jq-1.7.1-bin/lib'),
-          PosixPath('/nix/store/0cfjwii93nva61cvciagccplb6hxvqn1-jq-1.7.1-lib/lib'),
-          PosixPath('/nix/store/xqyg1a4f98vvy6yi4i0p9jkqrvd0y8ji-lttng-ust-2.13.6-dev/lib'),
-          PosixPath('/nix/store/m6hgpq4k549ly9dppw2mvivnx0s24674-liburcu-0.14.0-dev/lib'),
-          PosixPath('/nix/store/5rcnji55c5jsf4159c20xfxd95swl07v-liburcu-0.14.0/lib'),
-          PosixPath('/nix/store/inzhc4zq96s34xhq8bl661gykp27a5in-lttng-ust-2.13.6-bin/lib'),
-          PosixPath('/nix/store/bksnkssjcl6v2j2haf85ihnahwcjayik-lttng-ust-2.13.6/lib'),
-          PosixPath('/nix/store/590nisw43227g2542m9bgs6d3fr6zykm-libkrb5-1.20.2-dev/lib'),
-          PosixPath('/nix/store/ncr54xh14bz72zrb2cwy4fac2kq4kc5w-libkrb5-1.20.2/lib'),
-          PosixPath('/nix/store/7rdxg97qrramvw6vkpk8xz718nkfvj2j-zlib-1.3-dev/lib'),
-          PosixPath('/nix/store/ykh8zgm27qqhfxcq77jlap5ahrplrk54-zlib-1.3/lib'),
-          PosixPath('/nix/store/390lzx2pal52yx3d6yafj6vjyb3dcfz2-gcc-12.3.0-lib/lib'),
-          PosixPath('/nix/store/8l04llw2dv5m4jsvcnfvln9fccqvzkf6-unzip-6.0/lib'),
-          PosixPath('/nix/store/q1xnxka62qm7x7kaxcswifdbbz9z762v-auto-patchelf-hook/lib'),
-          PosixPath('/nix/store/505l13qqnpp0rvrja5s7rgwz5nzir579-binutils-wrapper-2.40/lib'),
-          PosixPath('/nix/store/7fwhcwh9dgyz8h1f9s9m25iwsvk5cyvf-make-shell-wrapper-hook/lib'),
-          PosixPath('/nix/store/0ccs6hz7sc4awva8a8sjnzgga12nay4h-die-hook/lib'),
-          PosixPath('/nix/store/2cwm5mjdq4p3agjqm8k0641xi9s2rxv3-patchelf-0.15.0/lib'),
-          PosixPath('/nix/store/lidl4pi3fwjn7b5d2khj4g7wxwpxzjdm-update-autotools-gnu-config-scripts-hook/lib'),
-          PosixPath('/nix/store/h9lc1dpi14z7is86ffhl3ld569138595-audit-tmpdir.sh/lib'),
-          PosixPath('/nix/store/m54bmrhj6fqz8nds5zcj97w9s9bckc9v-compress-man-pages.sh/lib'),
-          PosixPath('/nix/store/wgrbkkaldkrlrni33ccvm3b6vbxzb656-make-symlinks-relative.sh/lib'),
-          PosixPath('/nix/store/5yzw0vhkyszf2d179m0qfkgxmp5wjjx4-move-docs.sh/lib'),
-          PosixPath('/nix/store/fyaryjvghbkpfnsyw97hb3lyb37s1pd6-move-lib64.sh/lib'),
-          PosixPath('/nix/store/kd4xwxjpjxi71jkm6ka0np72if9rm3y0-move-sbin.sh/lib'),
-          PosixPath('/nix/store/pag6l61paj1dc9sv15l7bm5c17xn5kyk-move-systemd-user-units.sh/lib'),
-          PosixPath('/nix/store/jivxp510zxakaaic7qkrb7v1dd2rdbw9-multiple-outputs.sh/lib'),
-          PosixPath('/nix/store/wzdsbnv2ba3nj91aql8jjdddfmkkdh7h-patch-shebangs.sh/lib'),
-          PosixPath('/nix/store/cickvswrvann041nqxb0rxilc46svw1n-prune-libtool-files.sh/lib'),
-          PosixPath('/nix/store/xyff06pkhki3qy1ls77w10s0v79c9il0-reproducible-builds.sh/lib'),
-          PosixPath('/nix/store/ngg1cv31c8c7bcm2n8ww4g06nq7s4zhm-set-source-date-epoch-to-latest.sh/lib'),
-          PosixPath('/nix/store/wmknncrif06fqxa16hpdldhixk95nds0-strip.sh/lib'),
-          PosixPath('/nix/store/i6zjqpawh725z1lyg3alglzlabnzbjx7-gcc-wrapper-12.3.0/lib'),
-          PosixPath('/nix/store/44dkqk3h8xp81ff6wr11f37kgvwzw1gh-binutils-wrapper-2.40/lib'),
-          PosixPath('/nix/store/k3zfa3wlj6nra0k21814m5xfzly0br0c-jq-1.7.1-dev/lib'),
-          PosixPath('/nix/store/wvvmpfckjzyxbpgs00gxdva8dd60rflv-jq-1.7.1-bin/lib'),
-          PosixPath('/nix/store/0cfjwii93nva61cvciagccplb6hxvqn1-jq-1.7.1-lib/lib'),
-          PosixPath('/nix/store/xqyg1a4f98vvy6yi4i0p9jkqrvd0y8ji-lttng-ust-2.13.6-dev/lib'),
-          PosixPath('/nix/store/m6hgpq4k549ly9dppw2mvivnx0s24674-liburcu-0.14.0-dev/lib'),
-          PosixPath('/nix/store/5rcnji55c5jsf4159c20xfxd95swl07v-liburcu-0.14.0/lib'),
-          PosixPath('/nix/store/inzhc4zq96s34xhq8bl661gykp27a5in-lttng-ust-2.13.6-bin/lib'),
-          PosixPath('/nix/store/bksnkssjcl6v2j2haf85ihnahwcjayik-lttng-ust-2.13.6/lib'),
-          PosixPath('/nix/store/590nisw43227g2542m9bgs6d3fr6zykm-libkrb5-1.20.2-dev/lib'),
-          PosixPath('/nix/store/ncr54xh14bz72zrb2cwy4fac2kq4kc5w-libkrb5-1.20.2/lib'),
-          PosixPath('/nix/store/7rdxg97qrramvw6vkpk8xz718nkfvj2j-zlib-1.3-dev/lib'),
-          PosixPath('/nix/store/ykh8zgm27qqhfxcq77jlap5ahrplrk54-zlib-1.3/lib'),
-          PosixPath('/nix/store/390lzx2pal52yx3d6yafj6vjyb3dcfz2-gcc-12.3.0-lib/lib')],
- 'paths': [PosixPath('/nix/store/nsw5zk3f167wgj2gzzs0anhfr7waamkd-vscode-extension-ms-vscode-cpptools-1.17.3')],
- 'recursive': True,
- 'runtime_dependencies': []}
-searching for dependencies of /nix/store/nsw5zk3f167wgj2gzzs0anhfr7waamkd-vscode-extension-ms-vscode-cpptools-1.17.3/share/vscode/extensions/ms-vscode.cpptools/bin/cpptools-wordexp
-skipping /nix/store/nsw5zk3f167wgj2gzzs0anhfr7waamkd-vscode-extension-ms-vscode-cpptools-1.17.3/share/vscode/extensions/ms-vscode.cpptools/bin/cpptools-srv because it is statically linked
-searching for dependencies of /nix/store/nsw5zk3f167wgj2gzzs0anhfr7waamkd-vscode-extension-ms-vscode-cpptools-1.17.3/share/vscode/extensions/ms-vscode.cpptools/bin/cpptools
-searching for dependencies of /nix/store/nsw5zk3f167wgj2gzzs0anhfr7waamkd-vscode-extension-ms-vscode-cpptools-1.17.3/share/vscode/extensions/ms-vscode.cpptools/debugAdapters/bin/libmscordaccore.so
-    libgcc_s.so.1 -> found: /nix/store/gnymvi8xmh2i7a4g2bslxxmjfl2vz7q0-gcc-12.3.0-libgcc/lib
-    libstdc++.so.6 -> found: /nix/store/390lzx2pal52yx3d6yafj6vjyb3dcfz2-gcc-12.3.0-lib/lib
-setting RPATH to: /nix/store/gnymvi8xmh2i7a4g2bslxxmjfl2vz7q0-gcc-12.3.0-libgcc/lib:/nix/store/390lzx2pal52yx3d6yafj6vjyb3dcfz2-gcc-12.3.0-lib/lib
-searching for dependencies of /nix/store/nsw5zk3f167wgj2gzzs0anhfr7waamkd-vscode-extension-ms-vscode-cpptools-1.17.3/share/vscode/extensions/ms-vscode.cpptools/debugAdapters/bin/libmscordbi.so
-    libmscordaccore.so -> found: /nix/store/nsw5zk3f167wgj2gzzs0anhfr7waamkd-vscode-extension-ms-vscode-cpptools-1.17.3/share/vscode/extensions/ms-vscode.cpptools/debugAdapters/bin
-    libstdc++.so.6 -> found: /nix/store/390lzx2pal52yx3d6yafj6vjyb3dcfz2-gcc-12.3.0-lib/lib
-    libgcc_s.so.1 -> found: /nix/store/gnymvi8xmh2i7a4g2bslxxmjfl2vz7q0-gcc-12.3.0-libgcc/lib
-setting RPATH to: /nix/store/nsw5zk3f167wgj2gzzs0anhfr7waamkd-vscode-extension-ms-vscode-cpptools-1.17.3/share/vscode/extensions/ms-vscode.cpptools/debugAdapters/bin:/nix/store/390lzx2pal52yx3d6yafj6vjyb3dcfz2-gcc-12.3.0-lib/lib:/nix/store/gnymvi8xmh2i7a4g2bslxxmjfl2vz7q0-gcc-12.3.0-libgcc/lib
-searching for dependencies of /nix/store/nsw5zk3f167wgj2gzzs0anhfr7waamkd-vscode-extension-ms-vscode-cpptools-1.17.3/share/vscode/extensions/ms-vscode.cpptools/debugAdapters/bin/libSystem.Net.Security.Native.so
-setting interpreter of /nix/store/nsw5zk3f167wgj2gzzs0anhfr7waamkd-vscode-extension-ms-vscode-cpptools-1.17.3/share/vscode/extensions/ms-vscode.cpptools/debugAdapters/bin/.OpenDebugAD7-wrapped
-searching for dependencies of /nix/store/nsw5zk3f167wgj2gzzs0anhfr7waamkd-vscode-extension-ms-vscode-cpptools-1.17.3/share/vscode/extensions/ms-vscode.cpptools/debugAdapters/bin/.OpenDebugAD7-wrapped
-    libstdc++.so.6 -> found: /nix/store/390lzx2pal52yx3d6yafj6vjyb3dcfz2-gcc-12.3.0-lib/lib
-    libgcc_s.so.1 -> found: /nix/store/gnymvi8xmh2i7a4g2bslxxmjfl2vz7q0-gcc-12.3.0-libgcc/lib
-setting RPATH to: /nix/store/390lzx2pal52yx3d6yafj6vjyb3dcfz2-gcc-12.3.0-lib/lib:/nix/store/gnymvi8xmh2i7a4g2bslxxmjfl2vz7q0-gcc-12.3.0-libgcc/lib
-searching for dependencies of /nix/store/nsw5zk3f167wgj2gzzs0anhfr7waamkd-vscode-extension-ms-vscode-cpptools-1.17.3/share/vscode/extensions/ms-vscode.cpptools/debugAdapters/bin/libcoreclr.so
-    libgcc_s.so.1 -> found: /nix/store/gnymvi8xmh2i7a4g2bslxxmjfl2vz7q0-gcc-12.3.0-libgcc/lib
-    libstdc++.so.6 -> found: /nix/store/390lzx2pal52yx3d6yafj6vjyb3dcfz2-gcc-12.3.0-lib/lib
-setting RPATH to: /nix/store/gnymvi8xmh2i7a4g2bslxxmjfl2vz7q0-gcc-12.3.0-libgcc/lib:/nix/store/390lzx2pal52yx3d6yafj6vjyb3dcfz2-gcc-12.3.0-lib/lib
-searching for dependencies of /nix/store/nsw5zk3f167wgj2gzzs0anhfr7waamkd-vscode-extension-ms-vscode-cpptools-1.17.3/share/vscode/extensions/ms-vscode.cpptools/debugAdapters/bin/libSystem.Security.Cryptography.Native.OpenSsl.so
-searching for dependencies of /nix/store/nsw5zk3f167wgj2gzzs0anhfr7waamkd-vscode-extension-ms-vscode-cpptools-1.17.3/share/vscode/extensions/ms-vscode.cpptools/debugAdapters/bin/libcoreclrtraceptprovider.so
-    liblttng-ust.so.1 -> found: /nix/store/bksnkssjcl6v2j2haf85ihnahwcjayik-lttng-ust-2.13.6/lib
-    libstdc++.so.6 -> found: /nix/store/390lzx2pal52yx3d6yafj6vjyb3dcfz2-gcc-12.3.0-lib/lib
-    libgcc_s.so.1 -> found: /nix/store/gnymvi8xmh2i7a4g2bslxxmjfl2vz7q0-gcc-12.3.0-libgcc/lib
-setting RPATH to: /nix/store/bksnkssjcl6v2j2haf85ihnahwcjayik-lttng-ust-2.13.6/lib:/nix/store/390lzx2pal52yx3d6yafj6vjyb3dcfz2-gcc-12.3.0-lib/lib:/nix/store/gnymvi8xmh2i7a4g2bslxxmjfl2vz7q0-gcc-12.3.0-libgcc/lib
-searching for dependencies of /nix/store/nsw5zk3f167wgj2gzzs0anhfr7waamkd-vscode-extension-ms-vscode-cpptools-1.17.3/share/vscode/extensions/ms-vscode.cpptools/debugAdapters/bin/libdbgshim.so
-    libgcc_s.so.1 -> found: /nix/store/gnymvi8xmh2i7a4g2bslxxmjfl2vz7q0-gcc-12.3.0-libgcc/lib
-    libstdc++.so.6 -> found: /nix/store/390lzx2pal52yx3d6yafj6vjyb3dcfz2-gcc-12.3.0-lib/lib
-setting RPATH to: /nix/store/gnymvi8xmh2i7a4g2bslxxmjfl2vz7q0-gcc-12.3.0-libgcc/lib:/nix/store/390lzx2pal52yx3d6yafj6vjyb3dcfz2-gcc-12.3.0-lib/lib
-searching for dependencies of /nix/store/nsw5zk3f167wgj2gzzs0anhfr7waamkd-vscode-extension-ms-vscode-cpptools-1.17.3/share/vscode/extensions/ms-vscode.cpptools/debugAdapters/bin/libSystem.Native.so
-searching for dependencies of /nix/store/nsw5zk3f167wgj2gzzs0anhfr7waamkd-vscode-extension-ms-vscode-cpptools-1.17.3/share/vscode/extensions/ms-vscode.cpptools/debugAdapters/bin/libSystem.IO.Compression.Native.so
-    libz.so.1 -> found: /nix/store/ykh8zgm27qqhfxcq77jlap5ahrplrk54-zlib-1.3/lib
-setting RPATH to: /nix/store/ykh8zgm27qqhfxcq77jlap5ahrplrk54-zlib-1.3/lib
-searching for dependencies of /nix/store/nsw5zk3f167wgj2gzzs0anhfr7waamkd-vscode-extension-ms-vscode-cpptools-1.17.3/share/vscode/extensions/ms-vscode.cpptools/debugAdapters/bin/libhostpolicy.so
-    libstdc++.so.6 -> found: /nix/store/390lzx2pal52yx3d6yafj6vjyb3dcfz2-gcc-12.3.0-lib/lib
-    libgcc_s.so.1 -> found: /nix/store/gnymvi8xmh2i7a4g2bslxxmjfl2vz7q0-gcc-12.3.0-libgcc/lib
-setting RPATH to: /nix/store/390lzx2pal52yx3d6yafj6vjyb3dcfz2-gcc-12.3.0-lib/lib:/nix/store/gnymvi8xmh2i7a4g2bslxxmjfl2vz7q0-gcc-12.3.0-libgcc/lib
-searching for dependencies of /nix/store/nsw5zk3f167wgj2gzzs0anhfr7waamkd-vscode-extension-ms-vscode-cpptools-1.17.3/share/vscode/extensions/ms-vscode.cpptools/debugAdapters/bin/libSystem.Globalization.Native.so
-searching for dependencies of /nix/store/nsw5zk3f167wgj2gzzs0anhfr7waamkd-vscode-extension-ms-vscode-cpptools-1.17.3/share/vscode/extensions/ms-vscode.cpptools/debugAdapters/bin/libhostfxr.so
-    libstdc++.so.6 -> found: /nix/store/390lzx2pal52yx3d6yafj6vjyb3dcfz2-gcc-12.3.0-lib/lib
-    libgcc_s.so.1 -> found: /nix/store/gnymvi8xmh2i7a4g2bslxxmjfl2vz7q0-gcc-12.3.0-libgcc/lib
-setting RPATH to: /nix/store/390lzx2pal52yx3d6yafj6vjyb3dcfz2-gcc-12.3.0-lib/lib:/nix/store/gnymvi8xmh2i7a4g2bslxxmjfl2vz7q0-gcc-12.3.0-libgcc/lib
-searching for dependencies of /nix/store/nsw5zk3f167wgj2gzzs0anhfr7waamkd-vscode-extension-ms-vscode-cpptools-1.17.3/share/vscode/extensions/ms-vscode.cpptools/debugAdapters/bin/libclrjit.so
-    libgcc_s.so.1 -> found: /nix/store/gnymvi8xmh2i7a4g2bslxxmjfl2vz7q0-gcc-12.3.0-libgcc/lib
-    libstdc++.so.6 -> found: /nix/store/390lzx2pal52yx3d6yafj6vjyb3dcfz2-gcc-12.3.0-lib/lib
-setting RPATH to: /nix/store/gnymvi8xmh2i7a4g2bslxxmjfl2vz7q0-gcc-12.3.0-libgcc/lib:/nix/store/390lzx2pal52yx3d6yafj6vjyb3dcfz2-gcc-12.3.0-lib/lib
-setting interpreter of /nix/store/nsw5zk3f167wgj2gzzs0anhfr7waamkd-vscode-extension-ms-vscode-cpptools-1.17.3/share/vscode/extensions/ms-vscode.cpptools/debugAdapters/bin/createdump
-searching for dependencies of /nix/store/nsw5zk3f167wgj2gzzs0anhfr7waamkd-vscode-extension-ms-vscode-cpptools-1.17.3/share/vscode/extensions/ms-vscode.cpptools/debugAdapters/bin/createdump
-    libmscordaccore.so -> found: /nix/store/nsw5zk3f167wgj2gzzs0anhfr7waamkd-vscode-extension-ms-vscode-cpptools-1.17.3/share/vscode/extensions/ms-vscode.cpptools/debugAdapters/bin
-    libstdc++.so.6 -> found: /nix/store/390lzx2pal52yx3d6yafj6vjyb3dcfz2-gcc-12.3.0-lib/lib
-    libgcc_s.so.1 -> found: /nix/store/gnymvi8xmh2i7a4g2bslxxmjfl2vz7q0-gcc-12.3.0-libgcc/lib
-setting RPATH to: /nix/store/nsw5zk3f167wgj2gzzs0anhfr7waamkd-vscode-extension-ms-vscode-cpptools-1.17.3/share/vscode/extensions/ms-vscode.cpptools/debugAdapters/bin:/nix/store/390lzx2pal52yx3d6yafj6vjyb3dcfz2-gcc-12.3.0-lib/lib:/nix/store/gnymvi8xmh2i7a4g2bslxxmjfl2vz7q0-gcc-12.3.0-libgcc/lib
-searching for dependencies of /nix/store/nsw5zk3f167wgj2gzzs0anhfr7waamkd-vscode-extension-ms-vscode-cpptools-1.17.3/share/vscode/extensions/ms-vscode.cpptools/LLVM_orig/bin/clang-tidy
-searching for dependencies of /nix/store/nsw5zk3f167wgj2gzzs0anhfr7waamkd-vscode-extension-ms-vscode-cpptools-1.17.3/share/vscode/extensions/ms-vscode.cpptools/LLVM_orig/bin/clang-format
-auto-patchelf: 0 dependencies could not be satisfied
-building '/nix/store/70jja52cihd7gysadi0593rxwccnar8l-system-path.drv'...
+  /nix/store/1l1lsys76cliwn39rm2bbq31xvfwsnc1-system-path.drv
+  /nix/store/qhbsp2a5xqdl50j0ys49msrg5fp36bxz-dbus-1.drv
+  /nix/store/4wm2jvg621pyj1wvm7mjdclgx6lhgawr-X-Restart-Triggers-dbus.drv
+  /nix/store/0lj3dvx95qsa8rw3j3w86p498dppl3zy-unit-dbus.service.drv
+  /nix/store/1xnxy2683r45x9w7zcqafrkbhgh6bc4h-unit-accounts-daemon.service.drv
+  /nix/store/8dzimnca0mvm1mrdh4cjn1ac6d1920px-X-Restart-Triggers-polkit.drv
+  /nix/store/3abmyyw360v93hzgwldf85dd70sjfl4v-unit-polkit.service.drv
+  /nix/store/rrp5903qdgkbni9as362vfds5vcv5ik7-set-environment.drv
+  /nix/store/5cichnv8zqv59rw62ydkd615481bhbj3-etc-profile.drv
+  /nix/store/cyskcd6sa4lahixmqc136pks7ms0qy42-system-units.drv
+  /nix/store/sjivcsq9a6gddvy44v8sa3ic980prz99-etc-pam-environment.drv
+  /nix/store/c09c2bvkic2dys02lal3hfs64wdnfqz9-unit-dbus.service.drv
+  /nix/store/vv63ksf2glac0dy2k94l69i073sgf1r1-user-units.drv
+  /nix/store/hl1shky9xgw4y93skvlw2ngd757xvas8-etc.drv
+  /nix/store/8rd0w11kkjvb44ga8zawyghwwswiqywx-nixos-system-nixos-23.11.4801.b7ee09cf5614.drv
+building '/nix/store/p8mfdlikzniqsfl77mhpdj0jmiyhm03a-vscode-extensions-json.drv'...
+building '/nix/store/ah3khyhnj79g76xv8gad2b2kmx7ds9ng-vscode-extensions.drv'...
+created 7 symlinks in user environment
+building '/nix/store/yq7i8z5hzh28dnpmflhm6ap7k1yq21jd-vscode-with-extensions-1.85.2.drv'...
+building '/nix/store/1l1lsys76cliwn39rm2bbq31xvfwsnc1-system-path.drv'...
 warning: collision between `/nix/store/yqvzsmrx22s3hab6fcrfcvgsj426x07y-steam/bin/steam' and `/nix/store/vhivrpp8q82wfp8lddpf8pa1irwq5qv0-steam/bin/steam'
-created 22746 symlinks in user environment
+created 22745 symlinks in user environment
 gtk-update-icon-cache: Cache file created successfully.
 gtk-update-icon-cache: Cache file created successfully.
-building '/nix/store/hh9ib18aqc91h5g5psrg2imv72dpx2fr-X-Restart-Triggers-polkit.drv'...
-building '/nix/store/5c16y2czfmvkrf1ahl1v12yraw8961kn-dbus-1.drv'...
-building '/nix/store/yzn0dsd0pjq2w5wb3q1i7dn4ppk4fk9z-etc-pam-environment.drv'...
-building '/nix/store/77vkg99j0fv2qgim3na399xswazg9ikj-set-environment.drv'...
-building '/nix/store/ic733y2qs9fqlr0pchmz8p2454qp1zih-unit-accounts-daemon.service.drv'...
-building '/nix/store/8zpy5c04lf84r7dil33mj3as5vwnpwm1-X-Restart-Triggers-dbus.drv'...
-building '/nix/store/ds9bn5qjjnxn73a44ajc4m2rasi9rf6d-etc-profile.drv'...
-building '/nix/store/209fd1zcy046h64j08xixh1rpinxal89-unit-polkit.service.drv'...
-building '/nix/store/2psw9p8qrfpx7b4jlg9h2hsx613i0g8i-unit-dbus.service.drv'...
-building '/nix/store/vzlak5h7iljh53wc60kgbk1jyizlz5rq-unit-dbus.service.drv'...
-building '/nix/store/6bxx99nx9s34sfdnasw7iili2xq6ysyw-user-units.drv'...
-building '/nix/store/may7dr85zdhzfhvj7562dzvgp14xlxh4-system-units.drv'...
-building '/nix/store/da33pf3qxqq8mz533jicgljz5qafj7j4-etc.drv'...
-building '/nix/store/8zr1i3zi1dlb4y7lmjhqvbwz0igmbly3-nixos-system-nixos-23.11.4801.b7ee09cf5614.drv'...
+building '/nix/store/8dzimnca0mvm1mrdh4cjn1ac6d1920px-X-Restart-Triggers-polkit.drv'...
+building '/nix/store/qhbsp2a5xqdl50j0ys49msrg5fp36bxz-dbus-1.drv'...
+building '/nix/store/sjivcsq9a6gddvy44v8sa3ic980prz99-etc-pam-environment.drv'...
+building '/nix/store/rrp5903qdgkbni9as362vfds5vcv5ik7-set-environment.drv'...
+building '/nix/store/1xnxy2683r45x9w7zcqafrkbhgh6bc4h-unit-accounts-daemon.service.drv'...
+building '/nix/store/4wm2jvg621pyj1wvm7mjdclgx6lhgawr-X-Restart-Triggers-dbus.drv'...
+building '/nix/store/5cichnv8zqv59rw62ydkd615481bhbj3-etc-profile.drv'...
+building '/nix/store/3abmyyw360v93hzgwldf85dd70sjfl4v-unit-polkit.service.drv'...
+building '/nix/store/0lj3dvx95qsa8rw3j3w86p498dppl3zy-unit-dbus.service.drv'...
+building '/nix/store/c09c2bvkic2dys02lal3hfs64wdnfqz9-unit-dbus.service.drv'...
+building '/nix/store/cyskcd6sa4lahixmqc136pks7ms0qy42-system-units.drv'...
+building '/nix/store/vv63ksf2glac0dy2k94l69i073sgf1r1-user-units.drv'...
+building '/nix/store/hl1shky9xgw4y93skvlw2ngd757xvas8-etc.drv'...
+building '/nix/store/8rd0w11kkjvb44ga8zawyghwwswiqywx-nixos-system-nixos-23.11.4801.b7ee09cf5614.drv'...
