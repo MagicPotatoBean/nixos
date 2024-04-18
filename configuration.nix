@@ -218,6 +218,9 @@
 
   # List packages installed in system profile. To search, run:
   # $ nix search wget
+  environment.interactiveShellInit = ''
+    alias gs='git status'
+  '';
   environment.systemPackages = with pkgs; [
     (
       pkgs.vscode-with-extensions.override {
@@ -238,10 +241,6 @@
     )
     pkgs.tree
     pkgs.netcat-gnu
-    pkgs.go
-    pkgs.typescript
-    pkgs.nodejs
-    pkgs.bacon
     pkgs.spotify
     pkgs.gimp
     pkgs.drive
@@ -259,15 +258,10 @@
     (import "/home/zoe/.dotfiles/nixos/rebuild.nix")
     pkgs.openssl
     pkgs.wacomtablet
-    pkgs.gh
-    pkgs.alejandra
-    pkgs.gcc
-    pkgs.rustup
     pkgs.obsidian
     pkgs.git
     pkgs.home-manager
     pkgs.nix-ld
-    wget
   ];
   nixpkgs.config.permittedInsecurePackages = [
     "electron-25.9.0"
