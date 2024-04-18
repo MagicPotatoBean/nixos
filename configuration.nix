@@ -263,6 +263,7 @@
     pkgs.home-manager
     pkgs.nix-ld
   ];
+  # Adding a comment to force rebuilding.
   nixpkgs.config.permittedInsecurePackages = [
     "electron-25.9.0"
   ];
@@ -284,6 +285,9 @@
   # networking.firewall.allowedUDPPorts = [ ... ];
   # Or disable the firewall altogether.
   # networking.firewall.enable = false;
+
+  # Experimental features
+  nix.settings.experimental-features = ["nix-command" "flakes"];
 
   # This value determines the NixOS release from which the default
   # settings for stateful data, like file locations and database versions
