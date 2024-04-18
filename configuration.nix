@@ -263,6 +263,7 @@
     pkgs.home-manager
     pkgs.nix-ld
     pkgs.gh
+    pkgs.alejandra
   ];
   # Adding a comment to force rebuilding.
   nixpkgs.config.permittedInsecurePackages = [
