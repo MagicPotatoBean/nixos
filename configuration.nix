@@ -262,6 +262,7 @@
     pkgs.git
     pkgs.home-manager
     pkgs.nix-ld
+    pkgs.gh
   ];
   # Adding a comment to force rebuilding.
   nixpkgs.config.permittedInsecurePackages = [
