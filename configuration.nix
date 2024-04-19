@@ -264,6 +264,7 @@
     pkgs.nix-ld
     pkgs.gh
     pkgs.alejandra
+    pkgs.inetutils
   ];
   # Adding a comment to force rebuilding.
   nixpkgs.config.permittedInsecurePackages = [
