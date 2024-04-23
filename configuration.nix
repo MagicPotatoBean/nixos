@@ -265,6 +265,10 @@
     pkgs.gh
     pkgs.alejandra
     pkgs.inetutils
+    pkgs.rustc
+    pkgs.cargo
+    pkgs.bacon
+    pkgs.rustfmt
   ];
   # Adding a comment to force rebuilding.
   nixpkgs.config.permittedInsecurePackages = [
