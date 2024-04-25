@@ -270,6 +270,7 @@
     pkgs.cargo
     pkgs.bacon
     pkgs.rustfmt
+    pkgs.extundelete
   ];
   # Adding a comment to force rebuilding.
   nixpkgs.config.permittedInsecurePackages = [
