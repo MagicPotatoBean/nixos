@@ -232,6 +232,7 @@
             jnoortheen.nix-ide
             usernamehw.errorlens
             ms-vscode.live-server
+            vscodevim.vim
             # Built in extensions
           ]
           ++ pkgs.vscode-utils.extensionsFromVscodeMarketplace [
