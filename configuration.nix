@@ -272,6 +272,7 @@
     pkgs.bacon
     pkgs.rustfmt
     pkgs.extundelete
+    pkgs.neovim
   ];
   # Adding a comment to force rebuilding.
   nixpkgs.config.permittedInsecurePackages = [
