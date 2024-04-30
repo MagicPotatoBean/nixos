@@ -273,6 +273,7 @@
     pkgs.rustfmt
     pkgs.extundelete
     pkgs.neovim
+    pkgs.rustup
   ];
   # Adding a comment to force rebuilding.
   nixpkgs.config.permittedInsecurePackages = [
