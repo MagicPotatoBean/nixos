@@ -274,6 +274,7 @@
     pkgs.extundelete
     pkgs.neovim
     pkgs.rustup
+    pkgs.nerdfonts
   ];
   # Adding a comment to force rebuilding.
   nixpkgs.config.permittedInsecurePackages = [

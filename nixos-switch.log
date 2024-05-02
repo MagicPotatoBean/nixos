@@ -6,19 +6,2132 @@ setting up tmpfiles
 reloading the following units: dbus.service
 restarting the following units: polkit.service
 starting the following units: accounts-daemon.service
-6b4wd2zk2xn281ky2-unit-dbus.service.drv
-  /nix/store/3inr68v5mnwg935cdh5lraxbw80mravw-user-units.drv
-  /nix/store/ma1gvdqwbacm7dj0by4shmclg00pbra0-set-environment.drv
-  /nix/store/gxc916fcgsgxldmg3767h976xx9455g2-etc-profile.drv
-  /nix/store/dngahajqfrqg4ak7n9s0hrccj4cj8f2j-unit-dbus.service.drv
-  /nix/store/z06kvn50n6g4vjb7rdx5jzps57adym32-X-Restart-Triggers-polkit.drv
-  /nix/store/fb7z1y3j1p6876xi65pck2lrh9rpaq1n-unit-polkit.service.drv
-  /nix/store/n46l788h992dj09n3sp748ffx0mdf9kp-unit-accounts-daemon.service.drv
-  /nix/store/m095lz0l2yj8wy82hc7i6aw84y2yagj1-system-units.drv
-  /nix/store/vpf7i5z02hd2a7vwykri1mj8hp6f40qm-etc-pam-environment.drv
-  /nix/store/2n84xma8ziz9g8k0vq7saq8y9zcryspz-etc.drv
-  /nix/store/qag103j9zcdkdnvnwdqw733l6qmnvhvm-nixos-system-nixos-23.11.4801.b7ee09cf5614.drv
-building '/nix/store/r6qnrsranzw9b8ayzjkwsc430ya59kk5-system-path.drv'...
+pf29clggw1hff7a65vwspls7cw2f-Monofur.tar.xz.drv
+  /nix/store/2q9ysz4123fn1nra7zik49hwsx79lb3a-IBMPlexMono.tar.xz.drv
+  /nix/store/2vikx49xdf8l4jnmc4zilhacpyq6miz8-MPlus.tar.xz.drv
+  /nix/store/2ww3fypdpjrn3l24k9sdjmqdrnp5s9bn-SpaceMono.tar.xz.drv
+  /nix/store/3xylgg8caillc14c5zz370r282p7m2si-Cousine.tar.xz.drv
+  /nix/store/4jmjjq100wsx0af1f238f7sgq672142n-VictorMono.tar.xz.drv
+  /nix/store/4pz2zmlsg7j4xxqg7vqd6s5b2x3q11np-DaddyTimeMono.tar.xz.drv
+  /nix/store/4x3my4p3721n6in697sjw8b72n3bpr37-InconsolataGo.tar.xz.drv
+  /nix/store/5cwh863zgsck71p91l5cgws7z6irkwgh-Hermit.tar.xz.drv
+  /nix/store/5qnzkd9r33g2bdr4zyhqjdsgby7gh2y3-SourceCodePro.tar.xz.drv
+  /nix/store/5vq18599421whih2506si4dzhmpd00f5-Overpass.tar.xz.drv
+  /nix/store/7admp7hs5sb7yjm1fjk9p4symsz5m4kr-Hasklig.tar.xz.drv
+  /nix/store/81jjl62imjbzmzj7f7zw25rg4bdmkbi7-JetBrainsMono.tar.xz.drv
+  /nix/store/987bq42sfpylccavmbdxq6n2202dqcnq-RobotoMono.tar.xz.drv
+  /nix/store/am9gnvw9881bkx096mq4whyayy74v5fp-Arimo.tar.xz.drv
+  /nix/store/cc9iw6ys72p18yfzryc9dizwb17735h9-DroidSansMono.tar.xz.drv
+  /nix/store/cy988wml7q3rz95r63q9j8a59qyl7fbn-Lilex.tar.xz.drv
+  /nix/store/d8vgk0nyyiylj605ywkrs9z1brim4ns0-Noto.tar.xz.drv
+  /nix/store/d9ikva52fikwcpgfx0ivjws29prf3784-3270.tar.xz.drv
+  /nix/store/d9vn3bxqf0rlmck61hilg4fzqhsz2zc7-IntelOneMono.tar.xz.drv
+  /nix/store/f1nsd5sqhiccj0zxfxn3c3jrx4a79476-BitstreamVeraSansMono.tar.xz.drv
+  /nix/store/h30c58plgkbny0p9n5rbqi2izyl2q0xn-EnvyCodeR.tar.xz.drv
+  /nix/store/is6xvc68ql8b7ir1j5vb9xydmcl237lq-HeavyData.tar.xz.drv
+  /nix/store/j27dx4wg28m4yn65pdpzi4p8pidhl4sl-LiberationMono.tar.xz.drv
+  /nix/store/jdby3zcvsws9dmp2kbr20k7fy2535fnd-FantasqueSansMono.tar.xz.drv
+  /nix/store/jkwc94yjlxaar9527dcn9x00mz6h1574-Terminus.tar.xz.drv
+  /nix/store/jx3flbf1g0mjn0qfbidg1qr5yn574sjj-Gohu.tar.xz.drv
+  /nix/store/k97vm60cw3qq8kd4xln7vgp0hccirb6i-Ubuntu.tar.xz.drv
+  /nix/store/kjwlvffln0fv1f3da5i9332qfbvdmcfh-CascadiaCode.tar.xz.drv
+  /nix/store/kszxi390qyh5jbfqkmhnjc4v7ay0kzrp-OpenDyslexic.tar.xz.drv
+  /nix/store/kw4j86b3y1cl6kir30d6zz55yfqh1ncy-InconsolataLGC.tar.xz.drv
+  /nix/store/l2gs027a9bm6yj30k02kp3g0paw11qq7-ShareTechMono.tar.xz.drv
+  /nix/store/l9lfrs49m397w6fxaywis9c7qxhgfvdi-Mononoki.tar.xz.drv
+  /nix/store/lwqkaraw91vsivam42qs8yvqcrikqv5d-FiraCode.tar.xz.drv
+  /nix/store/m49g9r647ff52s860603h1mv2y9smz3d-Lekton.tar.xz.drv
+  /nix/store/n378kjcdxyqnnfv3ip92ii1qaw37hw0m-Monoid.tar.xz.drv
+  /nix/store/n80aqbxrr8518j1fqcxhd6xjx0i9ysiw-Go-Mono.tar.xz.drv
+  /nix/store/nw8v90dnv7af0m8f9vri140c3335riki-ProggyClean.tar.xz.drv
+  /nix/store/r3zkllcsidii60iyd3ds9faq9sr2bf78-Meslo.tar.xz.drv
+  /nix/store/srxv5d4kzbccliw86cc4xccfp31fqwfd-IosevkaTerm.tar.xz.drv
+  /nix/store/szpz16c0666hm4g7cm5n0h0cj9ak7564-Iosevka.tar.xz.drv
+  /nix/store/vbi7sxa06i3apkfg4q2m77fcwfdm1naz-CodeNewRoman.tar.xz.drv
+  /nix/store/vsrndlg9qvb9vrj6l3b94n29zzbwnrjb-Inconsolata.tar.xz.drv
+  /nix/store/w97698dnw211ipnjwid6ash1c2fd09j0-Tinos.tar.xz.drv
+  /nix/store/wdg60bgzjybz1vffl12yf9wck5lhjc3l-BigBlueTerminal.tar.xz.drv
+  /nix/store/x7d7jzrzx55nzmgqkh03q4gbwcfnvn36-Agave.tar.xz.drv
+  /nix/store/y5r3n8l8h2c78fahpnbfd1w9sg6hp4lp-AurulentSansMono.tar.xz.drv
+  /nix/store/yjlka1q46105zalixkbvmzcj1b6g0arx-ComicShannsMono.tar.xz.drv
+  /nix/store/yp8ihxzrgzgkkx443sz6jlvp3pz7llzn-UbuntuMono.tar.xz.drv
+  /nix/store/ypda1m1fvx31s0x8ypb7ydq49fqvra53-FiraMono.tar.xz.drv
+  /nix/store/yvb6k2dcmbd3asp0rxz7xbb53j6kil6f-NerdFontsSymbolsOnly.tar.xz.drv
+  /nix/store/z9z60vbkvhz85qk9i6c06nzwnism8inm-iA-Writer.tar.xz.drv
+  /nix/store/zc9xmz51wkv7659s9vrkqw68bjmdb89c-ProFont.tar.xz.drv
+  /nix/store/iqlk5y0j60i976jyyk4a1wh79z8nkhrj-nerdfonts-3.0.2.drv
+  /nix/store/gr7q452hm72b7h0c16hixnz7vwxva66v-system-path.drv
+  /nix/store/a9s5zy4xl4wv1bv6fv3az8xz3dx6c4fy-etc-pam-environment.drv
+  /nix/store/am9knpassqiygxp0mmgbkw89y03jyid6-set-environment.drv
+  /nix/store/nccabd60r1kvfh7n6swzzznb90jp7a49-dbus-1.drv
+  /nix/store/rhwgzw2mbrrj1sx2mhafv62ri2wsig49-X-Restart-Triggers-dbus.drv
+  /nix/store/728nmancmlar86zjsv2wd27l1gb437sf-unit-dbus.service.drv
+  /nix/store/c75d41b5cqbhv4k190m89nfx4kc59ba7-user-units.drv
+  /nix/store/ibcw1cqdqqz1miccgpjcwnbadynyyd6y-etc-profile.drv
+  /nix/store/7zsq3h0jxwccp0jpbgb0kjxl9wrx0m10-unit-dbus.service.drv
+  /nix/store/c15y7w8p7plzmzksvrkqrnsgzagv1m09-X-Restart-Triggers-polkit.drv
+  /nix/store/kfvzr8pd1di2cjv2bdd53zhlmki7wmcm-unit-polkit.service.drv
+  /nix/store/svgpxqs02idlqzi3rdhsfmwmy0cwl62j-unit-accounts-daemon.service.drv
+  /nix/store/x8khrpwi9rlimk02v3psfdlnc8c0hvxf-system-units.drv
+  /nix/store/2kxzqp369y92crkm0sjq5p97714bl8gl-etc.drv
+  /nix/store/0zmrcv7ii9z5xpk64rp8d9hk21majyva-nixos-system-nixos-23.11.4801.b7ee09cf5614.drv
+building '/nix/store/d9ikva52fikwcpgfx0ivjws29prf3784-3270.tar.xz.drv'...
+building '/nix/store/x7d7jzrzx55nzmgqkh03q4gbwcfnvn36-Agave.tar.xz.drv'...
+building '/nix/store/03llbwg52dalsc107vfwgrcmhr4cd1fg-AnonymousPro.tar.xz.drv'...
+building '/nix/store/am9gnvw9881bkx096mq4whyayy74v5fp-Arimo.tar.xz.drv'...
+building '/nix/store/y5r3n8l8h2c78fahpnbfd1w9sg6hp4lp-AurulentSansMono.tar.xz.drv'...
+building '/nix/store/wdg60bgzjybz1vffl12yf9wck5lhjc3l-BigBlueTerminal.tar.xz.drv'...
+building '/nix/store/f1nsd5sqhiccj0zxfxn3c3jrx4a79476-BitstreamVeraSansMono.tar.xz.drv'...
+building '/nix/store/kjwlvffln0fv1f3da5i9332qfbvdmcfh-CascadiaCode.tar.xz.drv'...
+
+trying https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/3270.tar.xz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 3492k  100 3492k    0     0  3368k      0  0:00:01  0:00:01 --:--:-- 9620k
+
+trying https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/Agave.tar.xz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 1680k  100 1680k    0     0  1806k      0 --:--:-- --:--:-- --:--:-- 1806k
+
+trying https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/AnonymousPro.tar.xz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 1758k  100 1758k    0     0  1603k      0  0:00:01  0:00:01 --:--:-- 10.3M
+
+trying https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/Arimo.tar.xz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+
+trying https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/AurulentSansMono.tar.xz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+
+trying https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/BigBlueTerminal.tar.xz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+building '/nix/store/vbi7sxa06i3apkfg4q2m77fcwfdm1naz-CodeNewRoman.tar.xz.drv'...
+building '/nix/store/yjlka1q46105zalixkbvmzcj1b6g0arx-ComicShannsMono.tar.xz.drv'...
+building '/nix/store/3xylgg8caillc14c5zz370r282p7m2si-Cousine.tar.xz.drv'...
+100 1517k  100 1517k    0     0  1702k      0 --:--:-- --:--:-- --:--:-- 11.9M
+100 3317k  100 3317k    0     0  2866k      0  0:00:01  0:00:01 --:--:-- 2866k
+100 1531k  100 1531k    0     0  1863k      0 --:--:-- --:--:-- --:--:-- 1863k
+
+trying https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/BitstreamVeraSansMono.tar.xz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+trying https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/CascadiaCode.tar.xz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+
+trying https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/CodeNewRoman.tar.xz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+building '/nix/store/4pz2zmlsg7j4xxqg7vqd6s5b2x3q11np-DaddyTimeMono.tar.xz.drv'...
+building '/nix/store/1ls962xgahslqgsqraish8k6n9lca1am-DejaVuSansMono.tar.xz.drv'...
+building '/nix/store/cc9iw6ys72p18yfzryc9dizwb17735h9-DroidSansMono.tar.xz.drv'...
+100 2700k  100 2700k    0     0  2471k      0  0:00:01  0:00:01 --:--:-- 6867k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 4557k  100 4557k    0     0  4056k      0  0:00:01  0:00:01 --:--:-- 13.1M
+
+trying https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/ComicShannsMono.tar.xz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 3596k  100 3596k    0     0  3291k      0  0:00:01  0:00:01 --:--:-- 3291k
+
+trying https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/Cousine.tar.xz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 2114k  100 2114k    0     0  2221k      0 --:--:-- --:--:-- --:--:-- 16.6M
+
+trying https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/DaddyTimeMono.tar.xz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+building '/nix/store/h30c58plgkbny0p9n5rbqi2izyl2q0xn-EnvyCodeR.tar.xz.drv'...
+building '/nix/store/jdby3zcvsws9dmp2kbr20k7fy2535fnd-FantasqueSansMono.tar.xz.drv'...
+building '/nix/store/lwqkaraw91vsivam42qs8yvqcrikqv5d-FiraCode.tar.xz.drv'...
+building '/nix/store/ypda1m1fvx31s0x8ypb7ydq49fqvra53-FiraMono.tar.xz.drv'...
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 1521k  100 1521k    0     0  1697k      0 --:--:-- --:--:-- --:--:-- 1697k
+
+trying https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/DejaVuSansMono.tar.xz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 2067k  100 2067k    0     0  2636k      0 --:--:-- --:--:-- --:--:-- 2636k
+
+trying https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/DroidSansMono.tar.xz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 3348k  100 3348k    0     0  3464k      0 --:--:-- --:--:-- --:--:-- 14.8M
+
+trying https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/EnvyCodeR.tar.xz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+
+trying https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/FantasqueSansMono.tar.xz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+building '/nix/store/n80aqbxrr8518j1fqcxhd6xjx0i9ysiw-Go-Mono.tar.xz.drv'...
+building '/nix/store/jx3flbf1g0mjn0qfbidg1qr5yn574sjj-Gohu.tar.xz.drv'...
+building '/nix/store/1fnzclzzrj60y5f1hwbqn4bks9bfy6fz-Hack.tar.xz.drv'...
+  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0
+100 1734k  100 1734k    0     0   291k      0  0:00:05  0:00:05 --:--:-- 9324k
+100 1662k  100 1662k    0     0  2262k      0 --:--:-- --:--:-- --:--:-- 18.2M
+100 1876k  100 1876k    0     0  2449k      0 --:--:-- --:--:-- --:--:-- 3546k
+
+trying https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/FiraCode.tar.xz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 2190k  100 2190k    0     0  2645k      0 --:--:-- --:--:-- --:--:-- 2645k
+
+trying https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/FiraMono.tar.xz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 3712k  100 3712k    0     0  4236k      0 --:--:-- --:--:-- --:--:-- 16.9M
+
+trying https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/Go-Mono.tar.xz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+building '/nix/store/7admp7hs5sb7yjm1fjk9p4symsz5m4kr-Hasklig.tar.xz.drv'...
+building '/nix/store/is6xvc68ql8b7ir1j5vb9xydmcl237lq-HeavyData.tar.xz.drv'...
+building '/nix/store/5cwh863zgsck71p91l5cgws7z6irkwgh-Hermit.tar.xz.drv'...
+building '/nix/store/2q9ysz4123fn1nra7zik49hwsx79lb3a-IBMPlexMono.tar.xz.drv'...
+building '/nix/store/vsrndlg9qvb9vrj6l3b94n29zzbwnrjb-Inconsolata.tar.xz.drv'...
+
+trying https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/Gohu.tar.xz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 2430k  100 2430k    0     0  2609k      0 --:--:-- --:--:-- --:--:-- 14.4M
+
+trying https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/Hack.tar.xz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+
+trying https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/Hasklig.tar.xz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+
+trying https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/HeavyData.tar.xz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+
+trying https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/Hermit.tar.xz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+building '/nix/store/4x3my4p3721n6in697sjw8b72n3bpr37-InconsolataGo.tar.xz.drv'...
+100 9084k  100 9084k    0     0  7549k      0  0:00:01  0:00:01 --:--:-- 15.7M
+100  916k  100  916k    0     0   953k      0 --:--:-- --:--:-- --:--:-- 4111k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+
+trying https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/IBMPlexMono.tar.xz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+trying https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/Inconsolata.tar.xz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+building '/nix/store/kw4j86b3y1cl6kir30d6zz55yfqh1ncy-InconsolataLGC.tar.xz.drv'...
+building '/nix/store/d9vn3bxqf0rlmck61hilg4fzqhsz2zc7-IntelOneMono.tar.xz.drv'...
+100 3852k  100 3852k    0     0  2533k      0  0:00:01  0:00:01 --:--:-- 3289k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+building '/nix/store/szpz16c0666hm4g7cm5n0h0cj9ak7564-Iosevka.tar.xz.drv'...
+
+trying https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/InconsolataGo.tar.xz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+trying https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/InconsolataLGC.tar.xz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+trying https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/IntelOneMono.tar.xz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 2351k  100 2351k    0     0  1131k      0  0:00:02  0:00:02 --:--:-- 1993k
+building '/nix/store/srxv5d4kzbccliw86cc4xccfp31fqwfd-IosevkaTerm.tar.xz.drv'...
+  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0
+100 1537k  100 1537k    0     0   799k      0  0:00:01  0:00:01 --:--:-- 1297k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+
+trying https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/Iosevka.tar.xz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+building '/nix/store/81jjl62imjbzmzj7f7zw25rg4bdmkbi7-JetBrainsMono.tar.xz.drv'...
+100 2880k  100 2880k    0     0  2535k      0  0:00:01  0:00:01 --:--:-- 2535k
+
+trying https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/IosevkaTerm.tar.xz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+building '/nix/store/m49g9r647ff52s860603h1mv2y9smz3d-Lekton.tar.xz.drv'...
+100 1812k  100 1812k    0     0   293k      0  0:00:06  0:00:06 --:--:-- 6549k
+100 1725k  100 1725k    0     0  1113k      0  0:00:01  0:00:01 --:--:-- 5151k
+100 1784k  100 1784k    0     0  1198k      0  0:00:01  0:00:01 --:--:-- 5792k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+building '/nix/store/j27dx4wg28m4yn65pdpzi4p8pidhl4sl-LiberationMono.tar.xz.drv'...
+building '/nix/store/cy988wml7q3rz95r63q9j8a59qyl7fbn-Lilex.tar.xz.drv'...
+building '/nix/store/2vikx49xdf8l4jnmc4zilhacpyq6miz8-MPlus.tar.xz.drv'...
+100 2014k  100 2014k    0     0   308k      0  0:00:06  0:00:06 --:--:--  472k
+100 27.3M  100 27.3M    0     0   9.8M      0  0:00:02  0:00:02 --:--:-- 14.0M
+
+trying https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/JetBrainsMono.tar.xz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+
+trying https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/Lekton.tar.xz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+building '/nix/store/r3zkllcsidii60iyd3ds9faq9sr2bf78-Meslo.tar.xz.drv'...
+building '/nix/store/1s2rpf29clggw1hff7a65vwspls7cw2f-Monofur.tar.xz.drv'...
+100 27.3M  100 27.3M    0     0  8946k      0  0:00:03  0:00:03 --:--:-- 12.3M
+100 3524k  100 3524k    0     0  1863k      0  0:00:01  0:00:01 --:--:-- 4900k
+100 1567k  100 1567k    0     0  1153k      0  0:00:01  0:00:01 --:--:-- 3955k
+
+trying https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/LiberationMono.tar.xz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+
+trying https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/Lilex.tar.xz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 1610k  100 1610k    0     0  1416k      0  0:00:01  0:00:01 --:--:-- 5631k
+
+trying https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/MPlus.tar.xz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+building '/nix/store/n378kjcdxyqnnfv3ip92ii1qaw37hw0m-Monoid.tar.xz.drv'...
+building '/nix/store/l9lfrs49m397w6fxaywis9c7qxhgfvdi-Mononoki.tar.xz.drv'...
+building '/nix/store/yvb6k2dcmbd3asp0rxz7xbb53j6kil6f-NerdFontsSymbolsOnly.tar.xz.drv'...
+building '/nix/store/d8vgk0nyyiylj605ywkrs9z1brim4ns0-Noto.tar.xz.drv'...
+100 3709k  100 3709k    0     0  1558k      0  0:00:02  0:00:02 --:--:-- 2536k
+100 14.1M  100 14.1M    0     0  8578k      0  0:00:01  0:00:01 --:--:-- 10.8M
+
+trying https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/Meslo.tar.xz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 2576k  100 2576k    0     0  2287k      0  0:00:01  0:00:01 --:--:-- 3863k
+
+trying https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/Monofur.tar.xz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 1839k  100 1839k    0     0  2039k      0 --:--:-- --:--:-- --:--:-- 2039k
+
+trying https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/Monoid.tar.xz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+
+trying https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/Mononoki.tar.xz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+building '/nix/store/kszxi390qyh5jbfqkmhnjc4v7ay0kzrp-OpenDyslexic.tar.xz.drv'...
+building '/nix/store/5vq18599421whih2506si4dzhmpd00f5-Overpass.tar.xz.drv'...
+building '/nix/store/zc9xmz51wkv7659s9vrkqw68bjmdb89c-ProFont.tar.xz.drv'...
+building '/nix/store/nw8v90dnv7af0m8f9vri140c3335riki-ProggyClean.tar.xz.drv'...
+100 1711k  100 1711k    0     0  2359k      0 --:--:-- --:--:-- --:--:-- 2359k
+100 1667k  100 1667k    0     0  2228k      0 --:--:-- --:--:-- --:--:-- 15.0M
+
+trying https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/NerdFontsSymbolsOnly.tar.xz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 1496k  100 1496k    0     0  1962k      0 --:--:-- --:--:-- --:--:-- 1962k
+
+trying https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/Noto.tar.xz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+
+trying https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/OpenDyslexic.tar.xz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+trying https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/Overpass.tar.xz
+building '/nix/store/987bq42sfpylccavmbdxq6n2202dqcnq-RobotoMono.tar.xz.drv'...
+building '/nix/store/l2gs027a9bm6yj30k02kp3g0paw11qq7-ShareTechMono.tar.xz.drv'...
+building '/nix/store/5qnzkd9r33g2bdr4zyhqjdsgby7gh2y3-SourceCodePro.tar.xz.drv'...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+
+trying https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/ProggyClean.tar.xz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+
+trying https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/RobotoMono.tar.xz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 56.2M  100 56.2M    0     0  16.7M      0  0:00:03  0:00:03 --:--:-- 21.6M
+building '/nix/store/2ww3fypdpjrn3l24k9sdjmqdrnp5s9bn-SpaceMono.tar.xz.drv'...
+100 6052k  100 6052k    0     0  3078k      0  0:00:01  0:00:01 --:--:-- 7166k
+100 1640k  100 1640k    0     0  1104k      0  0:00:01  0:00:01 --:--:-- 8321k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 2985k  100 2985k    0     0  2006k      0  0:00:01  0:00:01 --:--:-- 7655k
+
+trying https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/ShareTechMono.tar.xz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 1465k  100 1465k    0     0  1917k      0 --:--:-- --:--:-- --:--:-- 17.0M
+
+trying https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/SourceCodePro.tar.xz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 2332k  100 2332k    0     0  2631k      0 --:--:-- --:--:-- --:--:-- 4485k
+building '/nix/store/jkwc94yjlxaar9527dcn9x00mz6h1574-Terminus.tar.xz.drv'...
+building '/nix/store/w97698dnw211ipnjwid6ash1c2fd09j0-Tinos.tar.xz.drv'...
+building '/nix/store/k97vm60cw3qq8kd4xln7vgp0hccirb6i-Ubuntu.tar.xz.drv'...
+building '/nix/store/yp8ihxzrgzgkkx443sz6jlvp3pz7llzn-UbuntuMono.tar.xz.drv'...
+building '/nix/store/4jmjjq100wsx0af1f238f7sgq672142n-VictorMono.tar.xz.drv'...
+  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0
+
+trying https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/ProFont.tar.xz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+
+trying https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/SpaceMono.tar.xz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 1669k  100 1669k    0     0  1730k      0 --:--:-- --:--:-- --:--:-- 8271k
+
+trying https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/Terminus.tar.xz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 1874k  100 1874k    0     0  2431k      0 --:--:-- --:--:-- --:--:-- 14.6M
+
+trying https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/Tinos.tar.xz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+
+trying https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/Ubuntu.tar.xz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+building '/nix/store/z9z60vbkvhz85qk9i6c06nzwnism8inm-iA-Writer.tar.xz.drv'...
+100 4687k  100 4687k    0     0   782k      0  0:00:05  0:00:05 --:--:-- 13.4M
+100 1602k  100 1602k    0     0  1991k      0 --:--:-- --:--:-- --:--:-- 10.0M
+
+trying https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/UbuntuMono.tar.xz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+
+trying https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/VictorMono.tar.xz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 2625k  100 2625k    0     0  2840k      0 --:--:-- --:--:-- --:--:-- 2840k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 2359k  100 2359k    0     0  2481k      0 --:--:-- --:--:-- --:--:-- 2481k
+
+trying https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/iA-Writer.tar.xz
+100 1846k  100 1846k    0     0  2133k      0 --:--:-- --:--:-- --:--:-- 16.9M
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 3824k  100 3824k    0     0  4265k      0 --:--:-- --:--:-- --:--:-- 16.8M
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 3186k  100 3186k    0     0  3148k      0  0:00:01  0:00:01 --:--:-- 11.2M
+building '/nix/store/iqlk5y0j60i976jyyk4a1wh79z8nkhrj-nerdfonts-3.0.2.drv'...
+Running phase: unpackPhase
+unpacking source archive /nix/store/40affxcz6h5m0c1mprb02qhnb0kk1nj9-3270.tar.xz
+unpacking source archive /nix/store/jg1d2dnb1gg15gjp36k8lyvmb892hznp-Agave.tar.xz
+unpacking source archive /nix/store/y38c8cf9a4vf5i6mhywpvsyrnijgn90c-AnonymousPro.tar.xz
+unpacking source archive /nix/store/ldvqk5lha1bsrx3wab7nc5xvaxlmc6az-Arimo.tar.xz
+unpacking source archive /nix/store/pwzmvfhkfybsh7b3cn2gh0vrl5aiab28-AurulentSansMono.tar.xz
+unpacking source archive /nix/store/0vv8g1q6k2wsnp06k5hsidzbkmacyddb-BigBlueTerminal.tar.xz
+unpacking source archive /nix/store/rvvl6n2iyzvkg1bk35g644m5yz145nzf-BitstreamVeraSansMono.tar.xz
+unpacking source archive /nix/store/aqh8rxsj2cfh9iwlsbggihyiahmn6y3m-CascadiaCode.tar.xz
+unpacking source archive /nix/store/lkxfm1c6fb33ivmrrrbf9qm7smlfj23s-CodeNewRoman.tar.xz
+unpacking source archive /nix/store/44sdf1jbbqyzrj3kar4jbhbjwxi76k4c-ComicShannsMono.tar.xz
+unpacking source archive /nix/store/n85skdqd21fhjaaggssd418m3wkv8ahn-Cousine.tar.xz
+unpacking source archive /nix/store/31sk3spy1scci2vsk5bkaaxggxlglvmb-DaddyTimeMono.tar.xz
+unpacking source archive /nix/store/g7v1rak4jrv1vd16hsqkj76qmn4364n2-DejaVuSansMono.tar.xz
+unpacking source archive /nix/store/yr6dsij8gx5kvgximyxzlmhbkjwbp0n5-DroidSansMono.tar.xz
+unpacking source archive /nix/store/9wq3agfqc7g53w2yi2n0f3an1ais1gkw-EnvyCodeR.tar.xz
+unpacking source archive /nix/store/yrjjbqmw8ni5kd0x4hqdlz2a0bhsrp02-FantasqueSansMono.tar.xz
+unpacking source archive /nix/store/l3qgska98jcm71l03qjg5dxq5l5g7n51-FiraCode.tar.xz
+unpacking source archive /nix/store/q956fvq01a8xfg8w5qm6rrpqp5qaxsyi-FiraMono.tar.xz
+unpacking source archive /nix/store/zjy4zfjfbp16z3c31ywmn3f0dd2za4lk-Go-Mono.tar.xz
+unpacking source archive /nix/store/jq2wm5fnamgh24d0r6004mn63ssk8hxc-Gohu.tar.xz
+unpacking source archive /nix/store/n5nnywxrg7f792sjzqyvr6r2mca790pd-Hack.tar.xz
+unpacking source archive /nix/store/0dcg9zb58z9scxmvhjiimcpvzq5xxqdk-Hasklig.tar.xz
+unpacking source archive /nix/store/8lgv4y09xfg2b0c2lhsw99v8jby7vysd-HeavyData.tar.xz
+unpacking source archive /nix/store/5c60my3kj5j1sl436k7b7zmivxq8yrw4-Hermit.tar.xz
+unpacking source archive /nix/store/25ph1rmn9lzwny9wvxc8gqyac1kx6rp6-IBMPlexMono.tar.xz
+unpacking source archive /nix/store/qhbg24zqlz70fdmk2wf1aaahjavnxn05-Inconsolata.tar.xz
+unpacking source archive /nix/store/j3052idsmx36r7naa1brg03ni63pqkhn-InconsolataGo.tar.xz
+unpacking source archive /nix/store/7sdv0y7kp262xi2gxcrv5q9cfik2204z-InconsolataLGC.tar.xz
+unpacking source archive /nix/store/4vgnnk3qf0fan3r1ad5cl076zrh6gv2x-IntelOneMono.tar.xz
+unpacking source archive /nix/store/0m6bz7mrg02hp82x9kwjc0b8c065hivf-Iosevka.tar.xz
+unpacking source archive /nix/store/vzxyqjynl57vvhnxs628lfrkcp770d53-IosevkaTerm.tar.xz
+unpacking source archive /nix/store/8b3lw5h94fm21sby7mpgcvcdp99zkfb0-JetBrainsMono.tar.xz
+unpacking source archive /nix/store/62d71m707ryjxsjswr1zdx9hk60x499y-Lekton.tar.xz
+unpacking source archive /nix/store/pbmag2g8xmjgj9dhg94662gnl1v7bjig-LiberationMono.tar.xz
+unpacking source archive /nix/store/2k6hw8v3vdc1p3qlx711vf124hc6l2c8-Lilex.tar.xz
+unpacking source archive /nix/store/0skljkzwsbj6wp6hvpy0x0vjasijplg4-MPlus.tar.xz
+unpacking source archive /nix/store/m3z00dclkr7c3f7xl4afqsmd5c7zqsni-Meslo.tar.xz
+unpacking source archive /nix/store/87q78kmhapf5j2jmj89llixvfi0g2ax0-Monofur.tar.xz
+unpacking source archive /nix/store/988vza3gi24a5hjrp92f0z37kgfcg8n8-Monoid.tar.xz
+unpacking source archive /nix/store/izi79kh2k1qiiv1ss28gj79vhwp8kg06-Mononoki.tar.xz
+unpacking source archive /nix/store/q0431dii5rbszay0jbyy623kb4ryxz05-NerdFontsSymbolsOnly.tar.xz
+unpacking source archive /nix/store/08zlixjcxw44zh8q8i7y1n22sqcn41j8-Noto.tar.xz
+unpacking source archive /nix/store/dcsy57m5ja4srv6xc3c3xbkx70ay28dj-OpenDyslexic.tar.xz
+unpacking source archive /nix/store/c0a1h345qn06k5iwfn94zql8550wk6cx-Overpass.tar.xz
+unpacking source archive /nix/store/l5g3ifxqkbw591mclq46645pjvsbbl7l-ProFont.tar.xz
+unpacking source archive /nix/store/4lp3vyz9nbwhz07qvd17z1v1g8fjqwwh-ProggyClean.tar.xz
+unpacking source archive /nix/store/fc9wyg1w7v97kxq8yicgsbsvrvf8vacr-RobotoMono.tar.xz
+unpacking source archive /nix/store/xijv5jbviy1cnj2gn345lklga8xkfp8k-ShareTechMono.tar.xz
+unpacking source archive /nix/store/128vvv67pypap7n6zm3f5d06r6yh3v8l-SourceCodePro.tar.xz
+unpacking source archive /nix/store/vshmfghjqwc9i2kcmm68nxnxkjdlcsl5-SpaceMono.tar.xz
+unpacking source archive /nix/store/bkkswwabbajivq52mz163r0afks9qrl7-Terminus.tar.xz
+unpacking source archive /nix/store/3hs44c7b9b8y3dq9xy9v0c88bhh3d2af-Tinos.tar.xz
+unpacking source archive /nix/store/xqqjrn7qab4yfad8f7grp4zf2m9vqv29-Ubuntu.tar.xz
+unpacking source archive /nix/store/cgwj193fwnwyn2p64g3bqq846nksgx0b-UbuntuMono.tar.xz
+unpacking source archive /nix/store/xmfcas27zwbbm95s3jnai6389pwvlrm1-VictorMono.tar.xz
+unpacking source archive /nix/store/ss2mvjr159qg7l4g0iczb4l0b10cz8wz-iA-Writer.tar.xz
+source root is .
+setting SOURCE_DATE_EPOCH to timestamp 1690378995 of file ./IntoneMonoNerdFontPropo-Italic.ttf
+unpackPhase completed in 1 minutes 6 seconds
+Running phase: patchPhase
+Running phase: updateAutotoolsGnuConfigScriptsPhase
+Running phase: configurePhase
+no configure script, doing nothing
+Running phase: buildPhase
+selected fonts are 3270 Agave AnonymousPro Arimo AurulentSansMono BigBlueTerminal BitstreamVeraSansMono CascadiaCode CodeNewRoman ComicShannsMono Cousine DaddyTimeMono DejaVuSansMono DroidSansMono EnvyCodeR FantasqueSansMono FiraCode FiraMono Go-Mono Gohu Hack Hasklig HeavyData Hermit IBMPlexMono Inconsolata InconsolataGo InconsolataLGC IntelOneMono Iosevka IosevkaTerm JetBrainsMono Lekton LiberationMono Lilex MPlus Meslo Monofur Monoid Mononoki NerdFontsSymbolsOnly Noto OpenDyslexic Overpass ProFont ProggyClean RobotoMono ShareTechMono SourceCodePro SpaceMono Terminus Tinos Ubuntu UbuntuMono VictorMono iA-Writer
+3270NerdFont-Condensed.ttf
+3270NerdFont-Regular.ttf
+3270NerdFont-SemiCondensed.ttf
+3270NerdFontMono-Condensed.ttf
+3270NerdFontMono-Regular.ttf
+3270NerdFontMono-SemiCondensed.ttf
+3270NerdFontPropo-Condensed.ttf
+3270NerdFontPropo-Regular.ttf
+3270NerdFontPropo-SemiCondensed.ttf
+AgaveNerdFont-Bold.ttf
+AgaveNerdFont-Regular.ttf
+AgaveNerdFontMono-Bold.ttf
+AgaveNerdFontMono-Regular.ttf
+AgaveNerdFontPropo-Bold.ttf
+AgaveNerdFontPropo-Regular.ttf
+AnonymiceProNerdFont-Bold.ttf
+AnonymiceProNerdFont-BoldItalic.ttf
+AnonymiceProNerdFont-Italic.ttf
+AnonymiceProNerdFont-Regular.ttf
+AnonymiceProNerdFontMono-Bold.ttf
+AnonymiceProNerdFontMono-BoldItalic.ttf
+AnonymiceProNerdFontMono-Italic.ttf
+AnonymiceProNerdFontMono-Regular.ttf
+AnonymiceProNerdFontPropo-Bold.ttf
+AnonymiceProNerdFontPropo-BoldItalic.ttf
+AnonymiceProNerdFontPropo-Italic.ttf
+AnonymiceProNerdFontPropo-Regular.ttf
+ArimoNerdFont-Bold.ttf
+ArimoNerdFont-BoldItalic.ttf
+ArimoNerdFont-Italic.ttf
+ArimoNerdFont-Regular.ttf
+ArimoNerdFontPropo-Bold.ttf
+ArimoNerdFontPropo-BoldItalic.ttf
+ArimoNerdFontPropo-Italic.ttf
+ArimoNerdFontPropo-Regular.ttf
+AurulentSansMNerdFont-Regular.otf
+AurulentSansMNerdFontMono-Regular.otf
+AurulentSansMNerdFontPropo-Regular.otf
+BigBlueTerm437NerdFont-Regular.ttf
+BigBlueTerm437NerdFontMono-Regular.ttf
+BigBlueTerm437NerdFontPropo-Regular.ttf
+BigBlueTermPlusNerdFont-Regular.ttf
+BigBlueTermPlusNerdFontMono-Regular.ttf
+BigBlueTermPlusNerdFontPropo-Regular.ttf
+BitstromWeraNerdFont-Bold.ttf
+BitstromWeraNerdFont-BoldOblique.ttf
+BitstromWeraNerdFont-Oblique.ttf
+BitstromWeraNerdFont-Regular.ttf
+BitstromWeraNerdFontMono-Bold.ttf
+BitstromWeraNerdFontMono-BoldOblique.ttf
+BitstromWeraNerdFontMono-Oblique.ttf
+BitstromWeraNerdFontMono-Regular.ttf
+BitstromWeraNerdFontPropo-Bold.ttf
+BitstromWeraNerdFontPropo-BoldOblique.ttf
+BitstromWeraNerdFontPropo-Oblique.ttf
+BitstromWeraNerdFontPropo-Regular.ttf
+BlexMonoNerdFont-Bold.ttf
+BlexMonoNerdFont-BoldItalic.ttf
+BlexMonoNerdFont-ExtraLight.ttf
+BlexMonoNerdFont-ExtraLightItalic.ttf
+BlexMonoNerdFont-Italic.ttf
+BlexMonoNerdFont-Light.ttf
+BlexMonoNerdFont-LightItalic.ttf
+BlexMonoNerdFont-Medium.ttf
+BlexMonoNerdFont-MediumItalic.ttf
+BlexMonoNerdFont-Regular.ttf
+BlexMonoNerdFont-SemiBold.ttf
+BlexMonoNerdFont-SemiBoldItalic.ttf
+BlexMonoNerdFont-Text.ttf
+BlexMonoNerdFont-TextItalic.ttf
+BlexMonoNerdFont-Thin.ttf
+BlexMonoNerdFont-ThinItalic.ttf
+BlexMonoNerdFontMono-Bold.ttf
+BlexMonoNerdFontMono-BoldItalic.ttf
+BlexMonoNerdFontMono-ExtraLight.ttf
+BlexMonoNerdFontMono-ExtraLightItalic.ttf
+BlexMonoNerdFontMono-Italic.ttf
+BlexMonoNerdFontMono-Light.ttf
+BlexMonoNerdFontMono-LightItalic.ttf
+BlexMonoNerdFontMono-Medium.ttf
+BlexMonoNerdFontMono-MediumItalic.ttf
+BlexMonoNerdFontMono-Regular.ttf
+BlexMonoNerdFontMono-SemiBold.ttf
+BlexMonoNerdFontMono-SemiBoldItalic.ttf
+BlexMonoNerdFontMono-Text.ttf
+BlexMonoNerdFontMono-TextItalic.ttf
+BlexMonoNerdFontMono-Thin.ttf
+BlexMonoNerdFontMono-ThinItalic.ttf
+BlexMonoNerdFontPropo-Bold.ttf
+BlexMonoNerdFontPropo-BoldItalic.ttf
+BlexMonoNerdFontPropo-ExtraLight.ttf
+BlexMonoNerdFontPropo-ExtraLightItalic.ttf
+BlexMonoNerdFontPropo-Italic.ttf
+BlexMonoNerdFontPropo-Light.ttf
+BlexMonoNerdFontPropo-LightItalic.ttf
+BlexMonoNerdFontPropo-Medium.ttf
+BlexMonoNerdFontPropo-MediumItalic.ttf
+BlexMonoNerdFontPropo-Regular.ttf
+BlexMonoNerdFontPropo-SemiBold.ttf
+BlexMonoNerdFontPropo-SemiBoldItalic.ttf
+BlexMonoNerdFontPropo-Text.ttf
+BlexMonoNerdFontPropo-TextItalic.ttf
+BlexMonoNerdFontPropo-Thin.ttf
+BlexMonoNerdFontPropo-ThinItalic.ttf
+CaskaydiaCoveNerdFont-Bold.ttf
+CaskaydiaCoveNerdFont-BoldItalic.ttf
+CaskaydiaCoveNerdFont-ExtraLight.ttf
+CaskaydiaCoveNerdFont-ExtraLightItalic.ttf
+CaskaydiaCoveNerdFont-Italic.ttf
+CaskaydiaCoveNerdFont-Light.ttf
+CaskaydiaCoveNerdFont-LightItalic.ttf
+CaskaydiaCoveNerdFont-Regular.ttf
+CaskaydiaCoveNerdFont-SemiBold.ttf
+CaskaydiaCoveNerdFont-SemiBoldItalic.ttf
+CaskaydiaCoveNerdFont-SemiLight.ttf
+CaskaydiaCoveNerdFont-SemiLightItalic.ttf
+CaskaydiaCoveNerdFontMono-Bold.ttf
+CaskaydiaCoveNerdFontMono-BoldItalic.ttf
+CaskaydiaCoveNerdFontMono-ExtraLight.ttf
+CaskaydiaCoveNerdFontMono-ExtraLightItalic.ttf
+CaskaydiaCoveNerdFontMono-Italic.ttf
+CaskaydiaCoveNerdFontMono-Light.ttf
+CaskaydiaCoveNerdFontMono-LightItalic.ttf
+CaskaydiaCoveNerdFontMono-Regular.ttf
+CaskaydiaCoveNerdFontMono-SemiBold.ttf
+CaskaydiaCoveNerdFontMono-SemiBoldItalic.ttf
+CaskaydiaCoveNerdFontMono-SemiLight.ttf
+CaskaydiaCoveNerdFontMono-SemiLightItalic.ttf
+CaskaydiaCoveNerdFontPropo-Bold.ttf
+CaskaydiaCoveNerdFontPropo-BoldItalic.ttf
+CaskaydiaCoveNerdFontPropo-ExtraLight.ttf
+CaskaydiaCoveNerdFontPropo-ExtraLightItalic.ttf
+CaskaydiaCoveNerdFontPropo-Italic.ttf
+CaskaydiaCoveNerdFontPropo-Light.ttf
+CaskaydiaCoveNerdFontPropo-LightItalic.ttf
+CaskaydiaCoveNerdFontPropo-Regular.ttf
+CaskaydiaCoveNerdFontPropo-SemiBold.ttf
+CaskaydiaCoveNerdFontPropo-SemiBoldItalic.ttf
+CaskaydiaCoveNerdFontPropo-SemiLight.ttf
+CaskaydiaCoveNerdFontPropo-SemiLightItalic.ttf
+CodeNewRomanNerdFont-Bold.otf
+CodeNewRomanNerdFont-Italic.otf
+CodeNewRomanNerdFont-Regular.otf
+CodeNewRomanNerdFontMono-Bold.otf
+CodeNewRomanNerdFontMono-Italic.otf
+CodeNewRomanNerdFontMono-Regular.otf
+CodeNewRomanNerdFontPropo-Bold.otf
+CodeNewRomanNerdFontPropo-Italic.otf
+CodeNewRomanNerdFontPropo-Regular.otf
+ComicShannsMonoNerdFont-Bold.otf
+ComicShannsMonoNerdFont-Regular.otf
+ComicShannsMonoNerdFontMono-Bold.otf
+ComicShannsMonoNerdFontMono-Regular.otf
+ComicShannsMonoNerdFontPropo-Bold.otf
+ComicShannsMonoNerdFontPropo-Regular.otf
+CousineNerdFont-Bold.ttf
+CousineNerdFont-BoldItalic.ttf
+CousineNerdFont-Italic.ttf
+CousineNerdFont-Regular.ttf
+CousineNerdFontMono-Bold.ttf
+CousineNerdFontMono-BoldItalic.ttf
+CousineNerdFontMono-Italic.ttf
+CousineNerdFontMono-Regular.ttf
+CousineNerdFontPropo-Bold.ttf
+CousineNerdFontPropo-BoldItalic.ttf
+CousineNerdFontPropo-Italic.ttf
+CousineNerdFontPropo-Regular.ttf
+DaddyTimeMonoNerdFont-Regular.ttf
+DaddyTimeMonoNerdFontMono-Regular.ttf
+DaddyTimeMonoNerdFontPropo-Regular.ttf
+DejaVuSansMNerdFont-Bold.ttf
+DejaVuSansMNerdFont-BoldOblique.ttf
+DejaVuSansMNerdFont-Oblique.ttf
+DejaVuSansMNerdFont-Regular.ttf
+DejaVuSansMNerdFontMono-Bold.ttf
+DejaVuSansMNerdFontMono-BoldOblique.ttf
+DejaVuSansMNerdFontMono-Oblique.ttf
+DejaVuSansMNerdFontMono-Regular.ttf
+DejaVuSansMNerdFontPropo-Bold.ttf
+DejaVuSansMNerdFontPropo-BoldOblique.ttf
+DejaVuSansMNerdFontPropo-Oblique.ttf
+DejaVuSansMNerdFontPropo-Regular.ttf
+DroidSansMNerdFont-Regular.otf
+DroidSansMNerdFontMono-Regular.otf
+DroidSansMNerdFontPropo-Regular.otf
+EnvyCodeRNerdFont-Bold.ttf
+EnvyCodeRNerdFont-Italic.ttf
+EnvyCodeRNerdFont-Regular.ttf
+EnvyCodeRNerdFontMono-Bold.ttf
+EnvyCodeRNerdFontMono-Italic.ttf
+EnvyCodeRNerdFontMono-Regular.ttf
+EnvyCodeRNerdFontPropo-Bold.ttf
+EnvyCodeRNerdFontPropo-Italic.ttf
+EnvyCodeRNerdFontPropo-Regular.ttf
+FantasqueSansMNerdFont-Bold.ttf
+FantasqueSansMNerdFont-BoldItalic.ttf
+FantasqueSansMNerdFont-Italic.ttf
+FantasqueSansMNerdFont-Regular.ttf
+FantasqueSansMNerdFontMono-Bold.ttf
+FantasqueSansMNerdFontMono-BoldItalic.ttf
+FantasqueSansMNerdFontMono-Italic.ttf
+FantasqueSansMNerdFontMono-Regular.ttf
+FantasqueSansMNerdFontPropo-Bold.ttf
+FantasqueSansMNerdFontPropo-BoldItalic.ttf
+FantasqueSansMNerdFontPropo-Italic.ttf
+FantasqueSansMNerdFontPropo-Regular.ttf
+FiraCodeNerdFont-Bold.ttf
+FiraCodeNerdFont-Light.ttf
+FiraCodeNerdFont-Medium.ttf
+FiraCodeNerdFont-Regular.ttf
+FiraCodeNerdFont-Retina.ttf
+FiraCodeNerdFont-SemiBold.ttf
+FiraCodeNerdFontMono-Bold.ttf
+FiraCodeNerdFontMono-Light.ttf
+FiraCodeNerdFontMono-Medium.ttf
+FiraCodeNerdFontMono-Regular.ttf
+FiraCodeNerdFontMono-Retina.ttf
+FiraCodeNerdFontMono-SemiBold.ttf
+FiraCodeNerdFontPropo-Bold.ttf
+FiraCodeNerdFontPropo-Light.ttf
+FiraCodeNerdFontPropo-Medium.ttf
+FiraCodeNerdFontPropo-Regular.ttf
+FiraCodeNerdFontPropo-Retina.ttf
+FiraCodeNerdFontPropo-SemiBold.ttf
+FiraMonoNerdFont-Bold.otf
+FiraMonoNerdFont-Medium.otf
+FiraMonoNerdFont-Regular.otf
+FiraMonoNerdFontMono-Bold.otf
+FiraMonoNerdFontMono-Medium.otf
+FiraMonoNerdFontMono-Regular.otf
+FiraMonoNerdFontPropo-Bold.otf
+FiraMonoNerdFontPropo-Medium.otf
+FiraMonoNerdFontPropo-Regular.otf
+GoMonoNerdFont-Bold.ttf
+GoMonoNerdFont-BoldItalic.ttf
+GoMonoNerdFont-Italic.ttf
+GoMonoNerdFont-Regular.ttf
+GoMonoNerdFontMono-Bold.ttf
+GoMonoNerdFontMono-BoldItalic.ttf
+GoMonoNerdFontMono-Italic.ttf
+GoMonoNerdFontMono-Regular.ttf
+GoMonoNerdFontPropo-Bold.ttf
+GoMonoNerdFontPropo-BoldItalic.ttf
+GoMonoNerdFontPropo-Italic.ttf
+GoMonoNerdFontPropo-Regular.ttf
+GohuFont11NerdFont-Regular.ttf
+GohuFont11NerdFontMono-Regular.ttf
+GohuFont11NerdFontPropo-Regular.ttf
+GohuFont14NerdFont-Regular.ttf
+GohuFont14NerdFontMono-Regular.ttf
+GohuFont14NerdFontPropo-Regular.ttf
+GohuFontuni11NerdFont-Regular.ttf
+GohuFontuni11NerdFontMono-Regular.ttf
+GohuFontuni11NerdFontPropo-Regular.ttf
+GohuFontuni14NerdFont-Regular.ttf
+GohuFontuni14NerdFontMono-Regular.ttf
+GohuFontuni14NerdFontPropo-Regular.ttf
+HackNerdFont-Bold.ttf
+HackNerdFont-BoldItalic.ttf
+HackNerdFont-Italic.ttf
+HackNerdFont-Regular.ttf
+HackNerdFontMono-Bold.ttf
+HackNerdFontMono-BoldItalic.ttf
+HackNerdFontMono-Italic.ttf
+HackNerdFontMono-Regular.ttf
+HackNerdFontPropo-Bold.ttf
+HackNerdFontPropo-BoldItalic.ttf
+HackNerdFontPropo-Italic.ttf
+HackNerdFontPropo-Regular.ttf
+HasklugNerdFont-Black.otf
+HasklugNerdFont-BlackItalic.otf
+HasklugNerdFont-Bold.otf
+HasklugNerdFont-BoldItalic.otf
+HasklugNerdFont-ExtraLight.otf
+HasklugNerdFont-ExtraLightItalic.otf
+HasklugNerdFont-Italic.otf
+HasklugNerdFont-Light.otf
+HasklugNerdFont-LightItalic.otf
+HasklugNerdFont-Medium.otf
+HasklugNerdFont-MediumItalic.otf
+HasklugNerdFont-Regular.otf
+HasklugNerdFont-SemiBold.otf
+HasklugNerdFont-SemiBoldItalic.otf
+HasklugNerdFontMono-Black.otf
+HasklugNerdFontMono-BlackItalic.otf
+HasklugNerdFontMono-Bold.otf
+HasklugNerdFontMono-BoldItalic.otf
+HasklugNerdFontMono-ExtraLight.otf
+HasklugNerdFontMono-ExtraLightItalic.otf
+HasklugNerdFontMono-Italic.otf
+HasklugNerdFontMono-Light.otf
+HasklugNerdFontMono-LightItalic.otf
+HasklugNerdFontMono-Medium.otf
+HasklugNerdFontMono-MediumItalic.otf
+HasklugNerdFontMono-Regular.otf
+HasklugNerdFontMono-SemiBold.otf
+HasklugNerdFontMono-SemiBoldItalic.otf
+HasklugNerdFontPropo-Black.otf
+HasklugNerdFontPropo-BlackItalic.otf
+HasklugNerdFontPropo-Bold.otf
+HasklugNerdFontPropo-BoldItalic.otf
+HasklugNerdFontPropo-ExtraLight.otf
+HasklugNerdFontPropo-ExtraLightItalic.otf
+HasklugNerdFontPropo-Italic.otf
+HasklugNerdFontPropo-Light.otf
+HasklugNerdFontPropo-LightItalic.otf
+HasklugNerdFontPropo-Medium.otf
+HasklugNerdFontPropo-MediumItalic.otf
+HasklugNerdFontPropo-Regular.otf
+HasklugNerdFontPropo-SemiBold.otf
+HasklugNerdFontPropo-SemiBoldItalic.otf
+HeavyDataNerdFont-Regular.ttf
+HeavyDataNerdFontPropo-Regular.ttf
+HurmitNerdFont-Bold.otf
+HurmitNerdFont-BoldItalic.otf
+HurmitNerdFont-Italic.otf
+HurmitNerdFont-Light.otf
+HurmitNerdFont-LightItalic.otf
+HurmitNerdFont-Regular.otf
+HurmitNerdFontMono-Bold.otf
+HurmitNerdFontMono-BoldItalic.otf
+HurmitNerdFontMono-Italic.otf
+HurmitNerdFontMono-Light.otf
+HurmitNerdFontMono-LightItalic.otf
+HurmitNerdFontMono-Regular.otf
+HurmitNerdFontPropo-Bold.otf
+HurmitNerdFontPropo-BoldItalic.otf
+HurmitNerdFontPropo-Italic.otf
+HurmitNerdFontPropo-Light.otf
+HurmitNerdFontPropo-LightItalic.otf
+HurmitNerdFontPropo-Regular.otf
+InconsolataGoNerdFont-Bold.ttf
+InconsolataGoNerdFont-Regular.ttf
+InconsolataGoNerdFontMono-Bold.ttf
+InconsolataGoNerdFontMono-Regular.ttf
+InconsolataGoNerdFontPropo-Bold.ttf
+InconsolataGoNerdFontPropo-Regular.ttf
+InconsolataLGCNerdFont-Bold.ttf
+InconsolataLGCNerdFont-BoldItalic.ttf
+InconsolataLGCNerdFont-Italic.ttf
+InconsolataLGCNerdFont-Regular.ttf
+InconsolataLGCNerdFontMono-Bold.ttf
+InconsolataLGCNerdFontMono-BoldItalic.ttf
+InconsolataLGCNerdFontMono-Italic.ttf
+InconsolataLGCNerdFontMono-Regular.ttf
+InconsolataLGCNerdFontPropo-Bold.ttf
+InconsolataLGCNerdFontPropo-BoldItalic.ttf
+InconsolataLGCNerdFontPropo-Italic.ttf
+InconsolataLGCNerdFontPropo-Regular.ttf
+InconsolataNerdFont-Bold.ttf
+InconsolataNerdFont-Regular.ttf
+InconsolataNerdFontMono-Bold.ttf
+InconsolataNerdFontMono-Regular.ttf
+InconsolataNerdFontPropo-Bold.ttf
+InconsolataNerdFontPropo-Regular.ttf
+IntoneMonoNerdFont-Bold.ttf
+IntoneMonoNerdFont-BoldItalic.ttf
+IntoneMonoNerdFont-Italic.ttf
+IntoneMonoNerdFont-Light.ttf
+IntoneMonoNerdFont-LightItalic.ttf
+IntoneMonoNerdFont-Medium.ttf
+IntoneMonoNerdFont-MediumItalic.ttf
+IntoneMonoNerdFont-Regular.ttf
+IntoneMonoNerdFontMono-Bold.ttf
+IntoneMonoNerdFontMono-BoldItalic.ttf
+IntoneMonoNerdFontMono-Italic.ttf
+IntoneMonoNerdFontMono-Light.ttf
+IntoneMonoNerdFontMono-LightItalic.ttf
+IntoneMonoNerdFontMono-Medium.ttf
+IntoneMonoNerdFontMono-MediumItalic.ttf
+IntoneMonoNerdFontMono-Regular.ttf
+IntoneMonoNerdFontPropo-Bold.ttf
+IntoneMonoNerdFontPropo-BoldItalic.ttf
+IntoneMonoNerdFontPropo-Italic.ttf
+IntoneMonoNerdFontPropo-Light.ttf
+IntoneMonoNerdFontPropo-LightItalic.ttf
+IntoneMonoNerdFontPropo-Medium.ttf
+IntoneMonoNerdFontPropo-MediumItalic.ttf
+IntoneMonoNerdFontPropo-Regular.ttf
+IosevkaNerdFont-Bold.ttf
+IosevkaNerdFont-BoldItalic.ttf
+IosevkaNerdFont-BoldOblique.ttf
+IosevkaNerdFont-ExtraBold.ttf
+IosevkaNerdFont-ExtraBoldItalic.ttf
+IosevkaNerdFont-ExtraBoldOblique.ttf
+IosevkaNerdFont-ExtraLight.ttf
+IosevkaNerdFont-ExtraLightItalic.ttf
+IosevkaNerdFont-ExtraLightOblique.ttf
+IosevkaNerdFont-Heavy.ttf
+IosevkaNerdFont-HeavyItalic.ttf
+IosevkaNerdFont-HeavyOblique.ttf
+IosevkaNerdFont-Italic.ttf
+IosevkaNerdFont-Light.ttf
+IosevkaNerdFont-LightItalic.ttf
+IosevkaNerdFont-LightOblique.ttf
+IosevkaNerdFont-Medium.ttf
+IosevkaNerdFont-MediumItalic.ttf
+IosevkaNerdFont-MediumOblique.ttf
+IosevkaNerdFont-Oblique.ttf
+IosevkaNerdFont-Regular.ttf
+IosevkaNerdFont-SemiBold.ttf
+IosevkaNerdFont-SemiBoldItalic.ttf
+IosevkaNerdFont-SemiBoldOblique.ttf
+IosevkaNerdFont-Thin.ttf
+IosevkaNerdFont-ThinItalic.ttf
+IosevkaNerdFont-ThinOblique.ttf
+IosevkaNerdFontMono-Bold.ttf
+IosevkaNerdFontMono-BoldItalic.ttf
+IosevkaNerdFontMono-BoldOblique.ttf
+IosevkaNerdFontMono-ExtraBold.ttf
+IosevkaNerdFontMono-ExtraBoldItalic.ttf
+IosevkaNerdFontMono-ExtraBoldOblique.ttf
+IosevkaNerdFontMono-ExtraLight.ttf
+IosevkaNerdFontMono-ExtraLightItalic.ttf
+IosevkaNerdFontMono-ExtraLightOblique.ttf
+IosevkaNerdFontMono-Heavy.ttf
+IosevkaNerdFontMono-HeavyItalic.ttf
+IosevkaNerdFontMono-HeavyOblique.ttf
+IosevkaNerdFontMono-Italic.ttf
+IosevkaNerdFontMono-Light.ttf
+IosevkaNerdFontMono-LightItalic.ttf
+IosevkaNerdFontMono-LightOblique.ttf
+IosevkaNerdFontMono-Medium.ttf
+IosevkaNerdFontMono-MediumItalic.ttf
+IosevkaNerdFontMono-MediumOblique.ttf
+IosevkaNerdFontMono-Oblique.ttf
+IosevkaNerdFontMono-Regular.ttf
+IosevkaNerdFontMono-SemiBold.ttf
+IosevkaNerdFontMono-SemiBoldItalic.ttf
+IosevkaNerdFontMono-SemiBoldOblique.ttf
+IosevkaNerdFontMono-Thin.ttf
+IosevkaNerdFontMono-ThinItalic.ttf
+IosevkaNerdFontMono-ThinOblique.ttf
+IosevkaNerdFontPropo-Bold.ttf
+IosevkaNerdFontPropo-BoldItalic.ttf
+IosevkaNerdFontPropo-BoldOblique.ttf
+IosevkaNerdFontPropo-ExtraBold.ttf
+IosevkaNerdFontPropo-ExtraBoldItalic.ttf
+IosevkaNerdFontPropo-ExtraBoldOblique.ttf
+IosevkaNerdFontPropo-ExtraLight.ttf
+IosevkaNerdFontPropo-ExtraLightItalic.ttf
+IosevkaNerdFontPropo-ExtraLightOblique.ttf
+IosevkaNerdFontPropo-Heavy.ttf
+IosevkaNerdFontPropo-HeavyItalic.ttf
+IosevkaNerdFontPropo-HeavyOblique.ttf
+IosevkaNerdFontPropo-Italic.ttf
+IosevkaNerdFontPropo-Light.ttf
+IosevkaNerdFontPropo-LightItalic.ttf
+IosevkaNerdFontPropo-LightOblique.ttf
+IosevkaNerdFontPropo-Medium.ttf
+IosevkaNerdFontPropo-MediumItalic.ttf
+IosevkaNerdFontPropo-MediumOblique.ttf
+IosevkaNerdFontPropo-Oblique.ttf
+IosevkaNerdFontPropo-Regular.ttf
+IosevkaNerdFontPropo-SemiBold.ttf
+IosevkaNerdFontPropo-SemiBoldItalic.ttf
+IosevkaNerdFontPropo-SemiBoldOblique.ttf
+IosevkaNerdFontPropo-Thin.ttf
+IosevkaNerdFontPropo-ThinItalic.ttf
+IosevkaNerdFontPropo-ThinOblique.ttf
+IosevkaTermNerdFont-Bold.ttf
+IosevkaTermNerdFont-BoldItalic.ttf
+IosevkaTermNerdFont-BoldOblique.ttf
+IosevkaTermNerdFont-ExtraBold.ttf
+IosevkaTermNerdFont-ExtraBoldItalic.ttf
+IosevkaTermNerdFont-ExtraBoldOblique.ttf
+IosevkaTermNerdFont-ExtraLight.ttf
+IosevkaTermNerdFont-ExtraLightItalic.ttf
+IosevkaTermNerdFont-ExtraLightOblique.ttf
+IosevkaTermNerdFont-Heavy.ttf
+IosevkaTermNerdFont-HeavyItalic.ttf
+IosevkaTermNerdFont-HeavyOblique.ttf
+IosevkaTermNerdFont-Italic.ttf
+IosevkaTermNerdFont-Light.ttf
+IosevkaTermNerdFont-LightItalic.ttf
+IosevkaTermNerdFont-LightOblique.ttf
+IosevkaTermNerdFont-Medium.ttf
+IosevkaTermNerdFont-MediumItalic.ttf
+IosevkaTermNerdFont-MediumOblique.ttf
+IosevkaTermNerdFont-Oblique.ttf
+IosevkaTermNerdFont-Regular.ttf
+IosevkaTermNerdFont-SemiBold.ttf
+IosevkaTermNerdFont-SemiBoldItalic.ttf
+IosevkaTermNerdFont-SemiBoldOblique.ttf
+IosevkaTermNerdFont-Thin.ttf
+IosevkaTermNerdFont-ThinItalic.ttf
+IosevkaTermNerdFont-ThinOblique.ttf
+IosevkaTermNerdFontMono-Bold.ttf
+IosevkaTermNerdFontMono-BoldItalic.ttf
+IosevkaTermNerdFontMono-BoldOblique.ttf
+IosevkaTermNerdFontMono-ExtraBold.ttf
+IosevkaTermNerdFontMono-ExtraBoldItalic.ttf
+IosevkaTermNerdFontMono-ExtraBoldOblique.ttf
+IosevkaTermNerdFontMono-ExtraLight.ttf
+IosevkaTermNerdFontMono-ExtraLightItalic.ttf
+IosevkaTermNerdFontMono-ExtraLightOblique.ttf
+IosevkaTermNerdFontMono-Heavy.ttf
+IosevkaTermNerdFontMono-HeavyItalic.ttf
+IosevkaTermNerdFontMono-HeavyOblique.ttf
+IosevkaTermNerdFontMono-Italic.ttf
+IosevkaTermNerdFontMono-Light.ttf
+IosevkaTermNerdFontMono-LightItalic.ttf
+IosevkaTermNerdFontMono-LightOblique.ttf
+IosevkaTermNerdFontMono-Medium.ttf
+IosevkaTermNerdFontMono-MediumItalic.ttf
+IosevkaTermNerdFontMono-MediumOblique.ttf
+IosevkaTermNerdFontMono-Oblique.ttf
+IosevkaTermNerdFontMono-Regular.ttf
+IosevkaTermNerdFontMono-SemiBold.ttf
+IosevkaTermNerdFontMono-SemiBoldItalic.ttf
+IosevkaTermNerdFontMono-SemiBoldOblique.ttf
+IosevkaTermNerdFontMono-Thin.ttf
+IosevkaTermNerdFontMono-ThinItalic.ttf
+IosevkaTermNerdFontMono-ThinOblique.ttf
+IosevkaTermNerdFontPropo-Bold.ttf
+IosevkaTermNerdFontPropo-BoldItalic.ttf
+IosevkaTermNerdFontPropo-BoldOblique.ttf
+IosevkaTermNerdFontPropo-ExtraBold.ttf
+IosevkaTermNerdFontPropo-ExtraBoldItalic.ttf
+IosevkaTermNerdFontPropo-ExtraBoldOblique.ttf
+IosevkaTermNerdFontPropo-ExtraLight.ttf
+IosevkaTermNerdFontPropo-ExtraLightItalic.ttf
+IosevkaTermNerdFontPropo-ExtraLightOblique.ttf
+IosevkaTermNerdFontPropo-Heavy.ttf
+IosevkaTermNerdFontPropo-HeavyItalic.ttf
+IosevkaTermNerdFontPropo-HeavyOblique.ttf
+IosevkaTermNerdFontPropo-Italic.ttf
+IosevkaTermNerdFontPropo-Light.ttf
+IosevkaTermNerdFontPropo-LightItalic.ttf
+IosevkaTermNerdFontPropo-LightOblique.ttf
+IosevkaTermNerdFontPropo-Medium.ttf
+IosevkaTermNerdFontPropo-MediumItalic.ttf
+IosevkaTermNerdFontPropo-MediumOblique.ttf
+IosevkaTermNerdFontPropo-Oblique.ttf
+IosevkaTermNerdFontPropo-Regular.ttf
+IosevkaTermNerdFontPropo-SemiBold.ttf
+IosevkaTermNerdFontPropo-SemiBoldItalic.ttf
+IosevkaTermNerdFontPropo-SemiBoldOblique.ttf
+IosevkaTermNerdFontPropo-Thin.ttf
+IosevkaTermNerdFontPropo-ThinItalic.ttf
+IosevkaTermNerdFontPropo-ThinOblique.ttf
+JetBrainsMonoNLNerdFont-Bold.ttf
+JetBrainsMonoNLNerdFont-BoldItalic.ttf
+JetBrainsMonoNLNerdFont-ExtraBold.ttf
+JetBrainsMonoNLNerdFont-ExtraBoldItalic.ttf
+JetBrainsMonoNLNerdFont-ExtraLight.ttf
+JetBrainsMonoNLNerdFont-ExtraLightItalic.ttf
+JetBrainsMonoNLNerdFont-Italic.ttf
+JetBrainsMonoNLNerdFont-Light.ttf
+JetBrainsMonoNLNerdFont-LightItalic.ttf
+JetBrainsMonoNLNerdFont-Medium.ttf
+JetBrainsMonoNLNerdFont-MediumItalic.ttf
+JetBrainsMonoNLNerdFont-Regular.ttf
+JetBrainsMonoNLNerdFont-SemiBold.ttf
+JetBrainsMonoNLNerdFont-SemiBoldItalic.ttf
+JetBrainsMonoNLNerdFont-Thin.ttf
+JetBrainsMonoNLNerdFont-ThinItalic.ttf
+JetBrainsMonoNLNerdFontMono-Bold.ttf
+JetBrainsMonoNLNerdFontMono-BoldItalic.ttf
+JetBrainsMonoNLNerdFontMono-ExtraBold.ttf
+JetBrainsMonoNLNerdFontMono-ExtraBoldItalic.ttf
+JetBrainsMonoNLNerdFontMono-ExtraLight.ttf
+JetBrainsMonoNLNerdFontMono-ExtraLightItalic.ttf
+JetBrainsMonoNLNerdFontMono-Italic.ttf
+JetBrainsMonoNLNerdFontMono-Light.ttf
+JetBrainsMonoNLNerdFontMono-LightItalic.ttf
+JetBrainsMonoNLNerdFontMono-Medium.ttf
+JetBrainsMonoNLNerdFontMono-MediumItalic.ttf
+JetBrainsMonoNLNerdFontMono-Regular.ttf
+JetBrainsMonoNLNerdFontMono-SemiBold.ttf
+JetBrainsMonoNLNerdFontMono-SemiBoldItalic.ttf
+JetBrainsMonoNLNerdFontMono-Thin.ttf
+JetBrainsMonoNLNerdFontMono-ThinItalic.ttf
+JetBrainsMonoNLNerdFontPropo-Bold.ttf
+JetBrainsMonoNLNerdFontPropo-BoldItalic.ttf
+JetBrainsMonoNLNerdFontPropo-ExtraBold.ttf
+JetBrainsMonoNLNerdFontPropo-ExtraBoldItalic.ttf
+JetBrainsMonoNLNerdFontPropo-ExtraLight.ttf
+JetBrainsMonoNLNerdFontPropo-ExtraLightItalic.ttf
+JetBrainsMonoNLNerdFontPropo-Italic.ttf
+JetBrainsMonoNLNerdFontPropo-Light.ttf
+JetBrainsMonoNLNerdFontPropo-LightItalic.ttf
+JetBrainsMonoNLNerdFontPropo-Medium.ttf
+JetBrainsMonoNLNerdFontPropo-MediumItalic.ttf
+JetBrainsMonoNLNerdFontPropo-Regular.ttf
+JetBrainsMonoNLNerdFontPropo-SemiBold.ttf
+JetBrainsMonoNLNerdFontPropo-SemiBoldItalic.ttf
+JetBrainsMonoNLNerdFontPropo-Thin.ttf
+JetBrainsMonoNLNerdFontPropo-ThinItalic.ttf
+JetBrainsMonoNerdFont-Bold.ttf
+JetBrainsMonoNerdFont-BoldItalic.ttf
+JetBrainsMonoNerdFont-ExtraBold.ttf
+JetBrainsMonoNerdFont-ExtraBoldItalic.ttf
+JetBrainsMonoNerdFont-ExtraLight.ttf
+JetBrainsMonoNerdFont-ExtraLightItalic.ttf
+JetBrainsMonoNerdFont-Italic.ttf
+JetBrainsMonoNerdFont-Light.ttf
+JetBrainsMonoNerdFont-LightItalic.ttf
+JetBrainsMonoNerdFont-Medium.ttf
+JetBrainsMonoNerdFont-MediumItalic.ttf
+JetBrainsMonoNerdFont-Regular.ttf
+JetBrainsMonoNerdFont-SemiBold.ttf
+JetBrainsMonoNerdFont-SemiBoldItalic.ttf
+JetBrainsMonoNerdFont-Thin.ttf
+JetBrainsMonoNerdFont-ThinItalic.ttf
+JetBrainsMonoNerdFontMono-Bold.ttf
+JetBrainsMonoNerdFontMono-BoldItalic.ttf
+JetBrainsMonoNerdFontMono-ExtraBold.ttf
+JetBrainsMonoNerdFontMono-ExtraBoldItalic.ttf
+JetBrainsMonoNerdFontMono-ExtraLight.ttf
+JetBrainsMonoNerdFontMono-ExtraLightItalic.ttf
+JetBrainsMonoNerdFontMono-Italic.ttf
+JetBrainsMonoNerdFontMono-Light.ttf
+JetBrainsMonoNerdFontMono-LightItalic.ttf
+JetBrainsMonoNerdFontMono-Medium.ttf
+JetBrainsMonoNerdFontMono-MediumItalic.ttf
+JetBrainsMonoNerdFontMono-Regular.ttf
+JetBrainsMonoNerdFontMono-SemiBold.ttf
+JetBrainsMonoNerdFontMono-SemiBoldItalic.ttf
+JetBrainsMonoNerdFontMono-Thin.ttf
+JetBrainsMonoNerdFontMono-ThinItalic.ttf
+JetBrainsMonoNerdFontPropo-Bold.ttf
+JetBrainsMonoNerdFontPropo-BoldItalic.ttf
+JetBrainsMonoNerdFontPropo-ExtraBold.ttf
+JetBrainsMonoNerdFontPropo-ExtraBoldItalic.ttf
+JetBrainsMonoNerdFontPropo-ExtraLight.ttf
+JetBrainsMonoNerdFontPropo-ExtraLightItalic.ttf
+JetBrainsMonoNerdFontPropo-Italic.ttf
+JetBrainsMonoNerdFontPropo-Light.ttf
+JetBrainsMonoNerdFontPropo-LightItalic.ttf
+JetBrainsMonoNerdFontPropo-Medium.ttf
+JetBrainsMonoNerdFontPropo-MediumItalic.ttf
+JetBrainsMonoNerdFontPropo-Regular.ttf
+JetBrainsMonoNerdFontPropo-SemiBold.ttf
+JetBrainsMonoNerdFontPropo-SemiBoldItalic.ttf
+JetBrainsMonoNerdFontPropo-Thin.ttf
+JetBrainsMonoNerdFontPropo-ThinItalic.ttf
+LektonNerdFont-Bold.ttf
+LektonNerdFont-Italic.ttf
+LektonNerdFont-Regular.ttf
+LektonNerdFontMono-Bold.ttf
+LektonNerdFontMono-Italic.ttf
+LektonNerdFontMono-Regular.ttf
+LektonNerdFontPropo-Bold.ttf
+LektonNerdFontPropo-Italic.ttf
+LektonNerdFontPropo-Regular.ttf
+LilexNerdFont-Bold.ttf
+LilexNerdFont-Regular.ttf
+LilexNerdFont-Thin.ttf
+LilexNerdFontMono-Bold.ttf
+LilexNerdFontMono-Regular.ttf
+LilexNerdFontMono-Thin.ttf
+LilexNerdFontPropo-Bold.ttf
+LilexNerdFontPropo-Regular.ttf
+LilexNerdFontPropo-Thin.ttf
+LiterationMonoNerdFont-Bold.ttf
+LiterationMonoNerdFont-BoldItalic.ttf
+LiterationMonoNerdFont-Italic.ttf
+LiterationMonoNerdFont-Regular.ttf
+LiterationMonoNerdFontMono-Bold.ttf
+LiterationMonoNerdFontMono-BoldItalic.ttf
+LiterationMonoNerdFontMono-Italic.ttf
+LiterationMonoNerdFontMono-Regular.ttf
+LiterationMonoNerdFontPropo-Bold.ttf
+LiterationMonoNerdFontPropo-BoldItalic.ttf
+LiterationMonoNerdFontPropo-Italic.ttf
+LiterationMonoNerdFontPropo-Regular.ttf
+LiterationSansNerdFont-Bold.ttf
+LiterationSansNerdFont-BoldItalic.ttf
+LiterationSansNerdFont-Italic.ttf
+LiterationSansNerdFont-Regular.ttf
+LiterationSansNerdFontPropo-Bold.ttf
+LiterationSansNerdFontPropo-BoldItalic.ttf
+LiterationSansNerdFontPropo-Italic.ttf
+LiterationSansNerdFontPropo-Regular.ttf
+LiterationSerifNerdFont-Bold.ttf
+LiterationSerifNerdFont-BoldItalic.ttf
+LiterationSerifNerdFont-Italic.ttf
+LiterationSerifNerdFont-Regular.ttf
+LiterationSerifNerdFontPropo-Bold.ttf
+LiterationSerifNerdFontPropo-BoldItalic.ttf
+LiterationSerifNerdFontPropo-Italic.ttf
+LiterationSerifNerdFontPropo-Regular.ttf
+M+1CodeNerdFont-Bold.ttf
+M+1CodeNerdFont-ExtraLight.ttf
+M+1CodeNerdFont-Light.ttf
+M+1CodeNerdFont-Medium.ttf
+M+1CodeNerdFont-Regular.ttf
+M+1CodeNerdFont-SemiBold.ttf
+M+1CodeNerdFont-Thin.ttf
+M+1CodeNerdFontMono-Bold.ttf
+M+1CodeNerdFontMono-ExtraLight.ttf
+M+1CodeNerdFontMono-Light.ttf
+M+1CodeNerdFontMono-Medium.ttf
+M+1CodeNerdFontMono-Regular.ttf
+M+1CodeNerdFontMono-SemiBold.ttf
+M+1CodeNerdFontMono-Thin.ttf
+M+1CodeNerdFontPropo-Bold.ttf
+M+1CodeNerdFontPropo-ExtraLight.ttf
+M+1CodeNerdFontPropo-Light.ttf
+M+1CodeNerdFontPropo-Medium.ttf
+M+1CodeNerdFontPropo-Regular.ttf
+M+1CodeNerdFontPropo-SemiBold.ttf
+M+1CodeNerdFontPropo-Thin.ttf
+M+1NerdFont-Black.ttf
+M+1NerdFont-Bold.ttf
+M+1NerdFont-ExtraBold.ttf
+M+1NerdFont-ExtraLight.ttf
+M+1NerdFont-Light.ttf
+M+1NerdFont-Medium.ttf
+M+1NerdFont-Regular.ttf
+M+1NerdFont-SemiBold.ttf
+M+1NerdFont-Thin.ttf
+M+1NerdFontPropo-Black.ttf
+M+1NerdFontPropo-Bold.ttf
+M+1NerdFontPropo-ExtraBold.ttf
+M+1NerdFontPropo-ExtraLight.ttf
+M+1NerdFontPropo-Light.ttf
+M+1NerdFontPropo-Medium.ttf
+M+1NerdFontPropo-Regular.ttf
+M+1NerdFontPropo-SemiBold.ttf
+M+1NerdFontPropo-Thin.ttf
+M+2NerdFont-Black.ttf
+M+2NerdFont-Bold.ttf
+M+2NerdFont-ExtraBold.ttf
+M+2NerdFont-ExtraLight.ttf
+M+2NerdFont-Light.ttf
+M+2NerdFont-Medium.ttf
+M+2NerdFont-Regular.ttf
+M+2NerdFont-SemiBold.ttf
+M+2NerdFont-Thin.ttf
+M+2NerdFontPropo-Black.ttf
+M+2NerdFontPropo-Bold.ttf
+M+2NerdFontPropo-ExtraBold.ttf
+M+2NerdFontPropo-ExtraLight.ttf
+M+2NerdFontPropo-Light.ttf
+M+2NerdFontPropo-Medium.ttf
+M+2NerdFontPropo-Regular.ttf
+M+2NerdFontPropo-SemiBold.ttf
+M+2NerdFontPropo-Thin.ttf
+M+CodeLatNerdFont-Bold.ttf
+M+CodeLatNerdFont-ExtraLight.ttf
+M+CodeLatNerdFont-Light.ttf
+M+CodeLatNerdFont-Medium.ttf
+M+CodeLatNerdFont-Regular.ttf
+M+CodeLatNerdFont-SemiBold.ttf
+M+CodeLatNerdFont-Thin.ttf
+M+CodeLatNerdFontMono-Bold.ttf
+M+CodeLatNerdFontMono-ExtraLight.ttf
+M+CodeLatNerdFontMono-Light.ttf
+M+CodeLatNerdFontMono-Medium.ttf
+M+CodeLatNerdFontMono-Regular.ttf
+M+CodeLatNerdFontMono-SemiBold.ttf
+M+CodeLatNerdFontMono-Thin.ttf
+M+CodeLatNerdFontPropo-Bold.ttf
+M+CodeLatNerdFontPropo-ExtraLight.ttf
+M+CodeLatNerdFontPropo-Light.ttf
+M+CodeLatNerdFontPropo-Medium.ttf
+M+CodeLatNerdFontPropo-Regular.ttf
+M+CodeLatNerdFontPropo-SemiBold.ttf
+M+CodeLatNerdFontPropo-Thin.ttf
+M+CodeLatXNerdFont-Bold.ttf
+M+CodeLatXNerdFont-ExtraLight.ttf
+M+CodeLatXNerdFont-Light.ttf
+M+CodeLatXNerdFont-Medium.ttf
+M+CodeLatXNerdFont-Regular.ttf
+M+CodeLatXNerdFont-SemiBold.ttf
+M+CodeLatXNerdFont-Thin.ttf
+M+CodeLatXNerdFontMono-Bold.ttf
+M+CodeLatXNerdFontMono-ExtraLight.ttf
+M+CodeLatXNerdFontMono-Light.ttf
+M+CodeLatXNerdFontMono-Medium.ttf
+M+CodeLatXNerdFontMono-Regular.ttf
+M+CodeLatXNerdFontMono-SemiBold.ttf
+M+CodeLatXNerdFontMono-Thin.ttf
+M+CodeLatXNerdFontPropo-Bold.ttf
+M+CodeLatXNerdFontPropo-ExtraLight.ttf
+M+CodeLatXNerdFontPropo-Light.ttf
+M+CodeLatXNerdFontPropo-Medium.ttf
+M+CodeLatXNerdFontPropo-Regular.ttf
+M+CodeLatXNerdFontPropo-SemiBold.ttf
+M+CodeLatXNerdFontPropo-Thin.ttf
+MesloLGLDZNerdFont-Bold.ttf
+MesloLGLDZNerdFont-BoldItalic.ttf
+MesloLGLDZNerdFont-Italic.ttf
+MesloLGLDZNerdFont-Regular.ttf
+MesloLGLDZNerdFontMono-Bold.ttf
+MesloLGLDZNerdFontMono-BoldItalic.ttf
+MesloLGLDZNerdFontMono-Italic.ttf
+MesloLGLDZNerdFontMono-Regular.ttf
+MesloLGLDZNerdFontPropo-Bold.ttf
+MesloLGLDZNerdFontPropo-BoldItalic.ttf
+MesloLGLDZNerdFontPropo-Italic.ttf
+MesloLGLDZNerdFontPropo-Regular.ttf
+MesloLGLNerdFont-Bold.ttf
+MesloLGLNerdFont-BoldItalic.ttf
+MesloLGLNerdFont-Italic.ttf
+MesloLGLNerdFont-Regular.ttf
+MesloLGLNerdFontMono-Bold.ttf
+MesloLGLNerdFontMono-BoldItalic.ttf
+MesloLGLNerdFontMono-Italic.ttf
+MesloLGLNerdFontMono-Regular.ttf
+MesloLGLNerdFontPropo-Bold.ttf
+MesloLGLNerdFontPropo-BoldItalic.ttf
+MesloLGLNerdFontPropo-Italic.ttf
+MesloLGLNerdFontPropo-Regular.ttf
+MesloLGMDZNerdFont-Bold.ttf
+MesloLGMDZNerdFont-BoldItalic.ttf
+MesloLGMDZNerdFont-Italic.ttf
+MesloLGMDZNerdFont-Regular.ttf
+MesloLGMDZNerdFontMono-Bold.ttf
+MesloLGMDZNerdFontMono-BoldItalic.ttf
+MesloLGMDZNerdFontMono-Italic.ttf
+MesloLGMDZNerdFontMono-Regular.ttf
+MesloLGMDZNerdFontPropo-Bold.ttf
+MesloLGMDZNerdFontPropo-BoldItalic.ttf
+MesloLGMDZNerdFontPropo-Italic.ttf
+MesloLGMDZNerdFontPropo-Regular.ttf
+MesloLGMNerdFont-Bold.ttf
+MesloLGMNerdFont-BoldItalic.ttf
+MesloLGMNerdFont-Italic.ttf
+MesloLGMNerdFont-Regular.ttf
+MesloLGMNerdFontMono-Bold.ttf
+MesloLGMNerdFontMono-BoldItalic.ttf
+MesloLGMNerdFontMono-Italic.ttf
+MesloLGMNerdFontMono-Regular.ttf
+MesloLGMNerdFontPropo-Bold.ttf
+MesloLGMNerdFontPropo-BoldItalic.ttf
+MesloLGMNerdFontPropo-Italic.ttf
+MesloLGMNerdFontPropo-Regular.ttf
+MesloLGSDZNerdFont-Bold.ttf
+MesloLGSDZNerdFont-BoldItalic.ttf
+MesloLGSDZNerdFont-Italic.ttf
+MesloLGSDZNerdFont-Regular.ttf
+MesloLGSDZNerdFontMono-Bold.ttf
+MesloLGSDZNerdFontMono-BoldItalic.ttf
+MesloLGSDZNerdFontMono-Italic.ttf
+MesloLGSDZNerdFontMono-Regular.ttf
+MesloLGSDZNerdFontPropo-Bold.ttf
+MesloLGSDZNerdFontPropo-BoldItalic.ttf
+MesloLGSDZNerdFontPropo-Italic.ttf
+MesloLGSDZNerdFontPropo-Regular.ttf
+MesloLGSNerdFont-Bold.ttf
+MesloLGSNerdFont-BoldItalic.ttf
+MesloLGSNerdFont-Italic.ttf
+MesloLGSNerdFont-Regular.ttf
+MesloLGSNerdFontMono-Bold.ttf
+MesloLGSNerdFontMono-BoldItalic.ttf
+MesloLGSNerdFontMono-Italic.ttf
+MesloLGSNerdFontMono-Regular.ttf
+MesloLGSNerdFontPropo-Bold.ttf
+MesloLGSNerdFontPropo-BoldItalic.ttf
+MesloLGSNerdFontPropo-Italic.ttf
+MesloLGSNerdFontPropo-Regular.ttf
+MonofurNerdFont-Bold.ttf
+MonofurNerdFont-Italic.ttf
+MonofurNerdFont-Regular.ttf
+MonofurNerdFontMono-Bold.ttf
+MonofurNerdFontMono-Italic.ttf
+MonofurNerdFontMono-Regular.ttf
+MonofurNerdFontPropo-Bold.ttf
+MonofurNerdFontPropo-Italic.ttf
+MonofurNerdFontPropo-Regular.ttf
+MonoidNerdFont-Bold.ttf
+MonoidNerdFont-Italic.ttf
+MonoidNerdFont-Regular.ttf
+MonoidNerdFont-Retina.ttf
+MonoidNerdFontMono-Bold.ttf
+MonoidNerdFontMono-Italic.ttf
+MonoidNerdFontMono-Regular.ttf
+MonoidNerdFontMono-Retina.ttf
+MonoidNerdFontPropo-Bold.ttf
+MonoidNerdFontPropo-Italic.ttf
+MonoidNerdFontPropo-Regular.ttf
+MonoidNerdFontPropo-Retina.ttf
+MononokiNerdFont-Bold.ttf
+MononokiNerdFont-BoldItalic.ttf
+MononokiNerdFont-Italic.ttf
+MononokiNerdFont-Regular.ttf
+MononokiNerdFontMono-Bold.ttf
+MononokiNerdFontMono-BoldItalic.ttf
+MononokiNerdFontMono-Italic.ttf
+MononokiNerdFontMono-Regular.ttf
+MononokiNerdFontPropo-Bold.ttf
+MononokiNerdFontPropo-BoldItalic.ttf
+MononokiNerdFontPropo-Italic.ttf
+MononokiNerdFontPropo-Regular.ttf
+NotoMonoNerdFont-Regular.ttf
+NotoMonoNerdFontMono-Regular.ttf
+NotoMonoNerdFontPropo-Regular.ttf
+NotoSansMNerdFont-Black.ttf
+NotoSansMNerdFont-Bold.ttf
+NotoSansMNerdFont-Condensed.ttf
+NotoSansMNerdFont-CondensedBlack.ttf
+NotoSansMNerdFont-CondensedBold.ttf
+NotoSansMNerdFont-CondensedExtraBold.ttf
+NotoSansMNerdFont-CondensedExtraLight.ttf
+NotoSansMNerdFont-CondensedLight.ttf
+NotoSansMNerdFont-CondensedMedium.ttf
+NotoSansMNerdFont-CondensedSemiBold.ttf
+NotoSansMNerdFont-CondensedThin.ttf
+NotoSansMNerdFont-ExtraBold.ttf
+NotoSansMNerdFont-ExtraCondensed.ttf
+NotoSansMNerdFont-ExtraCondensedBlack.ttf
+NotoSansMNerdFont-ExtraCondensedBold.ttf
+NotoSansMNerdFont-ExtraCondensedExtraBold.ttf
+NotoSansMNerdFont-ExtraCondensedExtraLight.ttf
+NotoSansMNerdFont-ExtraCondensedLight.ttf
+NotoSansMNerdFont-ExtraCondensedMedium.ttf
+NotoSansMNerdFont-ExtraCondensedSemiBold.ttf
+NotoSansMNerdFont-ExtraCondensedThin.ttf
+NotoSansMNerdFont-ExtraLight.ttf
+NotoSansMNerdFont-Light.ttf
+NotoSansMNerdFont-Medium.ttf
+NotoSansMNerdFont-Regular.ttf
+NotoSansMNerdFont-SemiBold.ttf
+NotoSansMNerdFont-SemiCondensed.ttf
+NotoSansMNerdFont-SemiCondensedBlack.ttf
+NotoSansMNerdFont-SemiCondensedBold.ttf
+NotoSansMNerdFont-SemiCondensedExtraBold.ttf
+NotoSansMNerdFont-SemiCondensedExtraLight.ttf
+NotoSansMNerdFont-SemiCondensedLight.ttf
+NotoSansMNerdFont-SemiCondensedMedium.ttf
+NotoSansMNerdFont-SemiCondensedSemiBold.ttf
+NotoSansMNerdFont-SemiCondensedThin.ttf
+NotoSansMNerdFont-Thin.ttf
+NotoSansMNerdFontMono-Black.ttf
+NotoSansMNerdFontMono-Bold.ttf
+NotoSansMNerdFontMono-Condensed.ttf
+NotoSansMNerdFontMono-CondensedBlack.ttf
+NotoSansMNerdFontMono-CondensedBold.ttf
+NotoSansMNerdFontMono-CondensedExtraBold.ttf
+NotoSansMNerdFontMono-CondensedExtraLight.ttf
+NotoSansMNerdFontMono-CondensedLight.ttf
+NotoSansMNerdFontMono-CondensedMedium.ttf
+NotoSansMNerdFontMono-CondensedSemiBold.ttf
+NotoSansMNerdFontMono-CondensedThin.ttf
+NotoSansMNerdFontMono-ExtraBold.ttf
+NotoSansMNerdFontMono-ExtraCondensed.ttf
+NotoSansMNerdFontMono-ExtraCondensedBlack.ttf
+NotoSansMNerdFontMono-ExtraCondensedBold.ttf
+NotoSansMNerdFontMono-ExtraCondensedExtraBold.ttf
+NotoSansMNerdFontMono-ExtraCondensedExtraLight.ttf
+NotoSansMNerdFontMono-ExtraCondensedLight.ttf
+NotoSansMNerdFontMono-ExtraCondensedMedium.ttf
+NotoSansMNerdFontMono-ExtraCondensedSemiBold.ttf
+NotoSansMNerdFontMono-ExtraCondensedThin.ttf
+NotoSansMNerdFontMono-ExtraLight.ttf
+NotoSansMNerdFontMono-Light.ttf
+NotoSansMNerdFontMono-Medium.ttf
+NotoSansMNerdFontMono-Regular.ttf
+NotoSansMNerdFontMono-SemiBold.ttf
+NotoSansMNerdFontMono-SemiCondensed.ttf
+NotoSansMNerdFontMono-SemiCondensedBlack.ttf
+NotoSansMNerdFontMono-SemiCondensedBold.ttf
+NotoSansMNerdFontMono-SemiCondensedExtraBold.ttf
+NotoSansMNerdFontMono-SemiCondensedExtraLight.ttf
+NotoSansMNerdFontMono-SemiCondensedLight.ttf
+NotoSansMNerdFontMono-SemiCondensedMedium.ttf
+NotoSansMNerdFontMono-SemiCondensedSemiBold.ttf
+NotoSansMNerdFontMono-SemiCondensedThin.ttf
+NotoSansMNerdFontMono-Thin.ttf
+NotoSansMNerdFontPropo-Black.ttf
+NotoSansMNerdFontPropo-Bold.ttf
+NotoSansMNerdFontPropo-Condensed.ttf
+NotoSansMNerdFontPropo-CondensedBlack.ttf
+NotoSansMNerdFontPropo-CondensedBold.ttf
+NotoSansMNerdFontPropo-CondensedExtraBold.ttf
+NotoSansMNerdFontPropo-CondensedExtraLight.ttf
+NotoSansMNerdFontPropo-CondensedLight.ttf
+NotoSansMNerdFontPropo-CondensedMedium.ttf
+NotoSansMNerdFontPropo-CondensedSemiBold.ttf
+NotoSansMNerdFontPropo-CondensedThin.ttf
+NotoSansMNerdFontPropo-ExtraBold.ttf
+NotoSansMNerdFontPropo-ExtraCondensed.ttf
+NotoSansMNerdFontPropo-ExtraCondensedBlack.ttf
+NotoSansMNerdFontPropo-ExtraCondensedBold.ttf
+NotoSansMNerdFontPropo-ExtraCondensedExtraBold.ttf
+NotoSansMNerdFontPropo-ExtraCondensedExtraLight.ttf
+NotoSansMNerdFontPropo-ExtraCondensedLight.ttf
+NotoSansMNerdFontPropo-ExtraCondensedMedium.ttf
+NotoSansMNerdFontPropo-ExtraCondensedSemiBold.ttf
+NotoSansMNerdFontPropo-ExtraCondensedThin.ttf
+NotoSansMNerdFontPropo-ExtraLight.ttf
+NotoSansMNerdFontPropo-Light.ttf
+NotoSansMNerdFontPropo-Medium.ttf
+NotoSansMNerdFontPropo-Regular.ttf
+NotoSansMNerdFontPropo-SemiBold.ttf
+NotoSansMNerdFontPropo-SemiCondensed.ttf
+NotoSansMNerdFontPropo-SemiCondensedBlack.ttf
+NotoSansMNerdFontPropo-SemiCondensedBold.ttf
+NotoSansMNerdFontPropo-SemiCondensedExtraBold.ttf
+NotoSansMNerdFontPropo-SemiCondensedExtraLight.ttf
+NotoSansMNerdFontPropo-SemiCondensedLight.ttf
+NotoSansMNerdFontPropo-SemiCondensedMedium.ttf
+NotoSansMNerdFontPropo-SemiCondensedSemiBold.ttf
+NotoSansMNerdFontPropo-SemiCondensedThin.ttf
+NotoSansMNerdFontPropo-Thin.ttf
+NotoSansNerdFont-Condensed.ttf
+NotoSansNerdFont-CondensedBlack.ttf
+NotoSansNerdFont-CondensedBlackItalic.ttf
+NotoSansNerdFont-CondensedBold.ttf
+NotoSansNerdFont-CondensedBoldItalic.ttf
+NotoSansNerdFont-CondensedExtraBold.ttf
+NotoSansNerdFont-CondensedExtraBoldItalic.ttf
+NotoSansNerdFont-CondensedExtraLight.ttf
+NotoSansNerdFont-CondensedExtraLightItalic.ttf
+NotoSansNerdFont-CondensedItalic.ttf
+NotoSansNerdFont-CondensedLight.ttf
+NotoSansNerdFont-CondensedLightItalic.ttf
+NotoSansNerdFont-CondensedMedium.ttf
+NotoSansNerdFont-CondensedMediumItalic.ttf
+NotoSansNerdFont-CondensedSemiBold.ttf
+NotoSansNerdFont-CondensedSemiBoldItalic.ttf
+NotoSansNerdFont-CondensedThin.ttf
+NotoSansNerdFont-CondensedThinItalic.ttf
+NotoSansNerdFont-ExtraBold.ttf
+NotoSansNerdFont-ExtraBoldItalic.ttf
+NotoSansNerdFont-ExtraCondensed.ttf
+NotoSansNerdFont-ExtraCondensedBlack.ttf
+NotoSansNerdFont-ExtraCondensedBlackItalic.ttf
+NotoSansNerdFont-ExtraCondensedBold.ttf
+NotoSansNerdFont-ExtraCondensedBoldItalic.ttf
+NotoSansNerdFont-ExtraCondensedExtraBold.ttf
+NotoSansNerdFont-ExtraCondensedExtraBoldItalic.ttf
+NotoSansNerdFont-ExtraCondensedExtraLight.ttf
+NotoSansNerdFont-ExtraCondensedExtraLightItalic.ttf
+NotoSansNerdFont-ExtraCondensedItalic.ttf
+NotoSansNerdFont-ExtraCondensedLight.ttf
+NotoSansNerdFont-ExtraCondensedLightItalic.ttf
+NotoSansNerdFont-ExtraCondensedMedium.ttf
+NotoSansNerdFont-ExtraCondensedMediumItalic.ttf
+NotoSansNerdFont-ExtraCondensedSemiBold.ttf
+NotoSansNerdFont-ExtraCondensedSemiBoldItalic.ttf
+NotoSansNerdFont-ExtraCondensedThin.ttf
+NotoSansNerdFont-ExtraCondensedThinItalic.ttf
+NotoSansNerdFont-ExtraLight.ttf
+NotoSansNerdFont-ExtraLightItalic.ttf
+NotoSansNerdFont-Italic.ttf
+NotoSansNerdFont-Light.ttf
+NotoSansNerdFont-LightItalic.ttf
+NotoSansNerdFont-Medium.ttf
+NotoSansNerdFont-MediumItalic.ttf
+NotoSansNerdFont-Regular.ttf
+NotoSansNerdFont-SemiBold.ttf
+NotoSansNerdFont-SemiBoldItalic.ttf
+NotoSansNerdFont-SemiCondensed.ttf
+NotoSansNerdFont-SemiCondensedBlack.ttf
+NotoSansNerdFont-SemiCondensedBlackItalic.ttf
+NotoSansNerdFont-SemiCondensedBold.ttf
+NotoSansNerdFont-SemiCondensedBoldItalic.ttf
+NotoSansNerdFont-SemiCondensedExtraBold.ttf
+NotoSansNerdFont-SemiCondensedExtraBoldItalic.ttf
+NotoSansNerdFont-SemiCondensedExtraLight.ttf
+NotoSansNerdFont-SemiCondensedExtraLightItalic.ttf
+NotoSansNerdFont-SemiCondensedItalic.ttf
+NotoSansNerdFont-SemiCondensedLight.ttf
+NotoSansNerdFont-SemiCondensedLightItalic.ttf
+NotoSansNerdFont-SemiCondensedMedium.ttf
+NotoSansNerdFont-SemiCondensedMediumItalic.ttf
+NotoSansNerdFont-SemiCondensedSemiBold.ttf
+NotoSansNerdFont-SemiCondensedSemiBoldItalic.ttf
+NotoSansNerdFont-SemiCondensedThin.ttf
+NotoSansNerdFont-SemiCondensedThinItalic.ttf
+NotoSansNerdFont-Thin.ttf
+NotoSansNerdFont-ThinItalic.ttf
+NotoSansNerdFontPropo-Condensed.ttf
+NotoSansNerdFontPropo-CondensedBlack.ttf
+NotoSansNerdFontPropo-CondensedBlackItalic.ttf
+NotoSansNerdFontPropo-CondensedBold.ttf
+NotoSansNerdFontPropo-CondensedBoldItalic.ttf
+NotoSansNerdFontPropo-CondensedExtraBold.ttf
+NotoSansNerdFontPropo-CondensedExtraBoldItalic.ttf
+NotoSansNerdFontPropo-CondensedExtraLight.ttf
+NotoSansNerdFontPropo-CondensedExtraLightItalic.ttf
+NotoSansNerdFontPropo-CondensedItalic.ttf
+NotoSansNerdFontPropo-CondensedLight.ttf
+NotoSansNerdFontPropo-CondensedLightItalic.ttf
+NotoSansNerdFontPropo-CondensedMedium.ttf
+NotoSansNerdFontPropo-CondensedMediumItalic.ttf
+NotoSansNerdFontPropo-CondensedSemiBold.ttf
+NotoSansNerdFontPropo-CondensedSemiBoldItalic.ttf
+NotoSansNerdFontPropo-CondensedThin.ttf
+NotoSansNerdFontPropo-CondensedThinItalic.ttf
+NotoSansNerdFontPropo-ExtraBold.ttf
+NotoSansNerdFontPropo-ExtraBoldItalic.ttf
+NotoSansNerdFontPropo-ExtraCondensed.ttf
+NotoSansNerdFontPropo-ExtraCondensedBlack.ttf
+NotoSansNerdFontPropo-ExtraCondensedBlackItalic.ttf
+NotoSansNerdFontPropo-ExtraCondensedBold.ttf
+NotoSansNerdFontPropo-ExtraCondensedBoldItalic.ttf
+NotoSansNerdFontPropo-ExtraCondensedExtraBold.ttf
+NotoSansNerdFontPropo-ExtraCondensedExtraBoldItalic.ttf
+NotoSansNerdFontPropo-ExtraCondensedExtraLight.ttf
+NotoSansNerdFontPropo-ExtraCondensedExtraLightItalic.ttf
+NotoSansNerdFontPropo-ExtraCondensedItalic.ttf
+NotoSansNerdFontPropo-ExtraCondensedLight.ttf
+NotoSansNerdFontPropo-ExtraCondensedLightItalic.ttf
+NotoSansNerdFontPropo-ExtraCondensedMedium.ttf
+NotoSansNerdFontPropo-ExtraCondensedMediumItalic.ttf
+NotoSansNerdFontPropo-ExtraCondensedSemiBold.ttf
+NotoSansNerdFontPropo-ExtraCondensedSemiBoldItalic.ttf
+NotoSansNerdFontPropo-ExtraCondensedThin.ttf
+NotoSansNerdFontPropo-ExtraCondensedThinItalic.ttf
+NotoSansNerdFontPropo-ExtraLight.ttf
+NotoSansNerdFontPropo-ExtraLightItalic.ttf
+NotoSansNerdFontPropo-Italic.ttf
+NotoSansNerdFontPropo-Light.ttf
+NotoSansNerdFontPropo-LightItalic.ttf
+NotoSansNerdFontPropo-Medium.ttf
+NotoSansNerdFontPropo-MediumItalic.ttf
+NotoSansNerdFontPropo-Regular.ttf
+NotoSansNerdFontPropo-SemiBold.ttf
+NotoSansNerdFontPropo-SemiBoldItalic.ttf
+NotoSansNerdFontPropo-SemiCondensed.ttf
+NotoSansNerdFontPropo-SemiCondensedBlack.ttf
+NotoSansNerdFontPropo-SemiCondensedBlackItalic.ttf
+NotoSansNerdFontPropo-SemiCondensedBold.ttf
+NotoSansNerdFontPropo-SemiCondensedBoldItalic.ttf
+NotoSansNerdFontPropo-SemiCondensedExtraBold.ttf
+NotoSansNerdFontPropo-SemiCondensedExtraBoldItalic.ttf
+NotoSansNerdFontPropo-SemiCondensedExtraLight.ttf
+NotoSansNerdFontPropo-SemiCondensedExtraLightItalic.ttf
+NotoSansNerdFontPropo-SemiCondensedItalic.ttf
+NotoSansNerdFontPropo-SemiCondensedLight.ttf
+NotoSansNerdFontPropo-SemiCondensedLightItalic.ttf
+NotoSansNerdFontPropo-SemiCondensedMedium.ttf
+NotoSansNerdFontPropo-SemiCondensedMediumItalic.ttf
+NotoSansNerdFontPropo-SemiCondensedSemiBold.ttf
+NotoSansNerdFontPropo-SemiCondensedSemiBoldItalic.ttf
+NotoSansNerdFontPropo-SemiCondensedThin.ttf
+NotoSansNerdFontPropo-SemiCondensedThinItalic.ttf
+NotoSansNerdFontPropo-Thin.ttf
+NotoSansNerdFontPropo-ThinItalic.ttf
+NotoSerifNerdFont-Black.ttf
+NotoSerifNerdFont-BlackItalic.ttf
+NotoSerifNerdFont-Bold.ttf
+NotoSerifNerdFont-BoldItalic.ttf
+NotoSerifNerdFont-Condensed.ttf
+NotoSerifNerdFont-CondensedBlack.ttf
+NotoSerifNerdFont-CondensedBlackItalic.ttf
+NotoSerifNerdFont-CondensedBold.ttf
+NotoSerifNerdFont-CondensedBoldItalic.ttf
+NotoSerifNerdFont-CondensedExtraBold.ttf
+NotoSerifNerdFont-CondensedExtraBoldItalic.ttf
+NotoSerifNerdFont-CondensedExtraLight.ttf
+NotoSerifNerdFont-CondensedExtraLightItalic.ttf
+NotoSerifNerdFont-CondensedItalic.ttf
+NotoSerifNerdFont-CondensedLight.ttf
+NotoSerifNerdFont-CondensedLightItalic.ttf
+NotoSerifNerdFont-CondensedMedium.ttf
+NotoSerifNerdFont-CondensedMediumItalic.ttf
+NotoSerifNerdFont-CondensedSemiBold.ttf
+NotoSerifNerdFont-CondensedSemiBoldItalic.ttf
+NotoSerifNerdFont-CondensedThin.ttf
+NotoSerifNerdFont-CondensedThinItalic.ttf
+NotoSerifNerdFont-ExtraBold.ttf
+NotoSerifNerdFont-ExtraBoldItalic.ttf
+NotoSerifNerdFont-ExtraCondensed.ttf
+NotoSerifNerdFont-ExtraCondensedBlack.ttf
+NotoSerifNerdFont-ExtraCondensedBlackItalic.ttf
+NotoSerifNerdFont-ExtraCondensedBold.ttf
+NotoSerifNerdFont-ExtraCondensedBoldItalic.ttf
+NotoSerifNerdFont-ExtraCondensedExtraBold.ttf
+NotoSerifNerdFont-ExtraCondensedExtraBoldItalic.ttf
+NotoSerifNerdFont-ExtraCondensedExtraLight.ttf
+NotoSerifNerdFont-ExtraCondensedExtraLightItalic.ttf
+NotoSerifNerdFont-ExtraCondensedItalic.ttf
+NotoSerifNerdFont-ExtraCondensedLight.ttf
+NotoSerifNerdFont-ExtraCondensedLightItalic.ttf
+NotoSerifNerdFont-ExtraCondensedMedium.ttf
+NotoSerifNerdFont-ExtraCondensedMediumItalic.ttf
+NotoSerifNerdFont-ExtraCondensedSemiBold.ttf
+NotoSerifNerdFont-ExtraCondensedSemiBoldItalic.ttf
+NotoSerifNerdFont-ExtraCondensedThin.ttf
+NotoSerifNerdFont-ExtraCondensedThinItalic.ttf
+NotoSerifNerdFont-ExtraLight.ttf
+NotoSerifNerdFont-ExtraLightItalic.ttf
+NotoSerifNerdFont-Italic.ttf
+NotoSerifNerdFont-Light.ttf
+NotoSerifNerdFont-LightItalic.ttf
+NotoSerifNerdFont-Medium.ttf
+NotoSerifNerdFont-MediumItalic.ttf
+NotoSerifNerdFont-Regular.ttf
+NotoSerifNerdFont-SemiBold.ttf
+NotoSerifNerdFont-SemiBoldItalic.ttf
+NotoSerifNerdFont-SemiCondensed.ttf
+NotoSerifNerdFont-SemiCondensedBlack.ttf
+NotoSerifNerdFont-SemiCondensedBlackItalic.ttf
+NotoSerifNerdFont-SemiCondensedBold.ttf
+NotoSerifNerdFont-SemiCondensedBoldItalic.ttf
+NotoSerifNerdFont-SemiCondensedExtraBold.ttf
+NotoSerifNerdFont-SemiCondensedExtraBoldItalic.ttf
+NotoSerifNerdFont-SemiCondensedExtraLight.ttf
+NotoSerifNerdFont-SemiCondensedExtraLightItalic.ttf
+NotoSerifNerdFont-SemiCondensedItalic.ttf
+NotoSerifNerdFont-SemiCondensedLight.ttf
+NotoSerifNerdFont-SemiCondensedLightItalic.ttf
+NotoSerifNerdFont-SemiCondensedMedium.ttf
+NotoSerifNerdFont-SemiCondensedMediumItalic.ttf
+NotoSerifNerdFont-SemiCondensedSemiBold.ttf
+NotoSerifNerdFont-SemiCondensedSemiBoldItalic.ttf
+NotoSerifNerdFont-SemiCondensedThin.ttf
+NotoSerifNerdFont-SemiCondensedThinItalic.ttf
+NotoSerifNerdFont-Thin.ttf
+NotoSerifNerdFont-ThinItalic.ttf
+NotoSerifNerdFontPropo-Black.ttf
+NotoSerifNerdFontPropo-BlackItalic.ttf
+NotoSerifNerdFontPropo-Bold.ttf
+NotoSerifNerdFontPropo-BoldItalic.ttf
+NotoSerifNerdFontPropo-Condensed.ttf
+NotoSerifNerdFontPropo-CondensedBlack.ttf
+NotoSerifNerdFontPropo-CondensedBlackItalic.ttf
+NotoSerifNerdFontPropo-CondensedBold.ttf
+NotoSerifNerdFontPropo-CondensedBoldItalic.ttf
+NotoSerifNerdFontPropo-CondensedExtraBold.ttf
+NotoSerifNerdFontPropo-CondensedExtraBoldItalic.ttf
+NotoSerifNerdFontPropo-CondensedExtraLight.ttf
+NotoSerifNerdFontPropo-CondensedExtraLightItalic.ttf
+NotoSerifNerdFontPropo-CondensedItalic.ttf
+NotoSerifNerdFontPropo-CondensedLight.ttf
+NotoSerifNerdFontPropo-CondensedLightItalic.ttf
+NotoSerifNerdFontPropo-CondensedMedium.ttf
+NotoSerifNerdFontPropo-CondensedMediumItalic.ttf
+NotoSerifNerdFontPropo-CondensedSemiBold.ttf
+NotoSerifNerdFontPropo-CondensedSemiBoldItalic.ttf
+NotoSerifNerdFontPropo-CondensedThin.ttf
+NotoSerifNerdFontPropo-CondensedThinItalic.ttf
+NotoSerifNerdFontPropo-ExtraBold.ttf
+NotoSerifNerdFontPropo-ExtraBoldItalic.ttf
+NotoSerifNerdFontPropo-ExtraCondensed.ttf
+NotoSerifNerdFontPropo-ExtraCondensedBlack.ttf
+NotoSerifNerdFontPropo-ExtraCondensedBlackItalic.ttf
+NotoSerifNerdFontPropo-ExtraCondensedBold.ttf
+NotoSerifNerdFontPropo-ExtraCondensedBoldItalic.ttf
+NotoSerifNerdFontPropo-ExtraCondensedExtraBold.ttf
+NotoSerifNerdFontPropo-ExtraCondensedExtraBoldItalic.ttf
+NotoSerifNerdFontPropo-ExtraCondensedExtraLight.ttf
+NotoSerifNerdFontPropo-ExtraCondensedExtraLightItalic.ttf
+NotoSerifNerdFontPropo-ExtraCondensedItalic.ttf
+NotoSerifNerdFontPropo-ExtraCondensedLight.ttf
+NotoSerifNerdFontPropo-ExtraCondensedLightItalic.ttf
+NotoSerifNerdFontPropo-ExtraCondensedMedium.ttf
+NotoSerifNerdFontPropo-ExtraCondensedMediumItalic.ttf
+NotoSerifNerdFontPropo-ExtraCondensedSemiBold.ttf
+NotoSerifNerdFontPropo-ExtraCondensedSemiBoldItalic.ttf
+NotoSerifNerdFontPropo-ExtraCondensedThin.ttf
+NotoSerifNerdFontPropo-ExtraCondensedThinItalic.ttf
+NotoSerifNerdFontPropo-ExtraLight.ttf
+NotoSerifNerdFontPropo-ExtraLightItalic.ttf
+NotoSerifNerdFontPropo-Italic.ttf
+NotoSerifNerdFontPropo-Light.ttf
+NotoSerifNerdFontPropo-LightItalic.ttf
+NotoSerifNerdFontPropo-Medium.ttf
+NotoSerifNerdFontPropo-MediumItalic.ttf
+NotoSerifNerdFontPropo-Regular.ttf
+NotoSerifNerdFontPropo-SemiBold.ttf
+NotoSerifNerdFontPropo-SemiBoldItalic.ttf
+NotoSerifNerdFontPropo-SemiCondensed.ttf
+NotoSerifNerdFontPropo-SemiCondensedBlack.ttf
+NotoSerifNerdFontPropo-SemiCondensedBlackItalic.ttf
+NotoSerifNerdFontPropo-SemiCondensedBold.ttf
+NotoSerifNerdFontPropo-SemiCondensedBoldItalic.ttf
+NotoSerifNerdFontPropo-SemiCondensedExtraBold.ttf
+NotoSerifNerdFontPropo-SemiCondensedExtraBoldItalic.ttf
+NotoSerifNerdFontPropo-SemiCondensedExtraLight.ttf
+NotoSerifNerdFontPropo-SemiCondensedExtraLightItalic.ttf
+NotoSerifNerdFontPropo-SemiCondensedItalic.ttf
+NotoSerifNerdFontPropo-SemiCondensedLight.ttf
+NotoSerifNerdFontPropo-SemiCondensedLightItalic.ttf
+NotoSerifNerdFontPropo-SemiCondensedMedium.ttf
+NotoSerifNerdFontPropo-SemiCondensedMediumItalic.ttf
+NotoSerifNerdFontPropo-SemiCondensedSemiBold.ttf
+NotoSerifNerdFontPropo-SemiCondensedSemiBoldItalic.ttf
+NotoSerifNerdFontPropo-SemiCondensedThin.ttf
+NotoSerifNerdFontPropo-SemiCondensedThinItalic.ttf
+NotoSerifNerdFontPropo-Thin.ttf
+NotoSerifNerdFontPropo-ThinItalic.ttf
+OpenDyslexicAltNerdFont-Bold.otf
+OpenDyslexicAltNerdFont-BoldItalic.otf
+OpenDyslexicAltNerdFont-Italic.otf
+OpenDyslexicAltNerdFont-Regular.otf
+OpenDyslexicAltNerdFontPropo-Bold.otf
+OpenDyslexicAltNerdFontPropo-BoldItalic.otf
+OpenDyslexicAltNerdFontPropo-Italic.otf
+OpenDyslexicAltNerdFontPropo-Regular.otf
+OpenDyslexicMNerdFont-Regular.otf
+OpenDyslexicMNerdFontMono-Regular.otf
+OpenDyslexicMNerdFontPropo-Regular.otf
+OpenDyslexicNerdFont-Bold.otf
+OpenDyslexicNerdFont-BoldItalic.otf
+OpenDyslexicNerdFont-Italic.otf
+OpenDyslexicNerdFont-Regular.otf
+OpenDyslexicNerdFontPropo-Bold.otf
+OpenDyslexicNerdFontPropo-BoldItalic.otf
+OpenDyslexicNerdFontPropo-Italic.otf
+OpenDyslexicNerdFontPropo-Regular.otf
+OverpassMNerdFont-Bold.otf
+OverpassMNerdFont-Light.otf
+OverpassMNerdFont-Regular.otf
+OverpassMNerdFont-SemiBold.otf
+OverpassMNerdFontMono-Bold.otf
+OverpassMNerdFontMono-Light.otf
+OverpassMNerdFontMono-Regular.otf
+OverpassMNerdFontMono-SemiBold.otf
+OverpassMNerdFontPropo-Bold.otf
+OverpassMNerdFontPropo-Light.otf
+OverpassMNerdFontPropo-Regular.otf
+OverpassMNerdFontPropo-SemiBold.otf
+OverpassNerdFont-Bold.otf
+OverpassNerdFont-BoldItalic.otf
+OverpassNerdFont-ExtraBold.otf
+OverpassNerdFont-ExtraBoldItalic.otf
+OverpassNerdFont-ExtraLight.otf
+OverpassNerdFont-ExtraLightItalic.otf
+OverpassNerdFont-Heavy.otf
+OverpassNerdFont-HeavyItalic.otf
+OverpassNerdFont-Italic.otf
+OverpassNerdFont-Light.otf
+OverpassNerdFont-LightItalic.otf
+OverpassNerdFont-Regular.otf
+OverpassNerdFont-SemiBold.otf
+OverpassNerdFont-SemiBoldItalic.otf
+OverpassNerdFont-Thin.otf
+OverpassNerdFont-ThinItalic.otf
+OverpassNerdFontPropo-Bold.otf
+OverpassNerdFontPropo-BoldItalic.otf
+OverpassNerdFontPropo-ExtraBold.otf
+OverpassNerdFontPropo-ExtraBoldItalic.otf
+OverpassNerdFontPropo-ExtraLight.otf
+OverpassNerdFontPropo-ExtraLightItalic.otf
+OverpassNerdFontPropo-Heavy.otf
+OverpassNerdFontPropo-HeavyItalic.otf
+OverpassNerdFontPropo-Italic.otf
+OverpassNerdFontPropo-Light.otf
+OverpassNerdFontPropo-LightItalic.otf
+OverpassNerdFontPropo-Regular.otf
+OverpassNerdFontPropo-SemiBold.otf
+OverpassNerdFontPropo-SemiBoldItalic.otf
+OverpassNerdFontPropo-Thin.otf
+OverpassNerdFontPropo-ThinItalic.otf
+ProFontIIxNerdFont-Regular.ttf
+ProFontIIxNerdFontMono-Regular.ttf
+ProFontIIxNerdFontPropo-Regular.ttf
+ProFontWindowsNerdFont-Regular.ttf
+ProFontWindowsNerdFontMono-Regular.ttf
+ProFontWindowsNerdFontPropo-Regular.ttf
+ProggyCleanCENerdFont-Regular.ttf
+ProggyCleanCENerdFontMono-Regular.ttf
+ProggyCleanCENerdFontPropo-Regular.ttf
+ProggyCleanNerdFont-Regular.ttf
+ProggyCleanNerdFontMono-Regular.ttf
+ProggyCleanNerdFontPropo-Regular.ttf
+ProggyCleanSZNerdFont-Regular.ttf
+ProggyCleanSZNerdFontMono-Regular.ttf
+ProggyCleanSZNerdFontPropo-Regular.ttf
+RobotoMonoNerdFont-Bold.ttf
+RobotoMonoNerdFont-BoldItalic.ttf
+RobotoMonoNerdFont-Italic.ttf
+RobotoMonoNerdFont-Light.ttf
+RobotoMonoNerdFont-LightItalic.ttf
+RobotoMonoNerdFont-Medium.ttf
+RobotoMonoNerdFont-MediumItalic.ttf
+RobotoMonoNerdFont-Regular.ttf
+RobotoMonoNerdFont-SemiBold.ttf
+RobotoMonoNerdFont-SemiBoldItalic.ttf
+RobotoMonoNerdFont-Thin.ttf
+RobotoMonoNerdFont-ThinItalic.ttf
+RobotoMonoNerdFontMono-Bold.ttf
+RobotoMonoNerdFontMono-BoldItalic.ttf
+RobotoMonoNerdFontMono-Italic.ttf
+RobotoMonoNerdFontMono-Light.ttf
+RobotoMonoNerdFontMono-LightItalic.ttf
+RobotoMonoNerdFontMono-Medium.ttf
+RobotoMonoNerdFontMono-MediumItalic.ttf
+RobotoMonoNerdFontMono-Regular.ttf
+RobotoMonoNerdFontMono-SemiBold.ttf
+RobotoMonoNerdFontMono-SemiBoldItalic.ttf
+RobotoMonoNerdFontMono-Thin.ttf
+RobotoMonoNerdFontMono-ThinItalic.ttf
+RobotoMonoNerdFontPropo-Bold.ttf
+RobotoMonoNerdFontPropo-BoldItalic.ttf
+RobotoMonoNerdFontPropo-Italic.ttf
+RobotoMonoNerdFontPropo-Light.ttf
+RobotoMonoNerdFontPropo-LightItalic.ttf
+RobotoMonoNerdFontPropo-Medium.ttf
+RobotoMonoNerdFontPropo-MediumItalic.ttf
+RobotoMonoNerdFontPropo-Regular.ttf
+RobotoMonoNerdFontPropo-SemiBold.ttf
+RobotoMonoNerdFontPropo-SemiBoldItalic.ttf
+RobotoMonoNerdFontPropo-Thin.ttf
+RobotoMonoNerdFontPropo-ThinItalic.ttf
+SauceCodeProNerdFont-Black.ttf
+SauceCodeProNerdFont-BlackItalic.ttf
+SauceCodeProNerdFont-Bold.ttf
+SauceCodeProNerdFont-BoldItalic.ttf
+SauceCodeProNerdFont-ExtraLight.ttf
+SauceCodeProNerdFont-ExtraLightItalic.ttf
+SauceCodeProNerdFont-Italic.ttf
+SauceCodeProNerdFont-Light.ttf
+SauceCodeProNerdFont-LightItalic.ttf
+SauceCodeProNerdFont-Medium.ttf
+SauceCodeProNerdFont-MediumItalic.ttf
+SauceCodeProNerdFont-Regular.ttf
+SauceCodeProNerdFont-SemiBold.ttf
+SauceCodeProNerdFont-SemiBoldItalic.ttf
+SauceCodeProNerdFontMono-Black.ttf
+SauceCodeProNerdFontMono-BlackItalic.ttf
+SauceCodeProNerdFontMono-Bold.ttf
+SauceCodeProNerdFontMono-BoldItalic.ttf
+SauceCodeProNerdFontMono-ExtraLight.ttf
+SauceCodeProNerdFontMono-ExtraLightItalic.ttf
+SauceCodeProNerdFontMono-Italic.ttf
+SauceCodeProNerdFontMono-Light.ttf
+SauceCodeProNerdFontMono-LightItalic.ttf
+SauceCodeProNerdFontMono-Medium.ttf
+SauceCodeProNerdFontMono-MediumItalic.ttf
+SauceCodeProNerdFontMono-Regular.ttf
+SauceCodeProNerdFontMono-SemiBold.ttf
+SauceCodeProNerdFontMono-SemiBoldItalic.ttf
+SauceCodeProNerdFontPropo-Black.ttf
+SauceCodeProNerdFontPropo-BlackItalic.ttf
+SauceCodeProNerdFontPropo-Bold.ttf
+SauceCodeProNerdFontPropo-BoldItalic.ttf
+SauceCodeProNerdFontPropo-ExtraLight.ttf
+SauceCodeProNerdFontPropo-ExtraLightItalic.ttf
+SauceCodeProNerdFontPropo-Italic.ttf
+SauceCodeProNerdFontPropo-Light.ttf
+SauceCodeProNerdFontPropo-LightItalic.ttf
+SauceCodeProNerdFontPropo-Medium.ttf
+SauceCodeProNerdFontPropo-MediumItalic.ttf
+SauceCodeProNerdFontPropo-Regular.ttf
+SauceCodeProNerdFontPropo-SemiBold.ttf
+SauceCodeProNerdFontPropo-SemiBoldItalic.ttf
+ShureTechMonoNerdFont-Regular.ttf
+ShureTechMonoNerdFontMono-Regular.ttf
+ShureTechMonoNerdFontPropo-Regular.ttf
+SpaceMonoNerdFont-Bold.ttf
+SpaceMonoNerdFont-BoldItalic.ttf
+SpaceMonoNerdFont-Italic.ttf
+SpaceMonoNerdFont-Regular.ttf
+SpaceMonoNerdFontMono-Bold.ttf
+SpaceMonoNerdFontMono-BoldItalic.ttf
+SpaceMonoNerdFontMono-Italic.ttf
+SpaceMonoNerdFontMono-Regular.ttf
+SpaceMonoNerdFontPropo-Bold.ttf
+SpaceMonoNerdFontPropo-BoldItalic.ttf
+SpaceMonoNerdFontPropo-Italic.ttf
+SpaceMonoNerdFontPropo-Regular.ttf
+SymbolsNerdFont-Regular.ttf
+SymbolsNerdFontMono-Regular.ttf
+TerminessNerdFont-Bold.ttf
+TerminessNerdFont-BoldItalic.ttf
+TerminessNerdFont-Italic.ttf
+TerminessNerdFont-Regular.ttf
+TerminessNerdFontMono-Bold.ttf
+TerminessNerdFontMono-BoldItalic.ttf
+TerminessNerdFontMono-Italic.ttf
+TerminessNerdFontMono-Regular.ttf
+TerminessNerdFontPropo-Bold.ttf
+TerminessNerdFontPropo-BoldItalic.ttf
+TerminessNerdFontPropo-Italic.ttf
+TerminessNerdFontPropo-Regular.ttf
+TinosNerdFont-Bold.ttf
+TinosNerdFont-BoldItalic.ttf
+TinosNerdFont-Italic.ttf
+TinosNerdFont-Regular.ttf
+TinosNerdFontPropo-Bold.ttf
+TinosNerdFontPropo-BoldItalic.ttf
+TinosNerdFontPropo-Italic.ttf
+TinosNerdFontPropo-Regular.ttf
+UbuntuMonoNerdFont-Bold.ttf
+UbuntuMonoNerdFont-BoldItalic.ttf
+UbuntuMonoNerdFont-Italic.ttf
+UbuntuMonoNerdFont-Regular.ttf
+UbuntuMonoNerdFontMono-Bold.ttf
+UbuntuMonoNerdFontMono-BoldItalic.ttf
+UbuntuMonoNerdFontMono-Italic.ttf
+UbuntuMonoNerdFontMono-Regular.ttf
+UbuntuMonoNerdFontPropo-Bold.ttf
+UbuntuMonoNerdFontPropo-BoldItalic.ttf
+UbuntuMonoNerdFontPropo-Italic.ttf
+UbuntuMonoNerdFontPropo-Regular.ttf
+UbuntuNerdFont-Bold.ttf
+UbuntuNerdFont-BoldItalic.ttf
+UbuntuNerdFont-Condensed.ttf
+UbuntuNerdFont-Italic.ttf
+UbuntuNerdFont-Light.ttf
+UbuntuNerdFont-LightItalic.ttf
+UbuntuNerdFont-Medium.ttf
+UbuntuNerdFont-MediumItalic.ttf
+UbuntuNerdFont-Regular.ttf
+UbuntuNerdFontPropo-Bold.ttf
+UbuntuNerdFontPropo-BoldItalic.ttf
+UbuntuNerdFontPropo-Condensed.ttf
+UbuntuNerdFontPropo-Italic.ttf
+UbuntuNerdFontPropo-Light.ttf
+UbuntuNerdFontPropo-LightItalic.ttf
+UbuntuNerdFontPropo-Medium.ttf
+UbuntuNerdFontPropo-MediumItalic.ttf
+UbuntuNerdFontPropo-Regular.ttf
+VictorMonoNerdFont-Bold.ttf
+VictorMonoNerdFont-BoldItalic.ttf
+VictorMonoNerdFont-BoldOblique.ttf
+VictorMonoNerdFont-ExtraLight.ttf
+VictorMonoNerdFont-ExtraLightItalic.ttf
+VictorMonoNerdFont-ExtraLightOblique.ttf
+VictorMonoNerdFont-Italic.ttf
+VictorMonoNerdFont-Light.ttf
+VictorMonoNerdFont-LightItalic.ttf
+VictorMonoNerdFont-LightOblique.ttf
+VictorMonoNerdFont-Medium.ttf
+VictorMonoNerdFont-MediumItalic.ttf
+VictorMonoNerdFont-MediumOblique.ttf
+VictorMonoNerdFont-Oblique.ttf
+VictorMonoNerdFont-Regular.ttf
+VictorMonoNerdFont-SemiBold.ttf
+VictorMonoNerdFont-SemiBoldItalic.ttf
+VictorMonoNerdFont-SemiBoldOblique.ttf
+VictorMonoNerdFont-Thin.ttf
+VictorMonoNerdFont-ThinItalic.ttf
+VictorMonoNerdFont-ThinOblique.ttf
+VictorMonoNerdFontMono-Bold.ttf
+VictorMonoNerdFontMono-BoldItalic.ttf
+VictorMonoNerdFontMono-BoldOblique.ttf
+VictorMonoNerdFontMono-ExtraLight.ttf
+VictorMonoNerdFontMono-ExtraLightItalic.ttf
+VictorMonoNerdFontMono-ExtraLightOblique.ttf
+VictorMonoNerdFontMono-Italic.ttf
+VictorMonoNerdFontMono-Light.ttf
+VictorMonoNerdFontMono-LightItalic.ttf
+VictorMonoNerdFontMono-LightOblique.ttf
+VictorMonoNerdFontMono-Medium.ttf
+VictorMonoNerdFontMono-MediumItalic.ttf
+VictorMonoNerdFontMono-MediumOblique.ttf
+VictorMonoNerdFontMono-Oblique.ttf
+VictorMonoNerdFontMono-Regular.ttf
+VictorMonoNerdFontMono-SemiBold.ttf
+VictorMonoNerdFontMono-SemiBoldItalic.ttf
+VictorMonoNerdFontMono-SemiBoldOblique.ttf
+VictorMonoNerdFontMono-Thin.ttf
+VictorMonoNerdFontMono-ThinItalic.ttf
+VictorMonoNerdFontMono-ThinOblique.ttf
+VictorMonoNerdFontPropo-Bold.ttf
+VictorMonoNerdFontPropo-BoldItalic.ttf
+VictorMonoNerdFontPropo-BoldOblique.ttf
+VictorMonoNerdFontPropo-ExtraLight.ttf
+VictorMonoNerdFontPropo-ExtraLightItalic.ttf
+VictorMonoNerdFontPropo-ExtraLightOblique.ttf
+VictorMonoNerdFontPropo-Italic.ttf
+VictorMonoNerdFontPropo-Light.ttf
+VictorMonoNerdFontPropo-LightItalic.ttf
+VictorMonoNerdFontPropo-LightOblique.ttf
+VictorMonoNerdFontPropo-Medium.ttf
+VictorMonoNerdFontPropo-MediumItalic.ttf
+VictorMonoNerdFontPropo-MediumOblique.ttf
+VictorMonoNerdFontPropo-Oblique.ttf
+VictorMonoNerdFontPropo-Regular.ttf
+VictorMonoNerdFontPropo-SemiBold.ttf
+VictorMonoNerdFontPropo-SemiBoldItalic.ttf
+VictorMonoNerdFontPropo-SemiBoldOblique.ttf
+VictorMonoNerdFontPropo-Thin.ttf
+VictorMonoNerdFontPropo-ThinItalic.ttf
+VictorMonoNerdFontPropo-ThinOblique.ttf
+iMWritingDuoNerdFont-Bold.ttf
+iMWritingDuoNerdFont-BoldItalic.ttf
+iMWritingDuoNerdFont-Italic.ttf
+iMWritingDuoNerdFont-Regular.ttf
+iMWritingDuoNerdFontPropo-Bold.ttf
+iMWritingDuoNerdFontPropo-BoldItalic.ttf
+iMWritingDuoNerdFontPropo-Italic.ttf
+iMWritingDuoNerdFontPropo-Regular.ttf
+iMWritingMonoNerdFont-Bold.ttf
+iMWritingMonoNerdFont-BoldItalic.ttf
+iMWritingMonoNerdFont-Italic.ttf
+iMWritingMonoNerdFont-Regular.ttf
+iMWritingMonoNerdFontMono-Bold.ttf
+iMWritingMonoNerdFontMono-BoldItalic.ttf
+iMWritingMonoNerdFontMono-Italic.ttf
+iMWritingMonoNerdFontMono-Regular.ttf
+iMWritingMonoNerdFontPropo-Bold.ttf
+iMWritingMonoNerdFontPropo-BoldItalic.ttf
+iMWritingMonoNerdFontPropo-Italic.ttf
+iMWritingMonoNerdFontPropo-Regular.ttf
+iMWritingQuatNerdFont-Bold.ttf
+iMWritingQuatNerdFont-BoldItalic.ttf
+iMWritingQuatNerdFont-Italic.ttf
+iMWritingQuatNerdFont-Regular.ttf
+iMWritingQuatNerdFontPropo-Bold.ttf
+iMWritingQuatNerdFontPropo-BoldItalic.ttf
+iMWritingQuatNerdFontPropo-Italic.ttf
+iMWritingQuatNerdFontPropo-Regular.ttf
+Running phase: installPhase
+Running phase: fixupPhase
+shrinking RPATHs of ELF executables and libraries in /nix/store/nkb6sdwn9ckffabdybqqd0rq8k3mjgnw-nerdfonts-3.0.2
+checking for references to /build/ in /nix/store/nkb6sdwn9ckffabdybqqd0rq8k3mjgnw-nerdfonts-3.0.2...
+patching script interpreter paths in /nix/store/nkb6sdwn9ckffabdybqqd0rq8k3mjgnw-nerdfonts-3.0.2
+building '/nix/store/gr7q452hm72b7h0c16hixnz7vwxva66v-system-path.drv'...
 warning: collision between `/nix/store/51rlqkpyg01mdv3q0i8f67ql70aks76n-rustup-1.26.0/bin/cargo' and `/nix/store/s405qfa0y7fib5cv3cwnn74cq7gkdc7b-cargo-1.73.0/bin/cargo'
 warning: collision between `/nix/store/51rlqkpyg01mdv3q0i8f67ql70aks76n-rustup-1.26.0/bin/rust-lldb' and `/nix/store/rjy6icb45r3x7snfjns2yivyyz1assll-rustc-1.73.0/bin/rust-lldb'
 warning: collision between `/nix/store/51rlqkpyg01mdv3q0i8f67ql70aks76n-rustup-1.26.0/bin/rust-gdb' and `/nix/store/rjy6icb45r3x7snfjns2yivyyz1assll-rustc-1.73.0/bin/rust-gdb'
@@ -35,20 +2148,20 @@ warning: collision between `/nix/store/pnni79akwcdb28g00y6bx6hjwiq7wc6m-net-tool
 warning: collision between `/nix/store/pnni79akwcdb28g00y6bx6hjwiq7wc6m-net-tools-2.10/share/man/man1/dnsdomainname.1.gz' and `/nix/store/6wb1yplcqp88nqzh1x304dwh29x5g73w-inetutils-2.5/share/man/man1/dnsdomainname.1.gz'
 warning: collision between `/nix/store/pnni79akwcdb28g00y6bx6hjwiq7wc6m-net-tools-2.10/share/man/man1/hostname.1.gz' and `/nix/store/6wb1yplcqp88nqzh1x304dwh29x5g73w-inetutils-2.5/share/man/man1/hostname.1.gz'
 warning: collision between `/nix/store/yqvzsmrx22s3hab6fcrfcvgsj426x07y-steam/bin/steam' and `/nix/store/vhivrpp8q82wfp8lddpf8pa1irwq5qv0-steam/bin/steam'
-created 22682 symlinks in user environment
+created 22683 symlinks in user environment
 gtk-update-icon-cache: Cache file created successfully.
 gtk-update-icon-cache: Cache file created successfully.
-building '/nix/store/z06kvn50n6g4vjb7rdx5jzps57adym32-X-Restart-Triggers-polkit.drv'...
-building '/nix/store/d1cb6g77q5p93h9dryjb4zjdia9501r3-dbus-1.drv'...
-building '/nix/store/vpf7i5z02hd2a7vwykri1mj8hp6f40qm-etc-pam-environment.drv'...
-building '/nix/store/ma1gvdqwbacm7dj0by4shmclg00pbra0-set-environment.drv'...
-building '/nix/store/n46l788h992dj09n3sp748ffx0mdf9kp-unit-accounts-daemon.service.drv'...
-building '/nix/store/y7crff50p6x6xv0k0x8jx2ay920l94mr-X-Restart-Triggers-dbus.drv'...
-building '/nix/store/gxc916fcgsgxldmg3767h976xx9455g2-etc-profile.drv'...
-building '/nix/store/fb7z1y3j1p6876xi65pck2lrh9rpaq1n-unit-polkit.service.drv'...
-building '/nix/store/dngahajqfrqg4ak7n9s0hrccj4cj8f2j-unit-dbus.service.drv'...
-building '/nix/store/zns85alraqvby556b4wd2zk2xn281ky2-unit-dbus.service.drv'...
-building '/nix/store/m095lz0l2yj8wy82hc7i6aw84y2yagj1-system-units.drv'...
-building '/nix/store/3inr68v5mnwg935cdh5lraxbw80mravw-user-units.drv'...
-building '/nix/store/2n84xma8ziz9g8k0vq7saq8y9zcryspz-etc.drv'...
-building '/nix/store/qag103j9zcdkdnvnwdqw733l6qmnvhvm-nixos-system-nixos-23.11.4801.b7ee09cf5614.drv'...
+building '/nix/store/c15y7w8p7plzmzksvrkqrnsgzagv1m09-X-Restart-Triggers-polkit.drv'...
+building '/nix/store/nccabd60r1kvfh7n6swzzznb90jp7a49-dbus-1.drv'...
+building '/nix/store/a9s5zy4xl4wv1bv6fv3az8xz3dx6c4fy-etc-pam-environment.drv'...
+building '/nix/store/am9knpassqiygxp0mmgbkw89y03jyid6-set-environment.drv'...
+building '/nix/store/svgpxqs02idlqzi3rdhsfmwmy0cwl62j-unit-accounts-daemon.service.drv'...
+building '/nix/store/rhwgzw2mbrrj1sx2mhafv62ri2wsig49-X-Restart-Triggers-dbus.drv'...
+building '/nix/store/ibcw1cqdqqz1miccgpjcwnbadynyyd6y-etc-profile.drv'...
+building '/nix/store/kfvzr8pd1di2cjv2bdd53zhlmki7wmcm-unit-polkit.service.drv'...
+building '/nix/store/728nmancmlar86zjsv2wd27l1gb437sf-unit-dbus.service.drv'...
+building '/nix/store/7zsq3h0jxwccp0jpbgb0kjxl9wrx0m10-unit-dbus.service.drv'...
+building '/nix/store/c75d41b5cqbhv4k190m89nfx4kc59ba7-user-units.drv'...
+building '/nix/store/x8khrpwi9rlimk02v3psfdlnc8c0hvxf-system-units.drv'...
+building '/nix/store/2kxzqp369y92crkm0sjq5p97714bl8gl-etc.drv'...
+building '/nix/store/0zmrcv7ii9z5xpk64rp8d9hk21majyva-nixos-system-nixos-23.11.4801.b7ee09cf5614.drv'...
