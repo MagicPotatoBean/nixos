@@ -1,6 +1,6 @@
 with import <nixpkgs> {};
   writeShellScriptBin "edit" ''
     # !/usr/bin/env bash
-    # Open vscode in ~/.dotfiles/nixos/
-    code /home/zoe/.dotfiles/nixos/
+    # Open neovim in ~/.dotfiles/nixos/
+    nvim /home/zoe/.dotfiles/nixos/
   ''

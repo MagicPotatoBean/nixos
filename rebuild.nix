@@ -7,6 +7,9 @@ with import <nixpkgs> {};
     # cd to your config dir
     pushd ~/.dotfiles/nixos/ > /dev/null
 
+    # Open config in neovim
+    nvim /home/zoe/.dotfiles/nixos/configuration.nix
+
     # Autoformat your nix files
     sudo alejandra . &>/dev/null
 
