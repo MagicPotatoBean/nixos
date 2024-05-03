@@ -276,6 +276,7 @@
     pkgs.rustup
     pkgs.nerdfonts
     pkgs.neofetch
+    pkgs.wl-clipboard
   ];
   # Adding a comment to force rebuilding.
   nixpkgs.config.permittedInsecurePackages = [
