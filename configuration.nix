@@ -278,6 +278,7 @@
     pkgs.neofetch
     pkgs.wl-clipboard
     pkgs.usbutils
+    pkgs.cargo-espflash
   ];
   # Adding a comment to force rebuilding.
   nixpkgs.config.permittedInsecurePackages = [
