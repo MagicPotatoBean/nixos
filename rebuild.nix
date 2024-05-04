@@ -3,7 +3,6 @@ with import <nixpkgs> {};
     # !/usr/bin/env bash
     # A rebuild script that commits on a successful build
     set -e
-    nix develop /home/zoe/source/flakes/nvim/nvim/
 
     # cd to your config dir
     pushd ~/.dotfiles/nixos/ > /dev/null
@@ -34,7 +33,6 @@ with import <nixpkgs> {};
     # Back to where you were
     popd > /dev/null
 
-    exit
     # Notify all OK!
     echo -e "NixOS Rebuilt OK!"
   ''

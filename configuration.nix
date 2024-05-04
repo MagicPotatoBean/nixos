@@ -247,7 +247,6 @@
     pkgs.drive
     pkgs.jellyfin-ffmpeg
     (import /home/zoe/.dotfiles/nixos/edit.nix)
-    (import /home/zoe/.dotfiles/nixos/gc.nix)
     pkgs.unzip
     pkgs.winetricks
     pkgs.wineWowPackages.stable
