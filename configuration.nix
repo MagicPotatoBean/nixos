@@ -280,6 +280,7 @@
     pkgs.file
     pkgs.awscli2
     pkgs.fuse
+    pkgs.pkg-config
   ];
   # Adding a comment to force rebuilding.
   nixpkgs.config.permittedInsecurePackages = [
