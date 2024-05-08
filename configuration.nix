@@ -265,7 +265,6 @@
     pkgs.gh
     pkgs.alejandra
     pkgs.inetutils
-    pkgs.rustc
     pkgs.gcc
     pkgs.cargo
     pkgs.bacon
