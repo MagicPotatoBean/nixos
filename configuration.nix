@@ -279,6 +279,7 @@
     pkgs.cargo-espflash
     pkgs.file
     pkgs.awscli2
+    pkgs.fuse
   ];
   # Adding a comment to force rebuilding.
   nixpkgs.config.permittedInsecurePackages = [
