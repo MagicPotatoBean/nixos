@@ -58,7 +58,7 @@
     desktopManager.gnome.extraGSettingsOverrides = ''
       [org.gnome.desktop.interface]
       gtk-theme='Nordic'
-      text-scaling-factor=1.25
+      text-scaling-factor=1
 
       [org.gnome.desktop.wm.preferences]
       button-layout=':minimize,maximize,close'
