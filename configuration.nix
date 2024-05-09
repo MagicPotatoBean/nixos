@@ -279,7 +279,7 @@
     cargo-espflash
     file
     awscli2
-    qtile
+    gnomeExtensions.gsnap
   ];
   # Adding a comment to force rebuilding.
   nixpkgs.config.permittedInsecurePackages = [
