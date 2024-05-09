@@ -210,10 +210,10 @@
   # Sets up all the libraries to load
   programs.nix-ld.libraries = with pkgs; [
     # Required libraries
-    pkgs.stdenv.cc.cc.lib
-    pkgs.libGL
-    pkgs.libz
-    pkgs.haskellPackages.gssapi
+    stdenv.cc.cc.lib
+    libGL
+    libz
+    haskellPackages.gssapi
   ];
 
   # List packages installed in system profile. To search, run:
@@ -224,7 +224,7 @@
   environment.systemPackages = with pkgs; [
     (
       pkgs.vscode-with-extensions.override {
-        vscodeExtensions = with pkgs.vscode-extensions;
+        vscodeExtensions = with vscode-extensions;
           [
             ms-vscode.cpptools
             bbenoist.nix
@@ -235,51 +235,51 @@
             vscodevim.vim
             # Built in extensions
           ]
-          ++ pkgs.vscode-utils.extensionsFromVscodeMarketplace [
+          ++ vscode-utils.extensionsFromVscodeMarketplace [
             # Custom extensions
           ];
       }
     )
-    pkgs.tree
-    pkgs.netcat-gnu
-    pkgs.spotify
-    pkgs.gimp
-    pkgs.drive
-    pkgs.jellyfin-ffmpeg
+    tree
+    netcat-gnu
+    spotify
+    gimp
+    drive
+    jellyfin-ffmpeg
     (import /home/zoe/.dotfiles/nixos/edit.nix)
-    pkgs.unzip
-    pkgs.winetricks
-    pkgs.wineWowPackages.stable
-    pkgs.steam
-    pkgs.discord
-    pkgs.keepassxc
-    pkgs.libreoffice
-    pkgs.libtelnet
+    unzip
+    winetricks
+    wineWowPackages.stable
+    steam
+    discord
+    keepassxc
+    libreoffice
+    libtelnet
     (import "/home/zoe/.dotfiles/nixos/rebuild.nix")
-    pkgs.openssl
-    pkgs.wacomtablet
-    pkgs.obsidian
-    pkgs.git
-    pkgs.home-manager
-    pkgs.nix-ld
-    pkgs.gh
-    pkgs.alejandra
-    pkgs.inetutils
-    pkgs.gcc
-    pkgs.cargo
-    pkgs.bacon
-    pkgs.rustfmt
-    pkgs.extundelete
-    pkgs.neovim
-    pkgs.rustup
-    pkgs.nerdfonts
-    pkgs.neofetch
-    pkgs.wl-clipboard
-    pkgs.usbutils
-    pkgs.cargo-espflash
-    pkgs.file
-    pkgs.awscli2
-    pkgs.gnomeExtensions.gtile
+    openssl
+    wacomtablet
+    obsidian
+    git
+    home-manager
+    nix-ld
+    gh
+    alejandra
+    inetutils
+    gcc
+    cargo
+    bacon
+    rustfmt
+    extundelete
+    neovim
+    rustup
+    nerdfonts
+    neofetch
+    wl-clipboard
+    usbutils
+    cargo-espflash
+    file
+    awscli2
+    qtile
   ];
   # Adding a comment to force rebuilding.
   nixpkgs.config.permittedInsecurePackages = [
