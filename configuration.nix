@@ -281,6 +281,7 @@
     awscli2
     gnomeExtensions.gsnap
     cargo-generate
+    python3
   ];
   # Adding a comment to force rebuilding.
   nixpkgs.config.permittedInsecurePackages = [
