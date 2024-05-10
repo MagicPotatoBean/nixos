@@ -280,7 +280,6 @@
     file
     awscli2
     gnomeExtensions.gsnap
-    espup
     cargo-generate
   ];
   # Adding a comment to force rebuilding.
