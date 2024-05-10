@@ -280,6 +280,7 @@
     file
     awscli2
     gnomeExtensions.gsnap
+    espup
   ];
   # Adding a comment to force rebuilding.
   nixpkgs.config.permittedInsecurePackages = [
