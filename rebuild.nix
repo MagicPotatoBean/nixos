@@ -7,6 +7,10 @@ with import <nixpkgs> {};
     # cd to your config dir
     pushd ~/.dotfiles/nixos/ > /dev/null
 
+    # Fetch latest changes from github repo
+    git fetch
+    git pull
+
     # Open config in neovim
     nvim /home/zoe/.dotfiles/nixos/configuration.nix
 
