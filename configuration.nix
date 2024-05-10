@@ -113,7 +113,7 @@
   users.users.zoe = {
     isNormalUser = true;
     description = "Zoe";
-    extraGroups = ["networkmanager" "wheel"];
+    extraGroups = ["networkmanager" "wheel" "dialout"];
     packages = with pkgs; [
       firefox
     ];
