@@ -282,7 +282,7 @@
     gnomeExtensions.gsnap
     cargo-generate
     python3
-    matrixcli
+    matrix-commander
   ];
   # Adding a comment to force rebuilding.
   nixpkgs.config.permittedInsecurePackages = [
