@@ -283,6 +283,7 @@
     cargo-generate
     python3
     matrixcli
+    ghc
   ];
   # Adding a comment to force rebuilding.
   nixpkgs.config.permittedInsecurePackages = [
