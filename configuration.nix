@@ -284,6 +284,7 @@
     python3
     matrixcli
     ghc
+    haskellPackages.cabal-install
   ];
   # Adding a comment to force rebuilding.
   nixpkgs.config.permittedInsecurePackages = [
