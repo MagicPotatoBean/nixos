@@ -11,19 +11,29 @@
     ./hardware-configuration.nix
   ];
   # Bootloader.
-  boot.loader.systemd-boot.enable = true;
-  boot.loader.efi.canTouchEfiVariables = true;
-  boot.resumeDevice = "/dev/mapper/myroot";
+  boot = {
+    loader.systemd-boot.enable = true;
+    loader.efi.canTouchEfiVariables = true;
+    resumeDevice = "/dev/mapper/myroot";
+  };
 
-  networking.hostName = "nixos"; # Define your hostname.
-  # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
+  networking = {
+    # Open ports in the firewall.
+    firewall.allowedTCPPorts = [80 21];
+    # networking.firewall.allowedUDPPorts = [ ... ];
+    # Or disable the firewall altogether.
+    # networking.firewall.enable = false;
 
-  # Configure network proxy if necessary
-  # networking.proxy.default = "http://user:password@proxy:port/";
-  # networking.proxy.noProxy = "127.0.0.1,localhost,internal.domain";
+    hostName = "nixos"; # Define your hostname.
+    # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
 
-  # Enable networking
-  networking.networkmanager.enable = true;
+    # Configure network proxy if necessary
+    # networking.proxy.default = "http://user:password@proxy:port/";
+    # networking.proxy.noProxy = "127.0.0.1,localhost,internal.domain";
+
+    # Enable networking
+    networkmanager.enable = true;
+  };
 
   # Set your time zone.
   time.timeZone = "Europe/London";
@@ -200,29 +210,36 @@
   ];
 
   # Disable gnome-tour, xterm
-  environment.gnome.excludePackages = [pkgs.gnome-tour];
+  environment = {
+    variables = {
+      EDITOR = "nano";
+      VISUAL = "nvim";
+    };
+    gnome.excludePackages = [pkgs.gnome-tour];
+    interactiveShellInit = ''
+      alias gs='git status'
+    '';
+  };
   services.xserver.excludePackages = [pkgs.xterm];
+  programs = {
+    # Enable steam
+    steam.enable = true;
 
-  # Enable steam
-  programs.steam.enable = true;
+    # Sets up nix-ld to allow arbitrary binaries
+    nix-ld.enable = true;
 
-  # Sets up nix-ld to allow arbitrary binaries
-  programs.nix-ld.enable = true;
-
-  # Sets up all the libraries to load
-  programs.nix-ld.libraries = with pkgs; [
-    # Required libraries
-    stdenv.cc.cc.lib
-    libGL
-    libz
-    haskellPackages.gssapi
-  ];
+    # Sets up all the libraries to load
+    nix-ld.libraries = with pkgs; [
+      # Required libraries
+      stdenv.cc.cc.lib
+      libGL
+      libz
+      haskellPackages.gssapi
+    ];
+  };
 
   # List packages installed in system profile. To search, run:
   # $ nix search wget
-  environment.interactiveShellInit = ''
-    alias gs='git status'
-  '';
   environment.systemPackages = with pkgs; [
     (
       pkgs.vscode-with-extensions.override {
@@ -304,12 +321,6 @@
 
   # Enable the OpenSSH daemon.
   # services.openssh.enable = true;
-
-  # Open ports in the firewall.
-  networking.firewall.allowedTCPPorts = [80 21];
-  # networking.firewall.allowedUDPPorts = [ ... ];
-  # Or disable the firewall altogether.
-  # networking.firewall.enable = false;
 
   # Experimental features
   nix.settings.experimental-features = ["nix-command" "flakes"];
