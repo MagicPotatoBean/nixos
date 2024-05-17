@@ -212,7 +212,7 @@
   # Disable gnome-tour, xterm
   environment = {
     variables = {
-      EDITOR = "nano";
+      EDITOR = "nvim";
       VISUAL = "nvim";
     };
     gnome.excludePackages = [pkgs.gnome-tour];
