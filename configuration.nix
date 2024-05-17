@@ -211,11 +211,6 @@
 
   # Disable gnome-tour, xterm
   environment = {
-    variables = {
-      EDITOR = "nvim";
-      VISUAL = "nvim";
-      GIT_EDITOR = "nvim";
-    };
     gnome.excludePackages = [pkgs.gnome-tour];
     interactiveShellInit = ''
       alias gs='git status'
@@ -223,6 +218,12 @@
   };
   services.xserver.excludePackages = [pkgs.xterm];
   programs = {
+    # Set up neovim as default editor
+    neovim = {
+      enable = true;
+      defaultEditor = true;
+    };
+
     # Enable steam
     steam.enable = true;
 
