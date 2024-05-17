@@ -42,48 +42,50 @@
     LC_TELEPHONE = "en_GB.UTF-8";
     LC_TIME = "en_GB.UTF-8";
   };
+  services = {
+    openvpn.servers = {
+      protonVPN = {config = ''config /home/zoe/.dotfiles/openvpn/proton.conf '';};
+    };
+    xserver = {
+      enable = true;
+      # Enable the GNOME Desktop Environment.
+      displayManager.gdm.enable = true;
+      desktopManager.gnome.enable = true;
+      # Reinstate the minimize/maximize buttons!
+      # To list all possible settings, try this:
+      # > gsettings list-schemas
+      # then pick one and use it here:
+      # > gsettings list-recursively <schema-name>
+      # Try to keep the settings groups in alphabetical order.
+      desktopManager.gnome.extraGSettingsOverrides = ''
+        [org.gnome.desktop.interface]
+        gtk-theme='Nordic'
+        text-scaling-factor=1
 
-  # Enable the GNOME Desktop Environment.
-  services.xserver = {
-    enable = true;
-    # Enable the GNOME Desktop Environment.
-    displayManager.gdm.enable = true;
-    desktopManager.gnome.enable = true;
-    # Reinstate the minimize/maximize buttons!
-    # To list all possible settings, try this:
-    # > gsettings list-schemas
-    # then pick one and use it here:
-    # > gsettings list-recursively <schema-name>
-    # Try to keep the settings groups in alphabetical order.
-    desktopManager.gnome.extraGSettingsOverrides = ''
-      [org.gnome.desktop.interface]
-      gtk-theme='Nordic'
-      text-scaling-factor=1
+        [org.gnome.desktop.wm.preferences]
+        button-layout=':minimize,maximize,close'
+        resize-with-right-button=true
+        theme='Nordic'
 
-      [org.gnome.desktop.wm.preferences]
-      button-layout=':minimize,maximize,close'
-      resize-with-right-button=true
-      theme='Nordic'
+        [org.gnome.nautilus.preferences]
+        always-use-location-entry=true
 
-      [org.gnome.nautilus.preferences]
-      always-use-location-entry=true
+        [org.gnome.settings-daemon.plugins.color]
+        night-light-enabled=true
+        night-light-temperature=2500
+        night-light-schedule-automatic=true
 
-      [org.gnome.settings-daemon.plugins.color]
-      night-light-enabled=true
-      night-light-temperature=2500
-      night-light-schedule-automatic=true
+        [org.gnome.SessionManager]
+        auto-save-session=true
 
-      [org.gnome.SessionManager]
-      auto-save-session=true
-
-      [org.gtk.Settings.FileChooser]
-      sort-directories-first=false
-    '';
-    # Configure keymap in X11
-    layout = "gb";
-    xkbVariant = "";
+        [org.gtk.Settings.FileChooser]
+        sort-directories-first=false
+      '';
+      # Configure keymap in X11
+      layout = "gb";
+      xkbVariant = "";
+    };
   };
-
   # Configure console keymap
   console.keyMap = "uk";
 
