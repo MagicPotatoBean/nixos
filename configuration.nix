@@ -214,6 +214,7 @@
     variables = {
       EDITOR = "nvim";
       VISUAL = "nvim";
+      GIT_EDITOR = "nvim";
     };
     gnome.excludePackages = [pkgs.gnome-tour];
     interactiveShellInit = ''
