@@ -5,7 +5,9 @@
   config,
   pkgs,
   ...
-}: {
+}: let
+  unstable = import <nixos-unstable> {config = {allowUnfree = true;};};
+in {
   imports = [
     # Include the results of the hardware scan.
     ./hardware-configuration.nix
@@ -239,74 +241,75 @@
       haskellPackages.gssapi
     ];
   };
-
   # List packages installed in system profile. To search, run:
   # $ nix search wget
-  environment.systemPackages = with pkgs; [
-    (
-      pkgs.vscode-with-extensions.override {
-        vscodeExtensions = with vscode-extensions;
-          [
-            ms-vscode.cpptools
-            bbenoist.nix
-            rust-lang.rust-analyzer
-            jnoortheen.nix-ide
-            usernamehw.errorlens
-            ms-vscode.live-server
-            vscodevim.vim
-            # Built in extensions
-          ]
-          ++ vscode-utils.extensionsFromVscodeMarketplace [
-            # Custom extensions
-          ];
-      }
-    )
-    tree
-    netcat-gnu
-    spotify
-    gimp
-    drive
-    jellyfin-ffmpeg
-    (import /home/zoe/.dotfiles/nixos/edit.nix)
-    unzip
-    winetricks
-    wineWowPackages.stable
-    steam
-    discord
-    keepassxc
-    libreoffice
-    libtelnet
-    (import "/home/zoe/.dotfiles/nixos/rebuild.nix")
-    openssl
-    wacomtablet
-    obsidian
-    git
-    home-manager
-    nix-ld
-    gh
-    alejandra
-    inetutils
-    gcc
-    cargo
-    bacon
-    rustfmt
-    extundelete
-    neovim
-    rustup
-    nerdfonts
-    neofetch
-    wl-clipboard
-    usbutils
-    cargo-espflash
-    file
-    awscli2
-    gnomeExtensions.gsnap
-    cargo-generate
-    python3
-    matrixcli
-    ghc
-    haskellPackages.cabal-install
-  ];
+  environment = {
+    systemPackages = [
+      #      (
+      #        pkgs.vscode-with-extensions.override {
+      #          vscodeExtensions = with pkgs.vscode-extensions;
+      #            [
+      #              ms-vscode.cpptools
+      #              bbenoist.nix
+      #              rust-lang.rust-analyzer
+      #              jnoortheen.nix-ide
+      #              usernamehw.errorlens
+      #              ms-vscode.live-server
+      #              vscodevim.vim
+      #              # Built in extensions
+      #            ]
+      #            ++ pkgs.vscode-utils.extensionsFromVscodeMarketplace [
+      #              # Custom extensions
+      #            ];
+      #        }
+      #      )
+      pkgs.tree
+      pkgs.netcat-gnu
+      pkgs.spotify
+      pkgs.gimp
+      pkgs.drive
+      pkgs.jellyfin-ffmpeg
+      (import /home/zoe/.dotfiles/nixos/edit.nix)
+      pkgs.unzip
+      pkgs.winetricks
+      pkgs.wineWowPackages.stable
+      pkgs.steam
+      pkgs.discord
+      pkgs.keepassxc
+      pkgs.libreoffice
+      pkgs.libtelnet
+      (import "/home/zoe/.dotfiles/nixos/rebuild.nix")
+      pkgs.openssl
+      pkgs.wacomtablet
+      pkgs.obsidian
+      pkgs.git
+      pkgs.home-manager
+      pkgs.nix-ld
+      pkgs.gh
+      pkgs.alejandra
+      pkgs.inetutils
+      pkgs.gcc
+      pkgs.cargo
+      pkgs.bacon
+      pkgs.rustfmt
+      pkgs.extundelete
+      pkgs.neovim
+      pkgs.rustup
+      pkgs.nerdfonts
+      pkgs.neofetch
+      pkgs.wl-clipboard
+      pkgs.usbutils
+      pkgs.file
+      pkgs.awscli2
+      pkgs.gnomeExtensions.gsnap
+      pkgs.cargo-generate
+      pkgs.python3
+      pkgs.matrixcli
+      pkgs.ghc
+      pkgs.haskellPackages.cabal-install
+      unstable.espflash
+    ];
+  };
   # Adding a comment to force rebuilding.
   nixpkgs.config.permittedInsecurePackages = [
     "electron-25.9.0"
