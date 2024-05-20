@@ -6,6 +6,8 @@
   pkgs,
   ...
 }: let
+  fenix = import (fetchTarball "https://github.com/nix-community/fenix/archive/main.tar.gz") {};
+  rust-overlay = import (fetchTarball "https://github.com/oxalica/rust-overlay/archive/master.tar.gz") {};
   unstable = import <nixos-unstable> {config = {allowUnfree = true;};};
 in {
   imports = [
@@ -289,12 +291,13 @@ in {
       pkgs.alejandra
       pkgs.inetutils
       pkgs.gcc
-      pkgs.cargo
+      fenix.minimal.toolchain
+      # pkgs.cargo
+      # pkgs.rustup
       pkgs.bacon
       pkgs.rustfmt
       pkgs.extundelete
       pkgs.neovim
-      pkgs.rustup
       pkgs.nerdfonts
       pkgs.neofetch
       pkgs.wl-clipboard
