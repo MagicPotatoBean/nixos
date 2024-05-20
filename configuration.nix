@@ -292,8 +292,7 @@ in {
       pkgs.inetutils
       pkgs.gcc
       fenix.minimal.toolchain
-      # pkgs.cargo
-      # pkgs.rustup
+      pkgs.rustup
       pkgs.bacon
       pkgs.rustfmt
       pkgs.extundelete
