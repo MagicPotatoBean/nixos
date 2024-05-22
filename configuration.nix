@@ -228,6 +228,12 @@ in {
       defaultEditor = true;
     };
 
+    # Set up GPG
+    gnupg.agent = {
+      enable = true;
+      enableSSHSupport = true;
+    };
+
     # Enable steam
     steam.enable = true;
 
