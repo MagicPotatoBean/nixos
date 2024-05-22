@@ -310,6 +310,7 @@ in {
       pkgs.ghc
       pkgs.haskellPackages.cabal-install
       unstable.espflash
+      pkgs.gnupg1
     ];
   };
   # Adding a comment to force rebuilding.
