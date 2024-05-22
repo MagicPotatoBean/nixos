@@ -311,7 +311,7 @@ in {
       pkgs.haskellPackages.cabal-install
       unstable.espflash
       pkgs.gnupg1
-      pkgs.pinentry
+      pkgs.pinentry-gnome
     ];
   };
   # Adding a comment to force rebuilding.
