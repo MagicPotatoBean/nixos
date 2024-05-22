@@ -311,6 +311,7 @@ in {
       pkgs.haskellPackages.cabal-install
       unstable.espflash
       pkgs.gnupg1
+      pkgs.pinentry
     ];
   };
   # Adding a comment to force rebuilding.
