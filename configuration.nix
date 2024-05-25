@@ -318,6 +318,7 @@ in {
       unstable.espflash
       pkgs.gnupg1
       pkgs.pinentry-gnome
+      pkgs.kdiff3
     ];
   };
   # Adding a comment to force rebuilding.
