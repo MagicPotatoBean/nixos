@@ -217,7 +217,7 @@ in {
   environment = {
     gnome.excludePackages = [pkgs.gnome-tour];
     interactiveShellInit = ''
-      alias gs='git status'
+      nix develop /home/zoe/source/flakes/neovim-flake/
     '';
   };
   services.xserver.excludePackages = [pkgs.xterm];
