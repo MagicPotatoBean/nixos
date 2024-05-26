@@ -319,7 +319,6 @@ in {
       pkgs.gnupg1
       pkgs.pinentry-gnome
       pkgs.gdrive3
-      pkgs.keepass
     ];
   };
   # Adding a comment to force rebuilding.
