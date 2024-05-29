@@ -287,6 +287,7 @@ in {
       pkgs.libreoffice
       pkgs.libtelnet
       (import "/home/zoe/.dotfiles/nixos/rebuild.nix")
+      (import "/home/zoe/.dotfiles/nixos/reload.nix")
       pkgs.openssl
       pkgs.wacomtablet
       pkgs.obsidian
