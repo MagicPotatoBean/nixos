@@ -12,7 +12,7 @@
 in {
   imports = [
     # Include the results of the hardware scan.
-    ./hardware-configuration.nix
+    /etc/nixos/hardware-configuration.nix
   ];
   # Bootloader.
   boot = {
@@ -321,7 +321,7 @@ in {
       pkgs.pinentry-gnome
       pkgs.gdrive3
       pkgs.distrobox
-      pkgs.docker_26
+      # pkgs.docker_26
     ];
   };
   # Adding a comment to force rebuilding.
