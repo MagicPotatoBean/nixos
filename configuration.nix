@@ -320,6 +320,7 @@ in {
       pkgs.gdrive3
       pkgs.distrobox
       unstable.docker_26
+      pkgs.pkg-config
     ];
   };
   # Adding a comment to force rebuilding.
