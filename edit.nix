@@ -2,10 +2,19 @@ with import <nixpkgs> {};
   writeShellScriptBin "edit" ''
      # !/usr/bin/env bash
 
+     # Stop on error
+     set -e
+
+    # Navigate to config files
+    pushd /etc/nixos/ > /dev/null
+
      # Fetch latest changes from github
-    git fetch
-    git pull
+    sudo git fetch
+    sudo git pull
 
      # Open neovim in ~/.dotfiles/nixos/
-    nvim /home/zoe/.dotfiles/nixos/
+    sudo nvim /etc/nixos/
+
+    # Return to where you were
+    popd > /dev/null
   ''

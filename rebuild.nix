@@ -5,14 +5,14 @@ with import <nixpkgs> {};
     set -e
 
     # cd to your config dir
-    pushd ~/.dotfiles/nixos/ > /dev/null
+    pushd /etc/nixos/ > /dev/null
 
     # Fetch latest changes from github repo
-    git fetch
-    git pull
+    sudo git fetch
+    sudo git pull
 
     # Open config in neovim
-    nvim /home/zoe/.dotfiles/nixos/configuration.nix
+    sudo nvim /etc/nixos/configuration.nix
 
     # Autoformat your nix files
     sudo alejandra . &>/dev/null
@@ -29,8 +29,8 @@ with import <nixpkgs> {};
     current=$(nixos-rebuild list-generations | grep current)
 
     # Commit all changes with the generation metadata, and pushing it
-    git commit -am "$current"
-    git push
+    sudo git commit -am "$current"
+    sudo git push
 
     # Leave nix develop
 

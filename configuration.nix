@@ -7,7 +7,6 @@
   ...
 }: let
   fenix = import (fetchTarball "https://github.com/nix-community/fenix/archive/main.tar.gz") {};
-  rust-overlay = import (fetchTarball "https://github.com/oxalica/rust-overlay/archive/master.tar.gz") {};
   unstable = import <nixos-unstable> {config = {allowUnfree = true;};};
 in {
   imports = [
@@ -57,9 +56,9 @@ in {
     LC_TIME = "en_GB.UTF-8";
   };
   services = {
-    openvpn.servers = {
-      protonVPN = {config = ''config /home/zoe/.dotfiles/openvpn/proton.conf '';};
-    };
+    # openvpn.servers = {
+    #   protonVPN = {config = ''config /home/zoe/.dotfiles/openvpn/proton.conf '';};
+    # };
     xserver = {
       enable = true;
       # Enable the GNOME Desktop Environment.
@@ -277,7 +276,7 @@ in {
       pkgs.gimp
       pkgs.drive
       pkgs.jellyfin-ffmpeg
-      (import /home/zoe/.dotfiles/nixos/edit.nix)
+      (import /etc/nixos/edit.nix)
       pkgs.unzip
       pkgs.winetricks
       pkgs.wineWowPackages.stable
@@ -286,13 +285,12 @@ in {
       pkgs.keepassxc
       pkgs.libreoffice
       pkgs.libtelnet
-      (import "/home/zoe/.dotfiles/nixos/rebuild.nix")
-      (import "/home/zoe/.dotfiles/nixos/reload.nix")
+      (import "/etc/nixos/rebuild.nix")
+      (import "/etc/nixos/reload.nix")
       pkgs.openssl
       pkgs.wacomtablet
       pkgs.obsidian
       pkgs.git
-      pkgs.home-manager
       pkgs.nix-ld
       pkgs.gh
       pkgs.alejandra

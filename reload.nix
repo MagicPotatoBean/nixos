@@ -5,11 +5,11 @@ with import <nixpkgs> {};
     set -e
 
     # cd to your config dir
-    pushd ~/.dotfiles/nixos/ > /dev/null
+    pushd /etc/nixos/ > /dev/null
 
     # Fetch latest changes from github repo
-    git fetch
-    git pull
+    sudo git fetch
+    sudo git pull
 
     # Shows your changes
     git diff -U0 *.nix
