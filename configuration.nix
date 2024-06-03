@@ -321,7 +321,7 @@ in {
       pkgs.pinentry-gnome
       pkgs.gdrive3
       pkgs.distrobox
-      # pkgs.docker_26
+      unstable.docker_26
     ];
   };
   # Adding a comment to force rebuilding.
