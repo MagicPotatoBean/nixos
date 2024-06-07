@@ -321,6 +321,7 @@ in {
       pkgs.distrobox
       unstable.docker_26
       pkgs.pkg-config
+      pkgs.gparted
     ];
   };
   # Adding a comment to force rebuilding.
