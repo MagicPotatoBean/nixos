@@ -322,6 +322,7 @@ in {
       unstable.docker_26
       pkgs.pkg-config
       pkgs.gparted
+      pkgs.lutris
     ];
   };
   # Adding a comment to force rebuilding.

@@ -6,52 +6,373 @@ setting up tmpfiles
 reloading the following units: dbus.service
 restarting the following units: polkit.service
 starting the following units: accounts-daemon.service
-3zc-rustc-nightly-x86_64-unknown-linux-gnu.tar.gz.drv
-  /nix/store/6a7j7vv9mny9d978179am4k68smi5d6b-rustc-nightly-minimal-2024-06-07.drv
-  /nix/store/ribj1zkq8s9ja2yhv17p4fbmcrfdl3v9-rust-std-nightly-x86_64-unknown-linux-gnu.tar.gz.drv
-  /nix/store/95mh8apbq52khbpmi66af32ix5amx7jl-rust-std-nightly-minimal-2024-06-07.drv
-  /nix/store/5qwa5wwqd9n2jrb5y7yyn5bd2qhv6knx-rust-nightly-minimal-2024-06-07.drv
-  /nix/store/rq87ln3lw2nap5ikclyj3jw7c1i35qrr-system-path.drv
-  /nix/store/5l61lc5fa1kh66w49cj58zcsdz7qpacy-set-environment.drv
-  /nix/store/drdv9p60134vh7pbacccp2sxvlw4bmk1-dbus-1.drv
-  /nix/store/5q4qbx7c1vdbgkbsjhalg01rn8hzkp8r-X-Restart-Triggers-dbus.drv
-  /nix/store/yl8dg8xhmybvli37g5g26d45hjwpd32h-unit-dbus.service.drv
-  /nix/store/b8hdldnspnx8ndqlcvls2as0fwppyzm2-user-units.drv
-  /nix/store/dysbcy0fs8aq023dggy1qcgbs1jkc8yq-etc-pam-environment.drv
-  /nix/store/hwchidk3dzn8jz2rw880sc53mcprbmwp-etc-profile.drv
-  /nix/store/vafcp4izvdr5d3jv0zkgnlfrd2s601yi-unit-accounts-daemon.service.drv
-  /nix/store/gz9zlmlq36llvgq8mvj5c2w7cadr3gaz-X-Restart-Triggers-polkit.drv
-  /nix/store/vg1wljk25qzv3hns9j8v4lcxa06i8plm-unit-polkit.service.drv
-  /nix/store/xc8bmzrlicz0yj3agciqa7f5j3ibws6l-unit-dbus.service.drv
-  /nix/store/s07al4shrdk3qhygqjxa96f51pi9188d-system-units.drv
-  /nix/store/52wdcghpczhfzvnx4ij1k2bgpwl88nq6-etc.drv
-  /nix/store/j39zd9ssd3k17qgljjp7mihvwcyycr4v-nixos-system-nixos-23.11.7202.e7cc61784ddf.drv
-these 3 paths will be fetched (0.93 MiB download, 5.23 MiB unpacked):
-  /nix/store/n4wxpbb61ibmb09apfmplykzjlgn8hjy-gpart-0.3
-  /nix/store/68h3ijcvp23banjzhjgw785r83di2gx8-gparted-1.5.0
-  /nix/store/zwzgxk5kqq7yd1rnzpbg6r2jddimxgqw-hdparm-9.65
-copying path '/nix/store/n4wxpbb61ibmb09apfmplykzjlgn8hjy-gpart-0.3' from 'https://cache.nixos.org'...
-copying path '/nix/store/zwzgxk5kqq7yd1rnzpbg6r2jddimxgqw-hdparm-9.65' from 'https://cache.nixos.org'...
-building '/nix/store/8kiazcikc6xhp5sx9xq0zrbfs0pyjq5n-cargo-nightly-x86_64-unknown-linux-gnu.tar.gz.drv'...
-building '/nix/store/ribj1zkq8s9ja2yhv17p4fbmcrfdl3v9-rust-std-nightly-x86_64-unknown-linux-gnu.tar.gz.drv'...
-building '/nix/store/ybj2scl9c4wvc0c1lg6j6kjr1pcbf3zc-rustc-nightly-x86_64-unknown-linux-gnu.tar.gz.drv'...
-copying path '/nix/store/68h3ijcvp23banjzhjgw785r83di2gx8-gparted-1.5.0' from 'https://cache.nixos.org'...
+3qa-rust-std-nightly-x86_64-unknown-linux-gnu.tar.gz.drv
+  /nix/store/gi8kdfxi014lh181cxx9nf85yrc62rc1-rust-std-nightly-minimal-2024-06-08.drv
+  /nix/store/23pn9kd1jnml7n3cj4cki4xjxl8g44dm-cargo-nightly-x86_64-unknown-linux-gnu.tar.gz.drv
+  /nix/store/lr8z3j48ahivfayhc69gxw6s8vqy77nl-cargo-nightly-minimal-2024-06-08.drv
+  /nix/store/258d6l9xmxrdh6gpddn4m78z5an3lpcq-rust-nightly-minimal-2024-06-08.drv
+  /nix/store/426j68x1cwrvy6am1kxd0cylb3amspam-lutris-init.drv
+  /nix/store/dc3prpdc2b2z44n1753bvd41lca316gq-profile.drv
+  /nix/store/ylgba9dsiiwa8hclbkncf8nzw39qdnwf-lutris-chrootenv-etc.drv
+  /nix/store/6rvncpflmsc699gnhi8g1jyzxfdii38k-lutris-usr-target.drv
+  /nix/store/j4xhn363g8gfc3j167sxv7kbcwj9bwvk-lutris-usr-multi.drv
+  /nix/store/gv7cy7f36p02dl00n7d77kcwb4fxl10g-lutris-fhs.drv
+  /nix/store/yd5dd0kjp0wm7ssmvy0ydm20grqn955r-lutris-bwrap.drv
+  /nix/store/yxdfvqxpdgm3b6rn3lzavn054ai7gj8y-lutris.drv
+  /nix/store/mhvjwg1rmfb7bmhjy1jn5jdfn4kk025a-system-path.drv
+  /nix/store/1j8fwkl413l5yywjp8m2jhk7f28c6pfj-etc-pam-environment.drv
+  /nix/store/48n3wl8lkxxgzwfm207hr83a4k8dzq0g-X-Restart-Triggers-polkit.drv
+  /nix/store/5906j340pplmlhj9mlgb9sskd3306rbm-unit-accounts-daemon.service.drv
+  /nix/store/d239bg0q67mdxxixlaslijxdv5ldnrll-dbus-1.drv
+  /nix/store/y2k749kd8rm1a9ivd046qndrynm5295p-X-Restart-Triggers-dbus.drv
+  /nix/store/p5al6k1rvrn3mhsww22hz663v1ba29pa-unit-dbus.service.drv
+  /nix/store/61sj4cf0y1vvi266k45yr158i5jidg75-user-units.drv
+  /nix/store/7fbdkzg7wmx67jbchxqkiyzg2is9p56k-unit-polkit.service.drv
+  /nix/store/c7cqyn1vq25097a44g06kyiyhxz9pxcl-set-environment.drv
+  /nix/store/xpvm871gdidq84lg6x2d2bpl9mgwd983-unit-dbus.service.drv
+  /nix/store/j3yv2vmnjya87ylgj8n23k615jw1dqlg-system-units.drv
+  /nix/store/ynzw639hdggl484qp42djqpd9ma0366a-etc-profile.drv
+  /nix/store/c6ag5131c3kyvlxyaj3kcvymcqrqxwsa-etc.drv
+  /nix/store/lj44w4yc53r9inyq5qxrgw50r4lzxs2i-nixos-system-nixos-23.11.7202.e7cc61784ddf.drv
+these 172 paths will be fetched (208.60 MiB download, 616.14 MiB unpacked):
+  /nix/store/ccxp2065h8zczrpyn0qy37f33a61gibl-Fluid-3
+  /nix/store/gdxgkkx3sdfid6gbi91fsr2nyhznl0kk-SDL-1.2.15-dev
+  /nix/store/bikbgirwdrw7fiyhf3h55ndmh24gj9zj-SDL_net-1.2.8
+  /nix/store/b3953gkj9bp9n8bxwplawqw5nhs41993-SDL_sound-1.0.3
+  /nix/store/as92yjl6wxc7h4bpv18z28qjgrlk8p48-agg-2.5
+  /nix/store/xgqzsnyladpyjgv1dddpfc7wkqivbr77-allegro-4.4.3.1
+  /nix/store/2q090ajvv4269wc9fqh1d2smdpiji1ja-bash-5.2-p15-man
+  /nix/store/h7xjwfl9kijmkipr1ycvhr3wgighcrn0-bash-5.2-p15-man
+  /nix/store/bc472vkx2hb4n6k5291yr7w1098cxa55-binutils-2.40
+  /nix/store/5jc2y2x590nqjk7naaw0z1jlkxlga9lm-binutils-2.40-lib
+  /nix/store/h7669dhk8p171cplbb2i6rih5arg24ah-binutils-wrapper-2.40
+  /nix/store/vxi4plg5iwvcl1s3hdlbpd6v983mflfx-cabextract-1.11
+  /nix/store/1wk3arwpmfyjr7r5pbpsnxbvczpihj4h-curl-8.4.0-bin
+  /nix/store/0x5c7gncmldscnq2ivj7p7m7rw8l8lc1-curl-8.4.0-man
+  /nix/store/p7g5z0vwxr9jj91w6mrmk1g7zqn7fcg6-cyrus-sasl-2.1.28
+  /nix/store/gfzl3pvf545i8ldcgafff4cgrwbqkwsm-dash-0.5.12
+  /nix/store/g6m488gak4q68y9a0x6w6v2cmnhyglq8-db-5.3.28
+  /nix/store/01rmjww0zbzcx8dqcdfvqdkg7nv13043-dumb-2.0.3
+  /nix/store/wh66f0cf0mhgyc8pq783nfv0hc80089d-expand-response-params
+  /nix/store/2n5m6c1gw8b9szr89spdw3m4yl3izgm9-fluidsynth-2.3.4-man
+  /nix/store/4gk0ipxxxb24hnpk2y8zam0j814w07wy-gcc-12.3.0-man
+  /nix/store/x7yv7cv2dl7xi9apiakb7m3j8dv3vk8j-gcc-wrapper-12.3.0
+  /nix/store/wf54ljcrz35y2kc7lcggx8rlzmbyai6v-gcc-wrapper-12.3.0-man
+  /nix/store/djyaqxfj6ax0vxx2mg6snppd9m2zriq6-gettext-0.21.1-man
+  /nix/store/8xifgp9yil6bqkq1dnmgxwdnly350jm7-glew-2.2.0
+  /nix/store/0r203n5acvg52v2j6aw35k5d1b1qvz5j-glew-2.2.0-bin
+  /nix/store/945l9d4ll9sllblccs54wz1gz32vqn8n-glu-9.0.3-dev
+  /nix/store/bcklj27fsshamslfl8wmmi2dbbh3b2hn-glxinfo-8.4.0
+  /nix/store/441kal73c1djf49yfbg57rw2ijajzxfi-gnutls-3.8.3-bin
+  /nix/store/m3la1a3w34wg5y1hhs2qh120sjkfldms-gnutls-3.8.3-bin
+  /nix/store/9p8k39qc3amffrphbiqbj7x085i1jifj-gnutls-3.8.3-man
+  /nix/store/zx6q6x8fnk861arzhgcqwgp0ny9hw54f-gnutls-3.8.3-man
+  /nix/store/qqzszfph6hawfs4dx62h5pghn25h62sn-gtksourceview-3.24.11
+  /nix/store/z5xsccbpy2jlnkjqj2wwnr6pxck9xvzv-hidapi-0.14.0
+  /nix/store/j671aik1zq4wk40vincfya151k3qyr3p-jansson-2.14
+  /nix/store/0461kka4rqs9s3yw51mg2ihw2f7wvhhc-keyutils-1.6.3
+  /nix/store/721yf8amddp6qgabrcx3gv8h66myc1w9-keyutils-1.6.3
+  /nix/store/ahhkc8rhx2ccji0p43lil13bk53i4wi2-lcms2-2.15-bin
+  /nix/store/rg1k5hyqj808rqq5icvj58nnp6q739gr-ldb-2.8.0
+  /nix/store/cws7qanznd8s4b15jy83j3a5b8ddnwv5-libXaw-1.0.15
+  /nix/store/dzxm0hcdvwshdvv4wzs1s7hkjb7qm68l-libXaw-1.0.15
+  /nix/store/zyj8hmjayi8znm77pw6kk69sfl3s7grh-libXxf86dga-1.1.6
+  /nix/store/bavvj0al9dlda1hfqy82c091limlgv1a-libaio-0.3.113
+  /nix/store/gkikp86ij256hvzlihh1z9klhdf6bfp7-libao-1.2.2-man
+  /nix/store/rwqjjws7m8niasshywc68nx9xd9hcpdj-libao-1.2.2-man
+  /nix/store/kyrc3m3yqyq43mmakclv4z1w2x7facla-libarchive-3.7.2-lib
+  /nix/store/jkcg7hr5cbmbikfl427lm4baki13bp1g-libcap-2.69-dev
+  /nix/store/iwvgzgbgg1jkvck0rb4cfyfl8g8n9pdd-libevdev-1.13.1
+  /nix/store/pv9zrb6nrwic5n09l2m37h8jlz078iv4-libgnome-keyring-3.12.0
+  /nix/store/4c3zlxjws91rjqgmjvnvzf0d0ylg3w0i-libpthread-stubs-0.5
+  /nix/store/6gsr2lx7qaa79kjq8xfcxm9izp4fkj2l-libpthread-stubs-0.5
+  /nix/store/kra3k5iliw5h3lfbnsd9wa743g26wc43-libpulseaudio-16.1-dev
+  /nix/store/rj76k0rrzdvdxn2zjhx5vidn0j6rkg8j-libselinux-3.3-bin
+  /nix/store/zb6720ljg543dggyvh9sgg7r8j2hxk41-libselinux-3.3-bin
+  /nix/store/a98dwb3xr6vw6cz5kd3gjvkcnvhyq3h6-libselinux-3.3-man
+  /nix/store/lv67s07y3xsbbn3hk66j4di9pywc12s9-libselinux-3.3-man
+  /nix/store/hfpjjx8jr6g0qnp0l75qbpr4nmdcfy7z-libsepol-3.5
+  /nix/store/m1xsw3gip9mdyi3yy6wz4p48fp6fr8r9-libsepol-3.5
+  /nix/store/6bcwq2qwrx68cx4gpmxclqdd1z7slwns-libsndfile-1.2.2-bin
+  /nix/store/qa4qncm39mk194zk0ijw4f1wl7ggn4ys-libsndfile-1.2.2-bin
+  /nix/store/sdjck2s8jnmklq13v76li853l5rdbahz-libsndfile-1.2.2-man
+  /nix/store/ydxbpg8kh9f760yh243w8hbfcxh6h0ax-libsndfile-1.2.2-man
+  /nix/store/4fkmm3s7pawmf1vsa06znf9byid2rnpc-libsodium-1.0.18
+  /nix/store/7j4qjl307wb6ylz1z9jp263mrmsj63y3-libstrangle-unstable-202202022
+  /nix/store/x5k43c2a5ln40l15y2d6v1b6qx8s1yvh-liburing-2.5
+  /nix/store/kfp699kbwmjmln66mg3fbglbck9mjlnq-libusb-compat-0.1.8
+  /nix/store/x78khbpm84q1pg92ngylmfyp3cg27c6n-libusb-compat-0.1.8
+  /nix/store/7j58nlzg4wy1s5ppfirhxbkrf1q7dvxb-libxcrypt-4.4.36
+  /nix/store/cwcr3vys7627ah18l3qx2sk4n8dcnzy8-libxml2-2.11.7-bin
+  /nix/store/vb4nriar4qc8smcm7hildj1qklki2c5g-libxslt-1.1.38
+  /nix/store/mvmv9f0d0j881qfcdd1n8fbldljh8mvc-libxslt-1.1.38-bin
+  /nix/store/ylnzld8jkp6ky04kdl9q8xykslwk93qs-libzip-1.10.1
+  /nix/store/rj6pzhr1p6srq7qncxzsmkivljr27yh5-libzip-1.10.1-man
+  /nix/store/xjrbajx41xkp5w7za796vvaxppk4radx-libzip-1.10.1-man
+  /nix/store/5chrmgy80bkscbdiwh5na5cnm9ml30fd-lua-5.2.4
+  /nix/store/4gjpb46zx2dvqkidh18bxkk3pndmh1ga-lutris-unwrapped-0.5.14
+  /nix/store/9qq97l9m7as6b7hns4v6cq70swkhc4x9-mbedtls-2.28.8
+  /nix/store/v4qbd0zlqplkaravzh309y5sdq5wyhan-miniupnpc-2.2.5
+  /nix/store/bgqc17lwp5nnp5ywnrvkk3g1xam7z3d9-mpg123-1.32.3
+  /nix/store/ly46bwfsc2rj25s2ln5hx9z037wllvi5-mpg123-1.32.3-man
+  /nix/store/vr2chrmi7617xjb2sqq7b9qmxdh6cvn0-mpg123-1.32.3-man
+  /nix/store/p4zwvy15xkx322hk0zaj3qnli467iq8j-nasm-2.16.01
+  /nix/store/c3zaah3v1fas30q4mc8ijba4xvh0kdkl-ocl-icd-2.3.2
+  /nix/store/v8gxyknwhmrbx0wj28zw62qsyk5x0zgk-opencl-headers-2023.02.06
+  /nix/store/8gj7wagr2521cjk6ah8i03hsx2dkr7n9-openldap-2.6.6
+  /nix/store/1ncsvysg90574lbfd6d2jxniwpa7h23j-openldap-2.6.6-man
+  /nix/store/jg407rq7v1fagh9nw1flld2v6a6ikwgw-openldap-2.6.6-man
+  /nix/store/2hgj4ainwf28d5plzj67610hcy5imv9j-p11-kit-0.25.0-bin
+  /nix/store/jqk1w7xrvbfjpx3kqlxjwyxfs66bgcr6-p11-kit-0.25.0-bin
+  /nix/store/ad0gadz44zw32ws6i5wsssw6400c7bks-p7zip-17.05-man
+  /nix/store/vid3dr2qds1kg1rll3864y9h5r4i7h98-pcre-8.45-bin
+  /nix/store/zwcf1j0p6a0x5ynkxx6r5rq1wz2ddbs5-pcre-8.45-man
+  /nix/store/6d7g21cir91laknja2wpsbnq3ndplmv7-perl5.38.2-Clone-0.46
+  /nix/store/a79f5y33drgvfv0rcmibsb2b6sbiadw2-perl5.38.2-Encode-Locale-1.05
+  /nix/store/prqmp1999k5fb4llf4idyy8864m3xj1l-perl5.38.2-File-BaseDir-0.09
+  /nix/store/abnx7ccq2ljg9wyziwpy71y3mvk6r9i6-perl5.38.2-File-DesktopEntry-0.22
+  /nix/store/zc7j01w6j1zhzgba5kca74l0b1szprw7-perl5.38.2-File-Listing-6.16
+  /nix/store/nv56cvil7f4khl4if0abpvn95xm682hd-perl5.38.2-File-MimeInfo-0.33
+  /nix/store/x466bp4mxdbl4b3jx9mpvvq7mvfn4dm5-perl5.38.2-HTML-Parser-3.81
+  /nix/store/gxd48ndmh43g314pr07m39lplafv1w94-perl5.38.2-HTML-Tagset-3.20
+  /nix/store/blkcy79wrv42ddd9hxzlanj5h0fx3r5p-perl5.38.2-HTTP-CookieJar-0.014
+  /nix/store/8r9g5vz08iy8p4r6hir4j1klrpp052dl-perl5.38.2-HTTP-Cookies-6.10
+  /nix/store/zf1wxi25zfh918m1lhhiyxmi9nrdq70d-perl5.38.2-HTTP-Daemon-6.16
+  /nix/store/5v2cskzg6ya21q3hdw0zrdqm96dlwn1q-perl5.38.2-HTTP-Date-6.06
+  /nix/store/dw11p5qmh4dx6kmxlzh1sgdn3q08mrfs-perl5.38.2-HTTP-Message-6.45
+  /nix/store/391m0qn6lnl0pdkr6iixjx5zma0zlnvr-perl5.38.2-HTTP-Negotiate-6.01
+  /nix/store/4jpjs3z3hgwbml0qr52wdqswbgbagq4d-perl5.38.2-IO-HTML-1.004
+  /nix/store/vi87bkl912fh3qr6rh89mkb55svx6h1c-perl5.38.2-IPC-System-Simple-1.30
+  /nix/store/pm4n4djixj8ikrbjl7pj1pgx861hb13x-perl5.38.2-LWP-MediaTypes-6.04
+  /nix/store/p5s9gqim5izhan3crh0mal3k7xfqac7r-perl5.38.2-Net-DBus-1.2.0
+  /nix/store/af3987a83l1r19684m0jh764wkz3j44s-perl5.38.2-Net-HTTP-6.23
+  /nix/store/16afcw5jq3k95mnskydn50bgjzfdqchv-perl5.38.2-Test-Fatal-0.017
+  /nix/store/bakrh69i36dbaa1p30a4gm21k570qaj0-perl5.38.2-Test-Needs-0.002010
+  /nix/store/vybcqwdp4zw8wmwvh7k94pckmc4aphyg-perl5.38.2-Test-RequiresInternet-0.05
+  /nix/store/3kcfqdh6x190q9php1ya2mpkk005761r-perl5.38.2-TimeDate-2.33
+  /nix/store/m2gsqydv3qyfah01vy23hj9sqiif5kyj-perl5.38.2-Try-Tiny-0.31
+  /nix/store/2ml4nag024insbsg84z22cfhjszp6fgg-perl5.38.2-URI-5.21
+  /nix/store/1i66mj60f5z2wv736rkgf0zv88k1k2r4-perl5.38.2-WWW-RobotRules-6.02
+  /nix/store/kwqsn2ws1g1965qy98aq7l64j445zsv5-perl5.38.2-X11-Protocol-0.56
+  /nix/store/9wax45rhx1xd8lssbvyxwrv6kvyhm8qf-perl5.38.2-XML-Parser-2.46
+  /nix/store/ky3wbrqc1q6hgahbf83h4fnp5qlxzp0v-perl5.38.2-XML-Twig-3.52
+  /nix/store/mdvfndlrzq8ljxx2adjhxm5d40z81ddd-perl5.38.2-libwww-perl-6.72
+  /nix/store/73hnqmii34qxvgp7n1yh36d4r79mb207-popt-1.19
+  /nix/store/f5hlzi0cw48phqlqsm6ijlfknpmg7ai7-portaudio-190700_20210406
+  /nix/store/8vll76yzcjlflwiazys76pwml90x4i20-psmisc-23.7
+  /nix/store/6jawqq00gp0nn3f9ljvhiaxw15a9i2r1-python3-3.11.8
+  /nix/store/9kmb5k63km91y9x1wawv8vg9r2dlflb5-python3.11-beautifulsoup4-4.12.2
+  /nix/store/5m5x889sz884vmc69fsmnb4rxsnq8l52-python3.11-chardet-5.2.0
+  /nix/store/0csvhkkhzkqxrsraczv8k4yap6q301p0-python3.11-dnspython-2.4.2
+  /nix/store/l0vpp4xg5akci8ifgcqjq4akkz9vshly-python3.11-evdev-1.6.1
+  /nix/store/qhj6n19jd4h5vff8cwhhjp229ray820k-python3.11-lxml-4.9.3-3
+  /nix/store/237g2mvgaf8nq5rjkw98379zpfkr1njg-python3.11-markdown-3.4.4
+  /nix/store/d5fhg6wdvw3qs607f641iyzxz540m2z0-python3.11-moddb-0.9.0
+  /nix/store/kvafj01ij94jdsr7fza3q5cabyzdal8b-python3.11-protobuf-4.24.4
+  /nix/store/lmjkvz3rp1wwc14487xggghzjl3rjdad-python3.11-pypresence-4.3.0
+  /nix/store/jflgcahf3qpini0zwrnryr89v9mg3gcm-python3.11-pyrate-limiter-2.10.0
+  /nix/store/dvfp2dh7wsp0bpx0hhfrbh5l4s6625a7-python3.11-soupsieve-2.5
+  /nix/store/ijls4cqjagk5ykrrdbg7riszczfiy8qs-python3.11-toolz-0.12.0
+  /nix/store/5m1ssra5vnnsb9n2z4fml55m1vzmxam5-readline-8.2p7-man
+  /nix/store/fz5hrrdbdizyqcri8r5cysycz6b74dwl-readline-8.2p7-man
+  /nix/store/gfrzwars9m4kbb63xdv6zcwzwpm5bmki-samba-4.19.2
+  /nix/store/mafj07gffzf4678zxi029xm8bnny3ick-samba-4.19.2-man
+  /nix/store/qys6lr5jsjyrpass398rgijsbk3jxrqn-samba-4.19.2-man
+  /nix/store/gsjv3m9kynjfhb5zl4gvrn8iri05jx9w-sane-backends-1.2.1-man
+  /nix/store/n33wxxixngg6vw7w5fm6iy4z8mj43sxa-sane-backends-1.2.1-man
+  /nix/store/6s0yrs2k37vqkdy47lhd5jbh4qa0qk56-sfml-2.5.1
+  /nix/store/wd8qgx3yrd8mhaaypilcyhsb0xr15p04-sqlite-3.43.2-bin
+  /nix/store/syjmhp60yg78xn7786y7a7gx1fhzl15s-talloc-2.4.1
+  /nix/store/vypfz7ahimz4yjf9ldg2x94jspswmh35-tdb-1.4.9
+  /nix/store/psbh3r6pg1lq99m594rf9fr8smjx3rhz-tevent-0.15.0
+  /nix/store/49v338296q5i17m20pflhz6hcphjqczw-unixODBC-2.3.12
+  /nix/store/sss0s5b1wa21rx9lxb6yas3pm3hkdpzf-unixODBC-2.3.12
+  /nix/store/zl8c25q88gmdmdimq7pflck3z7xzg6ba-unzip-6.0
+  /nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2
+  /nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2
+  /nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin
+  /nix/store/b2yafknpyaspsw2kzqnh05yg3bzyv27y-util-linux-2.39.2-lib
+  /nix/store/gsgr4fsmvwfcrampinnkmpcix67dfqv1-util-linux-2.39.2-login
+  /nix/store/kr0bkmfq55xmmy61glnp5jjgl6wlrivb-util-linux-2.39.2-man
+  /nix/store/pbf261jcci51q489rgdrzq40mz03a0zc-util-linux-2.39.2-mount
+  /nix/store/g7aq1xf8dz9yilkh93izq4nyf9r9izpn-util-linux-2.39.2-swap
+  /nix/store/1biv0ipd9kc7afjdzlkhgb28i54ycra4-vulkan-tools-1.3.268.0
+  /nix/store/kpfrj80dw3ix8vq7wj1nqd58l28qhlax-wavpack-5.6.0-man
+  /nix/store/7ax739psvdjikjbk565qzrkilb6i87pf-webkitgtk-2.44.1+abi=4.0
+  /nix/store/p5r9s0s7pj8xrq8gq2p2bdjs2x80a6xb-xboxdrv-0.8.8
+  /nix/store/593lcicpys372jk8a8klxlszq83sqp78-xdg-utils-unstable-2022-11-06
+  /nix/store/0js1fj9y92m54j8spkvvd3bqdiyw1x58-xgamma-1.0.7
+  /nix/store/8drd7rm3riqlh233whaczyz0hb1jin8i-xset-1.2.5
+  /nix/store/b05bcp59sq2q7lp2mq9nli05dmswi3hh-zip-3.0
+  /nix/store/jdf1568qzmh939xy23aniqzzh0f4a5gz-zip-3.0
+  /nix/store/h71vn35k9c5ca2zj8yxxvpqdlpgdfj1w-zziplib-0.13.72
+  /nix/store/kn7xqdc7r3jjnl9i7myshg3psn5bb2dc-zziplib-0.13.72
+copying path '/nix/store/ccxp2065h8zczrpyn0qy37f33a61gibl-Fluid-3' from 'https://cache.nixos.org'...
+copying path '/nix/store/2q090ajvv4269wc9fqh1d2smdpiji1ja-bash-5.2-p15-man' from 'https://cache.nixos.org'...
+copying path '/nix/store/h7xjwfl9kijmkipr1ycvhr3wgighcrn0-bash-5.2-p15-man' from 'https://cache.nixos.org'...
+copying path '/nix/store/0x5c7gncmldscnq2ivj7p7m7rw8l8lc1-curl-8.4.0-man' from 'https://cache.nixos.org'...
+copying path '/nix/store/01rmjww0zbzcx8dqcdfvqdkg7nv13043-dumb-2.0.3' from 'https://cache.nixos.org'...
+copying path '/nix/store/2n5m6c1gw8b9szr89spdw3m4yl3izgm9-fluidsynth-2.3.4-man' from 'https://cache.nixos.org'...
+copying path '/nix/store/djyaqxfj6ax0vxx2mg6snppd9m2zriq6-gettext-0.21.1-man' from 'https://cache.nixos.org'...
+copying path '/nix/store/bcklj27fsshamslfl8wmmi2dbbh3b2hn-glxinfo-8.4.0' from 'https://cache.nixos.org'...
+copying path '/nix/store/9p8k39qc3amffrphbiqbj7x085i1jifj-gnutls-3.8.3-man' from 'https://cache.nixos.org'...
+copying path '/nix/store/zx6q6x8fnk861arzhgcqwgp0ny9hw54f-gnutls-3.8.3-man' from 'https://cache.nixos.org'...
+copying path '/nix/store/gkikp86ij256hvzlihh1z9klhdf6bfp7-libao-1.2.2-man' from 'https://cache.nixos.org'...
+copying path '/nix/store/rwqjjws7m8niasshywc68nx9xd9hcpdj-libao-1.2.2-man' from 'https://cache.nixos.org'...
+copying path '/nix/store/4c3zlxjws91rjqgmjvnvzf0d0ylg3w0i-libpthread-stubs-0.5' from 'https://cache.nixos.org'...
+copying path '/nix/store/6gsr2lx7qaa79kjq8xfcxm9izp4fkj2l-libpthread-stubs-0.5' from 'https://cache.nixos.org'...
+copying path '/nix/store/a98dwb3xr6vw6cz5kd3gjvkcnvhyq3h6-libselinux-3.3-man' from 'https://cache.nixos.org'...
+copying path '/nix/store/lv67s07y3xsbbn3hk66j4di9pywc12s9-libselinux-3.3-man' from 'https://cache.nixos.org'...
+building '/nix/store/426j68x1cwrvy6am1kxd0cylb3amspam-lutris-init.drv'...
+building '/nix/store/23pn9kd1jnml7n3cj4cki4xjxl8g44dm-cargo-nightly-x86_64-unknown-linux-gnu.tar.gz.drv'...
+building '/nix/store/c80yy7nf110v9xhdqrrwc5mhq9d583qa-rust-std-nightly-x86_64-unknown-linux-gnu.tar.gz.drv'...
+building '/nix/store/0f3r40fln8sm8pqrs092427cpfl8bjd4-rustc-nightly-x86_64-unknown-linux-gnu.tar.gz.drv'...
+copying path '/nix/store/b3953gkj9bp9n8bxwplawqw5nhs41993-SDL_sound-1.0.3' from 'https://cache.nixos.org'...
+copying path '/nix/store/as92yjl6wxc7h4bpv18z28qjgrlk8p48-agg-2.5' from 'https://cache.nixos.org'...
+copying path '/nix/store/5jc2y2x590nqjk7naaw0z1jlkxlga9lm-binutils-2.40-lib' from 'https://cache.nixos.org'...
+copying path '/nix/store/vxi4plg5iwvcl1s3hdlbpd6v983mflfx-cabextract-1.11' from 'https://cache.nixos.org'...
+copying path '/nix/store/1wk3arwpmfyjr7r5pbpsnxbvczpihj4h-curl-8.4.0-bin' from 'https://cache.nixos.org'...
+copying path '/nix/store/g6m488gak4q68y9a0x6w6v2cmnhyglq8-db-5.3.28' from 'https://cache.nixos.org'...
+copying path '/nix/store/wh66f0cf0mhgyc8pq783nfv0hc80089d-expand-response-params' from 'https://cache.nixos.org'...
+copying path '/nix/store/gfzl3pvf545i8ldcgafff4cgrwbqkwsm-dash-0.5.12' from 'https://cache.nixos.org'...
+copying path '/nix/store/4gk0ipxxxb24hnpk2y8zam0j814w07wy-gcc-12.3.0-man' from 'https://cache.nixos.org'...
+copying path '/nix/store/945l9d4ll9sllblccs54wz1gz32vqn8n-glu-9.0.3-dev' from 'https://cache.nixos.org'...
+copying path '/nix/store/8xifgp9yil6bqkq1dnmgxwdnly350jm7-glew-2.2.0' from 'https://cache.nixos.org'...
+copying path '/nix/store/441kal73c1djf49yfbg57rw2ijajzxfi-gnutls-3.8.3-bin' from 'https://cache.nixos.org'...
+copying path '/nix/store/m3la1a3w34wg5y1hhs2qh120sjkfldms-gnutls-3.8.3-bin' from 'https://cache.nixos.org'...
+copying path '/nix/store/qqzszfph6hawfs4dx62h5pghn25h62sn-gtksourceview-3.24.11' from 'https://cache.nixos.org'...
+building '/nix/store/dc3prpdc2b2z44n1753bvd41lca316gq-profile.drv'...
 
-trying https://static.rust-lang.org/dist/2024-06-07/rust-std-nightly-x86_64-unknown-linux-gnu.tar.gz
+trying https://static.rust-lang.org/dist/2024-06-08/cargo-nightly-x86_64-unknown-linux-gnu.tar.gz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
 
-trying https://static.rust-lang.org/dist/2024-06-07/cargo-nightly-x86_64-unknown-linux-gnu.tar.gz
+trying https://static.rust-lang.org/dist/2024-06-08/rust-std-nightly-x86_64-unknown-linux-gnu.tar.gz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
+copying path '/nix/store/z5xsccbpy2jlnkjqj2wwnr6pxck9xvzv-hidapi-0.14.0' from 'https://cache.nixos.org'...
 
-trying https://static.rust-lang.org/dist/2024-06-07/rustc-nightly-x86_64-unknown-linux-gnu.tar.gz
+trying https://static.rust-lang.org/dist/2024-06-08/rustc-nightly-x86_64-unknown-linux-gnu.tar.gz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-100 11.4M  100 11.4M    0     0  2848k      0  0:00:04  0:00:04 --:--:-- 2849k
-building '/nix/store/1gmlf4lp3280zfk9xcdamvhairi7k7dg-cargo-nightly-minimal-2024-06-07.drv'...
+building '/nix/store/ylgba9dsiiwa8hclbkncf8nzw39qdnwf-lutris-chrootenv-etc.drv'...
+/nix/store/bfq9g3q6div9rnlzkb27fi04244q92yv-lutris-chrootenv-etc/etc /build
+copying path '/nix/store/j671aik1zq4wk40vincfya151k3qyr3p-jansson-2.14' from 'https://cache.nixos.org'...
+copying path '/nix/store/721yf8amddp6qgabrcx3gv8h66myc1w9-keyutils-1.6.3' from 'https://cache.nixos.org'...
+copying path '/nix/store/ahhkc8rhx2ccji0p43lil13bk53i4wi2-lcms2-2.15-bin' from 'https://cache.nixos.org'...
+copying path '/nix/store/0461kka4rqs9s3yw51mg2ihw2f7wvhhc-keyutils-1.6.3' from 'https://cache.nixos.org'...
+copying path '/nix/store/dzxm0hcdvwshdvv4wzs1s7hkjb7qm68l-libXaw-1.0.15' from 'https://cache.nixos.org'...
+copying path '/nix/store/cws7qanznd8s4b15jy83j3a5b8ddnwv5-libXaw-1.0.15' from 'https://cache.nixos.org'...
+copying path '/nix/store/wf54ljcrz35y2kc7lcggx8rlzmbyai6v-gcc-wrapper-12.3.0-man' from 'https://cache.nixos.org'...
+copying path '/nix/store/zyj8hmjayi8znm77pw6kk69sfl3s7grh-libXxf86dga-1.1.6' from 'https://cache.nixos.org'...
+copying path '/nix/store/bavvj0al9dlda1hfqy82c091limlgv1a-libaio-0.3.113' from 'https://cache.nixos.org'...
+copying path '/nix/store/0r203n5acvg52v2j6aw35k5d1b1qvz5j-glew-2.2.0-bin' from 'https://cache.nixos.org'...
+copying path '/nix/store/kyrc3m3yqyq43mmakclv4z1w2x7facla-libarchive-3.7.2-lib' from 'https://cache.nixos.org'...
+copying path '/nix/store/jkcg7hr5cbmbikfl427lm4baki13bp1g-libcap-2.69-dev' from 'https://cache.nixos.org'...
+copying path '/nix/store/iwvgzgbgg1jkvck0rb4cfyfl8g8n9pdd-libevdev-1.13.1' from 'https://cache.nixos.org'...
+copying path '/nix/store/bc472vkx2hb4n6k5291yr7w1098cxa55-binutils-2.40' from 'https://cache.nixos.org'...
+copying path '/nix/store/pv9zrb6nrwic5n09l2m37h8jlz078iv4-libgnome-keyring-3.12.0' from 'https://cache.nixos.org'...
+copying path '/nix/store/p7g5z0vwxr9jj91w6mrmk1g7zqn7fcg6-cyrus-sasl-2.1.28' from 'https://cache.nixos.org'...
+copying path '/nix/store/hfpjjx8jr6g0qnp0l75qbpr4nmdcfy7z-libsepol-3.5' from 'https://cache.nixos.org'...
+copying path '/nix/store/6bcwq2qwrx68cx4gpmxclqdd1z7slwns-libsndfile-1.2.2-bin' from 'https://cache.nixos.org'...
+copying path '/nix/store/m1xsw3gip9mdyi3yy6wz4p48fp6fr8r9-libsepol-3.5' from 'https://cache.nixos.org'...
+copying path '/nix/store/kra3k5iliw5h3lfbnsd9wa743g26wc43-libpulseaudio-16.1-dev' from 'https://cache.nixos.org'...
+copying path '/nix/store/qa4qncm39mk194zk0ijw4f1wl7ggn4ys-libsndfile-1.2.2-bin' from 'https://cache.nixos.org'...
+copying path '/nix/store/xgqzsnyladpyjgv1dddpfc7wkqivbr77-allegro-4.4.3.1' from 'https://cache.nixos.org'...
+copying path '/nix/store/sdjck2s8jnmklq13v76li853l5rdbahz-libsndfile-1.2.2-man' from 'https://cache.nixos.org'...
+copying path '/nix/store/ydxbpg8kh9f760yh243w8hbfcxh6h0ax-libsndfile-1.2.2-man' from 'https://cache.nixos.org'...
+copying path '/nix/store/4fkmm3s7pawmf1vsa06znf9byid2rnpc-libsodium-1.0.18' from 'https://cache.nixos.org'...
+copying path '/nix/store/7j4qjl307wb6ylz1z9jp263mrmsj63y3-libstrangle-unstable-202202022' from 'https://cache.nixos.org'...
+copying path '/nix/store/x5k43c2a5ln40l15y2d6v1b6qx8s1yvh-liburing-2.5' from 'https://cache.nixos.org'...
+copying path '/nix/store/kfp699kbwmjmln66mg3fbglbck9mjlnq-libusb-compat-0.1.8' from 'https://cache.nixos.org'...
+copying path '/nix/store/x78khbpm84q1pg92ngylmfyp3cg27c6n-libusb-compat-0.1.8' from 'https://cache.nixos.org'...
+copying path '/nix/store/cwcr3vys7627ah18l3qx2sk4n8dcnzy8-libxml2-2.11.7-bin' from 'https://cache.nixos.org'...
+copying path '/nix/store/gdxgkkx3sdfid6gbi91fsr2nyhznl0kk-SDL-1.2.15-dev' from 'https://cache.nixos.org'...
+copying path '/nix/store/7j58nlzg4wy1s5ppfirhxbkrf1q7dvxb-libxcrypt-4.4.36' from 'https://cache.nixos.org'...
+copying path '/nix/store/rj6pzhr1p6srq7qncxzsmkivljr27yh5-libzip-1.10.1-man' from 'https://cache.nixos.org'...
+copying path '/nix/store/xjrbajx41xkp5w7za796vvaxppk4radx-libzip-1.10.1-man' from 'https://cache.nixos.org'...
+copying path '/nix/store/ylnzld8jkp6ky04kdl9q8xykslwk93qs-libzip-1.10.1' from 'https://cache.nixos.org'...
+copying path '/nix/store/vb4nriar4qc8smcm7hildj1qklki2c5g-libxslt-1.1.38' from 'https://cache.nixos.org'...
+copying path '/nix/store/5chrmgy80bkscbdiwh5na5cnm9ml30fd-lua-5.2.4' from 'https://cache.nixos.org'...
+copying path '/nix/store/9qq97l9m7as6b7hns4v6cq70swkhc4x9-mbedtls-2.28.8' from 'https://cache.nixos.org'...
+copying path '/nix/store/v4qbd0zlqplkaravzh309y5sdq5wyhan-miniupnpc-2.2.5' from 'https://cache.nixos.org'...
+copying path '/nix/store/bgqc17lwp5nnp5ywnrvkk3g1xam7z3d9-mpg123-1.32.3' from 'https://cache.nixos.org'...
+copying path '/nix/store/ly46bwfsc2rj25s2ln5hx9z037wllvi5-mpg123-1.32.3-man' from 'https://cache.nixos.org'...
+copying path '/nix/store/zb6720ljg543dggyvh9sgg7r8j2hxk41-libselinux-3.3-bin' from 'https://cache.nixos.org'...
+copying path '/nix/store/rj76k0rrzdvdxn2zjhx5vidn0j6rkg8j-libselinux-3.3-bin' from 'https://cache.nixos.org'...
+copying path '/nix/store/h7669dhk8p171cplbb2i6rih5arg24ah-binutils-wrapper-2.40' from 'https://cache.nixos.org'...
+copying path '/nix/store/vr2chrmi7617xjb2sqq7b9qmxdh6cvn0-mpg123-1.32.3-man' from 'https://cache.nixos.org'...
+copying path '/nix/store/p4zwvy15xkx322hk0zaj3qnli467iq8j-nasm-2.16.01' from 'https://cache.nixos.org'...
+copying path '/nix/store/c3zaah3v1fas30q4mc8ijba4xvh0kdkl-ocl-icd-2.3.2' from 'https://cache.nixos.org'...
+copying path '/nix/store/bikbgirwdrw7fiyhf3h55ndmh24gj9zj-SDL_net-1.2.8' from 'https://cache.nixos.org'...
+copying path '/nix/store/8gj7wagr2521cjk6ah8i03hsx2dkr7n9-openldap-2.6.6' from 'https://cache.nixos.org'...
+copying path '/nix/store/1ncsvysg90574lbfd6d2jxniwpa7h23j-openldap-2.6.6-man' from 'https://cache.nixos.org'...
+copying path '/nix/store/v8gxyknwhmrbx0wj28zw62qsyk5x0zgk-opencl-headers-2023.02.06' from 'https://cache.nixos.org'...
+copying path '/nix/store/jg407rq7v1fagh9nw1flld2v6a6ikwgw-openldap-2.6.6-man' from 'https://cache.nixos.org'...
+copying path '/nix/store/2hgj4ainwf28d5plzj67610hcy5imv9j-p11-kit-0.25.0-bin' from 'https://cache.nixos.org'...
+copying path '/nix/store/jqk1w7xrvbfjpx3kqlxjwyxfs66bgcr6-p11-kit-0.25.0-bin' from 'https://cache.nixos.org'...
+copying path '/nix/store/ad0gadz44zw32ws6i5wsssw6400c7bks-p7zip-17.05-man' from 'https://cache.nixos.org'...
+copying path '/nix/store/mvmv9f0d0j881qfcdd1n8fbldljh8mvc-libxslt-1.1.38-bin' from 'https://cache.nixos.org'...
+copying path '/nix/store/vid3dr2qds1kg1rll3864y9h5r4i7h98-pcre-8.45-bin' from 'https://cache.nixos.org'...
+copying path '/nix/store/zwcf1j0p6a0x5ynkxx6r5rq1wz2ddbs5-pcre-8.45-man' from 'https://cache.nixos.org'...
+copying path '/nix/store/6d7g21cir91laknja2wpsbnq3ndplmv7-perl5.38.2-Clone-0.46' from 'https://cache.nixos.org'...
+copying path '/nix/store/x7yv7cv2dl7xi9apiakb7m3j8dv3vk8j-gcc-wrapper-12.3.0' from 'https://cache.nixos.org'...
+copying path '/nix/store/gxd48ndmh43g314pr07m39lplafv1w94-perl5.38.2-HTML-Tagset-3.20' from 'https://cache.nixos.org'...
+copying path '/nix/store/a79f5y33drgvfv0rcmibsb2b6sbiadw2-perl5.38.2-Encode-Locale-1.05' from 'https://cache.nixos.org'...
+copying path '/nix/store/4jpjs3z3hgwbml0qr52wdqswbgbagq4d-perl5.38.2-IO-HTML-1.004' from 'https://cache.nixos.org'...
+copying path '/nix/store/vybcqwdp4zw8wmwvh7k94pckmc4aphyg-perl5.38.2-Test-RequiresInternet-0.05' from 'https://cache.nixos.org'...
+copying path '/nix/store/vi87bkl912fh3qr6rh89mkb55svx6h1c-perl5.38.2-IPC-System-Simple-1.30' from 'https://cache.nixos.org'...
+copying path '/nix/store/pm4n4djixj8ikrbjl7pj1pgx861hb13x-perl5.38.2-LWP-MediaTypes-6.04' from 'https://cache.nixos.org'...
+copying path '/nix/store/bakrh69i36dbaa1p30a4gm21k570qaj0-perl5.38.2-Test-Needs-0.002010' from 'https://cache.nixos.org'...
+copying path '/nix/store/3kcfqdh6x190q9php1ya2mpkk005761r-perl5.38.2-TimeDate-2.33' from 'https://cache.nixos.org'...
+copying path '/nix/store/m2gsqydv3qyfah01vy23hj9sqiif5kyj-perl5.38.2-Try-Tiny-0.31' from 'https://cache.nixos.org'...
+copying path '/nix/store/2ml4nag024insbsg84z22cfhjszp6fgg-perl5.38.2-URI-5.21' from 'https://cache.nixos.org'...
+copying path '/nix/store/kwqsn2ws1g1965qy98aq7l64j445zsv5-perl5.38.2-X11-Protocol-0.56' from 'https://cache.nixos.org'...
+copying path '/nix/store/73hnqmii34qxvgp7n1yh36d4r79mb207-popt-1.19' from 'https://cache.nixos.org'...
+copying path '/nix/store/f5hlzi0cw48phqlqsm6ijlfknpmg7ai7-portaudio-190700_20210406' from 'https://cache.nixos.org'...
+copying path '/nix/store/8vll76yzcjlflwiazys76pwml90x4i20-psmisc-23.7' from 'https://cache.nixos.org'...
+copying path '/nix/store/6jawqq00gp0nn3f9ljvhiaxw15a9i2r1-python3-3.11.8' from 'https://cache.nixos.org'...
+copying path '/nix/store/5m5x889sz884vmc69fsmnb4rxsnq8l52-python3.11-chardet-5.2.0' from 'https://cache.nixos.org'...
+copying path '/nix/store/0csvhkkhzkqxrsraczv8k4yap6q301p0-python3.11-dnspython-2.4.2' from 'https://cache.nixos.org'...
+copying path '/nix/store/l0vpp4xg5akci8ifgcqjq4akkz9vshly-python3.11-evdev-1.6.1' from 'https://cache.nixos.org'...
+copying path '/nix/store/qhj6n19jd4h5vff8cwhhjp229ray820k-python3.11-lxml-4.9.3-3' from 'https://cache.nixos.org'...
+copying path '/nix/store/16afcw5jq3k95mnskydn50bgjzfdqchv-perl5.38.2-Test-Fatal-0.017' from 'https://cache.nixos.org'...
+copying path '/nix/store/237g2mvgaf8nq5rjkw98379zpfkr1njg-python3.11-markdown-3.4.4' from 'https://cache.nixos.org'...
+copying path '/nix/store/kvafj01ij94jdsr7fza3q5cabyzdal8b-python3.11-protobuf-4.24.4' from 'https://cache.nixos.org'...
+copying path '/nix/store/lmjkvz3rp1wwc14487xggghzjl3rjdad-python3.11-pypresence-4.3.0' from 'https://cache.nixos.org'...
+copying path '/nix/store/prqmp1999k5fb4llf4idyy8864m3xj1l-perl5.38.2-File-BaseDir-0.09' from 'https://cache.nixos.org'...
+copying path '/nix/store/jflgcahf3qpini0zwrnryr89v9mg3gcm-python3.11-pyrate-limiter-2.10.0' from 'https://cache.nixos.org'...
+copying path '/nix/store/dvfp2dh7wsp0bpx0hhfrbh5l4s6625a7-python3.11-soupsieve-2.5' from 'https://cache.nixos.org'...
+copying path '/nix/store/5v2cskzg6ya21q3hdw0zrdqm96dlwn1q-perl5.38.2-HTTP-Date-6.06' from 'https://cache.nixos.org'...
+copying path '/nix/store/af3987a83l1r19684m0jh764wkz3j44s-perl5.38.2-Net-HTTP-6.23' from 'https://cache.nixos.org'...
+copying path '/nix/store/1i66mj60f5z2wv736rkgf0zv88k1k2r4-perl5.38.2-WWW-RobotRules-6.02' from 'https://cache.nixos.org'...
+copying path '/nix/store/ijls4cqjagk5ykrrdbg7riszczfiy8qs-python3.11-toolz-0.12.0' from 'https://cache.nixos.org'...
+copying path '/nix/store/5m1ssra5vnnsb9n2z4fml55m1vzmxam5-readline-8.2p7-man' from 'https://cache.nixos.org'...
+copying path '/nix/store/fz5hrrdbdizyqcri8r5cysycz6b74dwl-readline-8.2p7-man' from 'https://cache.nixos.org'...
+copying path '/nix/store/mafj07gffzf4678zxi029xm8bnny3ick-samba-4.19.2-man' from 'https://cache.nixos.org'...
+copying path '/nix/store/qys6lr5jsjyrpass398rgijsbk3jxrqn-samba-4.19.2-man' from 'https://cache.nixos.org'...
+copying path '/nix/store/abnx7ccq2ljg9wyziwpy71y3mvk6r9i6-perl5.38.2-File-DesktopEntry-0.22' from 'https://cache.nixos.org'...
+copying path '/nix/store/gsjv3m9kynjfhb5zl4gvrn8iri05jx9w-sane-backends-1.2.1-man' from 'https://cache.nixos.org'...
+copying path '/nix/store/n33wxxixngg6vw7w5fm6iy4z8mj43sxa-sane-backends-1.2.1-man' from 'https://cache.nixos.org'...
+copying path '/nix/store/9kmb5k63km91y9x1wawv8vg9r2dlflb5-python3.11-beautifulsoup4-4.12.2' from 'https://cache.nixos.org'...
+copying path '/nix/store/6s0yrs2k37vqkdy47lhd5jbh4qa0qk56-sfml-2.5.1' from 'https://cache.nixos.org'...
+copying path '/nix/store/wd8qgx3yrd8mhaaypilcyhsb0xr15p04-sqlite-3.43.2-bin' from 'https://cache.nixos.org'...
+100 11.4M  100 11.4M    0     0  2474k      0  0:00:04  0:00:04 --:--:-- 2995k
+building '/nix/store/lr8z3j48ahivfayhc69gxw6s8vqy77nl-cargo-nightly-minimal-2024-06-08.drv'...
+copying path '/nix/store/syjmhp60yg78xn7786y7a7gx1fhzl15s-talloc-2.4.1' from 'https://cache.nixos.org'...
+copying path '/nix/store/vypfz7ahimz4yjf9ldg2x94jspswmh35-tdb-1.4.9' from 'https://cache.nixos.org'...
+copying path '/nix/store/49v338296q5i17m20pflhz6hcphjqczw-unixODBC-2.3.12' from 'https://cache.nixos.org'...
+copying path '/nix/store/sss0s5b1wa21rx9lxb6yas3pm3hkdpzf-unixODBC-2.3.12' from 'https://cache.nixos.org'...
+copying path '/nix/store/zl8c25q88gmdmdimq7pflck3z7xzg6ba-unzip-6.0' from 'https://cache.nixos.org'...
 Running phase: unpackPhase
-unpacking source archive /nix/store/iz2wb3lx7xx8bfajy8rxj9i79r9k4fps-cargo-nightly-x86_64-unknown-linux-gnu.tar.gz
+unpacking source archive /nix/store/1rlsi91p5a3j0i7qq12m0c41sjpcfmrq-cargo-nightly-x86_64-unknown-linux-gnu.tar.gz
+copying path '/nix/store/zc7j01w6j1zhzgba5kca74l0b1szprw7-perl5.38.2-File-Listing-6.16' from 'https://cache.nixos.org'...
+copying path '/nix/store/nv56cvil7f4khl4if0abpvn95xm682hd-perl5.38.2-File-MimeInfo-0.33' from 'https://cache.nixos.org'...
+copying path '/nix/store/blkcy79wrv42ddd9hxzlanj5h0fx3r5p-perl5.38.2-HTTP-CookieJar-0.014' from 'https://cache.nixos.org'...
+copying path '/nix/store/dw11p5qmh4dx6kmxlzh1sgdn3q08mrfs-perl5.38.2-HTTP-Message-6.45' from 'https://cache.nixos.org'...
+copying path '/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2' from 'https://cache.nixos.org'...
+copying path '/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2' from 'https://cache.nixos.org'...
+copying path '/nix/store/b2yafknpyaspsw2kzqnh05yg3bzyv27y-util-linux-2.39.2-lib' from 'https://cache.nixos.org'...
 source root is cargo-nightly-x86_64-unknown-linux-gnu
 setting SOURCE_DATE_EPOCH to timestamp 1153704088 of file cargo-nightly-x86_64-unknown-linux-gnu/version
 Running phase: patchPhase
@@ -63,21 +384,274 @@ no Makefile or custom buildPhase, doing nothing
 Running phase: installPhase
 patching script interpreter paths in install.sh
 install.sh: interpreter directive changed from "#!/usr/bin/env bash" to "/nix/store/306znyj77fv49kwnkpxmb0j2znqpa8bj-bash-5.2p26/bin/bash"
-install: creating uninstall script at /nix/store/qji4jjxlv2k28p36kbwin7vajv2nfsks-cargo-nightly-minimal-2024-06-07/lib/rustlib/uninstall.sh
+copying path '/nix/store/kr0bkmfq55xmmy61glnp5jjgl6wlrivb-util-linux-2.39.2-man' from 'https://cache.nixos.org'...
+copying path '/nix/store/psbh3r6pg1lq99m594rf9fr8smjx3rhz-tevent-0.15.0' from 'https://cache.nixos.org'...
+copying path '/nix/store/d5fhg6wdvw3qs607f641iyzxz540m2z0-python3.11-moddb-0.9.0' from 'https://cache.nixos.org'...
+install: creating uninstall script at /nix/store/d30789h2g12nwxw79jv8l8z1kd61qd07-cargo-nightly-minimal-2024-06-08/lib/rustlib/uninstall.sh
 install: installing component 'cargo'
+copying path '/nix/store/1biv0ipd9kc7afjdzlkhgb28i54ycra4-vulkan-tools-1.3.268.0' from 'https://cache.nixos.org'...
+copying path '/nix/store/kpfrj80dw3ix8vq7wj1nqd58l28qhlax-wavpack-5.6.0-man' from 'https://cache.nixos.org'...
+copying path '/nix/store/7ax739psvdjikjbk565qzrkilb6i87pf-webkitgtk-2.44.1+abi=4.0' from 'https://cache.nixos.org'...
+copying path '/nix/store/p5r9s0s7pj8xrq8gq2p2bdjs2x80a6xb-xboxdrv-0.8.8' from 'https://cache.nixos.org'...
+copying path '/nix/store/0js1fj9y92m54j8spkvvd3bqdiyw1x58-xgamma-1.0.7' from 'https://cache.nixos.org'...
+copying path '/nix/store/8drd7rm3riqlh233whaczyz0hb1jin8i-xset-1.2.5' from 'https://cache.nixos.org'...
+copying path '/nix/store/b05bcp59sq2q7lp2mq9nli05dmswi3hh-zip-3.0' from 'https://cache.nixos.org'...
+copying path '/nix/store/jdf1568qzmh939xy23aniqzzh0f4a5gz-zip-3.0' from 'https://cache.nixos.org'...
+copying path '/nix/store/x466bp4mxdbl4b3jx9mpvvq7mvfn4dm5-perl5.38.2-HTML-Parser-3.81' from 'https://cache.nixos.org'...
+copying path '/nix/store/8r9g5vz08iy8p4r6hir4j1klrpp052dl-perl5.38.2-HTTP-Cookies-6.10' from 'https://cache.nixos.org'...
+copying path '/nix/store/zf1wxi25zfh918m1lhhiyxmi9nrdq70d-perl5.38.2-HTTP-Daemon-6.16' from 'https://cache.nixos.org'...
+copying path '/nix/store/rg1k5hyqj808rqq5icvj58nnp6q739gr-ldb-2.8.0' from 'https://cache.nixos.org'...
+copying path '/nix/store/391m0qn6lnl0pdkr6iixjx5zma0zlnvr-perl5.38.2-HTTP-Negotiate-6.01' from 'https://cache.nixos.org'...
+copying path '/nix/store/h71vn35k9c5ca2zj8yxxvpqdlpgdfj1w-zziplib-0.13.72' from 'https://cache.nixos.org'...
+copying path '/nix/store/gsgr4fsmvwfcrampinnkmpcix67dfqv1-util-linux-2.39.2-login' from 'https://cache.nixos.org'...
+copying path '/nix/store/pbf261jcci51q489rgdrzq40mz03a0zc-util-linux-2.39.2-mount' from 'https://cache.nixos.org'...
+copying path '/nix/store/g7aq1xf8dz9yilkh93izq4nyf9r9izpn-util-linux-2.39.2-swap' from 'https://cache.nixos.org'...
 
     cargo installed.
 
+copying path '/nix/store/kn7xqdc7r3jjnl9i7myshg3psn5bb2dc-zziplib-0.13.72' from 'https://cache.nixos.org'...
 Running phase: fixupPhase
-shrinking RPATHs of ELF executables and libraries in /nix/store/qji4jjxlv2k28p36kbwin7vajv2nfsks-cargo-nightly-minimal-2024-06-07
-shrinking /nix/store/qji4jjxlv2k28p36kbwin7vajv2nfsks-cargo-nightly-minimal-2024-06-07/bin/cargo
-checking for references to /build/ in /nix/store/qji4jjxlv2k28p36kbwin7vajv2nfsks-cargo-nightly-minimal-2024-06-07...
-gzipping man pages under /nix/store/qji4jjxlv2k28p36kbwin7vajv2nfsks-cargo-nightly-minimal-2024-06-07/share/man/
-patching script interpreter paths in /nix/store/qji4jjxlv2k28p36kbwin7vajv2nfsks-cargo-nightly-minimal-2024-06-07
-100 43.0M  100 43.0M    0     0  4516k      0  0:00:09  0:00:09 --:--:-- 5444k
-building '/nix/store/95mh8apbq52khbpmi66af32ix5amx7jl-rust-std-nightly-minimal-2024-06-07.drv'...
+shrinking RPATHs of ELF executables and libraries in /nix/store/d30789h2g12nwxw79jv8l8z1kd61qd07-cargo-nightly-minimal-2024-06-08
+shrinking /nix/store/d30789h2g12nwxw79jv8l8z1kd61qd07-cargo-nightly-minimal-2024-06-08/bin/cargo
+checking for references to /build/ in /nix/store/d30789h2g12nwxw79jv8l8z1kd61qd07-cargo-nightly-minimal-2024-06-08...
+gzipping man pages under /nix/store/d30789h2g12nwxw79jv8l8z1kd61qd07-cargo-nightly-minimal-2024-06-08/share/man/
+patching script interpreter paths in /nix/store/d30789h2g12nwxw79jv8l8z1kd61qd07-cargo-nightly-minimal-2024-06-08
+copying path '/nix/store/mdvfndlrzq8ljxx2adjhxm5d40z81ddd-perl5.38.2-libwww-perl-6.72' from 'https://cache.nixos.org'...
+copying path '/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin' from 'https://cache.nixos.org'...
+copying path '/nix/store/gfrzwars9m4kbb63xdv6zcwzwpm5bmki-samba-4.19.2' from 'https://cache.nixos.org'...
+copying path '/nix/store/9wax45rhx1xd8lssbvyxwrv6kvyhm8qf-perl5.38.2-XML-Parser-2.46' from 'https://cache.nixos.org'...
+copying path '/nix/store/ky3wbrqc1q6hgahbf83h4fnp5qlxzp0v-perl5.38.2-XML-Twig-3.52' from 'https://cache.nixos.org'...
+copying path '/nix/store/p5s9gqim5izhan3crh0mal3k7xfqac7r-perl5.38.2-Net-DBus-1.2.0' from 'https://cache.nixos.org'...
+copying path '/nix/store/593lcicpys372jk8a8klxlszq83sqp78-xdg-utils-unstable-2022-11-06' from 'https://cache.nixos.org'...
+building '/nix/store/j4xhn363g8gfc3j167sxv7kbcwj9bwvk-lutris-usr-multi.drv'...
+warning: collision between `/nix/store/vb2gdgivbwll9hbxh5w310avy1p6pfhi-gtk+3-3.24.41/bin/gtk-update-icon-cache' and `/nix/store/xni27y7sxbkl5a98wha1zlbh4wlyll9d-gtk+-2.24.33/bin/gtk-update-icon-cache'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/mkfs.cramfs' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/mkfs.cramfs'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/setpriv' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/setpriv'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/chsh' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/chsh'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/uuidparse' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/uuidparse'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/ionice' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/ionice'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/logger' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/logger'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/resizepart' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/resizepart'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/ldattach' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/ldattach'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/mesg' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/mesg'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/lsmem' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/lsmem'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/pivot_root' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/pivot_root'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/rename' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/rename'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/blkdiscard' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/blkdiscard'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/scriptlive' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/scriptlive'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/blkid' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/blkid'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/colrm' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/colrm'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/getopt' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/getopt'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/fsck.minix' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/fsck.minix'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/chrt' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/chrt'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/lsipc' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/lsipc'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/uclampset' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/uclampset'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/fsfreeze' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/fsfreeze'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/blkzone' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/blkzone'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/ipcrm' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/ipcrm'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/lslogins' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/lslogins'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/ipcs' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/ipcs'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/column' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/column'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/utmpdump' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/utmpdump'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/setarch' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/setarch'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/rtcwake' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/rtcwake'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/wipefs' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/wipefs'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/swaplabel' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/swaplabel'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/hardlink' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/hardlink'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/namei' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/namei'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/script' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/script'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/rev' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/rev'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/wdctl' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/wdctl'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/pipesz' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/pipesz'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/fadvise' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/fadvise'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/nsenter' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/nsenter'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/mkfs.bfs' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/mkfs.bfs'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/readprofile' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/readprofile'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/ipcmk' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/ipcmk'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/fallocate' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/fallocate'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/lsns' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/lsns'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/partx' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/partx'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/col' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/col'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/lscpu' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/lscpu'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/zramctl' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/zramctl'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/chcpu' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/chcpu'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/mcookie' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/mcookie'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/swapon' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/swapon'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/eject' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/eject'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/rfkill' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/rfkill'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/setterm' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/setterm'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/write' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/write'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/ul' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/ul'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/hexdump' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/hexdump'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/blockdev' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/blockdev'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/ctrlaltdel' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/ctrlaltdel'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/delpart' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/delpart'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/prlimit' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/prlimit'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/mkfs.minix' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/mkfs.minix'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/setsid' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/setsid'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/findmnt' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/findmnt'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/fstrim' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/fstrim'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/fdisk' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/fdisk'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/mkswap' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/mkswap'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/look' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/look'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/lslocks' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/lslocks'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/sfdisk' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/sfdisk'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/waitpid' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/waitpid'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/cal' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/cal'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/flock' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/flock'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/umount' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/umount'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/addpart' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/addpart'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/fincore' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/fincore'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/lsirq' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/lsirq'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/cfdisk' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/cfdisk'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/last' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/last'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/renice' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/renice'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/mount' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/mount'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/chmem' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/chmem'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/fsck' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/fsck'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/swapoff' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/swapoff'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/mkfs' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/mkfs'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/losetup' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/losetup'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/findfs' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/findfs'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/uuidd' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/uuidd'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/wall' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/wall'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/fsck.cramfs' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/fsck.cramfs'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/irqtop' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/irqtop'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/scriptreplay' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/scriptreplay'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/more' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/more'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/isosize' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/isosize'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/lsblk' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/lsblk'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/uuidgen' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/uuidgen'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/mountpoint' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/mountpoint'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/hwclock' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/hwclock'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/dmesg' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/dmesg'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/chfn' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/chfn'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/unshare' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/unshare'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/taskset' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/taskset'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/whereis' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/whereis'
+warning: collision between `/nix/store/2kvmd96w1fz354m4qalga0f9xlrnz5ap-util-linux-2.39.2/share/bash-completion/completions/colcrt' and `/nix/store/0wh7cncxgmc8bsmnhih97m3a07ymfpl0-util-linux-2.39.2-bin/share/bash-completion/completions/colcrt'
+created 8489 symlinks in user environment
+copying path '/nix/store/4gjpb46zx2dvqkidh18bxkk3pndmh1ga-lutris-unwrapped-0.5.14' from 'https://cache.nixos.org'...
+building '/nix/store/6rvncpflmsc699gnhi8g1jyzxfdii38k-lutris-usr-target.drv'...
+warning: collision between `/nix/store/vhsnkb9dqjk1knrdsd4m7q22xzplhxz7-glibc-multi-2.38-66-bin/bin/ldconfig' and `/nix/store/7bcpi45adyhsj4v7ijhkx2bz4f7giz11-ldconfig/bin/ldconfig'
+warning: collision between `/nix/store/cy67j9dyh8icwdcyi06hyq80iq1pcgmz-glibc-multi-2.38-66/lib/locale/locale-archive' and `/nix/store/rfvxv3hjd9k42sahbgkirkd81fzblc86-glibc-locales-2.38-66/lib/locale/locale-archive'
+warning: collision between `/nix/store/c3q75q9n8qm2068lsin0qjvm6axnqz60-gtk+3-3.24.41/bin/gtk-update-icon-cache' and `/nix/store/igskayfwr2dzp56y13l0i52yy6ki535d-gtk+-2.24.33/bin/gtk-update-icon-cache'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/mkfs.cramfs' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/mkfs.cramfs'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/setpriv' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/setpriv'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/chsh' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/chsh'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/uuidparse' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/uuidparse'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/ionice' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/ionice'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/logger' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/logger'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/resizepart' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/resizepart'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/ldattach' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/ldattach'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/mesg' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/mesg'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/lsmem' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/lsmem'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/pivot_root' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/pivot_root'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/rename' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/rename'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/blkdiscard' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/blkdiscard'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/scriptlive' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/scriptlive'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/blkid' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/blkid'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/colrm' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/colrm'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/getopt' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/getopt'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/fsck.minix' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/fsck.minix'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/chrt' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/chrt'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/lsipc' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/lsipc'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/uclampset' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/uclampset'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/fsfreeze' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/fsfreeze'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/blkzone' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/blkzone'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/ipcrm' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/ipcrm'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/lslogins' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/lslogins'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/ipcs' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/ipcs'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/column' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/column'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/utmpdump' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/utmpdump'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/setarch' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/setarch'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/rtcwake' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/rtcwake'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/wipefs' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/wipefs'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/swaplabel' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/swaplabel'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/hardlink' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/hardlink'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/namei' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/namei'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/script' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/script'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/rev' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/rev'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/wdctl' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/wdctl'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/pipesz' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/pipesz'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/fadvise' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/fadvise'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/nsenter' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/nsenter'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/mkfs.bfs' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/mkfs.bfs'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/readprofile' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/readprofile'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/ipcmk' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/ipcmk'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/fallocate' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/fallocate'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/lsns' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/lsns'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/partx' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/partx'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/col' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/col'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/lscpu' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/lscpu'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/zramctl' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/zramctl'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/chcpu' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/chcpu'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/mcookie' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/mcookie'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/swapon' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/swapon'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/eject' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/eject'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/rfkill' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/rfkill'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/setterm' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/setterm'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/write' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/write'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/ul' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/ul'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/hexdump' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/hexdump'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/blockdev' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/blockdev'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/ctrlaltdel' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/ctrlaltdel'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/delpart' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/delpart'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/prlimit' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/prlimit'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/mkfs.minix' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/mkfs.minix'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/setsid' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/setsid'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/findmnt' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/findmnt'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/fstrim' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/fstrim'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/fdisk' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/fdisk'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/mkswap' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/mkswap'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/look' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/look'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/lslocks' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/lslocks'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/sfdisk' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/sfdisk'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/waitpid' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/waitpid'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/cal' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/cal'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/flock' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/flock'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/umount' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/umount'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/addpart' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/addpart'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/fincore' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/fincore'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/lsirq' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/lsirq'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/cfdisk' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/cfdisk'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/last' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/last'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/renice' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/renice'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/mount' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/mount'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/chmem' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/chmem'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/fsck' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/fsck'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/swapoff' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/swapoff'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/mkfs' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/mkfs'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/losetup' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/losetup'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/findfs' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/findfs'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/uuidd' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/uuidd'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/wall' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/wall'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/fsck.cramfs' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/fsck.cramfs'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/irqtop' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/irqtop'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/scriptreplay' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/scriptreplay'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/more' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/more'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/isosize' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/isosize'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/lsblk' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/lsblk'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/uuidgen' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/uuidgen'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/mountpoint' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/mountpoint'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/hwclock' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/hwclock'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/dmesg' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/dmesg'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/chfn' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/chfn'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/unshare' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/unshare'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/taskset' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/taskset'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/whereis' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/whereis'
+warning: collision between `/nix/store/j4q9d5f9g0y6xjcxdvzj2jz9h5gg10hm-util-linux-2.39.2/share/bash-completion/completions/colcrt' and `/nix/store/9b3225iw2s3s2q2nh10ysg291hvxdjnd-util-linux-2.39.2-bin/share/bash-completion/completions/colcrt'
+created 12326 symlinks in user environment
+building '/nix/store/gv7cy7f36p02dl00n7d77kcwb4fxl10g-lutris-fhs.drv'...
+/nix/store/2hmklh7m5lzc5pzwmpd05fxsddfvv6af-lutris-fhs /build
+/nix/store/2hmklh7m5lzc5pzwmpd05fxsddfvv6af-lutris-fhs/usr /nix/store/2hmklh7m5lzc5pzwmpd05fxsddfvv6af-lutris-fhs /build
+/nix/store/2hmklh7m5lzc5pzwmpd05fxsddfvv6af-lutris-fhs /build
+building '/nix/store/yd5dd0kjp0wm7ssmvy0ydm20grqn955r-lutris-bwrap.drv'...
+building '/nix/store/yxdfvqxpdgm3b6rn3lzavn054ai7gj8y-lutris.drv'...
+100 43.2M  100 43.2M    0     0  1416k      0  0:00:31  0:00:31 --:--:-- 2299k
+building '/nix/store/gi8kdfxi014lh181cxx9nf85yrc62rc1-rust-std-nightly-minimal-2024-06-08.drv'...
 Running phase: unpackPhase
-unpacking source archive /nix/store/a1qiiwlxassy01vdi9w9c8z7ypvan57b-rust-std-nightly-x86_64-unknown-linux-gnu.tar.gz
+unpacking source archive /nix/store/fnymqax91wsd4d2a8ld9qdbv99m9fa7m-rust-std-nightly-x86_64-unknown-linux-gnu.tar.gz
 source root is rust-std-nightly-x86_64-unknown-linux-gnu
 setting SOURCE_DATE_EPOCH to timestamp 1153704088 of file rust-std-nightly-x86_64-unknown-linux-gnu/version
 Running phase: patchPhase
@@ -89,20 +663,20 @@ no Makefile or custom buildPhase, doing nothing
 Running phase: installPhase
 patching script interpreter paths in install.sh
 install.sh: interpreter directive changed from "#!/usr/bin/env bash" to "/nix/store/306znyj77fv49kwnkpxmb0j2znqpa8bj-bash-5.2p26/bin/bash"
-install: creating uninstall script at /nix/store/pwh20czvndm0hw2634ps3bafj7sjk7j7-rust-std-nightly-minimal-2024-06-07/lib/rustlib/uninstall.sh
+install: creating uninstall script at /nix/store/9wkljnl6vp5dlm68fa5r3p8ijddygqlc-rust-std-nightly-minimal-2024-06-08/lib/rustlib/uninstall.sh
 install: installing component 'rust-std-x86_64-unknown-linux-gnu'
 
     rust std installed.
 
 Running phase: fixupPhase
-shrinking RPATHs of ELF executables and libraries in /nix/store/pwh20czvndm0hw2634ps3bafj7sjk7j7-rust-std-nightly-minimal-2024-06-07
-shrinking /nix/store/pwh20czvndm0hw2634ps3bafj7sjk7j7-rust-std-nightly-minimal-2024-06-07/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-45288dcc88911a1f.so
-checking for references to /build/ in /nix/store/pwh20czvndm0hw2634ps3bafj7sjk7j7-rust-std-nightly-minimal-2024-06-07...
-patching script interpreter paths in /nix/store/pwh20czvndm0hw2634ps3bafj7sjk7j7-rust-std-nightly-minimal-2024-06-07
-100  108M  100  108M    0     0  4187k      0  0:00:26  0:00:26 --:--:-- 3358k
-building '/nix/store/6a7j7vv9mny9d978179am4k68smi5d6b-rustc-nightly-minimal-2024-06-07.drv'...
+shrinking RPATHs of ELF executables and libraries in /nix/store/9wkljnl6vp5dlm68fa5r3p8ijddygqlc-rust-std-nightly-minimal-2024-06-08
+shrinking /nix/store/9wkljnl6vp5dlm68fa5r3p8ijddygqlc-rust-std-nightly-minimal-2024-06-08/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d46578f9a4470f27.so
+checking for references to /build/ in /nix/store/9wkljnl6vp5dlm68fa5r3p8ijddygqlc-rust-std-nightly-minimal-2024-06-08...
+patching script interpreter paths in /nix/store/9wkljnl6vp5dlm68fa5r3p8ijddygqlc-rust-std-nightly-minimal-2024-06-08
+100  108M  100  108M    0     0  2878k      0  0:00:38  0:00:38 --:--:-- 5179k
+building '/nix/store/cjj8dbr81bijhrs9y0xx01q3c14wgj7d-rustc-nightly-minimal-2024-06-08.drv'...
 Running phase: unpackPhase
-unpacking source archive /nix/store/adygriblv678hi8l0bd5i31nww06wg47-rustc-nightly-x86_64-unknown-linux-gnu.tar.gz
+unpacking source archive /nix/store/pfkbr459y3cpjjynbwfzhf16a585xhyh-rustc-nightly-x86_64-unknown-linux-gnu.tar.gz
 source root is rustc-nightly-x86_64-unknown-linux-gnu
 setting SOURCE_DATE_EPOCH to timestamp 1153704088 of file rustc-nightly-x86_64-unknown-linux-gnu/version
 Running phase: patchPhase
@@ -114,40 +688,40 @@ no Makefile or custom buildPhase, doing nothing
 Running phase: installPhase
 patching script interpreter paths in install.sh
 install.sh: interpreter directive changed from "#!/usr/bin/env bash" to "/nix/store/306znyj77fv49kwnkpxmb0j2znqpa8bj-bash-5.2p26/bin/bash"
-install: creating uninstall script at /nix/store/y0vmrx2r9cwnrjr7fq8kqjwngxp1cbfy-rustc-nightly-minimal-2024-06-07/lib/rustlib/uninstall.sh
+install: creating uninstall script at /nix/store/004pb3k8zq2mc3c94ndc3nyawbdz7m3k-rustc-nightly-minimal-2024-06-08/lib/rustlib/uninstall.sh
 install: installing component 'rustc'
 
     rustc installed.
 
 warning: entry 48 in symbol table refers to a non-existent section, skipping
 Running phase: fixupPhase
-shrinking RPATHs of ELF executables and libraries in /nix/store/y0vmrx2r9cwnrjr7fq8kqjwngxp1cbfy-rustc-nightly-minimal-2024-06-07
-shrinking /nix/store/y0vmrx2r9cwnrjr7fq8kqjwngxp1cbfy-rustc-nightly-minimal-2024-06-07/bin/rustc
-shrinking /nix/store/y0vmrx2r9cwnrjr7fq8kqjwngxp1cbfy-rustc-nightly-minimal-2024-06-07/bin/rustdoc
-shrinking /nix/store/y0vmrx2r9cwnrjr7fq8kqjwngxp1cbfy-rustc-nightly-minimal-2024-06-07/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld/lld-link
-shrinking /nix/store/y0vmrx2r9cwnrjr7fq8kqjwngxp1cbfy-rustc-nightly-minimal-2024-06-07/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld/ld64.lld
-shrinking /nix/store/y0vmrx2r9cwnrjr7fq8kqjwngxp1cbfy-rustc-nightly-minimal-2024-06-07/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld/wasm-ld
-shrinking /nix/store/y0vmrx2r9cwnrjr7fq8kqjwngxp1cbfy-rustc-nightly-minimal-2024-06-07/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld/ld.lld
-shrinking /nix/store/y0vmrx2r9cwnrjr7fq8kqjwngxp1cbfy-rustc-nightly-minimal-2024-06-07/lib/rustlib/x86_64-unknown-linux-gnu/bin/rust-lld
-shrinking /nix/store/y0vmrx2r9cwnrjr7fq8kqjwngxp1cbfy-rustc-nightly-minimal-2024-06-07/lib/librustc_driver-566a3e76c4b4a4f1.so
-shrinking /nix/store/y0vmrx2r9cwnrjr7fq8kqjwngxp1cbfy-rustc-nightly-minimal-2024-06-07/lib/libLLVM.so.18.1-rust-1.80.0-nightly
-shrinking /nix/store/y0vmrx2r9cwnrjr7fq8kqjwngxp1cbfy-rustc-nightly-minimal-2024-06-07/lib/libstd-45288dcc88911a1f.so
-shrinking /nix/store/y0vmrx2r9cwnrjr7fq8kqjwngxp1cbfy-rustc-nightly-minimal-2024-06-07/libexec/rust-analyzer-proc-macro-srv
-checking for references to /build/ in /nix/store/y0vmrx2r9cwnrjr7fq8kqjwngxp1cbfy-rustc-nightly-minimal-2024-06-07...
-gzipping man pages under /nix/store/y0vmrx2r9cwnrjr7fq8kqjwngxp1cbfy-rustc-nightly-minimal-2024-06-07/share/man/
-patching script interpreter paths in /nix/store/y0vmrx2r9cwnrjr7fq8kqjwngxp1cbfy-rustc-nightly-minimal-2024-06-07
-/nix/store/y0vmrx2r9cwnrjr7fq8kqjwngxp1cbfy-rustc-nightly-minimal-2024-06-07/bin/rust-lldb: interpreter directive changed from "#!/bin/sh" to "/nix/store/306znyj77fv49kwnkpxmb0j2znqpa8bj-bash-5.2p26/bin/sh"
-/nix/store/y0vmrx2r9cwnrjr7fq8kqjwngxp1cbfy-rustc-nightly-minimal-2024-06-07/bin/rust-gdb: interpreter directive changed from "#!/bin/sh" to "/nix/store/306znyj77fv49kwnkpxmb0j2znqpa8bj-bash-5.2p26/bin/sh"
-/nix/store/y0vmrx2r9cwnrjr7fq8kqjwngxp1cbfy-rustc-nightly-minimal-2024-06-07/bin/rust-gdbgui: interpreter directive changed from "#!/bin/sh" to "/nix/store/306znyj77fv49kwnkpxmb0j2znqpa8bj-bash-5.2p26/bin/sh"
-building '/nix/store/5qwa5wwqd9n2jrb5y7yyn5bd2qhv6knx-rust-nightly-minimal-2024-06-07.drv'...
-building '/nix/store/rq87ln3lw2nap5ikclyj3jw7c1i35qrr-system-path.drv'...
-warning: collision between `/nix/store/rxq2hni3nbcm3449js42fhi4s7wzd3vm-rustup-1.26.0/bin/cargo' and `/nix/store/q3s2dq9r3ivffzw258hl22hq5m4l7wz3-rust-nightly-minimal-2024-06-07/bin/cargo'
-warning: collision between `/nix/store/rxq2hni3nbcm3449js42fhi4s7wzd3vm-rustup-1.26.0/bin/rust-lldb' and `/nix/store/q3s2dq9r3ivffzw258hl22hq5m4l7wz3-rust-nightly-minimal-2024-06-07/bin/rust-lldb'
-warning: collision between `/nix/store/rxq2hni3nbcm3449js42fhi4s7wzd3vm-rustup-1.26.0/bin/rust-gdb' and `/nix/store/q3s2dq9r3ivffzw258hl22hq5m4l7wz3-rust-nightly-minimal-2024-06-07/bin/rust-gdb'
-warning: collision between `/nix/store/rxq2hni3nbcm3449js42fhi4s7wzd3vm-rustup-1.26.0/bin/rustc' and `/nix/store/q3s2dq9r3ivffzw258hl22hq5m4l7wz3-rust-nightly-minimal-2024-06-07/bin/rustc'
-warning: collision between `/nix/store/rxq2hni3nbcm3449js42fhi4s7wzd3vm-rustup-1.26.0/bin/rust-gdbgui' and `/nix/store/q3s2dq9r3ivffzw258hl22hq5m4l7wz3-rust-nightly-minimal-2024-06-07/bin/rust-gdbgui'
-warning: collision between `/nix/store/rxq2hni3nbcm3449js42fhi4s7wzd3vm-rustup-1.26.0/bin/rustdoc' and `/nix/store/q3s2dq9r3ivffzw258hl22hq5m4l7wz3-rust-nightly-minimal-2024-06-07/bin/rustdoc'
-warning: collision between `/nix/store/rxq2hni3nbcm3449js42fhi4s7wzd3vm-rustup-1.26.0/share/zsh/site-functions/_cargo' and `/nix/store/q3s2dq9r3ivffzw258hl22hq5m4l7wz3-rust-nightly-minimal-2024-06-07/share/zsh/site-functions/_cargo'
+shrinking RPATHs of ELF executables and libraries in /nix/store/004pb3k8zq2mc3c94ndc3nyawbdz7m3k-rustc-nightly-minimal-2024-06-08
+shrinking /nix/store/004pb3k8zq2mc3c94ndc3nyawbdz7m3k-rustc-nightly-minimal-2024-06-08/bin/rustc
+shrinking /nix/store/004pb3k8zq2mc3c94ndc3nyawbdz7m3k-rustc-nightly-minimal-2024-06-08/bin/rustdoc
+shrinking /nix/store/004pb3k8zq2mc3c94ndc3nyawbdz7m3k-rustc-nightly-minimal-2024-06-08/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld/lld-link
+shrinking /nix/store/004pb3k8zq2mc3c94ndc3nyawbdz7m3k-rustc-nightly-minimal-2024-06-08/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld/ld64.lld
+shrinking /nix/store/004pb3k8zq2mc3c94ndc3nyawbdz7m3k-rustc-nightly-minimal-2024-06-08/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld/wasm-ld
+shrinking /nix/store/004pb3k8zq2mc3c94ndc3nyawbdz7m3k-rustc-nightly-minimal-2024-06-08/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld/ld.lld
+shrinking /nix/store/004pb3k8zq2mc3c94ndc3nyawbdz7m3k-rustc-nightly-minimal-2024-06-08/lib/rustlib/x86_64-unknown-linux-gnu/bin/rust-lld
+shrinking /nix/store/004pb3k8zq2mc3c94ndc3nyawbdz7m3k-rustc-nightly-minimal-2024-06-08/lib/librustc_driver-f5753be1737c8a1b.so
+shrinking /nix/store/004pb3k8zq2mc3c94ndc3nyawbdz7m3k-rustc-nightly-minimal-2024-06-08/lib/libLLVM.so.18.1-rust-1.80.0-nightly
+shrinking /nix/store/004pb3k8zq2mc3c94ndc3nyawbdz7m3k-rustc-nightly-minimal-2024-06-08/lib/libstd-d46578f9a4470f27.so
+shrinking /nix/store/004pb3k8zq2mc3c94ndc3nyawbdz7m3k-rustc-nightly-minimal-2024-06-08/libexec/rust-analyzer-proc-macro-srv
+checking for references to /build/ in /nix/store/004pb3k8zq2mc3c94ndc3nyawbdz7m3k-rustc-nightly-minimal-2024-06-08...
+gzipping man pages under /nix/store/004pb3k8zq2mc3c94ndc3nyawbdz7m3k-rustc-nightly-minimal-2024-06-08/share/man/
+patching script interpreter paths in /nix/store/004pb3k8zq2mc3c94ndc3nyawbdz7m3k-rustc-nightly-minimal-2024-06-08
+/nix/store/004pb3k8zq2mc3c94ndc3nyawbdz7m3k-rustc-nightly-minimal-2024-06-08/bin/rust-lldb: interpreter directive changed from "#!/bin/sh" to "/nix/store/306znyj77fv49kwnkpxmb0j2znqpa8bj-bash-5.2p26/bin/sh"
+/nix/store/004pb3k8zq2mc3c94ndc3nyawbdz7m3k-rustc-nightly-minimal-2024-06-08/bin/rust-gdb: interpreter directive changed from "#!/bin/sh" to "/nix/store/306znyj77fv49kwnkpxmb0j2znqpa8bj-bash-5.2p26/bin/sh"
+/nix/store/004pb3k8zq2mc3c94ndc3nyawbdz7m3k-rustc-nightly-minimal-2024-06-08/bin/rust-gdbgui: interpreter directive changed from "#!/bin/sh" to "/nix/store/306znyj77fv49kwnkpxmb0j2znqpa8bj-bash-5.2p26/bin/sh"
+building '/nix/store/258d6l9xmxrdh6gpddn4m78z5an3lpcq-rust-nightly-minimal-2024-06-08.drv'...
+building '/nix/store/mhvjwg1rmfb7bmhjy1jn5jdfn4kk025a-system-path.drv'...
+warning: collision between `/nix/store/rxq2hni3nbcm3449js42fhi4s7wzd3vm-rustup-1.26.0/bin/cargo' and `/nix/store/yazd2vv4far7bw0h6bjcqiavpznxi54k-rust-nightly-minimal-2024-06-08/bin/cargo'
+warning: collision between `/nix/store/rxq2hni3nbcm3449js42fhi4s7wzd3vm-rustup-1.26.0/bin/rust-lldb' and `/nix/store/yazd2vv4far7bw0h6bjcqiavpznxi54k-rust-nightly-minimal-2024-06-08/bin/rust-lldb'
+warning: collision between `/nix/store/rxq2hni3nbcm3449js42fhi4s7wzd3vm-rustup-1.26.0/bin/rust-gdb' and `/nix/store/yazd2vv4far7bw0h6bjcqiavpznxi54k-rust-nightly-minimal-2024-06-08/bin/rust-gdb'
+warning: collision between `/nix/store/rxq2hni3nbcm3449js42fhi4s7wzd3vm-rustup-1.26.0/bin/rustc' and `/nix/store/yazd2vv4far7bw0h6bjcqiavpznxi54k-rust-nightly-minimal-2024-06-08/bin/rustc'
+warning: collision between `/nix/store/rxq2hni3nbcm3449js42fhi4s7wzd3vm-rustup-1.26.0/bin/rust-gdbgui' and `/nix/store/yazd2vv4far7bw0h6bjcqiavpznxi54k-rust-nightly-minimal-2024-06-08/bin/rust-gdbgui'
+warning: collision between `/nix/store/rxq2hni3nbcm3449js42fhi4s7wzd3vm-rustup-1.26.0/bin/rustdoc' and `/nix/store/yazd2vv4far7bw0h6bjcqiavpznxi54k-rust-nightly-minimal-2024-06-08/bin/rustdoc'
+warning: collision between `/nix/store/rxq2hni3nbcm3449js42fhi4s7wzd3vm-rustup-1.26.0/share/zsh/site-functions/_cargo' and `/nix/store/yazd2vv4far7bw0h6bjcqiavpznxi54k-rust-nightly-minimal-2024-06-08/share/zsh/site-functions/_cargo'
 warning: collision between `/nix/store/lw77aj305wc3sq1x0igf57isfb92ps10-rustfmt-1.73.0/bin/cargo-fmt' and `/nix/store/rxq2hni3nbcm3449js42fhi4s7wzd3vm-rustup-1.26.0/bin/cargo-fmt'
 warning: collision between `/nix/store/lw77aj305wc3sq1x0igf57isfb92ps10-rustfmt-1.73.0/bin/rustfmt' and `/nix/store/rxq2hni3nbcm3449js42fhi4s7wzd3vm-rustup-1.26.0/bin/rustfmt'
 warning: collision between `/nix/store/nim0kb72dca67v675xiafsc1s76ramzg-net-tools-2.10/bin/hostname' and `/nix/store/7lfam8492c94s29acg9x2ivh2rlylpzs-inetutils-2.5/bin/hostname'
@@ -156,20 +730,20 @@ warning: collision between `/nix/store/nim0kb72dca67v675xiafsc1s76ramzg-net-tool
 warning: collision between `/nix/store/nim0kb72dca67v675xiafsc1s76ramzg-net-tools-2.10/share/man/man1/dnsdomainname.1.gz' and `/nix/store/7lfam8492c94s29acg9x2ivh2rlylpzs-inetutils-2.5/share/man/man1/dnsdomainname.1.gz'
 warning: collision between `/nix/store/nim0kb72dca67v675xiafsc1s76ramzg-net-tools-2.10/share/man/man1/hostname.1.gz' and `/nix/store/7lfam8492c94s29acg9x2ivh2rlylpzs-inetutils-2.5/share/man/man1/hostname.1.gz'
 warning: collision between `/nix/store/k00pzvyjzyd4l11gd7ra4l2bc6f6hsl2-steam/bin/steam' and `/nix/store/z18vmklbcm3x1336dxm482hqcq2dmmqn-steam/bin/steam'
-created 23288 symlinks in user environment
+created 23298 symlinks in user environment
 gtk-update-icon-cache: Cache file created successfully.
 gtk-update-icon-cache: Cache file created successfully.
-building '/nix/store/gz9zlmlq36llvgq8mvj5c2w7cadr3gaz-X-Restart-Triggers-polkit.drv'...
-building '/nix/store/drdv9p60134vh7pbacccp2sxvlw4bmk1-dbus-1.drv'...
-building '/nix/store/dysbcy0fs8aq023dggy1qcgbs1jkc8yq-etc-pam-environment.drv'...
-building '/nix/store/5l61lc5fa1kh66w49cj58zcsdz7qpacy-set-environment.drv'...
-building '/nix/store/vafcp4izvdr5d3jv0zkgnlfrd2s601yi-unit-accounts-daemon.service.drv'...
-building '/nix/store/5q4qbx7c1vdbgkbsjhalg01rn8hzkp8r-X-Restart-Triggers-dbus.drv'...
-building '/nix/store/hwchidk3dzn8jz2rw880sc53mcprbmwp-etc-profile.drv'...
-building '/nix/store/vg1wljk25qzv3hns9j8v4lcxa06i8plm-unit-polkit.service.drv'...
-building '/nix/store/xc8bmzrlicz0yj3agciqa7f5j3ibws6l-unit-dbus.service.drv'...
-building '/nix/store/yl8dg8xhmybvli37g5g26d45hjwpd32h-unit-dbus.service.drv'...
-building '/nix/store/s07al4shrdk3qhygqjxa96f51pi9188d-system-units.drv'...
-building '/nix/store/b8hdldnspnx8ndqlcvls2as0fwppyzm2-user-units.drv'...
-building '/nix/store/52wdcghpczhfzvnx4ij1k2bgpwl88nq6-etc.drv'...
-building '/nix/store/j39zd9ssd3k17qgljjp7mihvwcyycr4v-nixos-system-nixos-23.11.7202.e7cc61784ddf.drv'...
+building '/nix/store/48n3wl8lkxxgzwfm207hr83a4k8dzq0g-X-Restart-Triggers-polkit.drv'...
+building '/nix/store/d239bg0q67mdxxixlaslijxdv5ldnrll-dbus-1.drv'...
+building '/nix/store/1j8fwkl413l5yywjp8m2jhk7f28c6pfj-etc-pam-environment.drv'...
+building '/nix/store/c7cqyn1vq25097a44g06kyiyhxz9pxcl-set-environment.drv'...
+building '/nix/store/5906j340pplmlhj9mlgb9sskd3306rbm-unit-accounts-daemon.service.drv'...
+building '/nix/store/y2k749kd8rm1a9ivd046qndrynm5295p-X-Restart-Triggers-dbus.drv'...
+building '/nix/store/ynzw639hdggl484qp42djqpd9ma0366a-etc-profile.drv'...
+building '/nix/store/7fbdkzg7wmx67jbchxqkiyzg2is9p56k-unit-polkit.service.drv'...
+building '/nix/store/p5al6k1rvrn3mhsww22hz663v1ba29pa-unit-dbus.service.drv'...
+building '/nix/store/xpvm871gdidq84lg6x2d2bpl9mgwd983-unit-dbus.service.drv'...
+building '/nix/store/61sj4cf0y1vvi266k45yr158i5jidg75-user-units.drv'...
+building '/nix/store/j3yv2vmnjya87ylgj8n23k615jw1dqlg-system-units.drv'...
+building '/nix/store/c6ag5131c3kyvlxyaj3kcvymcqrqxwsa-etc.drv'...
+building '/nix/store/lj44w4yc53r9inyq5qxrgw50r4lzxs2i-nixos-system-nixos-23.11.7202.e7cc61784ddf.drv'...
