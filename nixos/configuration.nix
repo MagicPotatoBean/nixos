@@ -1,17 +1,18 @@
 # Edit this configuration file to define what should be installed on
 # your system.  Help is available in the configuration.nix(5) man page
 # and in the NixOS manual (accessible by running ‘nixos-help’).
+{ config
+, pkgs
+, ...
+}:
+let
+  fenix = import (fetchTarball "https://github.com/nix-community/fenix/archive/main.tar.gz") { };
+  unstable = import <nixos-unstable> { config = { allowUnfree = true; }; };
+in
 {
-  config,
-  pkgs,
-  ...
-}: let
-  fenix = import (fetchTarball "https://github.com/nix-community/fenix/archive/main.tar.gz") {};
-  unstable = import <nixos-unstable> {config = {allowUnfree = true;};};
-in {
   imports = [
     # Include the results of the hardware scan.
-    /etc/nixos/hardware-configuration.nix
+    /etc/nixos/nixos/hardware-configuration.nix
   ];
   # Bootloader.
   boot = {
@@ -22,7 +23,7 @@ in {
 
   networking = {
     # Open ports in the firewall.
-    firewall.allowedTCPPorts = [80 21 3000];
+    firewall.allowedTCPPorts = [ 80 21 3000 ];
     # networking.firewall.allowedUDPPorts = [ ... ];
     # Or disable the firewall altogether.
     # networking.firewall.enable = false;
@@ -128,7 +129,7 @@ in {
   users.users.zoe = {
     isNormalUser = true;
     description = "Zoe";
-    extraGroups = ["networkmanager" "wheel" "dialout"];
+    extraGroups = [ "networkmanager" "wheel" "dialout" ];
     packages = with pkgs; [
       firefox
     ];
@@ -214,12 +215,12 @@ in {
 
   # Disable gnome-tour, xterm
   environment = {
-    gnome.excludePackages = [pkgs.gnome-tour];
+    gnome.excludePackages = [ pkgs.gnome-tour ];
     interactiveShellInit = ''
 
     '';
   };
-  services.xserver.excludePackages = [pkgs.xterm];
+  services.xserver.excludePackages = [ pkgs.xterm ];
   programs = {
     # Set up neovim as default editor
     neovim = {
@@ -276,7 +277,7 @@ in {
       pkgs.gimp
       pkgs.drive
       pkgs.jellyfin-ffmpeg
-      (import /etc/nixos/edit.nix)
+      (import /etc/nixos/nixos/edit.nix)
       pkgs.unzip
       pkgs.winetricks
       pkgs.wineWowPackages.stable
@@ -285,8 +286,8 @@ in {
       pkgs.keepassxc
       pkgs.libreoffice
       pkgs.libtelnet
-      (import "/etc/nixos/rebuild.nix")
-      (import "/etc/nixos/reload.nix")
+      (import "/etc/nixos/nixos/rebuild.nix")
+      (import "/etc/nixos/nixos/reload.nix")
       pkgs.openssl
       pkgs.wacomtablet
       pkgs.obsidian
@@ -311,12 +312,11 @@ in {
       pkgs.gnomeExtensions.gsnap
       pkgs.cargo-generate
       pkgs.python3
-      pkgs.matrixcli
       pkgs.ghc
       pkgs.haskellPackages.cabal-install
       unstable.espflash
       pkgs.gnupg1
-      pkgs.pinentry-gnome
+      pkgs.pinentry-gnome3
       pkgs.gdrive3
       pkgs.distrobox
       unstable.docker_26
@@ -343,7 +343,7 @@ in {
   # services.openssh.enable = true;
 
   # Experimental features
-  nix.settings.experimental-features = ["nix-command" "flakes"];
+  nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
   # This value determines the NixOS release from which the default
   # settings for stateful data, like file locations and database versions
