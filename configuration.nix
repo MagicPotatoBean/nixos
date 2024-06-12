@@ -1,18 +1,13 @@
 # Edit this configuration file to define what should be installed on
 # your system.  Help is available in the configuration.nix(5) man page
 # and in the NixOS manual (accessible by running ‘nixos-help’).
-{ config
-, pkgs
-, ...
-}:
-let
-  fenix = import (fetchTarball "https://github.com/nix-community/fenix/archive/main.tar.gz") { };
-  unstable = import <nixos-unstable> { config = { allowUnfree = true; }; };
-in
-{
+{pkgs, ...}: let
+  fenix = import (fetchTarball "https://github.com/nix-community/fenix/archive/main.tar.gz") {};
+  unstable = import <nixos-unstable> {config = {allowUnfree = true;};};
+in {
   imports = [
     # Include the results of the hardware scan.
-    /etc/nixos/nixos/hardware-configuration.nix
+    /etc/nixos/hardware-configuration.nix
   ];
   # Bootloader.
   boot = {
@@ -23,12 +18,12 @@ in
 
   networking = {
     # Open ports in the firewall.
-    firewall.allowedTCPPorts = [ 80 21 3000 ];
+    firewall.allowedTCPPorts = [80 21 3000];
     # networking.firewall.allowedUDPPorts = [ ... ];
     # Or disable the firewall altogether.
     # networking.firewall.enable = false;
 
-    hostName = "nixos"; # Define your hostname.
+    hostName = "elitebook"; # Define your hostname.
     # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
 
     # Configure network proxy if necessary
@@ -96,8 +91,10 @@ in
         sort-directories-first=false
       '';
       # Configure keymap in X11
-      layout = "gb";
-      xkbVariant = "";
+      xkb = {
+        layout = "gb";
+        variant = "";
+      };
     };
   };
   # Configure console keymap
@@ -124,12 +121,12 @@ in
   };
 
   # Enable touchpad support (enabled default in most desktopManager).
-  services.xserver.libinput.enable = true;
+  services.libinput.enable = true;
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.zoe = {
     isNormalUser = true;
     description = "Zoe";
-    extraGroups = [ "networkmanager" "wheel" "dialout" ];
+    extraGroups = ["networkmanager" "wheel" "dialout"];
     packages = with pkgs; [
       firefox
     ];
@@ -215,12 +212,12 @@ in
 
   # Disable gnome-tour, xterm
   environment = {
-    gnome.excludePackages = [ pkgs.gnome-tour ];
+    gnome.excludePackages = [pkgs.gnome-tour];
     interactiveShellInit = ''
 
     '';
   };
-  services.xserver.excludePackages = [ pkgs.xterm ];
+  services.xserver.excludePackages = [pkgs.xterm];
   programs = {
     # Set up neovim as default editor
     neovim = {
@@ -277,7 +274,7 @@ in
       pkgs.gimp
       pkgs.drive
       pkgs.jellyfin-ffmpeg
-      (import /etc/nixos/nixos/edit.nix)
+      (import /etc/nixos/edit.nix)
       pkgs.unzip
       pkgs.winetricks
       pkgs.wineWowPackages.stable
@@ -286,8 +283,8 @@ in
       pkgs.keepassxc
       pkgs.libreoffice
       pkgs.libtelnet
-      (import "/etc/nixos/nixos/rebuild.nix")
-      (import "/etc/nixos/nixos/reload.nix")
+      (import "/etc/nixos/rebuild.nix")
+      (import "/etc/nixos/reload.nix")
       pkgs.openssl
       pkgs.wacomtablet
       pkgs.obsidian
@@ -332,10 +329,6 @@ in
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
   # programs.mtr.enable = true;
-  # programs.gnupg.agent = {
-  #   enable = true;
-  #   enableSSHSupport = true;
-  # };
 
   # List services that you want to enable:
 
@@ -343,7 +336,7 @@ in
   # services.openssh.enable = true;
 
   # Experimental features
-  nix.settings.experimental-features = [ "nix-command" "flakes" ];
+  nix.settings.experimental-features = ["nix-command" "flakes"];
 
   # This value determines the NixOS release from which the default
   # settings for stateful data, like file locations and database versions
