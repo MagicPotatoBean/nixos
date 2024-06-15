@@ -5,6 +5,12 @@
   fenix = import (fetchTarball "https://github.com/nix-community/fenix/archive/main.tar.gz") {};
   unstable = import <nixos-unstable> {config = {allowUnfree = true;};};
 in {
+  /*
+  For creating i686 ISO's
+  */
+  /*
+  nixpkgs.hostPlatform.system = "i686-linux";
+  */
   imports = [
     # Include the results of the hardware scan.
     /etc/nixos/hardware-configuration.nix
@@ -320,6 +326,7 @@ in {
       pkgs.pkg-config
       pkgs.gparted
       pkgs.lutris
+      pkgs.nixos-generators
     ];
   };
   # Adding a comment to force rebuilding.
