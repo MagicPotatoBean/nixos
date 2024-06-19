@@ -322,6 +322,7 @@ in {
       pkgs.lutris
       pkgs.nixos-generators
       pkgs.time
+      pkgs.pkg-config
     ];
   };
   # Adding a comment to force rebuilding.
