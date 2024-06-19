@@ -322,9 +322,6 @@ in {
       pkgs.lutris
       pkgs.nixos-generators
       pkgs.time
-      pkgs.pkg-config
-      pkgs.ncurses
-      pkgs.openssl_3_3
     ];
   };
   # Adding a comment to force rebuilding.
