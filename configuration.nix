@@ -215,6 +215,7 @@ in {
     gnome.excludePackages = [pkgs.gnome-tour];
     interactiveShellInit = ''
       cat ~/Documents/todo.txt
+      PATH=$PATH:$HOME/.cargo/bin
     '';
   };
   services.xserver.excludePackages = [pkgs.xterm];
