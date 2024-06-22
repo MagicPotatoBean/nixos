@@ -324,6 +324,7 @@ in {
       pkgs.nixos-generators
       pkgs.time
       pkgs.pkg-config
+      pkgs.rpi-imager
     ];
   };
   # Adding a comment to force rebuilding.
