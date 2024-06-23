@@ -325,6 +325,7 @@ in {
       pkgs.time
       pkgs.pkg-config
       pkgs.rpi-imager
+      pkgs.clippy
     ];
   };
   # Adding a comment to force rebuilding.
