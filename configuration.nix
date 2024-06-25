@@ -291,6 +291,9 @@ in {
         };
       };
       plugins = {
+        # UI
+        lualine.enable = true;
+
         # markdown
         markdown-preview = {
           enable = true;
