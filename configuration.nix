@@ -245,7 +245,13 @@ in {
         expandtab = true;
         tabstop = 4;
       };
-      globals.mapleader = ",";
+      globals.mapleader = " ";
+      keymaps = [
+        {
+          key = "<leader>a";
+          action = "function() print \"hi\" end";
+        }
+      ];
       colorschemes.catppuccin = {
         enable = true;
         settings = {
