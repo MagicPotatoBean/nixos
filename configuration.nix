@@ -264,6 +264,7 @@ in {
 
         # which-key
         which-key = {
+          enable = true;
           showHelp = true;
           showKeys = true;
         };
