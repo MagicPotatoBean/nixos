@@ -248,8 +248,9 @@ in {
       globals.mapleader = " ";
       keymaps = [
         {
-          key = "<leader>a";
-          action = "function() print \"hi\" end";
+          key = "<leader>bc";
+          action = ":BufferLinePick<CR>";
+          options.silent = true;
         }
       ];
       colorschemes.catppuccin = {
@@ -265,7 +266,10 @@ in {
         };
       };
       plugins = {
-        #lsp
+        # bufferline
+        bufferline.enable = true;
+
+        # lsp
         lsp.enable = true;
         lsp-format.enable = true;
 
