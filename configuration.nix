@@ -233,8 +233,7 @@ in {
     # Set up neovim as default editor
     nixvim = {
       enable = true;
-      extraPlugins = [pkgs.vimPlugins.catppuccin-nvim];
-      colorscheme = "catppuccin";
+      colorschemes.catppuccin.enable = true;
       plugins = {
         lsp.enable = true;
         gitsigns.enable = true;
