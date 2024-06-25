@@ -245,6 +245,7 @@ in {
         expandtab = true;
         tabstop = 4;
       };
+      globals.mapleader = " ";
       colorschemes.catppuccin = {
         enable = true;
         settings = {
