@@ -232,24 +232,61 @@ in {
   programs = {
     # Set up neovim as default editor
     nixvim = {
+      enable = true;
       viAlias = true;
       vimAlias = true;
+      clipboard.providers.wl-copy = {
+        enable = true;
+        package = pkgs.wl-clipboard;
+      };
       opts = {
         number = true;
         relativenumber = true;
         expandtab = true;
         tabstop = 4;
       };
-      enable = true;
       colorschemes.catppuccin = {
         enable = true;
         settings = {
           flavour = "macchiato";
+          integrations = {
+            cmp = true;
+            gitsigns = true;
+            nvimtree = true;
+            treesitter = true;
+          };
         };
       };
       plugins = {
+        #lsp
         lsp.enable = true;
+        lsp-format.enable = true;
+
+        # which-key
+        which-key = {
+          showHelp = true;
+          showKeys = true;
+        };
+
+        # git
         gitsigns.enable = true;
+
+        # rust
+        rust-tools.enable = true;
+        bacon.enable = true;
+        crates-nvim.enable = true;
+
+        # treesitter
+        treesitter-context.enable = true;
+        treesitter-refactor = {
+          enable = true;
+          navigation.enable = true;
+          smartRename.enable = true;
+        };
+        treesitter = {
+          enable = true;
+          nixGrammars = true;
+        };
       };
     };
 
@@ -352,6 +389,7 @@ in {
       pkgs.pkg-config
       pkgs.rpi-imager
       pkgs.clippy
+      pkgs.cowsay # test
     ];
   };
   # Adding a comment to force rebuilding.
