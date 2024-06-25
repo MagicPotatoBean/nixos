@@ -23,7 +23,7 @@ with import <nixpkgs> {};
     echo "NixOS Rebuilding..."
 
     # Rebuild, output simplified errors, log trackebacks
-    sudo nixos-rebuild switch --flake /etc/nixos#default --impure &>nixos-switch.log || (cat nixos-switch.log | grep --color error && false)
+    sudo nixos-rebuild switch &>nixos-switch.log || (cat nixos-switch.log | grep --color error && false)
 
     # Get current generation metadata
     current=$(nixos-rebuild list-generations | grep current)

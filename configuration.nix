@@ -1,13 +1,20 @@
 # Edit this configuration file to define what should be installed on
 # your system.  Help is available in the configuration.nix(5) man page
 # and in the NixOS manual (accessible by running ‘nixos-help’).
-{pkgs, ...}: let
+{
+  config,
+  pkgs,
+  ...
+}: let
   fenix = import (fetchTarball "https://github.com/nix-community/fenix/archive/main.tar.gz") {};
+  /*
   nixvim =
-    import
-    (builtins.fetchGit {
-      url = "https://github.com/nix-community/nixvim";
-    });
+  import
+  (builtins.fetchGit {
+    url = "https://github.com/nix-community/nixvim";
+    ref = "nixos-24.05";
+  });
+  */
   unstable = import <nixos-unstable> {
     config = {
       allowUnfree = true;
@@ -17,7 +24,7 @@ in {
   imports = [
     # Include the results of the hardware scan.
     /etc/nixos/hardware-configuration.nix
-    nixvim.nixosModules.nixvim
+    # nixvim.nixosModules.nixvim
   ];
   # Bootloader.
   boot = {
@@ -131,7 +138,7 @@ in {
   };
 
   # Enable touchpad support (enabled default in most desktopManager).
-  services.libinput.enable = true;
+  # services.libinput.enable = true;
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.zoe = {
     isNormalUser = true;
@@ -231,15 +238,29 @@ in {
   services.xserver.excludePackages = [pkgs.xterm];
   programs = {
     # Set up neovim as default editor
+    /*
     nixvim = {
+      viAlias = true;
+      vimAlias = true;
+      opts = {
+        number = true;
+        relativeNumber = true;
+        expandTab = true;
+        shiftWidth = 4;
+        tabstop = 4;
+      };
       enable = true;
-      colorschemes.catppuccin.enable = true;
+      colorschemes.catppuccin = {
+        enable = true;
+        settings = {
+          flavour = "frappe";
+        };
+      };
       plugins = {
         lsp.enable = true;
         gitsigns.enable = true;
       };
       keymaps = [
-        /*
           {
         {
           mode="n";
@@ -247,16 +268,13 @@ in {
           action = "<cmd>! cargo run<CR>";
         }
         }
-        */
       ];
     };
-
-    /*
-      neovim = {
+    */
+    neovim = {
       enable = true;
       defaultEditor = true;
     };
-    */
 
     # Set up GPG
     gnupg.agent = {
@@ -345,7 +363,7 @@ in {
       pkgs.haskellPackages.cabal-install
       unstable.espflash
       pkgs.gnupg1
-      pkgs.pinentry-gnome3
+      pkgs.pinentry-gnome
       pkgs.gdrive3
       pkgs.distrobox
       unstable.docker_26
