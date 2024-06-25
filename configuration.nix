@@ -232,25 +232,25 @@ in {
   programs = {
     # Set up neovim as default editor
     nixvim = {
-      #viAlias = true;
-      #vimAlias = true;
-      #opts = {
-      #  number = true;
-      #  relativeNumber = true;
-      #  expandTab = true;
-      #  tabstop = 4;
-      #};
+      viAlias = true;
+      vimAlias = true;
+      opts = {
+        number = true;
+        relativeNumber = true;
+        expandTab = true;
+        tabstop = 4;
+      };
       enable = true;
-      # colorschemes.catppuccin = {
-      #   enable = true;
-      #  settings = {
-      #    flavour = "frappe";
-      #  };
-      #};
-      #plugins = {
-      #  lsp.enable = true;
-      #  gitsigns.enable = true;
-      #};
+      colorschemes.catppuccin = {
+        enable = true;
+        settings = {
+          flavour = "frappe";
+        };
+      };
+      plugins = {
+        lsp.enable = true;
+        gitsigns.enable = true;
+      };
     };
 
     # Set up GPG
