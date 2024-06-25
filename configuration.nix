@@ -237,14 +237,14 @@ in {
       opts = {
         number = true;
         relativeNumber = true;
-        expandTab = true;
+        expandtab = true;
         tabstop = 4;
       };
       enable = true;
       colorschemes.catppuccin = {
         enable = true;
         settings = {
-          flavour = "frappe";
+          flavour = "latte"; # for testing purposes
         };
       };
       plugins = {
