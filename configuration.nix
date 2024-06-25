@@ -244,7 +244,7 @@ in {
       colorschemes.catppuccin = {
         enable = true;
         settings = {
-          flavour = "latte"; # for testing purposes
+          flavour = "macchiato";
         };
       };
       plugins = {
