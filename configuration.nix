@@ -291,13 +291,25 @@ in {
         };
       };
       plugins = {
+        # markdown
+        markdown-preview = {
+          enable = true;
+          settings = {
+            auto_close = false;
+            auto_start = true;
+            browser = "firefox";
+          };
+        };
+
         # bufferline
         bufferline.enable = true;
 
         # lsp
         lsp.enable = true;
         lsp-format.enable = true;
-        lspsaga.enable = true;
+        lspsaga = {
+          enable = true;
+        };
 
         # which-key
         which-key = {
