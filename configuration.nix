@@ -252,6 +252,31 @@ in {
           action = ":BufferLinePick<CR>";
           options.silent = true;
         }
+        {
+          key = "<leader>ris";
+          action = "rt.inlay_hints.set";
+          options.silent = true;
+        }
+        {
+          key = "<leader>riu";
+          action = "rt.inlay_hints.unset";
+          options.silent = true;
+        }
+        {
+          key = "<leader>rm";
+          action = "rt.expand_macro.expand_macro";
+          options.silent = true;
+        }
+        {
+          key = "<leader>rg";
+          action = "function() rt.crate_graph.view_crate_graph(\"x11\", nil) end";
+          options.silent = true;
+        }
+        {
+          key = "<leader>ca";
+          action = ":CodeActionMenu<CR>";
+          options.silent = true;
+        }
       ];
       colorschemes.catppuccin = {
         enable = true;
@@ -272,6 +297,7 @@ in {
         # lsp
         lsp.enable = true;
         lsp-format.enable = true;
+        lspsaga.enable = true;
 
         # which-key
         which-key = {
