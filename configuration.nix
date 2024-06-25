@@ -7,24 +7,17 @@
   ...
 }: let
   fenix = import (fetchTarball "https://github.com/nix-community/fenix/archive/main.tar.gz") {};
-  /*
   nixvim =
-  import
-  (builtins.fetchGit {
-    url = "https://github.com/nix-community/nixvim";
-    ref = "nixos-24.05";
-  });
-  */
-  unstable = import <nixos-unstable> {
-    config = {
-      allowUnfree = true;
-    };
-  };
+    import
+    (builtins.fetchGit {
+      url = "https://github.com/nix-community/nixvim";
+      # ref = "nixos-24.05";
+    });
 in {
   imports = [
     # Include the results of the hardware scan.
     /etc/nixos/hardware-configuration.nix
-    # nixvim.nixosModules.nixvim
+    nixvim.nixosModules.nixvim
   ];
   # Bootloader.
   boot = {
@@ -238,42 +231,26 @@ in {
   services.xserver.excludePackages = [pkgs.xterm];
   programs = {
     # Set up neovim as default editor
-    /*
     nixvim = {
-      viAlias = true;
-      vimAlias = true;
-      opts = {
-        number = true;
-        relativeNumber = true;
-        expandTab = true;
-        shiftWidth = 4;
-        tabstop = 4;
-      };
+      #viAlias = true;
+      #vimAlias = true;
+      #opts = {
+      #  number = true;
+      #  relativeNumber = true;
+      #  expandTab = true;
+      #  tabstop = 4;
+      #};
       enable = true;
-      colorschemes.catppuccin = {
-        enable = true;
-        settings = {
-          flavour = "frappe";
-        };
-      };
-      plugins = {
-        lsp.enable = true;
-        gitsigns.enable = true;
-      };
-      keymaps = [
-          {
-        {
-          mode="n";
-          key="<leader>r";
-          action = "<cmd>! cargo run<CR>";
-        }
-        }
-      ];
-    };
-    */
-    neovim = {
-      enable = true;
-      defaultEditor = true;
+      # colorschemes.catppuccin = {
+      #   enable = true;
+      #  settings = {
+      #    flavour = "frappe";
+      #  };
+      #};
+      #plugins = {
+      #  lsp.enable = true;
+      #  gitsigns.enable = true;
+      #};
     };
 
     # Set up GPG
@@ -361,12 +338,12 @@ in {
       pkgs.python3
       pkgs.ghc
       pkgs.haskellPackages.cabal-install
-      unstable.espflash
+      pkgs.espflash
       pkgs.gnupg1
-      pkgs.pinentry-gnome
+      pkgs.pinentry-gnome3
       pkgs.gdrive3
       pkgs.distrobox
-      unstable.docker_26
+      pkgs.docker_26
       pkgs.pkg-config
       pkgs.gparted
       pkgs.lutris
