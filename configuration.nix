@@ -245,7 +245,7 @@ in {
         expandtab = true;
         tabstop = 4;
       };
-      globals.mapleader = " ";
+      globals.mapleader = "\<SPACE>";
       colorschemes.catppuccin = {
         enable = true;
         settings = {
