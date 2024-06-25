@@ -236,7 +236,7 @@ in {
       vimAlias = true;
       opts = {
         number = true;
-        relativeNumber = true;
+        relativenumber = true;
         expandtab = true;
         tabstop = 4;
       };
