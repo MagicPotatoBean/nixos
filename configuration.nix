@@ -3,11 +3,21 @@
 # and in the NixOS manual (accessible by running ‘nixos-help’).
 {pkgs, ...}: let
   fenix = import (fetchTarball "https://github.com/nix-community/fenix/archive/main.tar.gz") {};
-  unstable = import <nixos-unstable> {config = {allowUnfree = true;};};
+  nixvim =
+    import
+    (builtins.fetchGit {
+      url = "https://github.com/nix-community/nixvim";
+    });
+  unstable = import <nixos-unstable> {
+    config = {
+      allowUnfree = true;
+    };
+  };
 in {
   imports = [
     # Include the results of the hardware scan.
     /etc/nixos/hardware-configuration.nix
+    nixvim.nixosModules.nixvim
   ];
   # Bootloader.
   boot = {
@@ -221,10 +231,32 @@ in {
   services.xserver.excludePackages = [pkgs.xterm];
   programs = {
     # Set up neovim as default editor
-    neovim = {
+    nixvim = {
+      enable = true;
+      plugins = {
+        lightline.enable = true;
+        lsp.enable = true;
+        gitsigns.enable = true;
+      };
+      keymaps = [
+        /*
+          {
+        {
+          mode="n";
+          key="<leader>r";
+          action = "<cmd>! cargo run<CR>";
+        }
+        }
+        */
+      ];
+    };
+
+    /*
+      neovim = {
       enable = true;
       defaultEditor = true;
     };
+    */
 
     # Set up GPG
     gnupg.agent = {
@@ -300,7 +332,6 @@ in {
       pkgs.bacon
       pkgs.rustfmt
       pkgs.extundelete
-      pkgs.neovim
       pkgs.nerdfonts
       pkgs.neofetch
       pkgs.wl-clipboard
