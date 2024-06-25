@@ -291,6 +291,9 @@ in {
         };
       };
       plugins = {
+        # Nix
+        nix.enable = true;
+
         # UI
         lualine.enable = true;
 
@@ -308,7 +311,13 @@ in {
         bufferline.enable = true;
 
         # lsp
-        lsp.enable = true;
+        lsp = {
+          enable = true;
+          servers = {
+            rust-analyzer.enable = true;
+            rnix-lsp.enable = true;
+          };
+        };
         lsp-format.enable = true;
         lspsaga = {
           enable = true;
@@ -322,7 +331,32 @@ in {
         };
 
         # git
-        gitsigns.enable = true;
+        gitsigns = {
+          enable = true;
+          settings = {
+            signcolumn = true;
+            signs = {
+              add = {
+                text = "│";
+              };
+              change = {
+                text = "│";
+              };
+              changedelete = {
+                text = "~";
+              };
+              delete = {
+                text = "_";
+              };
+              topdelete = {
+                text = "‾";
+              };
+              untracked = {
+                text = "┆";
+              };
+            };
+          };
+        };
 
         # rust
         rust-tools.enable = true;
@@ -339,6 +373,7 @@ in {
         treesitter = {
           enable = true;
           nixGrammars = true;
+          indent = true;
         };
       };
     };
