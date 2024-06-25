@@ -274,7 +274,7 @@ in {
         }
         {
           key = "<leader>ca";
-          action = ":CodeActionMenu<CR>";
+          action = ":Lspsaga code_action<CR>";
           options.silent = true;
         }
       ];
