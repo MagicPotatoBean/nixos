@@ -342,6 +342,8 @@ in {
         bufferline.enable = true;
 
         # lsp
+        cmp.enable = true;
+        cmp-nvim-lua.enable = true;
         cmp-nvim-lsp.enable = true;
         lsp = {
           enable = true;
