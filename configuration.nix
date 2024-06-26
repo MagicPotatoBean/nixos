@@ -244,6 +244,8 @@ in {
         relativenumber = true;
         expandtab = true;
         tabstop = 4;
+        shiftwidth = 4;
+        cursorline = true;
       };
       globals.mapleader = " ";
       keymaps = [
@@ -281,7 +283,7 @@ in {
       colorschemes.catppuccin = {
         enable = true;
         settings = {
-          flavour = "macchiato";
+          flavour = "frappe";
           integrations = {
             cmp = true;
             gitsigns = true;

@@ -18,94 +18,28 @@ trace: warning: `rust_analyzer` relies on `rustc`.
   through Nixvim.
   By doing so, you will dismiss this warning.
 
-these 27 derivations will be built:
-  /nix/store/mr735f0n0h96mp65mkrl7rrb3sm2p9h9-init.lua.drv
-  /nix/store/99fycnblscx73jbv5ii8psjxvr86l0jr-nixvim-print-init.drv
-  /nix/store/h24khqwyp0l6hb7pccyhlcs8zwym29zd-options.json.drv
-  /nix/store/k22m1w3yic3c3kcrk0pzmgmrmjyzyia5-nixvim-configuration-reference-manpage.drv
-  /nix/store/bsiymvg5z9w8vcks55pj323ir8m7icyc-cargo-nightly-x86_64-unknown-linux-gnu.tar.gz.drv
-  /nix/store/1q0lrlvia32xfjk7cbr09jiv21czvacp-cargo-nightly-minimal-2024-06-26.drv
-  /nix/store/dkflhy4fg69kfyrd55g41kznvxm8iq40-rustc-nightly-x86_64-unknown-linux-gnu.tar.gz.drv
-  /nix/store/56qp9ci8rhga6x972nidr1qwn3bykryk-rustc-nightly-minimal-2024-06-26.drv
-  /nix/store/mkcics9jwmjqb08szlx1cl7ni235npgv-rust-std-nightly-x86_64-unknown-linux-gnu.tar.gz.drv
-  /nix/store/v9hhk765czng6m5lah3y9mg6xx1w1lvq-rust-std-nightly-minimal-2024-06-26.drv
-  /nix/store/k4fyhqdbb6s4q77pl321ari62jpmw91q-rust-nightly-minimal-2024-06-26.drv
-  /nix/store/kil2s9vrfdvfjvzvlwsfxhiml0d20fcb-neovim-0.10.0.drv
-  /nix/store/4ffwml83jjin9k87wqrl3x76z5zm7q0y-system-path.drv
-  /nix/store/bikwwgcb7z59n4vvaqbczf0sk9ck1m20-X-Restart-Triggers-polkit.drv
-  /nix/store/41pz5h04w0l8h4589wlf4zhks3g1ijkg-unit-polkit.service.drv
-  /nix/store/pp5dxcz363plhh5slikxc1nmyvckzyva-dbus-1.drv
-  /nix/store/mj9862rg57rx4xbby4cmmwi242a5c8fm-X-Restart-Triggers-dbus.drv
-  /nix/store/mjn5x80lka8sblbalf0x2f5rnn67vz1z-unit-dbus.service.drv
-  /nix/store/qs1qyxrg4v813l0vylnlasqd4ljp6azw-unit-accounts-daemon.service.drv
-  /nix/store/0iml7phlflx2bbb5vapglk0hi48v6vj5-system-units.drv
-  /nix/store/w51na9amcxs8p5sdrzm8bpnyy8ccv8mp-set-environment.drv
-  /nix/store/bx6hsp4pyrs2sx1zyl3jzw3k3x3vnk4s-etc-profile.drv
-  /nix/store/9prvpx9janyajhknh9rv8094g994ihql-unit-dbus.service.drv
-  /nix/store/snpjnbz3vyq1q63j31f9baqfg70dglql-user-units.drv
-  /nix/store/zvhz8b2k6fbi0788w6p0ill85zg5cily-etc-pam-environment.drv
-  /nix/store/1l9yzd8ch0gg4rhazvkpqxhlx9y7qcn1-etc.drv
-  /nix/store/bgm7whfqrjq72kadx10anynnpvs4104c-nixos-system-elitebook-24.11pre643242.2893f56de080.drv
-these 6 paths will be fetched (78.65 MiB download, 479.85 MiB unpacked):
-  /nix/store/y91ldd48vj784y1f20zi9jjr75646gdj-llvm-16.0.6-lib
-  /nix/store/dqjs4rwjwjpcvrjhci4x96ih5b1j6add-nix-2.19.4
-  /nix/store/m9ixgif2lrjas77y672l7zb87zn81b8j-nix-2.19.4-man
-  /nix/store/jsi9nwhgpq64xb7pbppj0zv82gxmlbma-nixd-2.2.1
-  /nix/store/q48qkdyxdb9bjc7w7a6ds2gss0rl0k79-nixf-2.2.1
-  /nix/store/c0v5qlh0kmkgdp1gxr9n5p1sr7syk7yc-nixt-2.2.1
-copying path '/nix/store/m9ixgif2lrjas77y672l7zb87zn81b8j-nix-2.19.4-man' from 'https://cache.nixos.org'...
-copying path '/nix/store/y91ldd48vj784y1f20zi9jjr75646gdj-llvm-16.0.6-lib' from 'https://cache.nixos.org'...
-copying path '/nix/store/q48qkdyxdb9bjc7w7a6ds2gss0rl0k79-nixf-2.2.1' from 'https://cache.nixos.org'...
-building '/nix/store/mr735f0n0h96mp65mkrl7rrb3sm2p9h9-init.lua.drv'...
-building '/nix/store/h24khqwyp0l6hb7pccyhlcs8zwym29zd-options.json.drv'...
-building '/nix/store/bsiymvg5z9w8vcks55pj323ir8m7icyc-cargo-nightly-x86_64-unknown-linux-gnu.tar.gz.drv'...
-building '/nix/store/mkcics9jwmjqb08szlx1cl7ni235npgv-rust-std-nightly-x86_64-unknown-linux-gnu.tar.gz.drv'...
-building '/nix/store/dkflhy4fg69kfyrd55g41kznvxm8iq40-rustc-nightly-x86_64-unknown-linux-gnu.tar.gz.drv'...
-
-trying https://static.rust-lang.org/dist/2024-06-26/cargo-nightly-x86_64-unknown-linux-gnu.tar.gz
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-copying path '/nix/store/dqjs4rwjwjpcvrjhci4x96ih5b1j6add-nix-2.19.4' from 'https://cache.nixos.org'...
-building '/nix/store/99fycnblscx73jbv5ii8psjxvr86l0jr-nixvim-print-init.drv'...
-
-trying https://static.rust-lang.org/dist/2024-06-26/rust-std-nightly-x86_64-unknown-linux-gnu.tar.gz
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-
-trying https://static.rust-lang.org/dist/2024-06-26/rustc-nightly-x86_64-unknown-linux-gnu.tar.gz
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-building '/nix/store/k22m1w3yic3c3kcrk0pzmgmrmjyzyia5-nixvim-configuration-reference-manpage.drv'...
-copying path '/nix/store/c0v5qlh0kmkgdp1gxr9n5p1sr7syk7yc-nixt-2.2.1' from 'https://cache.nixos.org'...
-gzipping man pages under /nix/store/6phag16xgr3m3zajraj009zz9wx8bd4h-nixvim-configuration-reference-manpage/share/man/
-100 11.6M  100 11.6M    0     0  2140k      0  0:00:05  0:00:05 --:--:-- 2901k
-building '/nix/store/1q0lrlvia32xfjk7cbr09jiv21czvacp-cargo-nightly-minimal-2024-06-26.drv'...
-Running phase: unpackPhase
-unpacking source archive /nix/store/j2h0vfw4ib15dvv6zg7x3wbxz60mi3lf-cargo-nightly-x86_64-unknown-linux-gnu.tar.gz
-source root is cargo-nightly-x86_64-unknown-linux-gnu
-setting SOURCE_DATE_EPOCH to timestamp 1153704088 of file cargo-nightly-x86_64-unknown-linux-gnu/version
-Running phase: patchPhase
-Running phase: updateAutotoolsGnuConfigScriptsPhase
-Running phase: configurePhase
-no configure script, doing nothing
-Running phase: buildPhase
-no Makefile or custom buildPhase, doing nothing
-Running phase: installPhase
-patching script interpreter paths in install.sh
-install.sh: interpreter directive changed from "#!/usr/bin/env bash" to "/nix/store/agkxax48k35wdmkhmmija2i2sxg8i7ny-bash-5.2p26/bin/bash"
-install: creating uninstall script at /nix/store/ssi99wqiyvjabyaisg1jrx65fw3l97bj-cargo-nightly-minimal-2024-06-26/lib/rustlib/uninstall.sh
-install: installing component 'cargo'
-
-    cargo installed.
-
-Running phase: fixupPhase
-shrinking RPATHs of ELF executables and libraries in /nix/store/ssi99wqiyvjabyaisg1jrx65fw3l97bj-cargo-nightly-minimal-2024-06-26
-shrinking /nix/store/ssi99wqiyvjabyaisg1jrx65fw3l97bj-cargo-nightly-minimal-2024-06-26/bin/cargo
-checking for references to /build/ in /nix/store/ssi99wqiyvjabyaisg1jrx65fw3l97bj-cargo-nightly-minimal-2024-06-26...
-gzipping man pages under /nix/store/ssi99wqiyvjabyaisg1jrx65fw3l97bj-cargo-nightly-minimal-2024-06-26/share/man/
-patching script interpreter paths in /nix/store/ssi99wqiyvjabyaisg1jrx65fw3l97bj-cargo-nightly-minimal-2024-06-26
-copying path '/nix/store/jsi9nwhgpq64xb7pbppj0zv82gxmlbma-nixd-2.2.1' from 'https://cache.nixos.org'...
-building '/nix/store/kil2s9vrfdvfjvzvlwsfxhiml0d20fcb-neovim-0.10.0.drv'...
+these 18 derivations will be built:
+  /nix/store/mm2hrvgpfnr2k8yaz746r4l0l5paf8j5-init.lua.drv
+  /nix/store/06np6rijzbzz41jzggbxwj68caz1g0ls-nixvim-print-init.drv
+  /nix/store/czngpynqflf519im7845rdkvhrgpd6ka-neovim-0.10.0.drv
+  /nix/store/j30bnaxhqj2imp77syk23cw1n0abghwb-system-path.drv
+  /nix/store/1i9mhqh2zg393fq9m941075ldx62fw3q-dbus-1.drv
+  /nix/store/9227f9admp91f88d4py30s8q859yyby8-set-environment.drv
+  /nix/store/2gkf2nbm2ydxijp4mp7gpd7v6kkdm49l-etc-profile.drv
+  /nix/store/m6n8kf9mpn7z617xwdjp1fqmh6vwd165-X-Restart-Triggers-dbus.drv
+  /nix/store/qlbkxn5fz01hlarcihyjdr5lid7sg41y-unit-dbus.service.drv
+  /nix/store/6vqzl426yvh8b66df53cc3l17qcvv6mg-user-units.drv
+  /nix/store/1yyx4473hqkiapj1hy2d9rbsj3650kzn-unit-dbus.service.drv
+  /nix/store/m5z9gcp7gcqxcds3cq7wb7m4gvah534v-unit-accounts-daemon.service.drv
+  /nix/store/lz1akna9p7y1g65nv1q7xr3s7ygf24w6-X-Restart-Triggers-polkit.drv
+  /nix/store/wfxb4md9g43q22sh7nkj3i3zi9i5y2r5-unit-polkit.service.drv
+  /nix/store/a18icafda4259zx9q1a4d61pf87xz8xd-system-units.drv
+  /nix/store/vvn5yd5lkkrpfrmbixx166acsppx5dsn-etc-pam-environment.drv
+  /nix/store/cmr3d5qcklcgjmwjkdcns942y1iz11gz-etc.drv
+  /nix/store/04h9cascvs33ncy2ph8py24jgg0r8j43-nixos-system-elitebook-24.11pre643242.2893f56de080.drv
+building '/nix/store/mm2hrvgpfnr2k8yaz746r4l0l5paf8j5-init.lua.drv'...
+building '/nix/store/czngpynqflf519im7845rdkvhrgpd6ka-neovim-0.10.0.drv'...
+building '/nix/store/06np6rijzbzz41jzggbxwj68caz1g0ls-nixvim-print-init.drv'...
 structuredAttrs is enabled
 Running phase: patchPhase
 Running phase: updateAutotoolsGnuConfigScriptsPhase
@@ -113,83 +47,17 @@ Running phase: configurePhase
 no configure script, doing nothing
 Running phase: buildPhase
 Generating remote plugin manifest
-100 43.6M  100 43.6M    0     0  3240k      0  0:00:13  0:00:13 --:--:-- 5706k
 Running phase: installPhase
-building '/nix/store/v9hhk765czng6m5lah3y9mg6xx1w1lvq-rust-std-nightly-minimal-2024-06-26.drv'...
 no Makefile or custom installPhase, doing nothing
 Running phase: fixupPhase
-shrinking RPATHs of ELF executables and libraries in /nix/store/x56sb9vmsrsg15jc76gjpvvvb486dkm0-neovim-0.10.0
-checking for references to /build/ in /nix/store/x56sb9vmsrsg15jc76gjpvvvb486dkm0-neovim-0.10.0...
-gzipping man pages under /nix/store/x56sb9vmsrsg15jc76gjpvvvb486dkm0-neovim-0.10.0/share/man/
-patching script interpreter paths in /nix/store/x56sb9vmsrsg15jc76gjpvvvb486dkm0-neovim-0.10.0
-stripping (with command strip and flags -S -p) in  /nix/store/x56sb9vmsrsg15jc76gjpvvvb486dkm0-neovim-0.10.0/lib /nix/store/x56sb9vmsrsg15jc76gjpvvvb486dkm0-neovim-0.10.0/bin
-rewriting symlink /nix/store/x56sb9vmsrsg15jc76gjpvvvb486dkm0-neovim-0.10.0/bin/vim to be relative to /nix/store/x56sb9vmsrsg15jc76gjpvvvb486dkm0-neovim-0.10.0
-rewriting symlink /nix/store/x56sb9vmsrsg15jc76gjpvvvb486dkm0-neovim-0.10.0/bin/vi to be relative to /nix/store/x56sb9vmsrsg15jc76gjpvvvb486dkm0-neovim-0.10.0
-Running phase: unpackPhase
-unpacking source archive /nix/store/b95ndwz0nlra29j86z60csknfhd232a1-rust-std-nightly-x86_64-unknown-linux-gnu.tar.gz
-100  110M  100  110M    0     0  7620k      0  0:00:14  0:00:14 --:--:-- 11.3M
-building '/nix/store/56qp9ci8rhga6x972nidr1qwn3bykryk-rustc-nightly-minimal-2024-06-26.drv'...
-source root is rust-std-nightly-x86_64-unknown-linux-gnu
-setting SOURCE_DATE_EPOCH to timestamp 1153704088 of file rust-std-nightly-x86_64-unknown-linux-gnu/version
-Running phase: patchPhase
-Running phase: updateAutotoolsGnuConfigScriptsPhase
-Running phase: configurePhase
-no configure script, doing nothing
-Running phase: buildPhase
-no Makefile or custom buildPhase, doing nothing
-Running phase: installPhase
-patching script interpreter paths in install.sh
-install.sh: interpreter directive changed from "#!/usr/bin/env bash" to "/nix/store/agkxax48k35wdmkhmmija2i2sxg8i7ny-bash-5.2p26/bin/bash"
-install: creating uninstall script at /nix/store/81aah1nqrvvh9ywb5r9ng2jn20j5p8mz-rust-std-nightly-minimal-2024-06-26/lib/rustlib/uninstall.sh
-install: installing component 'rust-std-x86_64-unknown-linux-gnu'
-Running phase: unpackPhase
-unpacking source archive /nix/store/kgrdz6bzpi2007vqlah4jqdxm1xaw63c-rustc-nightly-x86_64-unknown-linux-gnu.tar.gz
-
-    rust std installed.
-
-Running phase: fixupPhase
-shrinking RPATHs of ELF executables and libraries in /nix/store/81aah1nqrvvh9ywb5r9ng2jn20j5p8mz-rust-std-nightly-minimal-2024-06-26
-shrinking /nix/store/81aah1nqrvvh9ywb5r9ng2jn20j5p8mz-rust-std-nightly-minimal-2024-06-26/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-c6c045f3358c0b22.so
-checking for references to /build/ in /nix/store/81aah1nqrvvh9ywb5r9ng2jn20j5p8mz-rust-std-nightly-minimal-2024-06-26...
-patching script interpreter paths in /nix/store/81aah1nqrvvh9ywb5r9ng2jn20j5p8mz-rust-std-nightly-minimal-2024-06-26
-source root is rustc-nightly-x86_64-unknown-linux-gnu
-setting SOURCE_DATE_EPOCH to timestamp 1153704088 of file rustc-nightly-x86_64-unknown-linux-gnu/version
-Running phase: patchPhase
-Running phase: updateAutotoolsGnuConfigScriptsPhase
-Running phase: configurePhase
-no configure script, doing nothing
-Running phase: buildPhase
-no Makefile or custom buildPhase, doing nothing
-Running phase: installPhase
-patching script interpreter paths in install.sh
-install.sh: interpreter directive changed from "#!/usr/bin/env bash" to "/nix/store/agkxax48k35wdmkhmmija2i2sxg8i7ny-bash-5.2p26/bin/bash"
-install: creating uninstall script at /nix/store/1m3s73pcam2mk2awjc53dhphdjdfc1xf-rustc-nightly-minimal-2024-06-26/lib/rustlib/uninstall.sh
-install: installing component 'rustc'
-
-    rustc installed.
-
-warning: entry 48 in symbol table refers to a non-existent section, skipping
-Running phase: fixupPhase
-shrinking RPATHs of ELF executables and libraries in /nix/store/1m3s73pcam2mk2awjc53dhphdjdfc1xf-rustc-nightly-minimal-2024-06-26
-shrinking /nix/store/1m3s73pcam2mk2awjc53dhphdjdfc1xf-rustc-nightly-minimal-2024-06-26/bin/rustc
-shrinking /nix/store/1m3s73pcam2mk2awjc53dhphdjdfc1xf-rustc-nightly-minimal-2024-06-26/bin/rustdoc
-shrinking /nix/store/1m3s73pcam2mk2awjc53dhphdjdfc1xf-rustc-nightly-minimal-2024-06-26/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld/lld-link
-shrinking /nix/store/1m3s73pcam2mk2awjc53dhphdjdfc1xf-rustc-nightly-minimal-2024-06-26/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld/ld64.lld
-shrinking /nix/store/1m3s73pcam2mk2awjc53dhphdjdfc1xf-rustc-nightly-minimal-2024-06-26/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld/wasm-ld
-shrinking /nix/store/1m3s73pcam2mk2awjc53dhphdjdfc1xf-rustc-nightly-minimal-2024-06-26/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld/ld.lld
-shrinking /nix/store/1m3s73pcam2mk2awjc53dhphdjdfc1xf-rustc-nightly-minimal-2024-06-26/lib/rustlib/x86_64-unknown-linux-gnu/bin/rust-lld
-shrinking /nix/store/1m3s73pcam2mk2awjc53dhphdjdfc1xf-rustc-nightly-minimal-2024-06-26/lib/libstd-c6c045f3358c0b22.so
-shrinking /nix/store/1m3s73pcam2mk2awjc53dhphdjdfc1xf-rustc-nightly-minimal-2024-06-26/lib/librustc_driver-f4e5b0d07cf2a17f.so
-shrinking /nix/store/1m3s73pcam2mk2awjc53dhphdjdfc1xf-rustc-nightly-minimal-2024-06-26/lib/libLLVM.so.18.1-rust-1.81.0-nightly
-shrinking /nix/store/1m3s73pcam2mk2awjc53dhphdjdfc1xf-rustc-nightly-minimal-2024-06-26/libexec/rust-analyzer-proc-macro-srv
-checking for references to /build/ in /nix/store/1m3s73pcam2mk2awjc53dhphdjdfc1xf-rustc-nightly-minimal-2024-06-26...
-gzipping man pages under /nix/store/1m3s73pcam2mk2awjc53dhphdjdfc1xf-rustc-nightly-minimal-2024-06-26/share/man/
-patching script interpreter paths in /nix/store/1m3s73pcam2mk2awjc53dhphdjdfc1xf-rustc-nightly-minimal-2024-06-26
-/nix/store/1m3s73pcam2mk2awjc53dhphdjdfc1xf-rustc-nightly-minimal-2024-06-26/bin/rust-lldb: interpreter directive changed from "#!/bin/sh" to "/nix/store/agkxax48k35wdmkhmmija2i2sxg8i7ny-bash-5.2p26/bin/sh"
-/nix/store/1m3s73pcam2mk2awjc53dhphdjdfc1xf-rustc-nightly-minimal-2024-06-26/bin/rust-gdb: interpreter directive changed from "#!/bin/sh" to "/nix/store/agkxax48k35wdmkhmmija2i2sxg8i7ny-bash-5.2p26/bin/sh"
-/nix/store/1m3s73pcam2mk2awjc53dhphdjdfc1xf-rustc-nightly-minimal-2024-06-26/bin/rust-gdbgui: interpreter directive changed from "#!/bin/sh" to "/nix/store/agkxax48k35wdmkhmmija2i2sxg8i7ny-bash-5.2p26/bin/sh"
-building '/nix/store/k4fyhqdbb6s4q77pl321ari62jpmw91q-rust-nightly-minimal-2024-06-26.drv'...
-building '/nix/store/4ffwml83jjin9k87wqrl3x76z5zm7q0y-system-path.drv'...
+shrinking RPATHs of ELF executables and libraries in /nix/store/h019icq5zqd7hvna8q9mc90ifk4yj85c-neovim-0.10.0
+checking for references to /build/ in /nix/store/h019icq5zqd7hvna8q9mc90ifk4yj85c-neovim-0.10.0...
+gzipping man pages under /nix/store/h019icq5zqd7hvna8q9mc90ifk4yj85c-neovim-0.10.0/share/man/
+patching script interpreter paths in /nix/store/h019icq5zqd7hvna8q9mc90ifk4yj85c-neovim-0.10.0
+stripping (with command strip and flags -S -p) in  /nix/store/h019icq5zqd7hvna8q9mc90ifk4yj85c-neovim-0.10.0/lib /nix/store/h019icq5zqd7hvna8q9mc90ifk4yj85c-neovim-0.10.0/bin
+rewriting symlink /nix/store/h019icq5zqd7hvna8q9mc90ifk4yj85c-neovim-0.10.0/bin/vim to be relative to /nix/store/h019icq5zqd7hvna8q9mc90ifk4yj85c-neovim-0.10.0
+rewriting symlink /nix/store/h019icq5zqd7hvna8q9mc90ifk4yj85c-neovim-0.10.0/bin/vi to be relative to /nix/store/h019icq5zqd7hvna8q9mc90ifk4yj85c-neovim-0.10.0
+building '/nix/store/j30bnaxhqj2imp77syk23cw1n0abghwb-system-path.drv'...
 warning: collision between `/nix/store/f3dfnmimfbknlpgg126jpkwrkp4mqhbj-rustup-1.26.0/bin/cargo' and `/nix/store/x0q1an2kr6rxk44frz3cslmmzk0mgqcv-rust-nightly-minimal-2024-06-26/bin/cargo'
 warning: collision between `/nix/store/f3dfnmimfbknlpgg126jpkwrkp4mqhbj-rustup-1.26.0/bin/rust-lldb' and `/nix/store/x0q1an2kr6rxk44frz3cslmmzk0mgqcv-rust-nightly-minimal-2024-06-26/bin/rust-lldb'
 warning: collision between `/nix/store/f3dfnmimfbknlpgg126jpkwrkp4mqhbj-rustup-1.26.0/bin/rust-gdb' and `/nix/store/x0q1an2kr6rxk44frz3cslmmzk0mgqcv-rust-nightly-minimal-2024-06-26/bin/rust-gdb'
@@ -204,20 +72,20 @@ warning: collision between `/nix/store/62a8mi6zkrhhn3nkh7iwm62s40nk99z8-clippy-1
 warning: collision between `/nix/store/2ywk2w396q69hbms2mkf4ab6ccf8x84a-steam/bin/steam' and `/nix/store/658csgxfdncyy6aj3zc2ipqbggx9660n-steam/bin/steam'
 created 24025 symlinks in user environment
 gtk-update-icon-cache: Cache file created successfully.
-building '/nix/store/bikwwgcb7z59n4vvaqbczf0sk9ck1m20-X-Restart-Triggers-polkit.drv'...
-building '/nix/store/pp5dxcz363plhh5slikxc1nmyvckzyva-dbus-1.drv'...
-building '/nix/store/zvhz8b2k6fbi0788w6p0ill85zg5cily-etc-pam-environment.drv'...
-building '/nix/store/w51na9amcxs8p5sdrzm8bpnyy8ccv8mp-set-environment.drv'...
-building '/nix/store/qs1qyxrg4v813l0vylnlasqd4ljp6azw-unit-accounts-daemon.service.drv'...
-building '/nix/store/mj9862rg57rx4xbby4cmmwi242a5c8fm-X-Restart-Triggers-dbus.drv'...
-building '/nix/store/bx6hsp4pyrs2sx1zyl3jzw3k3x3vnk4s-etc-profile.drv'...
-building '/nix/store/41pz5h04w0l8h4589wlf4zhks3g1ijkg-unit-polkit.service.drv'...
-building '/nix/store/9prvpx9janyajhknh9rv8094g994ihql-unit-dbus.service.drv'...
-building '/nix/store/mjn5x80lka8sblbalf0x2f5rnn67vz1z-unit-dbus.service.drv'...
-building '/nix/store/snpjnbz3vyq1q63j31f9baqfg70dglql-user-units.drv'...
-building '/nix/store/0iml7phlflx2bbb5vapglk0hi48v6vj5-system-units.drv'...
-building '/nix/store/1l9yzd8ch0gg4rhazvkpqxhlx9y7qcn1-etc.drv'...
-building '/nix/store/bgm7whfqrjq72kadx10anynnpvs4104c-nixos-system-elitebook-24.11pre643242.2893f56de080.drv'...
+building '/nix/store/lz1akna9p7y1g65nv1q7xr3s7ygf24w6-X-Restart-Triggers-polkit.drv'...
+building '/nix/store/1i9mhqh2zg393fq9m941075ldx62fw3q-dbus-1.drv'...
+building '/nix/store/vvn5yd5lkkrpfrmbixx166acsppx5dsn-etc-pam-environment.drv'...
+building '/nix/store/9227f9admp91f88d4py30s8q859yyby8-set-environment.drv'...
+building '/nix/store/m5z9gcp7gcqxcds3cq7wb7m4gvah534v-unit-accounts-daemon.service.drv'...
+building '/nix/store/m6n8kf9mpn7z617xwdjp1fqmh6vwd165-X-Restart-Triggers-dbus.drv'...
+building '/nix/store/2gkf2nbm2ydxijp4mp7gpd7v6kkdm49l-etc-profile.drv'...
+building '/nix/store/wfxb4md9g43q22sh7nkj3i3zi9i5y2r5-unit-polkit.service.drv'...
+building '/nix/store/1yyx4473hqkiapj1hy2d9rbsj3650kzn-unit-dbus.service.drv'...
+building '/nix/store/qlbkxn5fz01hlarcihyjdr5lid7sg41y-unit-dbus.service.drv'...
+building '/nix/store/a18icafda4259zx9q1a4d61pf87xz8xd-system-units.drv'...
+building '/nix/store/6vqzl426yvh8b66df53cc3l17qcvv6mg-user-units.drv'...
+building '/nix/store/cmr3d5qcklcgjmwjkdcns942y1iz11gz-etc.drv'...
+building '/nix/store/04h9cascvs33ncy2ph8py24jgg0r8j43-nixos-system-elitebook-24.11pre643242.2893f56de080.drv'...
 stopping the following units: accounts-daemon.service
 activating the configuration...
 setting up /etc...
