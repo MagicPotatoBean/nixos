@@ -266,18 +266,13 @@ in {
           options.silent = true;
         }
         {
-          key = "<leader>rm";
-          action = "rt.expand_macro.expand_macro";
-          options.silent = true;
-        }
-        {
-          key = "<leader>rg";
-          action = "function() rt.crate_graph.view_crate_graph(\"x11\", nil) end";
-          options.silent = true;
-        }
-        {
           key = "<leader>ca";
           action = ":Lspsaga code_action<CR>";
+          options.silent = true;
+        }
+        {
+          key = "<leader>oc";
+          action = ":ObsidianToggleCheckbox";
           options.silent = true;
         }
       ];
