@@ -301,6 +301,14 @@ in {
           enable = true;
           globalstatus = true;
           theme = "catppuccin";
+          componentSeparators = {
+            left = "|";
+            right = "|";
+          };
+          sectionSeparators = {
+            left = " ";
+            right = " ";
+          };
         };
 
         # markdown

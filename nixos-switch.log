@@ -18,6 +18,74 @@ trace: warning: `rust_analyzer` relies on `rustc`.
   through Nixvim.
   By doing so, you will dismiss this warning.
 
+these 18 derivations will be built:
+  /nix/store/rapkmgzsp5961k14sa4ajj5kd2cyfk99-init.lua.drv
+  /nix/store/lizqjglss51qn5w3nmg9lw2s4isxb0np-neovim-0.10.0.drv
+  /nix/store/zxiwqc0x4fh5wcgfdc0v45bxbfdb2xrv-nixvim-print-init.drv
+  /nix/store/bjfjbjlx648ya0mxjx1l5ga5czqjhbbm-system-path.drv
+  /nix/store/3a42slk9w8rr4xmkp9v8b0zqnaay9342-X-Restart-Triggers-polkit.drv
+  /nix/store/azaxaw01gqgk0mwzvpbr0gw73jmpgxq3-etc-pam-environment.drv
+  /nix/store/b69bngs3q6gyih30m9s8wrxxjpq66s96-set-environment.drv
+  /nix/store/n36pxibm3a6drpf97m5l27q3s2zxdpgv-dbus-1.drv
+  /nix/store/wxjrb88kdzi1bkapp1977q9yxrh9gjg6-X-Restart-Triggers-dbus.drv
+  /nix/store/crzlflq1sfbcvjm7khjww6j4yg98jfvm-unit-dbus.service.drv
+  /nix/store/br9lrbdxx70y4d52d7xw2sdr03cc1804-user-units.drv
+  /nix/store/g7chap44qqcal8v3nqy7kh3ryr0g7qi6-etc-profile.drv
+  /nix/store/djsb63jnzmg9683kii0fdkc9y0654aaf-unit-accounts-daemon.service.drv
+  /nix/store/ipd7f1z94lak675x0j5cgllp03ql7040-unit-dbus.service.drv
+  /nix/store/xarij5fwfs9lsixw03sr9r74r7pc1jxm-unit-polkit.service.drv
+  /nix/store/rdvdjz16cq8vyx0cv12m8905qrp5q4vl-system-units.drv
+  /nix/store/bn0rgqsh5707dixw73bv41ck598mr494-etc.drv
+  /nix/store/3w7g4rfcz75vvxmf0bnwkvb6rz20qjpy-nixos-system-elitebook-24.11pre643242.2893f56de080.drv
+building '/nix/store/rapkmgzsp5961k14sa4ajj5kd2cyfk99-init.lua.drv'...
+building '/nix/store/lizqjglss51qn5w3nmg9lw2s4isxb0np-neovim-0.10.0.drv'...
+building '/nix/store/zxiwqc0x4fh5wcgfdc0v45bxbfdb2xrv-nixvim-print-init.drv'...
+structuredAttrs is enabled
+Running phase: patchPhase
+Running phase: updateAutotoolsGnuConfigScriptsPhase
+Running phase: configurePhase
+no configure script, doing nothing
+Running phase: buildPhase
+Generating remote plugin manifest
+Running phase: installPhase
+no Makefile or custom installPhase, doing nothing
+Running phase: fixupPhase
+shrinking RPATHs of ELF executables and libraries in /nix/store/qppvs0shk6xnr09bavdykybkv12fz78h-neovim-0.10.0
+checking for references to /build/ in /nix/store/qppvs0shk6xnr09bavdykybkv12fz78h-neovim-0.10.0...
+gzipping man pages under /nix/store/qppvs0shk6xnr09bavdykybkv12fz78h-neovim-0.10.0/share/man/
+patching script interpreter paths in /nix/store/qppvs0shk6xnr09bavdykybkv12fz78h-neovim-0.10.0
+stripping (with command strip and flags -S -p) in  /nix/store/qppvs0shk6xnr09bavdykybkv12fz78h-neovim-0.10.0/lib /nix/store/qppvs0shk6xnr09bavdykybkv12fz78h-neovim-0.10.0/bin
+rewriting symlink /nix/store/qppvs0shk6xnr09bavdykybkv12fz78h-neovim-0.10.0/bin/vim to be relative to /nix/store/qppvs0shk6xnr09bavdykybkv12fz78h-neovim-0.10.0
+rewriting symlink /nix/store/qppvs0shk6xnr09bavdykybkv12fz78h-neovim-0.10.0/bin/vi to be relative to /nix/store/qppvs0shk6xnr09bavdykybkv12fz78h-neovim-0.10.0
+building '/nix/store/bjfjbjlx648ya0mxjx1l5ga5czqjhbbm-system-path.drv'...
+warning: collision between `/nix/store/f3dfnmimfbknlpgg126jpkwrkp4mqhbj-rustup-1.26.0/bin/cargo' and `/nix/store/x0q1an2kr6rxk44frz3cslmmzk0mgqcv-rust-nightly-minimal-2024-06-26/bin/cargo'
+warning: collision between `/nix/store/f3dfnmimfbknlpgg126jpkwrkp4mqhbj-rustup-1.26.0/bin/rust-lldb' and `/nix/store/x0q1an2kr6rxk44frz3cslmmzk0mgqcv-rust-nightly-minimal-2024-06-26/bin/rust-lldb'
+warning: collision between `/nix/store/f3dfnmimfbknlpgg126jpkwrkp4mqhbj-rustup-1.26.0/bin/rust-gdb' and `/nix/store/x0q1an2kr6rxk44frz3cslmmzk0mgqcv-rust-nightly-minimal-2024-06-26/bin/rust-gdb'
+warning: collision between `/nix/store/f3dfnmimfbknlpgg126jpkwrkp4mqhbj-rustup-1.26.0/bin/rustc' and `/nix/store/x0q1an2kr6rxk44frz3cslmmzk0mgqcv-rust-nightly-minimal-2024-06-26/bin/rustc'
+warning: collision between `/nix/store/f3dfnmimfbknlpgg126jpkwrkp4mqhbj-rustup-1.26.0/bin/rust-gdbgui' and `/nix/store/x0q1an2kr6rxk44frz3cslmmzk0mgqcv-rust-nightly-minimal-2024-06-26/bin/rust-gdbgui'
+warning: collision between `/nix/store/f3dfnmimfbknlpgg126jpkwrkp4mqhbj-rustup-1.26.0/bin/rustdoc' and `/nix/store/x0q1an2kr6rxk44frz3cslmmzk0mgqcv-rust-nightly-minimal-2024-06-26/bin/rustdoc'
+warning: collision between `/nix/store/f3dfnmimfbknlpgg126jpkwrkp4mqhbj-rustup-1.26.0/share/zsh/site-functions/_cargo' and `/nix/store/x0q1an2kr6rxk44frz3cslmmzk0mgqcv-rust-nightly-minimal-2024-06-26/share/zsh/site-functions/_cargo'
+warning: collision between `/nix/store/z1jz5xa1bs64f7r4kh9zvc9y544crqn0-rustfmt-1.78.0/bin/cargo-fmt' and `/nix/store/f3dfnmimfbknlpgg126jpkwrkp4mqhbj-rustup-1.26.0/bin/cargo-fmt'
+warning: collision between `/nix/store/z1jz5xa1bs64f7r4kh9zvc9y544crqn0-rustfmt-1.78.0/bin/rustfmt' and `/nix/store/f3dfnmimfbknlpgg126jpkwrkp4mqhbj-rustup-1.26.0/bin/rustfmt'
+warning: collision between `/nix/store/62a8mi6zkrhhn3nkh7iwm62s40nk99z8-clippy-1.78.0/bin/clippy-driver' and `/nix/store/f3dfnmimfbknlpgg126jpkwrkp4mqhbj-rustup-1.26.0/bin/clippy-driver'
+warning: collision between `/nix/store/62a8mi6zkrhhn3nkh7iwm62s40nk99z8-clippy-1.78.0/bin/cargo-clippy' and `/nix/store/f3dfnmimfbknlpgg126jpkwrkp4mqhbj-rustup-1.26.0/bin/cargo-clippy'
+warning: collision between `/nix/store/2ywk2w396q69hbms2mkf4ab6ccf8x84a-steam/bin/steam' and `/nix/store/658csgxfdncyy6aj3zc2ipqbggx9660n-steam/bin/steam'
+created 24025 symlinks in user environment
+gtk-update-icon-cache: Cache file created successfully.
+building '/nix/store/3a42slk9w8rr4xmkp9v8b0zqnaay9342-X-Restart-Triggers-polkit.drv'...
+building '/nix/store/n36pxibm3a6drpf97m5l27q3s2zxdpgv-dbus-1.drv'...
+building '/nix/store/azaxaw01gqgk0mwzvpbr0gw73jmpgxq3-etc-pam-environment.drv'...
+building '/nix/store/b69bngs3q6gyih30m9s8wrxxjpq66s96-set-environment.drv'...
+building '/nix/store/djsb63jnzmg9683kii0fdkc9y0654aaf-unit-accounts-daemon.service.drv'...
+building '/nix/store/wxjrb88kdzi1bkapp1977q9yxrh9gjg6-X-Restart-Triggers-dbus.drv'...
+building '/nix/store/g7chap44qqcal8v3nqy7kh3ryr0g7qi6-etc-profile.drv'...
+building '/nix/store/xarij5fwfs9lsixw03sr9r74r7pc1jxm-unit-polkit.service.drv'...
+building '/nix/store/crzlflq1sfbcvjm7khjww6j4yg98jfvm-unit-dbus.service.drv'...
+building '/nix/store/ipd7f1z94lak675x0j5cgllp03ql7040-unit-dbus.service.drv'...
+building '/nix/store/br9lrbdxx70y4d52d7xw2sdr03cc1804-user-units.drv'...
+building '/nix/store/rdvdjz16cq8vyx0cv12m8905qrp5q4vl-system-units.drv'...
+building '/nix/store/bn0rgqsh5707dixw73bv41ck598mr494-etc.drv'...
+building '/nix/store/3w7g4rfcz75vvxmf0bnwkvb6rz20qjpy-nixos-system-elitebook-24.11pre643242.2893f56de080.drv'...
 stopping the following units: accounts-daemon.service
 activating the configuration...
 setting up /etc...
