@@ -284,7 +284,7 @@ in {
         enable = true;
         settings = {
           color_overrides.frappe = {
-            base = "#ffffff"; # testing
+            base = "#282c34";
           };
           flavour = "frappe";
           integrations = {
