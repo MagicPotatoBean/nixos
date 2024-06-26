@@ -342,7 +342,14 @@ in {
         bufferline.enable = true;
 
         # lsp
-        cmp.enable = true;
+        cmp = {
+          enable = true;
+          settings.sources = [
+            {name = "nvim_lsp";}
+            {name = "vsnip";}
+            {name = "cmp-buffer";}
+          ];
+        };
         cmp-vsnip.enable = true;
         cmp-buffer.enable = true;
         cmp-nvim-lua.enable = true;
