@@ -246,6 +246,7 @@ in {
         tabstop = 4;
         shiftwidth = 4;
         cursorline = true;
+        signcolumn = true;
       };
       globals.mapleader = " ";
       keymaps = [
