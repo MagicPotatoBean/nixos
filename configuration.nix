@@ -345,6 +345,7 @@ in {
         lint = {
           lintersByFt = {
             rust = ["cargo clippy --fix --allow-dirty"];
+            nix = ["alejandra ./*.nix"];
           };
         };
         autoclose = {
