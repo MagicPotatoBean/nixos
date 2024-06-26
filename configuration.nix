@@ -400,6 +400,7 @@ in {
         lsp-format.enable = true;
         lspsaga = {
           enable = true;
+          codeAction.keys.quit = ["q" "<Esc>"];
         };
 
         # which-key
