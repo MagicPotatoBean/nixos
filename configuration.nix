@@ -303,7 +303,7 @@ in {
         lualine = {
           enable = true;
           globalstatus = true;
-          theme = "catppuccin";
+          theme = "ayu_mirage";
           componentSeparators = {
             left = "|";
             right = "|";
