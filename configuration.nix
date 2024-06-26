@@ -317,6 +317,18 @@ in {
         # markdown
         obsidian = {
           enable = true;
+          settings = {
+            completion = {
+              nvim_cmp = true;
+              min_chars = 2;
+            };
+            workspaces = [
+              {
+                name = "college-work";
+                path = "~/Documents/college/obsidian_vault";
+              }
+            ];
+          };
         };
         markdown-preview = {
           enable = true;
