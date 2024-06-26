@@ -297,7 +297,11 @@ in {
         nix.enable = true;
 
         # UI
-        lualine.enable = true;
+        lualine = {
+          enable = true;
+          globalstatus = true;
+          theme = "catppuccin";
+        };
 
         # markdown
         markdown-preview = {
