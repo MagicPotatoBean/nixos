@@ -319,7 +319,6 @@ in {
           enable = true;
           settings = {
             completion = {
-              nvim_cmp = true;
               min_chars = 2;
             };
             workspaces = [
@@ -343,6 +342,7 @@ in {
         bufferline.enable = true;
 
         # lsp
+        cmp-nvim-lsp.enable = true;
         lsp = {
           enable = true;
           servers = {
