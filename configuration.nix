@@ -342,6 +342,31 @@ in {
         bufferline.enable = true;
 
         # lsp
+        lint = {
+          lintersByFt = {
+            rust = ["cargo clippy --fix --allow-dirty"];
+          };
+        };
+        autoclose = {
+          enable = true;
+          keys = {
+            "(" = {
+              escape = false;
+              close = true;
+              pair = "()";
+            };
+            "[" = {
+              escape = false;
+              close = true;
+              pair = "[]";
+            };
+            "{" = {
+              escape = false;
+              close = true;
+              pair = "{}";
+            };
+          };
+        };
         cmp = {
           enable = true;
           settings = {
@@ -500,7 +525,6 @@ in {
       pkgs.inetutils
       pkgs.gcc
       fenix.minimal.toolchain
-      pkgs.rustup
       pkgs.bacon
       pkgs.rustfmt
       pkgs.extundelete
@@ -529,7 +553,6 @@ in {
       pkgs.pkg-config
       pkgs.rpi-imager
       pkgs.clippy
-      pkgs.cowsay # test
     ];
   };
   # Adding a comment to force rebuilding.
