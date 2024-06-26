@@ -283,6 +283,9 @@ in {
       colorschemes.catppuccin = {
         enable = true;
         settings = {
+          color_overrides.frappe = {
+            base = "#ffffff"; # testing
+          };
           flavour = "frappe";
           integrations = {
             cmp = true;
