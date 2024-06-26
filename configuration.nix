@@ -290,7 +290,6 @@ in {
             nvimtree = true;
             treesitter = true;
             lualine = true;
-            which-key = true;
           };
         };
       };
