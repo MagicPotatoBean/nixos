@@ -315,7 +315,7 @@ in {
           enable = true;
           servers = {
             rust-analyzer.enable = true;
-            rnix-lsp.enable = true;
+            nixd.enable = true;
           };
         };
         lsp-format.enable = true;
