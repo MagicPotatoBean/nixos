@@ -324,7 +324,7 @@ in {
             workspaces = [
               {
                 name = "college-work";
-                path = "~/Documents/college/obsidian_vault";
+                path = "/home/zoe/Documents/college/obsidian_vault"; # Using ~ goes to /root/...
               }
             ];
           };
