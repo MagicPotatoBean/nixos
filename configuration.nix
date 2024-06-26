@@ -289,7 +289,6 @@ in {
             gitsigns = true;
             nvimtree = true;
             treesitter = true;
-            lualine = true;
           };
         };
       };
