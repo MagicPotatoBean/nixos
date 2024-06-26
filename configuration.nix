@@ -284,7 +284,7 @@ in {
         enable = true;
         settings = {
           color_overrides.frappe = {
-            base = "#383c4c";
+            base = "#282c34";
           };
           flavour = "frappe";
           integrations = {
@@ -303,7 +303,7 @@ in {
         lualine = {
           enable = true;
           globalstatus = true;
-          theme = "ayu_mirage";
+          theme = "onedark";
           componentSeparators = {
             left = "|";
             right = "|";
