@@ -319,6 +319,9 @@ in {
         obsidian = {
           enable = true;
           settings = {
+            ui = {
+              enable = true;
+            };
             completion = {
               min_chars = 2;
             };
