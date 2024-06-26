@@ -315,6 +315,9 @@ in {
         };
 
         # markdown
+        obsidian = {
+          enable = true;
+        };
         markdown-preview = {
           enable = true;
           settings = {
