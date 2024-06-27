@@ -281,7 +281,7 @@ in {
           action = ":BufferLineCycleNext<CR>";
           options = {
             silent = true;
-            desc = "Move buffer to the right";
+            desc = "Switch to the next buffer";
           };
         }
         {
@@ -289,7 +289,15 @@ in {
           action = ":BufferLineCyclePrev<CR>";
           options = {
             silent = true;
-            desc = "Move buffer to the left";
+            desc = "Switch to the last buffer";
+          };
+        }
+        {
+          key = "<leader>g";
+          action = ":LazyGit<CR>";
+          options = {
+            silent = true;
+            desc = "Open Lazygit";
           };
         }
         {
