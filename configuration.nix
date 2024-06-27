@@ -311,6 +311,24 @@ in {
           settings = {
             ui = {
               enable = true;
+              checkboxes = {
+                "t" = {
+                  char = "T";
+                  hl_group = "ObsidianTodo";
+                };
+                "r" = {
+                  char = "R";
+                  hl_group = "ObsidianRightArrow";
+                };
+                "x" = {
+                  char = "X";
+                  hl_group = "ObsidianDone";
+                };
+                "a" = {
+                  char = "A";
+                  hl_group = "ObsidianTilde";
+                };
+              };
             };
             completion = {
               min_chars = 2;
@@ -319,6 +337,10 @@ in {
               {
                 name = "college-work";
                 path = "/home/zoe/Documents/college/obsidian_vault"; # Using ~ goes to /root/...
+              }
+              {
+                name = "testing";
+                path = "/home/zoe/Documents/home_vault"; # Using ~ goes to /root/...
               }
             ];
             mappings = {
