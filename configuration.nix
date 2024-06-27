@@ -261,6 +261,22 @@ in {
           };
         }
         {
+          key = "<leader>bn";
+          action = ":BufferLineMoveNext<CR>";
+          options = {
+            silent = true;
+            desc = "Move to next buffer";
+          };
+        }
+        {
+          key = "<leader>bp";
+          action = ":BufferLineMovePrev<CR>";
+          options = {
+            silent = true;
+            desc = "Move to previous buffer";
+          };
+        }
+        {
           key = "<leader>ca";
           action = ":Lspsaga code_action<CR>";
           options = {
@@ -380,10 +396,6 @@ in {
                 name = "college-work";
                 path = "/home/zoe/Documents/college/obsidian_vault"; # Using ~ goes to /root/...
               }
-              {
-                name = "testing";
-                path = "/home/zoe/Documents/home_vault"; # Using ~ goes to /root/...
-              }
             ];
             mappings = {
               "<leader>oc" = {
@@ -412,7 +424,7 @@ in {
         markdown-preview = {
           enable = true;
           settings = {
-            auto_close = false;
+            auto_close = true;
             auto_start = true;
             browser = "firefox";
           };
