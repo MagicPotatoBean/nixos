@@ -672,6 +672,7 @@ in {
       pkgs.pkg-config
       pkgs.rpi-imager
       pkgs.clippy
+      pkgs.prismlauncher
     ];
   };
   # Adding a comment to force rebuilding.
