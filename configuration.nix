@@ -316,10 +316,6 @@ in {
                   char = "☐";
                   hl_group = "ObsidianTodo";
                 };
-                ">" = {
-                  char = "⚠";
-                  hl_group = "ObsidianRightArrow";
-                };
                 "x" = {
                   char = "☑";
                   hl_group = "ObsidianDone";
@@ -327,6 +323,38 @@ in {
                 "~" = {
                   char = "☒";
                   hl_group = "ObsidianTilde";
+                };
+              };
+              hl_groups = {
+                ObsidianDone = {
+                  bold = true;
+                  fg = "#89ddff";
+                };
+                ObsidianExtLinkIcon = {
+                  fg = "#c792ea";
+                };
+                ObsidianHighlightText = {
+                  bg = "#75662e";
+                };
+                ObsidianRefText = {
+                  fg = "#c792ea";
+                  underline = true;
+                };
+                ObsidianRightArrow = {
+                  bold = true;
+                  fg = "#f78c6c";
+                };
+                ObsidianTag = {
+                  fg = "#89ddff";
+                  italic = true;
+                };
+                ObsidianTilde = {
+                  bold = true;
+                  fg = "#ff5370";
+                };
+                ObsidianTodo = {
+                  bold = true;
+                  fg = "#f78c6c";
                 };
               };
             };
