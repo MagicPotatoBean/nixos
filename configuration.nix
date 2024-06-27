@@ -237,7 +237,7 @@ in {
       vimAlias = true;
       clipboard.providers.wl-copy = {
         enable = true;
-        package = pkgs.wl-clipboard;
+        # package = pkgs.wl-clipboard;
       };
       opts = {
         number = true;
