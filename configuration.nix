@@ -312,20 +312,20 @@ in {
             ui = {
               enable = true;
               checkboxes = {
-                "t" = {
-                  char = "T";
+                " " = {
+                  char = "☐";
                   hl_group = "ObsidianTodo";
                 };
-                "r" = {
-                  char = "R";
+                ">" = {
+                  char = "⚠";
                   hl_group = "ObsidianRightArrow";
                 };
                 "x" = {
-                  char = "X";
+                  char = "☑";
                   hl_group = "ObsidianDone";
                 };
-                "a" = {
-                  char = "A";
+                "~" = {
+                  char = "☒";
                   hl_group = "ObsidianTilde";
                 };
               };
