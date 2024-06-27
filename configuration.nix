@@ -373,7 +373,7 @@ in {
             ];
             mappings = {
               "<leader>oc" = {
-                action = "require(\"obsidian\").util.toggle_checkbox()";
+                action = "require(\"obsidian\").util.toggle_checkbox";
                 opts = {
                   buffer = true;
                 };
