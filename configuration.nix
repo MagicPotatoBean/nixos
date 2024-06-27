@@ -235,9 +235,11 @@ in {
       enable = true;
       viAlias = true;
       vimAlias = true;
-      clipboard.providers.wl-copy = {
-        enable = true;
-        # package = pkgs.wl-clipboard;
+      clipboard = {
+        register = "unnamedplus";
+        providers.wl-copy = {
+          enable = true;
+        };
       };
       opts = {
         number = true;
