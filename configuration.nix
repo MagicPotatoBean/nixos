@@ -253,22 +253,34 @@ in {
         {
           key = "<leader>bc";
           action = ":BufferLinePick<CR>";
-          options.silent = true;
+          options = {
+            silent = true;
+            desc = "Select buffer";
+          };
         }
         {
           key = "<leader>ca";
           action = ":Lspsaga code_action<CR>";
-          options.silent = true;
+          options = {
+            silent = true;
+            desc = "Open code actions";
+          };
         }
         {
           key = "<leader>oe";
           action = ":set conceallevel=2<CR>";
-          options.silent = true;
+          options = {
+            silent = true;
+            desc = "Enable obsidian concealment";
+          };
         }
         {
           key = "<leader>od";
           action = ":set conceallevel=0<CR>";
-          options.silent = true;
+          options = {
+            silent = true;
+            desc = "Disable obsidian concealment";
+          };
         }
       ];
       colorschemes.catppuccin = {
@@ -376,17 +388,21 @@ in {
                 action = "require(\"obsidian\").util.toggle_checkbox";
                 opts = {
                   buffer = true;
+                  desc = "Toggle checkbox";
                 };
               };
               "<leader>ol" = {
                 action = "require(\"obsidian\").util.gf_passthrough()";
                 opts = {
                   buffer = true;
+                  desc = "Follow obsidian link";
                 };
               };
               "<CR>" = {
                 action = "require(\"obsidian\").util.smart_action()";
-                opts.silent = true;
+                opts = {
+                  silent = true;
+                };
               };
             };
           };
