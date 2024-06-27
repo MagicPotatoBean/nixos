@@ -272,7 +272,7 @@ in {
         }
         {
           key = "<leader>oc";
-          action = ":ObsidianToggleCheckbox";
+          action = ":ObsidianToggleCheckbox<CR>";
           options.silent = true;
         }
       ];
