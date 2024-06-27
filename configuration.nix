@@ -261,19 +261,35 @@ in {
           };
         }
         {
-          key = "<leader>bn";
+          key = "<leader>bmn";
           action = ":BufferLineMoveNext<CR>";
           options = {
             silent = true;
-            desc = "Move to next buffer";
+            desc = "Move buffer to the right";
+          };
+        }
+        {
+          key = "<leader>bmp";
+          action = ":BufferLineMovePrev<CR>";
+          options = {
+            silent = true;
+            desc = "Move buffer to the left";
+          };
+        }
+        {
+          key = "<leader>bn";
+          action = ":BufferLineCycleNext<CR>";
+          options = {
+            silent = true;
+            desc = "Move buffer to the right";
           };
         }
         {
           key = "<leader>bp";
-          action = ":BufferLineMovePrev<CR>";
+          action = ":BufferLineCyclePrev<CR>";
           options = {
             silent = true;
-            desc = "Move to previous buffer";
+            desc = "Move buffer to the left";
           };
         }
         {
