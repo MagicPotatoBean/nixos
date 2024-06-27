@@ -256,18 +256,18 @@ in {
           options.silent = true;
         }
         {
-          key = "<leader>ris";
-          action = "rt.inlay_hints.set";
-          options.silent = true;
-        }
-        {
-          key = "<leader>riu";
-          action = "rt.inlay_hints.unset";
-          options.silent = true;
-        }
-        {
           key = "<leader>ca";
           action = ":Lspsaga code_action<CR>";
+          options.silent = true;
+        }
+        {
+          key = "<leader>oe";
+          action = ":set conceallevel=2<CR>";
+          options.silent = true;
+        }
+        {
+          key = "<leader>od";
+          action = ":set conceallevel=0<CR>";
           options.silent = true;
         }
       ];
@@ -372,8 +372,14 @@ in {
               }
             ];
             mappings = {
-              "<leader>ch" = {
-                action = "require('obsidian').util.toggle_checkbox";
+              "<leader>oc" = {
+                action = "require(\"obsidian\").util.toggle_checkbox()";
+                opts = {
+                  buffer = true;
+                };
+              };
+              "<leader>ol" = {
+                action = "require(\"obsidian\").util.gf_passthrough()";
                 opts = {
                   buffer = true;
                 };
