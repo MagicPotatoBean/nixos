@@ -270,11 +270,6 @@ in {
           action = ":Lspsaga code_action<CR>";
           options.silent = true;
         }
-        {
-          key = "<leader>oc";
-          action = ":ObsidianToggleCheckbox<CR>";
-          options.silent = true;
-        }
       ];
       colorschemes.catppuccin = {
         enable = true;
@@ -326,6 +321,18 @@ in {
                 path = "/home/zoe/Documents/college/obsidian_vault"; # Using ~ goes to /root/...
               }
             ];
+            mappings = {
+              "<leader>ch" = {
+                action = "require('obsidian').util.toggle_checkbox";
+                opts = {
+                  buffer = true;
+                };
+              };
+              "<CR>" = {
+                action = "require(\"obsidian\").util.smart_action()";
+                opts.silent = true;
+              };
+            };
           };
         };
         markdown-preview = {
