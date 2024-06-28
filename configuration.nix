@@ -222,14 +222,12 @@ in {
 
   # Disable gnome-tour, xterm
   environment = {
-    variables = {
-      EDITOR = "nvim";
-      VISUAL = "nvim";
-    };
     gnome.excludePackages = [pkgs.gnome-tour];
     interactiveShellInit = ''
-      cat ~/Documents/todo.txt
-      PATH=$PATH:$HOME/.cargo/bin
+      export EDITOR="nvim"
+      export VISUAL="nvim"
+        cat ~/Documents/todo.txt
+        PATH=$PATH:$HOME/.cargo/bin
     '';
   };
   services.xserver.excludePackages = [pkgs.xterm];
