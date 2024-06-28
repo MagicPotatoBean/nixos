@@ -224,12 +224,12 @@ in {
   environment = {
     gnome.excludePackages = [pkgs.gnome-tour];
     interactiveShellInit = ''
-      export EDITOR="nvim"
-      export VISUAL="nvim"
-        cat ~/Documents/todo.txt
-        PATH=$PATH:$HOME/.cargo/bin
+      cat ~/Documents/todo.txt
+      PATH=$PATH:$HOME/.cargo/bin
     '';
   };
+  environment.variables.EDITOR = "nvim";
+  environment.variables.VISUAL = "nvim";
   services.xserver.excludePackages = [pkgs.xterm];
   programs = {
     # Set up neovim as default editor
