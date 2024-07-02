@@ -303,6 +303,14 @@ in {
           };
         }
         {
+          key = "<leader>ln";
+          action = ":Lspsaga rename<CR>";
+          options = {
+            silent = true;
+            desc = "Rename";
+          };
+        }
+        {
           key = "<leader>ca";
           action = ":Lspsaga code_action<CR>";
           options = {
