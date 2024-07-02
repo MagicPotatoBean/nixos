@@ -303,6 +303,14 @@ in {
           };
         }
         {
+          key = "<leader>ld";
+          action = ":Lspsaga goto_definition<CR>";
+          options = {
+            silent = true;
+            desc = "Go to definition";
+          };
+        }
+        {
           key = "<leader>ln";
           action = ":Lspsaga rename<CR>";
           options = {
