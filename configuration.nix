@@ -527,6 +527,7 @@ in {
           enable = true;
           servers = {
             rust-analyzer.enable = true;
+            zls.enable = true;
             nixd.enable = true;
           };
         };
