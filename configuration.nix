@@ -99,6 +99,12 @@ in {
 
         [org.gtk.Settings.FileChooser]
         sort-directories-first=false
+
+        [org.gnome.shell.app-switcher]
+        current-workspace-only=true
+
+        [org.gnome.shell.window-switcher]
+        current-workspace-only=true
       '';
       # Configure keymap in X11
       xkb = {
@@ -344,7 +350,7 @@ in {
         }
         {
           key = "<leader>me";
-          action = ":MarkdownPreview";
+          action = ":MarkdownPreview<CR>";
           options = {
             silent = true;
             desc = "Enable markdown preview";
@@ -352,7 +358,7 @@ in {
         }
         {
           key = "<leader>md";
-          action = ":MarkdownPreviewStop";
+          action = ":MarkdownPreviewStop<CR>";
           options = {
             silent = true;
             desc = "Disable markdown preview";
