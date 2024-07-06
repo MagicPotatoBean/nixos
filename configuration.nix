@@ -400,7 +400,8 @@ in {
               hl_groups = {
                 ObsidianDone = {
                   bold = true;
-                  fg = "#89ddff";
+                  fg = "#98c379";
+                  # original: fg = "#89ddff";
                 };
                 ObsidianExtLinkIcon = {
                   fg = "#c792ea";
