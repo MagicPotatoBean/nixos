@@ -62,9 +62,7 @@ in {
     LC_TIME = "en_GB.UTF-8";
   };
   services = {
-    # openvpn.servers = {
-    #   protonVPN = {config = ''config /home/zoe/.dotfiles/openvpn/proton.conf '';};
-    # };
+    logind.lidSwitchExternalPower = "ignore";
     xserver = {
       enable = true;
       # Enable the GNOME Desktop Environment.
