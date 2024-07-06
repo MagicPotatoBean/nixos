@@ -342,6 +342,22 @@ in {
             desc = "Disable obsidian concealment";
           };
         }
+        {
+          key = "<leader>me";
+          action = ":MarkdownPreview";
+          options = {
+            silent = true;
+            desc = "Enable markdown preview";
+          };
+        }
+        {
+          key = "<leader>md";
+          action = ":MarkdownPreviewStop";
+          options = {
+            silent = true;
+            desc = "Disable markdown preview";
+          };
+        }
       ];
       colorschemes.catppuccin = {
         enable = true;
@@ -467,8 +483,6 @@ in {
         markdown-preview = {
           enable = true;
           settings = {
-            auto_close = true;
-            auto_start = true;
             browser = "firefox";
           };
         };
