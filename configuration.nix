@@ -712,7 +712,7 @@ in {
       pkgs.clippy
       pkgs.prismlauncher
       pkgs.jdk17
-      pkgs.zig
+      pkgs.zig_0_13
     ];
   };
   # Adding a comment to force rebuilding.
