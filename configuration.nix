@@ -713,6 +713,7 @@ in {
       pkgs.prismlauncher
       pkgs.jdk17
       pkgs.zig_0_12
+      pkgs.fzf
     ];
   };
   # Adding a comment to force rebuilding.
