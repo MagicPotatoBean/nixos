@@ -2,10 +2,11 @@
 # your system.  Help is available in the configuration.nix(5) man page
 # and in the NixOS manual (accessible by running ‘nixos-help’).
 {
-  config,
   pkgs,
+  inputs,
   ...
 }: let
+  nixpkgs = inputs.nixpkgs.legacyPackages.${pkgs.system};
   fenix = import (fetchTarball "https://github.com/nix-community/fenix/archive/main.tar.gz") {};
   nixvim =
     import
@@ -16,7 +17,7 @@
 in {
   imports = [
     # Include the results of the hardware scan.
-    /etc/nixos/hardware-configuration.nix
+    ./hardware-configuration.nix
     nixvim.nixosModules.nixvim
   ];
   # Bootloader.
@@ -141,13 +142,10 @@ in {
     isNormalUser = true;
     description = "Zoe";
     extraGroups = ["networkmanager" "wheel" "dialout"];
-    packages = with pkgs; [
+    packages = with nixpkgs; [
       firefox
     ];
   };
-
-  # Allow unfree packages
-  nixpkgs.config.allowUnfree = true;
 
   # Add new CA certificates
   security.pki.certificates = [
@@ -226,7 +224,7 @@ in {
 
   # Disable gnome-tour, xterm
   environment = {
-    gnome.excludePackages = [pkgs.gnome-tour];
+    gnome.excludePackages = [nixpkgs.gnome-tour];
     interactiveShellInit = ''
       cat ~/Documents/todo.txt
       PATH=$PATH:$HOME/.cargo/bin
@@ -234,7 +232,7 @@ in {
   };
   environment.variables.EDITOR = "nvim";
   environment.variables.VISUAL = "nvim";
-  services.xserver.excludePackages = [pkgs.xterm];
+  services.xserver.excludePackages = [nixpkgs.xterm];
   programs = {
     # Set up neovim as default editor
     nixvim = {
@@ -545,7 +543,11 @@ in {
         lsp = {
           enable = true;
           servers = {
-            rust-analyzer.enable = true;
+            rust-analyzer = {
+              enable = true;
+              installRustc = false;
+              installCargo = false;
+            };
             zls.enable = true;
             nixd.enable = true;
           };
@@ -607,7 +609,7 @@ in {
         treesitter = {
           enable = true;
           nixGrammars = true;
-          indent = true;
+          settings.indent.enable = true;
         };
       };
     };
@@ -619,13 +621,13 @@ in {
     };
 
     # Enable steam
-    steam.enable = true;
+    # steam.enable = true;
 
     # Sets up nix-ld to allow arbitrary binaries
     nix-ld.enable = true;
 
     # Sets up all the libraries to load
-    nix-ld.libraries = with pkgs; [
+    nix-ld.libraries = with nixpkgs; [
       # Required libraries
       stdenv.cc.cc.lib
       libGL
@@ -637,85 +639,62 @@ in {
   # $ nix search wget
   environment = {
     systemPackages = [
-      #      (
-      #        pkgs.vscode-with-extensions.override {
-      #          vscodeExtensions = with pkgs.vscode-extensions;
-      #            [
-      #              ms-vscode.cpptools
-      #              bbenoist.nix
-      #              rust-lang.rust-analyzer
-      #              jnoortheen.nix-ide
-      #              usernamehw.errorlens
-      #              ms-vscode.live-server
-      #              vscodevim.vim
-      #              # Built in extensions
-      #            ]
-      #            ++ pkgs.vscode-utils.extensionsFromVscodeMarketplace [
-      #              # Custom extensions
-      #            ];
-      #        }
-      #      )
-      pkgs.tree
-      pkgs.netcat-gnu
-      pkgs.spotify
-      pkgs.gimp
-      pkgs.drive
-      pkgs.jellyfin-ffmpeg
+      nixpkgs.tree
+      nixpkgs.netcat-gnu
+      nixpkgs.gimp
+      nixpkgs.drive
+      nixpkgs.jellyfin-ffmpeg
       (import /etc/nixos/edit.nix)
-      pkgs.unzip
-      pkgs.winetricks
-      pkgs.wineWowPackages.stable
-      pkgs.steam
-      pkgs.discord
-      pkgs.keepassxc
-      pkgs.libreoffice
-      pkgs.libtelnet
+      nixpkgs.unzip
+      nixpkgs.winetricks
+      nixpkgs.wineWowPackages.stable
+      nixpkgs.keepassxc
+      nixpkgs.libreoffice
+      nixpkgs.libtelnet
       (import "/etc/nixos/rebuild.nix")
       (import "/etc/nixos/reload.nix")
-      pkgs.openssl
-      pkgs.wacomtablet
-      pkgs.obsidian
-      pkgs.git
-      pkgs.nix-ld
-      pkgs.gh
-      pkgs.alejandra
-      pkgs.inetutils
-      pkgs.gcc
+      nixpkgs.openssl
+      nixpkgs.wacomtablet
+      nixpkgs.git
+      nixpkgs.nix-ld
+      nixpkgs.gh
+      nixpkgs.alejandra
+      nixpkgs.inetutils
+      nixpkgs.gcc
       fenix.minimal.toolchain
-      pkgs.bacon
-      pkgs.rustfmt
-      pkgs.extundelete
-      pkgs.nerdfonts
-      pkgs.neofetch
-      pkgs.wl-clipboard
-      pkgs.usbutils
-      pkgs.file
-      pkgs.awscli2
-      pkgs.gnomeExtensions.gsnap
-      pkgs.cargo-generate
-      pkgs.python3
-      pkgs.ghc
-      pkgs.haskellPackages.cabal-install
-      pkgs.espflash
-      pkgs.gnupg1
-      pkgs.pinentry-gnome3
-      pkgs.gdrive3
-      pkgs.distrobox
-      pkgs.docker_26
-      pkgs.pkg-config
-      pkgs.gparted
-      pkgs.lutris
-      pkgs.nixos-generators
-      pkgs.time
-      pkgs.pkg-config
-      pkgs.rpi-imager
-      pkgs.clippy
-      pkgs.prismlauncher
-      pkgs.jdk17
-      pkgs.zig_0_12
-      pkgs.fzf
+      nixpkgs.bacon
+      nixpkgs.rustfmt
+      nixpkgs.extundelete
+      nixpkgs.nerdfonts
+      nixpkgs.neofetch
+      nixpkgs.wl-clipboard
+      nixpkgs.usbutils
+      nixpkgs.file
+      nixpkgs.awscli2
+      nixpkgs.gnomeExtensions.gsnap
+      nixpkgs.cargo-generate
+      nixpkgs.ghc
+      nixpkgs.haskellPackages.cabal-install
+      nixpkgs.espflash
+      nixpkgs.gnupg1
+      nixpkgs.pinentry-gnome3
+      nixpkgs.gdrive3
+      nixpkgs.distrobox
+      nixpkgs.docker_26
+      nixpkgs.pkg-config
+      nixpkgs.gparted
+      nixpkgs.nixos-generators
+      nixpkgs.time
+      nixpkgs.pkg-config
+      nixpkgs.rpi-imager
+      nixpkgs.clippy
+      nixpkgs.prismlauncher
+      nixpkgs.jdk17
+      nixpkgs.zig_0_12
+      nixpkgs.fzf
     ];
   };
+  nixpkgs.config = { allowBroken = true; allowUnfree = true; };
   # Adding a comment to force rebuilding.
   nixpkgs.config.permittedInsecurePackages = [
     "electron-25.9.0"
@@ -736,7 +715,7 @@ in {
   # settings for stateful data, like file locations and database versions
   # on your system were taken. It‘s perfectly fine and recommended to leave
   # this value at the release version of the first install of this system.
-  # Before changing this value read the documentation for this option
+  #efore changing this value read the documentation for this option
   # (e.g. man configuration.nix or on https://nixos.org/nixos/options.html).
   system.stateVersion = "24.05"; # Did you read the comment?
 }
