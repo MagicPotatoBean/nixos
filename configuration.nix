@@ -5,9 +5,9 @@
   pkgs,
   inputs,
   ...
-}: let
-  nixpkgs = inputs.nixpkgs.legacyPackages.${pkgs.system};
-in {
+}: {
+  nixpkgs.overlays = [inputs.fenix.overlays.default];
+
   imports = [
     # Include the results of the hardware scan.
     ./hardware-configuration.nix
@@ -135,7 +135,7 @@ in {
     isNormalUser = true;
     description = "Zoe";
     extraGroups = ["networkmanager" "wheel" "dialout"];
-    packages = with nixpkgs; [
+    packages = with pkgs; [
       firefox
     ];
   };
@@ -217,7 +217,7 @@ in {
 
   # Disable gnome-tour, xterm
   environment = {
-    gnome.excludePackages = [nixpkgs.gnome-tour];
+    gnome.excludePackages = [pkgs.gnome-tour];
     interactiveShellInit = ''
       cat ~/Documents/todo.txt
       PATH=$PATH:$HOME/.cargo/bin
@@ -225,7 +225,7 @@ in {
   };
   environment.variables.EDITOR = "nvim";
   environment.variables.VISUAL = "nvim";
-  services.xserver.excludePackages = [nixpkgs.xterm];
+  services.xserver.excludePackages = [pkgs.xterm];
   programs = {
     # Set up neovim as default editor
     nixvim = {
@@ -538,6 +538,7 @@ in {
           servers = {
             rust-analyzer = {
               enable = true;
+              package = pkgs.rust-analyzer-nightly;
               installRustc = false;
               installCargo = false;
             };
@@ -620,7 +621,7 @@ in {
     nix-ld.enable = true;
 
     # Sets up all the libraries to load
-    nix-ld.libraries = with nixpkgs; [
+    nix-ld.libraries = with pkgs; [
       # Required libraries
       stdenv.cc.cc.lib
       libGL
@@ -632,58 +633,63 @@ in {
   # $ nix search wget
   environment = {
     systemPackages = [
-      nixpkgs.tree
-      nixpkgs.netcat-gnu
-      nixpkgs.gimp
-      nixpkgs.drive
-      nixpkgs.jellyfin-ffmpeg
+      pkgs.tree
+      pkgs.netcat-gnu
+      pkgs.gimp
+      pkgs.drive
+      pkgs.jellyfin-ffmpeg
       (import ./edit.nix)
-      nixpkgs.unzip
-      nixpkgs.winetricks
-      nixpkgs.wineWowPackages.stable
-      nixpkgs.keepassxc
-      nixpkgs.libreoffice
-      nixpkgs.libtelnet
+      pkgs.unzip
+      pkgs.winetricks
+      pkgs.wineWowPackages.stable
+      pkgs.keepassxc
+      pkgs.libreoffice
+      pkgs.libtelnet
       (import ./rebuild.nix)
       (import ./reload.nix)
-      nixpkgs.openssl
-      nixpkgs.wacomtablet
-      nixpkgs.git
-      nixpkgs.nix-ld
-      nixpkgs.gh
-      nixpkgs.alejandra
-      nixpkgs.inetutils
-      nixpkgs.gcc
-      # inputs.fenix.minimal.toolchain
-      nixpkgs.bacon
-      nixpkgs.rustfmt
-      nixpkgs.extundelete
-      nixpkgs.nerdfonts
-      nixpkgs.wl-clipboard
-      nixpkgs.usbutils
-      nixpkgs.file
-      nixpkgs.awscli2
-      nixpkgs.gnomeExtensions.gsnap
-      nixpkgs.cargo-generate
-      nixpkgs.ghc
-      nixpkgs.haskellPackages.cabal-install
-      nixpkgs.espflash
-      nixpkgs.gnupg1
-      nixpkgs.pinentry-gnome3
-      nixpkgs.gdrive3
-      nixpkgs.distrobox
-      nixpkgs.docker_26
-      nixpkgs.pkg-config
-      nixpkgs.gparted
-      nixpkgs.nixos-generators
-      nixpkgs.time
-      nixpkgs.pkg-config
-      nixpkgs.rpi-imager
-      nixpkgs.clippy
-      nixpkgs.prismlauncher
-      nixpkgs.jdk17
-      nixpkgs.zig_0_12
-      nixpkgs.fzf
+      pkgs.openssl
+      pkgs.wacomtablet
+      pkgs.git
+      pkgs.nix-ld
+      pkgs.gh
+      pkgs.alejandra
+      pkgs.inetutils
+      pkgs.gcc
+      pkgs.bacon
+      pkgs.rustfmt
+      pkgs.extundelete
+      pkgs.nerdfonts
+      pkgs.wl-clipboard
+      pkgs.usbutils
+      pkgs.file
+      pkgs.awscli2
+      pkgs.gnomeExtensions.gsnap
+      pkgs.cargo-generate
+      pkgs.ghc
+      pkgs.haskellPackages.cabal-install
+      pkgs.espflash
+      pkgs.gnupg1
+      pkgs.pinentry-gnome3
+      pkgs.gdrive3
+      pkgs.distrobox
+      pkgs.docker_26
+      pkgs.pkg-config
+      pkgs.gparted
+      pkgs.nixos-generators
+      pkgs.time
+      pkgs.pkg-config
+      pkgs.rpi-imager
+      pkgs.clippy
+      pkgs.prismlauncher
+      pkgs.jdk17
+      pkgs.zig_0_12
+      pkgs.fzf
+      # Requires unfree
+      pkgs.spotify
+      pkgs.obsidian
+      pkgs.lutris
+      pkgs.steam
+      pkgs.discord
     ];
   };
   nixpkgs.config = {
