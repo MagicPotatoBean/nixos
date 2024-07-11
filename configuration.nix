@@ -637,15 +637,15 @@ in {
       nixpkgs.gimp
       nixpkgs.drive
       nixpkgs.jellyfin-ffmpeg
-      (import "./edit.nix")
+      (import ./edit.nix)
       nixpkgs.unzip
       nixpkgs.winetricks
       nixpkgs.wineWowPackages.stable
       nixpkgs.keepassxc
       nixpkgs.libreoffice
       nixpkgs.libtelnet
-      (import "./rebuild.nix")
-      (import "./reload.nix")
+      (import ./rebuild.nix)
+      (import ./reload.nix)
       nixpkgs.openssl
       nixpkgs.wacomtablet
       nixpkgs.git
@@ -654,12 +654,11 @@ in {
       nixpkgs.alejandra
       nixpkgs.inetutils
       nixpkgs.gcc
-      inputs.fenix.minimal.toolchain
+      # inputs.fenix.minimal.toolchain
       nixpkgs.bacon
       nixpkgs.rustfmt
       nixpkgs.extundelete
       nixpkgs.nerdfonts
-      nixpkgs.neofetch
       nixpkgs.wl-clipboard
       nixpkgs.usbutils
       nixpkgs.file
