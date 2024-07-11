@@ -1,4 +1,4 @@
-self: super: {
+self: prev: {
   config = {
     allowUnfree = true;
     allowAliases = true;

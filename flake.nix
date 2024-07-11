@@ -10,8 +10,11 @@
     };
   };
 
-  outputs = {self, nixpkgs, ...} @ inputs: 
-  let
+  outputs = {
+    self,
+    nixpkgs,
+    ...
+  } @ inputs: let
     system = "x86_64-linux";
     overlays = [(import ./unfree.nix)];
     pkgs = import nixpkgs {
@@ -19,7 +22,7 @@
       overlays = overlays;
     };
   in {
-    nixosConfigurations.elitebook = pkgs.lib.nixosSystem {
+    nixosConfigurations.elitebook = nixpkgs.lib.nixosSystem {
       system = "x86_64-linux";
       specialArgs = {
         inherit inputs;
