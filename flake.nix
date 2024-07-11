@@ -10,8 +10,16 @@
     };
   };
 
-  outputs = {self, nixpkgs, ...} @ inputs: {
-    nixosConfigurations.elitebook = nixpkgs.lib.nixosSystem {
+  outputs = {self, nixpkgs, ...} @ inputs: 
+  let
+    system = "x86_64-linux";
+    overlays = [(import ./unfree.nix)];
+    pkgs = import nixpkgs {
+      inherit system;
+      overlays = overlays;
+    };
+  in {
+    nixosConfigurations.elitebook = pkgs.lib.nixosSystem {
       system = "x86_64-linux";
       specialArgs = {
         inherit inputs;
