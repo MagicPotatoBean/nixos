@@ -7,18 +7,11 @@
   ...
 }: let
   nixpkgs = inputs.nixpkgs.legacyPackages.${pkgs.system};
-  fenix = import (fetchTarball "https://github.com/nix-community/fenix/archive/main.tar.gz") {};
-  nixvim =
-    import
-    (builtins.fetchGit {
-      url = "https://github.com/nix-community/nixvim";
-      # ref = "nixos-24.05";
-    });
 in {
   imports = [
     # Include the results of the hardware scan.
     ./hardware-configuration.nix
-    nixvim.nixosModules.nixvim
+    inputs.nixvim.nixosModules.nixvim
   ];
   # Bootloader.
   boot = {
@@ -644,15 +637,15 @@ in {
       nixpkgs.gimp
       nixpkgs.drive
       nixpkgs.jellyfin-ffmpeg
-      (import /etc/nixos/edit.nix)
+      (import "./edit.nix")
       nixpkgs.unzip
       nixpkgs.winetricks
       nixpkgs.wineWowPackages.stable
       nixpkgs.keepassxc
       nixpkgs.libreoffice
       nixpkgs.libtelnet
-      (import "/etc/nixos/rebuild.nix")
-      (import "/etc/nixos/reload.nix")
+      (import "./rebuild.nix")
+      (import "./reload.nix")
       nixpkgs.openssl
       nixpkgs.wacomtablet
       nixpkgs.git
@@ -661,7 +654,7 @@ in {
       nixpkgs.alejandra
       nixpkgs.inetutils
       nixpkgs.gcc
-      fenix.minimal.toolchain
+      inputs.fenix.minimal.toolchain
       nixpkgs.bacon
       nixpkgs.rustfmt
       nixpkgs.extundelete
@@ -694,7 +687,10 @@ in {
       nixpkgs.fzf
     ];
   };
-  nixpkgs.config = { allowBroken = true; allowUnfree = true; };
+  nixpkgs.config = {
+    allowBroken = true;
+    allowUnfree = true;
+  };
   # Adding a comment to force rebuilding.
   nixpkgs.config.permittedInsecurePackages = [
     "electron-25.9.0"
