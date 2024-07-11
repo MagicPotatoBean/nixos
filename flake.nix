@@ -10,8 +10,8 @@
     };
   };
 
-  outputs = {self, ...} @ inputs: {
-    nixosConfigurations.elitebook = inputs.nixpkgs.lib.nixosSystem {
+  outputs = {self, nixpkgs, ...} @ inputs: {
+    nixosConfigurations.elitebook = nixpkgs.lib.nixosSystem {
       system = "x86_64-linux";
       specialArgs = {
         inherit inputs;
