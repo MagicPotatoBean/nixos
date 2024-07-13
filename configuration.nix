@@ -144,6 +144,7 @@
       isNormalUser = true;
       description = "Zac";
       extraGroups = [""];
+      initialPassword = "12345";
     };
   };
 
