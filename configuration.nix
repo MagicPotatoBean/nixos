@@ -142,13 +142,6 @@
           firefox
         ];
       };
-      zac = {
-        isNormalUser = true;
-        description = "Zac";
-        extraGroups = [];
-        initialPassword = "12345";
-        packages = [pkgs.firefox];
-      };
     };
   };
 
