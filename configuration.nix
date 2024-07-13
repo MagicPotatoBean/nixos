@@ -131,20 +131,24 @@
   # Enable touchpad support (enabled default in most desktopManager).
   # services.libinput.enable = true;
   # Define a user account. Don't forget to set a password with ‘passwd’.
-  users.users = {
-    zoe = {
-      isNormalUser = true;
-      description = "Zoe";
-      extraGroups = ["networkmanager" "wheel" "dialout"];
-      packages = with pkgs; [
-        firefox
-      ];
-    };
-    zac = {
-      isNormalUser = true;
-      description = "Zac";
-      extraGroups = [""];
-      initialPassword = "12345";
+  users = {
+    mutableUsers = true;
+    users = {
+      zoe = {
+        isNormalUser = true;
+        description = "Zoe";
+        extraGroups = ["networkmanager" "wheel" "dialout"];
+        packages = with pkgs; [
+          firefox
+        ];
+      };
+      zac = {
+        isNormalUser = true;
+        description = "Zac";
+        extraGroups = [];
+        initialPassword = "12345";
+        packages = [pkgs.firefox];
+      };
     };
   };
 
