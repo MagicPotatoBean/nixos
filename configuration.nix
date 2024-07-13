@@ -615,7 +615,7 @@
     };
 
     # Enable steam
-    # steam.enable = true;
+    steam.enable = true;
 
     # Sets up nix-ld to allow arbitrary binaries
     nix-ld.enable = true;
@@ -688,7 +688,6 @@
       pkgs.spotify
       pkgs.obsidian
       pkgs.lutris
-      pkgs.steam
       pkgs.discord
     ];
   };
