@@ -642,6 +642,22 @@ in {
           };
         }
         {
+          key = "<leader>lh";
+          action = ":Lspsaga hover_doc<CR>";
+          options = {
+            silent = true;
+            desc = "Hover docs";
+          };
+        }
+        {
+          key = "<leader>lf";
+          action = ":Lspsaga finder<CR>";
+          options = {
+            silent = true;
+            desc = "Finder";
+          };
+        }
+        {
           key = "<leader>ca";
           action = ":Lspsaga code_action<CR>";
           options = {
