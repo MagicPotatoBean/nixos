@@ -237,6 +237,7 @@
       enable = true;
       viAlias = true;
       vimAlias = true;
+      extraConfigVim = "set noshowmode";
       clipboard = {
         register = "unnamedplus";
         providers.wl-copy = {
