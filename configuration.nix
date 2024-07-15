@@ -1029,7 +1029,7 @@ in {
       pkgs.jdk17
       pkgs.zig_0_12
       pkgs.fzf
-      pkgs.fish
+      pkgs.kitty
       # Requires unfree
       pkgs.spotify
       pkgs.obsidian
