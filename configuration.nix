@@ -1030,6 +1030,7 @@ in {
       pkgs.zig_0_12
       pkgs.fzf
       pkgs.kitty
+      pkgs.calc
       # Requires unfree
       pkgs.spotify
       pkgs.obsidian
