@@ -1029,6 +1029,7 @@ in {
       pkgs.jdk17
       pkgs.zig_0_12
       pkgs.fzf
+      pkgs.fish
       # Requires unfree
       pkgs.spotify
       pkgs.obsidian
