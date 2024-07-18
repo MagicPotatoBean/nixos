@@ -1028,6 +1028,7 @@ in {
       pkgs.prismlauncher
       pkgs.jdk17
       pkgs.jdk21_headless
+      pkgs.modrinth-app
       pkgs.zig_0_12
       pkgs.fzf
       pkgs.kitty
