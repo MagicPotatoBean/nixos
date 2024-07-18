@@ -1027,6 +1027,7 @@ in {
       pkgs.clippy
       pkgs.prismlauncher
       pkgs.jdk17
+      pkgs.jdk21_headless
       pkgs.zig_0_12
       pkgs.fzf
       pkgs.kitty
