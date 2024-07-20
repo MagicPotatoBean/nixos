@@ -878,6 +878,7 @@ in {
             };
           };
         };
+        cmp-dap.enable = true;
         cmp-vsnip.enable = true;
         cmp-buffer.enable = true;
         cmp-nvim-lua.enable = true;
