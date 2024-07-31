@@ -1003,7 +1003,6 @@ in {
       pkgs.inetutils
       pkgs.gcc
       pkgs.bacon
-      pkgs.rustfmt
       pkgs.extundelete
       pkgs.nerdfonts
       pkgs.wl-clipboard
@@ -1035,6 +1034,8 @@ in {
       pkgs.fzf
       pkgs.kitty
       pkgs.calc
+      pkgs.htop
+      pkgs.neofetch
       # Requires unfree
       pkgs.spotify
       pkgs.obsidian
