@@ -796,6 +796,10 @@ in {
                 name = "college-work";
                 path = "/home/zoe/Documents/college/obsidian_vault"; # Using ~ goes to /root/...
               }
+              {
+                name = "nyan_and_zoe";
+                path = "/home/zoe/Documents/nyan_zoe_vault"; # Using ~ goes to /root/...
+              }
             ];
             mappings = {
               "<leader>oc" = {
