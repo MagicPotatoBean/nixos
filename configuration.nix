@@ -1051,6 +1051,7 @@ in {
       pkgs.htop
       pkgs.neofetch
       pkgs.interception-tools
+      pkgs.interception-tools-plugins.caps2esc
       # Requires unfree
       pkgs.spotify
       pkgs.obsidian
