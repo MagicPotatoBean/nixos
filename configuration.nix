@@ -378,6 +378,12 @@ in {
     LC_TIME = "en_GB.UTF-8";
   };
   services = {
+    interception-tools = {
+      enable = true;
+      plugins = [
+        pkgs.interception-tools-plugins.caps2esc
+      ];
+    };
     logind.lidSwitchExternalPower = "ignore";
     xserver = {
       enable = true;
@@ -1040,7 +1046,6 @@ in {
       pkgs.calc
       pkgs.htop
       pkgs.neofetch
-      pkgs.interception-tools
       # Requires unfree
       pkgs.spotify
       pkgs.obsidian
