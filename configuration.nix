@@ -1040,6 +1040,7 @@ in {
       pkgs.calc
       pkgs.htop
       pkgs.neofetch
+      pkgs.interception-tools
       # Requires unfree
       pkgs.spotify
       pkgs.obsidian
