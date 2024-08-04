@@ -907,7 +907,7 @@ in {
             nixd.enable = true;
             tsserver = {
               enable = true;
-              package = pkgs.nodePackages_latest.typescript-language-server;
+              package = pkgs.javascript-typescript-langserver;
             };
           };
         };
