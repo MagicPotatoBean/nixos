@@ -907,7 +907,7 @@ in {
             nixd.enable = true;
             tsserver = {
               enable = true;
-              package = pkgs.javascript-typescript-langserver;
+              cmd = [''${pkgs.typescript}/bin/tsserver''];
             };
           };
         };
