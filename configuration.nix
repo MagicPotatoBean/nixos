@@ -908,7 +908,7 @@ in {
             tsserver = {
               enable = true;
               package = pkgs.nodePackages.typescript-language-server;
-              cmd = ["${pkgs.nodePackages.typescript-language-server} --stdio"];
+              cmd = ["${pkgs.nodePackages.typescript-language-server}/bin/typescript-language-server --stdio"];
             };
           };
         };
