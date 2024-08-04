@@ -1058,6 +1058,7 @@ in {
       pkgs.interception-tools-plugins.caps2esc
       pkgs.nodejs_22
       pkgs.typescript
+      pkgs.javascript-typescript-langserver
       # Requires unfree
       pkgs.spotify
       pkgs.obsidian
