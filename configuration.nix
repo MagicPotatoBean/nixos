@@ -1058,6 +1058,7 @@ in {
       pkgs.nodejs_22
       pkgs.typescript
       pkgs.javascript-typescript-langserver
+      pkgs.nodePackages.typescript-language-server
       # Requires unfree
       pkgs.spotify
       pkgs.obsidian
