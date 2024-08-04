@@ -905,6 +905,7 @@ in {
             };
             zls.enable = true;
             nixd.enable = true;
+            tsserver.enable = true;
           };
         };
         lsp-format.enable = true;
