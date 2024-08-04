@@ -907,8 +907,8 @@ in {
             nixd.enable = true;
             tsserver = {
               enable = true;
-              package = pkgs.nodePackages.typescript-language-server;
-              cmd = ["typescript-language-server --stdio"];
+              # package = pkgs.nodePackages.typescript-language-server;
+              # cmd = ["typescript-language-server --stdio"];
             };
           };
         };
