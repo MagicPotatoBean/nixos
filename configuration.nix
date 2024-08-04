@@ -905,7 +905,10 @@ in {
             };
             zls.enable = true;
             nixd.enable = true;
-            tsserver.enable = true;
+            tsserver = {
+              enable = true;
+              package = pkgs.nodePackages_latest.typescript-language-server;
+            };
           };
         };
         lsp-format.enable = true;
