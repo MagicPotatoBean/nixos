@@ -907,7 +907,6 @@ in {
             nixd.enable = true;
             tsserver = {
               enable = true;
-              cmd = [''${pkgs.typescript}/bin/tsserver''];
             };
           };
         };
