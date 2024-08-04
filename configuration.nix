@@ -907,6 +907,8 @@ in {
             nixd.enable = true;
             tsserver = {
               enable = true;
+              package = pkgs.nodePackages.typescript-language-server;
+              cmd = ["typescript-language-server --stdio"];
             };
           };
         };
@@ -1057,7 +1059,6 @@ in {
       pkgs.interception-tools-plugins.caps2esc
       pkgs.nodejs_22
       pkgs.typescript
-      pkgs.javascript-typescript-langserver
       pkgs.nodePackages.typescript-language-server
       # Requires unfree
       pkgs.spotify
