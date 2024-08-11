@@ -1061,6 +1061,7 @@ in {
       pkgs.typescript
       pkgs.nodePackages.typescript-language-server
       pkgs.qemu
+      pkgs.quickemu
       # Requires unfree
       pkgs.spotify
       pkgs.obsidian
