@@ -1060,6 +1060,7 @@ in {
       pkgs.nodejs_22
       pkgs.typescript
       pkgs.nodePackages.typescript-language-server
+      pkgs.qemu
       # Requires unfree
       pkgs.spotify
       pkgs.obsidian
