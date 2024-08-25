@@ -558,7 +558,7 @@ in {
   environment = {
     gnome.excludePackages = [pkgs.gnome-tour];
     interactiveShellInit = ''
-      cat ~/Documents/todo.txt
+      cat ~/Documents/todo.md
       PATH=$PATH:$HOME/.cargo/bin
     '';
   };
