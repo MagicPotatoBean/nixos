@@ -566,6 +566,7 @@ in {
   environment.variables.VISUAL = "nvim";
   services.xserver.excludePackages = [pkgs.xterm];
   programs = {
+    wireshark.enable = true;
     # Set up neovim as default editor
     nixvim = {
       enable = true;
