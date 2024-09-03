@@ -471,7 +471,7 @@ in {
       zoe = {
         isNormalUser = true;
         description = "Zoe";
-        extraGroups = ["networkmanager" "wheel" "dialout"];
+        extraGroups = ["networkmanager" "wheel" "dialout" "wireshark"];
         packages = with pkgs; [
           firefox
         ];
