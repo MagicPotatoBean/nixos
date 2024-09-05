@@ -998,7 +998,10 @@ in {
     ];
   };
 
-  fonts.packages = [pkgs.jetbrains-mono];
+  fonts.packages = [
+    pkgs.jetbrains-mono
+    pkgs.ubuntu_font_family
+  ];
   environment = {
     systemPackages = [
       pkgs.tree
