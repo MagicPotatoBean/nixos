@@ -331,8 +331,6 @@ in {
   nixpkgs.overlays = [inputs.fenix.overlays.default];
 
   imports = [
-    # Include the results of the hardware scan.
-    ./hardware-configuration.nix
     inputs.nixvim.nixosModules.nixvim
   ];
   # Bootloader.
@@ -349,7 +347,7 @@ in {
     # Or disable the firewall altogether.
     # networking.firewall.enable = false;
 
-    hostName = "elitebook"; # Define your hostname.
+    hostName = "desktop"; # Define your hostname.
     # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
 
     # Configure network proxy if necessary
@@ -999,8 +997,8 @@ in {
       haskellPackages.gssapi
     ];
   };
-  # List packages installed in system profile. To search, run:
-  # $ nix search wget
+
+  fonts.packages = [pkgs.jetbrains-mono];
   environment = {
     systemPackages = [
       pkgs.tree
