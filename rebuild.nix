@@ -12,7 +12,7 @@ with import <nixpkgs> {};
     sudo git pull
 
     # Open config in neovim
-    sudo nvim /etc/nixos/configuration.nix /etc/nixos/flake.nix
+    sudo nvim /etc/nixos/shared_configuration.nix /etc/nixos/modules/elitebok/configuration.nix /etc/nixos/modules/desktop/configuration.nix /etc/nixos/flake.nix
 
     # Autoformat your nix files
     sudo alejandra . &>/dev/null

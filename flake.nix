@@ -21,7 +21,7 @@
       specialArgs = {
         inherit inputs;
       };
-        modules = [
+      modules = [
         ./shared_configuration.nix
         ./modules/desktop/configuration.nix
         ./modules/desktop/hardware_configuration.nix
@@ -46,8 +46,8 @@
         inherit inputs;
       };
       modules = [
-          ./shared_configuration.nix
-          ./modules/elitebook/configuration.nix
+        ./shared_configuration.nix
+        ./modules/elitebook/configuration.nix
         ./modules/elitebook/hardware_configuration.nix
         ({pkgs, ...}: {
           nixpkgs.overlays = [inputs.fenix.overlays.default];

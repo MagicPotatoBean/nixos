@@ -1,7 +1,10 @@
-{ pkgs, config, ...}:
 {
-    hostName = "elitebook"; # Define your hostname.
-    logind.lidSwitchExternalPower = "ignore";
+  pkgs,
+  config,
+  ...
+}: {
+  networking.hostName = "elitebook"; # Define your hostname.
+  services.logind.lidSwitchExternalPower = "ignore";
   # Add new CA certificates
   security.pki.certificates = [
     ''      SFCF

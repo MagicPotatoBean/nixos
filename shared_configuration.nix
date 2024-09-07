@@ -475,7 +475,6 @@ in {
     };
   };
 
-
   # Disable gnome-tour, xterm
   environment = {
     gnome.excludePackages = [pkgs.gnome-tour pkgs.gnome-console];
@@ -847,8 +846,10 @@ in {
         # which-key
         which-key = {
           enable = true;
-          showHelp = true;
-          showKeys = true;
+          settings = {
+            show_help = true;
+            show_keys = true;
+          };
         };
 
         # git

@@ -5,6 +5,6 @@ This is just the nixos configuration that I use, and is public so that I can clo
 ### Reload
     Fetch the lastest config from git and build it.
 ### Rebuid
-    Open /etc/nixos/configuration.nix in neovim for editing, lint with alejandra, and then rebuild the system from the updated config.
+    Open configuration files in neovim for editing, lint with alejandra, and then rebuild the system from the updated config.
 ### Edit
-    Open /etc/nixos/configuration.nix in neovim for editing.
+    Open configuration files in neovim for editing.

@@ -1,5 +1,8 @@
-{ pkgs, config, ...}:
 {
-    hostName = "desktop"; # Define your hostname.
-    logind.lidSwitchExternalPower = "ignore";
+  pkgs,
+  config,
+  ...
+}: {
+  networking.hostName = "desktop"; # Define your hostname.
+  services.logind.lidSwitchExternalPower = "ignore";
 }
