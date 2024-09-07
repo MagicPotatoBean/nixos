@@ -996,6 +996,7 @@ in {
       pkgs.obsidian
       pkgs.lutris
       pkgs.discord
+      pkgs.vesktop
     ];
   };
   nixpkgs.config = {
