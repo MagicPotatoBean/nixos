@@ -21,9 +21,10 @@
       specialArgs = {
         inherit inputs;
       };
-      modules = [
-        ./configuration.nix
-        ./hardware_files/desktop.nix
+        modules = [
+        ./shared_configuration.nix
+        ./modules/desktop/configuration.nix
+        ./modules/desktop/hardware_configuration.nix
         ({pkgs, ...}: {
           nixpkgs.overlays = [inputs.fenix.overlays.default];
           environment.systemPackages = with pkgs; [
@@ -45,8 +46,9 @@
         inherit inputs;
       };
       modules = [
-        ./configuration.nix
-        ./hardware_files/elitebook.nix
+          ./shared_configuration.nix
+          ./modules/elitebook/configuration.nix
+        ./modules/elitebook/hardware_configuration.nix
         ({pkgs, ...}: {
           nixpkgs.overlays = [inputs.fenix.overlays.default];
           environment.systemPackages = with pkgs; [
