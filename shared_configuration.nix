@@ -995,7 +995,6 @@ in {
       pkgs.spotify
       pkgs.obsidian
       pkgs.lutris
-      pkgs.discord
       pkgs.vesktop
     ];
   };
