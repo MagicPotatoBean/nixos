@@ -439,7 +439,7 @@ in {
   # Enable CUPS to print documents.
   services.printing = {
     enable = true;
-    drivers = with pkgs; [hplip];
+    drivers = with pkgs; [gutenprint hplip];
   };
 
   hardware = {
