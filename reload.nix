@@ -17,7 +17,7 @@ with import <nixpkgs> {};
     echo "NixOS Rebuilding..."
 
     # Rebuild, output simplified errors, log trackebacks
-    sudo nixos-rebuild switch &>nixos-switch.log || (cat nixos-switch.log | grep --color error && false)
+    sudo nixos-rebuild switch --impure &>nixos-switch.log || (cat nixos-switch.log | grep --color error && false)
 
     # Back to where you were
     popd > /dev/null
