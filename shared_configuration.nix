@@ -994,6 +994,9 @@ in {
       pkgs.nodePackages.typescript-language-server
       pkgs.qemu
       pkgs.quickemu
+      pkgs.fuse
+      pkgs.man-pages
+      pkgs.man-pages-posix
       # Requires unfree
       pkgs.spotify
       pkgs.obsidian
@@ -1001,6 +1004,7 @@ in {
       pkgs.vesktop
     ];
   };
+  documentation.dev.enable = true;
   nixpkgs.config = {
     allowBroken = true;
     allowUnfree = true;
