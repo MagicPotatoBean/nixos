@@ -606,22 +606,6 @@ in {
           };
         }
         {
-          key = "<leader>oe";
-          action = ":set conceallevel=2<CR>";
-          options = {
-            silent = true;
-            desc = "Enable obsidian concealment";
-          };
-        }
-        {
-          key = "<leader>od";
-          action = ":set conceallevel=0<CR>";
-          options = {
-            silent = true;
-            desc = "Disable obsidian concealment";
-          };
-        }
-        {
           key = "<leader>me";
           action = ":MarkdownPreview<CR>";
           options = {
@@ -673,96 +657,6 @@ in {
         };
 
         # markdown
-        obsidian = {
-          enable = true;
-          settings = {
-            ui = {
-              enable = true;
-              checkboxes = {
-                " " = {
-                  char = "☐";
-                  hl_group = "ObsidianTodo";
-                };
-                "x" = {
-                  char = "☑";
-                  hl_group = "ObsidianDone";
-                };
-                "~" = {
-                  char = "☒";
-                  hl_group = "ObsidianTilde";
-                };
-              };
-              hl_groups = {
-                ObsidianDone = {
-                  bold = true;
-                  fg = "#98c379";
-                  # original: fg = "#89ddff";
-                };
-                ObsidianExtLinkIcon = {
-                  fg = "#c792ea";
-                };
-                ObsidianHighlightText = {
-                  bg = "#75662e";
-                };
-                ObsidianRefText = {
-                  fg = "#c792ea";
-                  underline = true;
-                };
-                ObsidianRightArrow = {
-                  bold = true;
-                  fg = "#f78c6c";
-                };
-                ObsidianTag = {
-                  fg = "#89ddff";
-                  italic = true;
-                };
-                ObsidianTilde = {
-                  bold = true;
-                  fg = "#ff5370";
-                };
-                ObsidianTodo = {
-                  bold = true;
-                  fg = "#f78c6c";
-                };
-              };
-            };
-            completion = {
-              min_chars = 2;
-            };
-            workspaces = [
-              {
-                name = "college-work";
-                path = "/home/zoe/Documents/college/obsidian_vault"; # Using ~ goes to /root/...
-              }
-              {
-                name = "nyan_and_zoe";
-                path = "/home/zoe/Documents/nyan_zoe_vault"; # Using ~ goes to /root/...
-              }
-            ];
-            mappings = {
-              "<leader>oc" = {
-                action = "require(\"obsidian\").util.toggle_checkbox";
-                opts = {
-                  buffer = true;
-                  desc = "Toggle checkbox";
-                };
-              };
-              "<leader>ol" = {
-                action = "require(\"obsidian\").util.gf_passthrough()";
-                opts = {
-                  buffer = true;
-                  desc = "Follow obsidian link";
-                };
-              };
-              "<CR>" = {
-                action = "require(\"obsidian\").util.smart_action()";
-                opts = {
-                  silent = true;
-                };
-              };
-            };
-          };
-        };
         markdown-preview = {
           enable = true;
           settings = {
