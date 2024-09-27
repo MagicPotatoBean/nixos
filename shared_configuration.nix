@@ -436,11 +436,12 @@ in {
   # Configure console keymap
   console.keyMap = "uk";
 
+  # Temporarily disabled due to CUPS vulnerability
   # Enable CUPS to print documents.
-  services.printing = {
-    enable = true;
-    drivers = with pkgs; [gutenprint hplip];
-  };
+  # services.printing = {
+  #   enable = true;
+  #   drivers = with pkgs; [gutenprint hplip];
+  # };
 
   hardware = {
     graphics.enable = true;
