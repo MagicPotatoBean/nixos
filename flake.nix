@@ -88,5 +88,29 @@
         })
       ];
     };
+    nixosConfigurations.dell_2 = nixpkgs.lib.nixosSystem {
+      system = "x86_64-linux";
+      specialArgs = {
+        inherit inputs;
+      };
+      modules = [
+        ./shared_configuration.nix
+        ./modules/dell_2/configuration.nix
+        ./modules/dell_2/hardware_configuration.nix
+        ({pkgs, ...}: {
+          nixpkgs.overlays = [inputs.fenix.overlays.default];
+          environment.systemPackages = with pkgs; [
+            (fenix.complete.withComponents [
+              "cargo"
+              "clippy"
+              "rust-src"
+              "rustc"
+              "rustfmt"
+            ])
+            rust-analyzer-nightly
+          ];
+        })
+      ];
+    };
   };
 }
