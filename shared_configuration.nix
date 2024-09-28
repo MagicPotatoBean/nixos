@@ -893,6 +893,7 @@ in {
       pkgs.man-pages
       pkgs.man-pages-posix
       pkgs.ecryptfs
+      pkgs.gnomeExtensions.worksets
       # Requires unfree
       pkgs.spotify
       pkgs.obsidian
