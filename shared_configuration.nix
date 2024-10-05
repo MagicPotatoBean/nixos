@@ -728,11 +728,15 @@ in {
             };
             zls.enable = true;
             nixd.enable = true;
-            tsserver = {
-              enable = true;
-              package = pkgs.nodePackages.typescript-language-server;
-              cmd = ["typescript-language-server --stdio --tsserver ${pkgs.nodePackages.typescript}/bin"];
-            };
+            # tsserver = {
+            #   enable = true;
+            #   package = pkgs.nodePackages.typescript-language-server;
+            #   cmd = ["typescript-language-server --stdio --tsserver ${pkgs.nodePackages.typescript}/bin"];
+            # };
+            # ts-ls.enable = true;
+            html.enable = true;
+            cssls.enable = true;
+            texlab.enable = true;
           };
         };
         lsp-format.enable = true;
