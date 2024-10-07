@@ -643,17 +643,20 @@ in {
         nix.enable = true;
 
         # UI
+        web-devicons.enable = true;
         lualine = {
           enable = true;
-          globalstatus = true;
-          theme = "onedark";
-          componentSeparators = {
-            left = "|";
-            right = "|";
-          };
-          sectionSeparators = {
-            left = "";
-            right = "";
+          settings.options = {
+            globalstatus = true;
+            theme = "onedark";
+            componentSeparators = {
+              left = "|";
+              right = "|";
+            };
+            sectionSeparators = {
+              left = "";
+              right = "";
+            };
           };
         };
 
@@ -733,7 +736,7 @@ in {
             #   package = pkgs.nodePackages.typescript-language-server;
             #   cmd = ["typescript-language-server --stdio --tsserver ${pkgs.nodePackages.typescript}/bin"];
             # };
-            # ts-ls.enable = true;
+            ts-ls.enable = true;
             html.enable = true;
             cssls.enable = true;
             texlab.enable = true;
