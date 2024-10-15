@@ -901,6 +901,7 @@ in {
       pkgs.man-pages-posix
       pkgs.ecryptfs
       pkgs.xournalpp
+      pkgs.texliveTeTeX
       # Requires unfree
       pkgs.spotify
       pkgs.obsidian
