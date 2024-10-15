@@ -900,6 +900,7 @@ in {
       pkgs.man-pages
       pkgs.man-pages-posix
       pkgs.ecryptfs
+      pkgs.xournalpp
       # Requires unfree
       pkgs.spotify
       pkgs.obsidian
