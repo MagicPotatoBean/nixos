@@ -473,7 +473,7 @@ in {
         description = "Zoe";
         extraGroups = ["networkmanager" "wheel" "dialout" "wireshark"];
         packages = with pkgs; [
-          firefox
+          inputs.firefox.packages.${pkgs.system}.firefox-nightly-bin
         ];
       };
     };
@@ -664,7 +664,7 @@ in {
         markdown-preview = {
           enable = true;
           settings = {
-            browser = "firefox";
+            browser = "ungoogled-chromium";
             markdown_css = "${mkdp_css}";
           };
         };
