@@ -902,6 +902,7 @@ in {
       pkgs.ecryptfs
       pkgs.xournalpp
       pkgs.texliveTeTeX
+      pkgs.arrpc
       # Requires unfree
       pkgs.spotify
       pkgs.obsidian
