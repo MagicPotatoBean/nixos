@@ -903,6 +903,7 @@ in {
       pkgs.xournalpp
       pkgs.texliveTeTeX
       pkgs.arrpc
+      pkgs.krita
       # Requires unfree
       pkgs.spotify
       pkgs.obsidian

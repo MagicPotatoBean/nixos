@@ -28,6 +28,11 @@
     options = ["fmask=0077" "dmask=0077"];
   };
 
+  fileSystems."/run/media/zoe/500GB Drive" = {
+    device = "/dev/disk/by-uuid/2b0c5285-58b7-48b7-9519-688b47ec8c61";
+    fsType = "ext4";
+  };
+
   swapDevices = [
     {device = "/dev/disk/by-uuid/c29037ea-6190-4f5a-a7ef-dfdb1bb8bcf6";}
   ];
