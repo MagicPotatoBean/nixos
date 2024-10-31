@@ -622,6 +622,38 @@ in {
             desc = "Disable markdown preview";
           };
         }
+        {
+          key = "<leader>rf";
+          action = ":RustFmt<CR>";
+          options = {
+            silent = true;
+            desc = "Rust format";
+          };
+        }
+        {
+          key = "<leader>rr";
+          action = ":RustReloadWorkspace<CR>";
+          options = {
+            silent = true;
+            desc = "Rust reload";
+          };
+        }
+        {
+          key = "<leader>rc";
+          action = ":RustOpenCargo<CR>";
+          options = {
+            silent = true;
+            desc = "Rust open cargo";
+          };
+        }
+        {
+          key = "<leader>rd";
+          action = ":RustOpenExternalDocs<CR>";
+          options = {
+            silent = true;
+            desc = "Rust open docs";
+          };
+        }
       ];
       colorschemes.catppuccin = {
         enable = true;
@@ -675,8 +707,8 @@ in {
         # lsp
         lint = {
           lintersByFt = {
-            rust = ["cargo clippy --fix --allow-dirty"];
-            nix = ["alejandra ./*.nix"];
+            rust = ["RustFmt"];
+            nix = ["alejandra"];
           };
         };
         autoclose = {
@@ -726,8 +758,9 @@ in {
             rust-analyzer = {
               enable = true;
               package = pkgs.rust-analyzer-nightly;
-              installRustc = false;
-              installCargo = false;
+              settings = {
+                typing.autoClosingAngleBrackets.enable = true;
+              };
             };
             zls.enable = true;
             nixd.enable = true;
