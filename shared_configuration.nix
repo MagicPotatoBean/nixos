@@ -696,7 +696,7 @@ in {
         markdown-preview = {
           enable = true;
           settings = {
-            browser = "ungoogled-chromium";
+            browser = "firefox-nightly";
             markdown_css = "${mkdp_css}";
           };
         };
