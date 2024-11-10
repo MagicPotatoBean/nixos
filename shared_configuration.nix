@@ -937,6 +937,7 @@ in {
       pkgs.texliveTeTeX
       pkgs.arrpc
       pkgs.krita
+      pkgs.prusa-slicer
       # Requires unfree
       pkgs.spotify
       pkgs.obsidian
