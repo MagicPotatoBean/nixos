@@ -756,21 +756,21 @@ in {
         lsp = {
           enable = true;
           servers = {
-            rust-analyzer = {
+            rust_analyzer = {
               enable = true;
               package = pkgs.rust-analyzer-nightly;
+              installCargo = false;
+              installRustc = false;
               settings = {
                 typing.autoClosingAngleBrackets.enable = true;
               };
             };
             zls.enable = true;
             nixd.enable = true;
-            tsserver = {
+            ts-ls = {
               enable = true;
               package = pkgs.nodePackages.typescript-language-server;
-              cmd = ["typescript-language-server --stdio --tsserver ${pkgs.nodePackages.typescript}/bin"];
             };
-            ts-ls.enable = true;
             html.enable = true;
             cssls.enable = true;
             texlab.enable = true;
@@ -821,9 +821,7 @@ in {
         };
 
         # rust
-        rust-tools.enable = true;
-        bacon.enable = true;
-        crates-nvim.enable = true;
+        rustaceanvim.enable = true;
 
         # treesitter
         treesitter-context.enable = true;
