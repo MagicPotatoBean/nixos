@@ -390,6 +390,7 @@ in {
       # Enable the GNOME Desktop Environment.
       displayManager.gdm.enable = true;
       desktopManager.gnome.enable = true;
+      autorun = false;
       # Reinstate the minimize/maximize buttons!
       # To list all possible settings, try this:
       # > gsettings list-schemas
