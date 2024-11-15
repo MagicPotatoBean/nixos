@@ -765,11 +765,11 @@ in {
             };
             zls.enable = true;
             nixd.enable = true;
-            # tsserver = {
-            #   enable = true;
-            #   package = pkgs.nodePackages.typescript-language-server;
-            #   cmd = ["typescript-language-server --stdio --tsserver ${pkgs.nodePackages.typescript}/bin"];
-            # };
+            tsserver = {
+              enable = true;
+              package = pkgs.nodePackages.typescript-language-server;
+              cmd = ["typescript-language-server --stdio --tsserver ${pkgs.nodePackages.typescript}/bin"];
+            };
             ts-ls.enable = true;
             html.enable = true;
             cssls.enable = true;
@@ -869,16 +869,12 @@ in {
     systemPackages = [
       pkgs.tree
       pkgs.netcat-gnu
-      pkgs.gimp
-      pkgs.drive
-      pkgs.jellyfin-ffmpeg
       (import ./edit.nix)
       pkgs.unzip
       pkgs.winetricks
       pkgs.wineWowPackages.stable
       pkgs.keepassxc
       pkgs.libreoffice
-      pkgs.libtelnet
       (import ./rebuild.nix)
       (import ./reload.nix)
       pkgs.openssl
@@ -889,34 +885,15 @@ in {
       pkgs.alejandra
       pkgs.inetutils
       pkgs.gcc
-      pkgs.bacon
-      pkgs.extundelete
       pkgs.nerdfonts
       pkgs.wl-clipboard
       pkgs.usbutils
       pkgs.file
-      pkgs.awscli2
-      pkgs.gnomeExtensions.gsnap
       pkgs.cargo-generate
-      pkgs.ghc
-      pkgs.haskellPackages.cabal-install
-      pkgs.espflash
       pkgs.gnupg1
       pkgs.pinentry-gnome3
-      pkgs.gdrive3
-      pkgs.distrobox
-      pkgs.docker_26
-      pkgs.pkg-config
       pkgs.gparted
       pkgs.nixos-generators
-      pkgs.time
-      pkgs.pkg-config
-      pkgs.rpi-imager
-      pkgs.clippy
-      pkgs.prismlauncher
-      pkgs.jdk17
-      pkgs.jdk21_headless
-      pkgs.modrinth-app
       pkgs.zig_0_12
       pkgs.fzf
       pkgs.kitty
@@ -925,25 +902,15 @@ in {
       pkgs.neofetch
       pkgs.interception-tools
       pkgs.interception-tools-plugins.caps2esc
-      pkgs.nodejs_22
-      pkgs.typescript
-      pkgs.nodePackages.typescript-language-server
       pkgs.qemu
       pkgs.quickemu
       pkgs.fuse
       pkgs.man-pages
       pkgs.man-pages-posix
-      pkgs.ecryptfs
       pkgs.xournalpp
       pkgs.texliveTeTeX
-      pkgs.arrpc
-      pkgs.krita
-      pkgs.prusa-slicer
-      # Requires unfree
       pkgs.spotify
       pkgs.obsidian
-      pkgs.lutris
-      pkgs.vesktop
     ];
   };
   documentation.dev.enable = true;
