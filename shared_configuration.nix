@@ -756,18 +756,9 @@ in {
         lsp = {
           enable = true;
           servers = {
-            rust_analyzer = {
-              enable = true;
-              package = pkgs.rust-analyzer-nightly;
-              installCargo = false;
-              installRustc = false;
-              settings = {
-                typing.autoClosingAngleBrackets.enable = true;
-              };
-            };
             zls.enable = true;
             nixd.enable = true;
-            ts-ls = {
+            ts_ls = {
               enable = true;
               package = pkgs.nodePackages.typescript-language-server;
             };
@@ -821,7 +812,10 @@ in {
         };
 
         # rust
-        rustaceanvim.enable = true;
+        rustaceanvim = {
+          enable = true;
+          rustAnalyzerPackage = pkgs.rust-analyzer-nightly;
+        };
 
         # treesitter
         treesitter-context.enable = true;
