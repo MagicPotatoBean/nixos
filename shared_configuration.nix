@@ -389,10 +389,7 @@ in {
       enable = true;
       # Enable the GNOME Desktop Environment.
       desktopManager.gnome.enable = true;
-      # Boot into terminal by default
-      displayManager.gdm.enable = false;
-      displayManager.lightdm.enable = false;
-      autorun = false;
+      displayManager.gdm.enable = true;
       # Reinstate the minimize/maximize buttons!
       # To list all possible settings, try this:
       # > gsettings list-schemas
