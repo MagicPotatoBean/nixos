@@ -388,8 +388,10 @@ in {
     xserver = {
       enable = true;
       # Enable the GNOME Desktop Environment.
-      displayManager.gdm.enable = true;
       desktopManager.gnome.enable = true;
+      # Boot into terminal by default
+      displayManager.gdm.enable = false;
+      displayManager.lightdm.enable = false;
       autorun = false;
       # Reinstate the minimize/maximize buttons!
       # To list all possible settings, try this:
