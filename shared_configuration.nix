@@ -708,12 +708,6 @@ in {
         bufferline.enable = true;
 
         # lsp
-        lint = {
-          lintersByFt = {
-            rust = ["RustFmt"];
-            nix = ["alejandra"];
-          };
-        };
         autoclose = {
           enable = true;
           keys = {
@@ -759,7 +753,6 @@ in {
           enable = true;
           servers = {
             zls.enable = true;
-            nixd.enable = true;
             ts_ls = {
               enable = true;
               package = pkgs.nodePackages.typescript-language-server;
