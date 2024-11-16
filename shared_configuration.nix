@@ -905,6 +905,8 @@ in {
       pkgs.texliveTeTeX
       pkgs.spotify
       pkgs.obsidian
+      pkgs.cargo-tauri
+      pkgs.trunk
     ];
   };
   documentation.dev.enable = true;
