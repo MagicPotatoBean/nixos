@@ -374,6 +374,9 @@ in {
     LC_TELEPHONE = "en_GB.UTF-8";
     LC_TIME = "en_GB.UTF-8";
   };
+
+  virtualisation.vmware.host.enable = true;
+
   services = {
     interception-tools = {
       enable = true;
