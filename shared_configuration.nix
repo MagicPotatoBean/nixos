@@ -753,6 +753,11 @@ in {
           enable = true;
           servers = {
             zls.enable = true;
+            rust-analyzer = {
+              enable = true;
+              installRustc = false;
+              installCargo = false;
+            };
             ts_ls = {
               enable = true;
               package = pkgs.nodePackages.typescript-language-server;
@@ -804,12 +809,6 @@ in {
               };
             };
           };
-        };
-
-        # rust
-        rustaceanvim = {
-          enable = true;
-          rustAnalyzerPackage = pkgs.rust-analyzer-nightly;
         };
 
         # treesitter
