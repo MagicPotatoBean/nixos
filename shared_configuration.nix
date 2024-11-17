@@ -708,26 +708,7 @@ in {
         bufferline.enable = true;
 
         # lsp
-        autoclose = {
-          enable = true;
-          keys = {
-            "(" = {
-              escape = false;
-              close = true;
-              pair = "()";
-            };
-            "[" = {
-              escape = false;
-              close = true;
-              pair = "[]";
-            };
-            "{" = {
-              escape = false;
-              close = true;
-              pair = "{}";
-            };
-          };
-        };
+        parinfer-rust.enable = true;
         cmp = {
           enable = true;
           settings = {
