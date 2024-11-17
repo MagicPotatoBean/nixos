@@ -734,7 +734,12 @@ in {
           enable = true;
           servers = {
             zls.enable = true;
-            nixd.enable = true;
+            nixd = {
+              enable = true;
+              extraOptions = {
+                offset_encoding = "utf-8";
+              };
+            };
             rust-analyzer = {
               enable = true;
               installRustc = false;
