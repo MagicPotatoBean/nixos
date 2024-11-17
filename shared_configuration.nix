@@ -708,7 +708,7 @@ in {
         bufferline.enable = true;
 
         # lsp
-        parinfer-rust.enable = true;
+        nvim-autopairs.enable = true;
         cmp = {
           enable = true;
           settings = {
@@ -734,6 +734,7 @@ in {
           enable = true;
           servers = {
             zls.enable = true;
+            nixd.enable = true;
             rust-analyzer = {
               enable = true;
               installRustc = false;
