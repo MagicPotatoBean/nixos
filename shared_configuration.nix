@@ -886,6 +886,8 @@ in {
       pkgs.obsidian
       pkgs.cargo-tauri
       pkgs.trunk
+      pkgs.gdb
+      pkgs.cgdb
     ];
   };
   documentation.dev.enable = true;
