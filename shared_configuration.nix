@@ -378,6 +378,9 @@ in {
   virtualisation.vmware.host.enable = true;
 
   services = {
+    fprintd = {
+      enable = true;
+    };
     interception-tools = {
       enable = true;
       plugins = [pkgs.interception-tools-plugins.caps2esc];
