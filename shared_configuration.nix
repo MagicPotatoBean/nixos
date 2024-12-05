@@ -475,7 +475,7 @@ in {
         isNormalUser = true;
         description = "Zoe";
         extraGroups = ["networkmanager" "wheel" "dialout" "wireshark"];
-        packages = with pkgs; [
+        packages = [
           inputs.firefox.packages.${pkgs.system}.firefox-nightly-bin
         ];
       };
@@ -494,10 +494,6 @@ in {
   environment.variables.VISUAL = "nvim";
   services.xserver.excludePackages = [pkgs.xterm];
   programs = {
-    wireshark = {
-      enable = true;
-      package = pkgs.wireshark;
-    };
     # Set up neovim as default editor
     nixvim = {
       enable = true;
@@ -819,9 +815,6 @@ in {
       enableSSHSupport = true;
     };
 
-    # Enable steam
-    steam.enable = true;
-
     # Sets up nix-ld to allow arbitrary binaries
     nix-ld.enable = true;
 
@@ -875,17 +868,11 @@ in {
       pkgs.neofetch
       pkgs.interception-tools
       pkgs.interception-tools-plugins.caps2esc
-      pkgs.qemu
-      pkgs.quickemu
-      pkgs.fuse
       pkgs.man-pages
       pkgs.man-pages-posix
       pkgs.xournalpp
       pkgs.texliveTeTeX
-      pkgs.spotify
       pkgs.obsidian
-      pkgs.cargo-tauri
-      pkgs.trunk
       pkgs.gdb
       pkgs.cgdb
     ];
