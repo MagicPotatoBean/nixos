@@ -375,8 +375,6 @@ in {
     LC_TIME = "en_GB.UTF-8";
   };
 
-  virtualisation.vmware.host.enable = true;
-
   services = {
     interception-tools = {
       enable = true;
@@ -851,7 +849,7 @@ in {
       pkgs.alejandra
       pkgs.inetutils
       pkgs.gcc
-      pkgs.nerdfonts
+      pkgs.jetbrains-mono
       pkgs.wl-clipboard
       pkgs.usbutils
       pkgs.file
