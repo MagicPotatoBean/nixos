@@ -873,6 +873,7 @@ in {
       pkgs.obsidian
       pkgs.gdb
       pkgs.cgdb
+      pkgs.tmux
     ];
   };
   documentation.dev.enable = true;
