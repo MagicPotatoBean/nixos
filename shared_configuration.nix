@@ -652,21 +652,21 @@ in {
           };
         }
       ];
-      colorschemes.catppuccin = {
-        enable = true;
-        settings = {
-          color_overrides.frappe = {
-            base = "#282c34";
-          };
-          flavour = "frappe";
-          integrations = {
-            cmp = true;
-            gitsigns = true;
-            nvimtree = true;
-            treesitter = true;
-          };
-        };
-      };
+      # colorschemes.catppuccin = {
+      #   enable = true;
+      #   settings = {
+      #     color_overrides.frappe = {
+      #       base = "#282c34";
+      #     };
+      #     flavour = "frappe";
+      #     integrations = {
+      #       cmp = true;
+      #       gitsigns = true;
+      #       nvimtree = true;
+      #       treesitter = true;
+      #     };
+      #   };
+      # };
       plugins = {
         # Nix
         nix.enable = true;
