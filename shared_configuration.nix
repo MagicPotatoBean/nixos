@@ -874,6 +874,7 @@ in {
       pkgs.gdb
       pkgs.cgdb
       pkgs.tmux
+      pkgs.guvcview
     ];
   };
   documentation.dev.enable = true;
