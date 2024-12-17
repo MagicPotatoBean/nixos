@@ -733,7 +733,7 @@ in {
                 offset_encoding = "utf-8";
               };
             };
-            rust-analyzer = {
+            rust_analyzer = {
               enable = true;
               installRustc = false;
               installCargo = false;
