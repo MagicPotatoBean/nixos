@@ -629,26 +629,18 @@ in {
         }
         {
           key = "<leader>rr";
-          action = ":RustReloadWorkspace<CR>";
+          action = ":CargoReload<CR>";
           options = {
             silent = true;
             desc = "Rust reload";
           };
         }
         {
-          key = "<leader>rc";
-          action = ":RustOpenCargo<CR>";
+          key = "<leader>f";
+          action = ":FZF<CR>";
           options = {
             silent = true;
-            desc = "Rust open cargo";
-          };
-        }
-        {
-          key = "<leader>rd";
-          action = ":RustOpenExternalDocs<CR>";
-          options = {
-            silent = true;
-            desc = "Rust open docs";
+            desc = "Open fzf";
           };
         }
       ];
@@ -875,6 +867,7 @@ in {
       pkgs.cgdb
       pkgs.tmux
       pkgs.guvcview
+      pkgs.busybox
     ];
   };
   documentation.dev.enable = true;
@@ -886,14 +879,6 @@ in {
   nixpkgs.config.permittedInsecurePackages = [
     "electron-25.9.0"
   ];
-  # Some programs need SUID wrappers, can be configured further or are
-  # started in user sessions.
-  # programs.mtr.enable = true;
-
-  # List services that you want to enable:
-
-  # Enable the OpenSSH daemon.
-  # services.openssh.enable = true;
 
   # Experimental features
   nix.settings.experimental-features = ["nix-command" "flakes"];
@@ -902,7 +887,7 @@ in {
   # settings for stateful data, like file locations and database versions
   # on your system were taken. It‘s perfectly fine and recommended to leave
   # this value at the release version of the first install of this system.
-  #efore changing this value read the documentation for this option
+  # Before changing this value read the documentation for this option
   # (e.g. man configuration.nix or on https://nixos.org/nixos/options.html).
   system.stateVersion = "24.05"; # Did you read the comment?
 }
