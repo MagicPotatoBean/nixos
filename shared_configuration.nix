@@ -629,10 +629,18 @@ in {
         }
         {
           key = "<leader>rr";
-          action = ":CargoReload<CR>";
+          action = ":RustLsp reloadWorkspace<CR>";
           options = {
             silent = true;
             desc = "Rust reload";
+          };
+        }
+        {
+          key = "<leader>rc";
+          action = ":RustLsp openCargo<CR>";
+          options = {
+            silent = true;
+            desc = "Rust open Cargo.toml";
           };
         }
         {
@@ -874,6 +882,7 @@ in {
       pkgs.tmux
       pkgs.guvcview
       pkgs.busybox
+      pkgs.graphviz-nox
     ];
   };
   documentation.dev.enable = true;
