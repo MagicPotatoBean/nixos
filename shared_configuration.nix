@@ -716,6 +716,12 @@ in {
         cmp-buffer.enable = true;
         cmp-nvim-lua.enable = true;
         cmp-nvim-lsp.enable = true;
+        rustaceanvim = {
+          enable = true;
+          rustAnalyzerPackage = pkgs.rust-analyzer-nightly;
+          # For some reason nix doesnt like this option?
+          # autoLoad = true;
+        };
         lsp = {
           enable = true;
           servers = {
@@ -726,11 +732,11 @@ in {
                 offset_encoding = "utf-8";
               };
             };
-            rust_analyzer = {
-              enable = true;
-              installRustc = false;
-              installCargo = false;
-            };
+            # rust_analyzer = {
+            #   enable = true;
+            #   installRustc = false;
+            #   installCargo = false;
+            # };
             ts_ls = {
               enable = true;
               package = pkgs.nodePackages.typescript-language-server;
