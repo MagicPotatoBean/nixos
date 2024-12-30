@@ -335,6 +335,9 @@ in {
   ];
   # Bootloader.
   boot = {
+    initrd.preLVMCommands = ''
+      export LVM_SUPPRESS_FD_WARNNGS=1
+    '';
     loader.systemd-boot.enable = true;
     loader.efi.canTouchEfiVariables = true;
     resumeDevice = "/dev/mapper/myroot";
