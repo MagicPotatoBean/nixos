@@ -335,6 +335,7 @@ in {
   ];
   # Bootloader.
   boot = {
+    initrd.systemd.enable = true;
     loader.systemd-boot.enable = true;
     loader.efi.canTouchEfiVariables = true;
     resumeDevice = "/dev/mapper/myroot";
