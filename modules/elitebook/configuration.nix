@@ -5,6 +5,11 @@
 }: {
   networking.hostName = "elitebook"; # Define your hostname.
   services.logind.lidSwitchExternalPower = "ignore";
+  programs.wireshark = {
+    enable = true;
+    package = pkgs.wireshark;
+  };
+
   # Add new CA certificates
   security.pki.certificates = [
     ''      SFCF
