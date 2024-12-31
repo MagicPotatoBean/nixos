@@ -886,6 +886,7 @@ in {
       pkgs.guvcview
       pkgs.busybox
       pkgs.graphviz-nox
+      pkgs.dig
     ];
   };
   documentation.dev.enable = true;
