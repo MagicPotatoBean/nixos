@@ -10,14 +10,17 @@
     enable = true;
     enable32Bit = true;
   };
-  programs.wireshark = {
-    enable = true;
-    package = pkgs.wireshark;
+  programs = {
+    wireshark = {
+      enable = true;
+      package = pkgs.wireshark;
+    };
+    # Enable steam
+    steam.enable = true;
   };
 
-  # Enable steam
-  steam.enable = true;
   environment.systemPackages = [
+    pkgs.bambu-studio
     pkgs.prusa-slicer
     pkgs.lutris
     pkgs.vesktop
