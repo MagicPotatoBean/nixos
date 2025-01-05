@@ -333,6 +333,11 @@ in {
   imports = [
     inputs.nixvim.nixosModules.nixvim
   ];
+  systemd.extraConfig = ''
+    DefaultTimeoutStopSec=10s
+    DefaultTimeoutStartSec=10s
+    DefaultTimeoutSec=10s
+  '';
   # Bootloader.
   boot = {
     initrd.preLVMCommands = ''
@@ -902,5 +907,4 @@ in {
 
   # Experimental features
   nix.settings.experimental-features = ["nix-command" "flakes"];
-
 }
