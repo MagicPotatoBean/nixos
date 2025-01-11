@@ -893,6 +893,7 @@ in {
       pkgs.busybox
       pkgs.graphviz-nox
       pkgs.dig
+      pkgs.screen
     ];
   };
   documentation.dev.enable = true;
