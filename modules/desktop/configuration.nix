@@ -4,8 +4,22 @@
   ...
 }: {
   networking.hostName = "desktop"; # Define your hostname.
-  services.logind.lidSwitchExternalPower = "ignore";
-  services.octoprint.enable = true;
+  services = {
+    octoprint.enable = true;
+    openssh = {
+      enable = true;
+      settings = {
+        X11Forwarding = true;
+      };
+    };
+    fail2ban = {
+      enable = true;
+      maxretry = 3;
+      ignoreIP = [
+        "192.168.0.0/16"
+      ];
+    };
+  };
   hardware.graphics = {
     enable = true;
     enable32Bit = true;
