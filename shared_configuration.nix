@@ -479,6 +479,9 @@ in {
     mutableUsers = true;
     users = {
       zoe = {
+        openssh.authorizedKeys.keys = [
+          "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILLw1j4giE+378IYXkiZyMWsmjygXj126y1PkIw5lueZ zoe@elitebook"
+        ];
         isNormalUser = true;
         description = "Zoe";
         extraGroups = ["networkmanager" "wheel" "dialout" "wireshark"];
