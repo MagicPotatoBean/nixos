@@ -27,6 +27,9 @@
     enable32Bit = true;
   };
   programs = {
+    screen.screenrc = ''
+      truecolor on
+    '';
     wireshark = {
       enable = true;
       package = pkgs.wireshark;
