@@ -29,6 +29,8 @@
   programs = {
     screen.screenrc = ''
       truecolor on
+      hardstatus on
+      hardstatus alwayslastline
     '';
     wireshark = {
       enable = true;
