@@ -8,6 +8,9 @@
     octoprint.enable = true;
     openssh = {
       enable = true;
+      extraConfig = ''
+        X11UseLocalhost no
+      '';
       settings = {
         PasswordAuthentication = false;
         KbdInteractiveAuthentication = false;
