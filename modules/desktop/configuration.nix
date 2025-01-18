@@ -7,7 +7,7 @@
   services = {
     octoprint.enable = true;
     openssh = {
-      enable = true;
+      enable = false;
       extraConfig = ''
         X11UseLocalhost no
       '';
