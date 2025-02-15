@@ -897,6 +897,7 @@ in {
       pkgs.graphviz-nox
       pkgs.dig
       pkgs.screen
+      pkgs.mdcat
     ];
   };
   documentation.dev.enable = true;
