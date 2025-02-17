@@ -711,7 +711,10 @@ in {
         };
 
         # bufferline
-        bufferline.enable = true;
+        bufferline = {
+          enable = true;
+          settings.options.separator_style = "slant";
+        };
 
         # lsp
         nvim-autopairs.enable = true;
