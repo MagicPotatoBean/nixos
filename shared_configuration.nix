@@ -892,6 +892,7 @@ in {
       pkgs.dig
       pkgs.screen
       pkgs.mdcat
+      pkgs.typescript
     ];
   };
   documentation.dev.enable = true;
