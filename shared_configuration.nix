@@ -752,14 +752,8 @@ in {
                 offset_encoding = "utf-8";
               };
             };
-            # rust_analyzer = {
-            #   enable = true;
-            #   installRustc = false;
-            #   installCargo = false;
-            # };
             ts_ls = {
               enable = true;
-              package = pkgs.nodePackages.typescript-language-server;
             };
             html.enable = true;
             cssls.enable = true;
