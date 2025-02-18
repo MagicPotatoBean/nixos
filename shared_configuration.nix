@@ -528,6 +528,22 @@ in {
       globals.mapleader = " ";
       keymaps = [
         {
+          key = "<leader>bd";
+          action = ":bdelete<CR>";
+          options = {
+            silent = true;
+            desc = "Delete buffer";
+          };
+        }
+        {
+          key = "<leader>bp";
+          action = ":BufferLineTogglePin<CR>";
+          options = {
+            silent = true;
+            desc = "Toggle buffer pin";
+          };
+        }
+        {
           key = "<leader>bc";
           action = ":BufferLinePick<CR>";
           options = {
@@ -549,22 +565,6 @@ in {
           options = {
             silent = true;
             desc = "Move buffer to the left";
-          };
-        }
-        {
-          key = "<leader>bn";
-          action = ":BufferLineCycleNext<CR>";
-          options = {
-            silent = true;
-            desc = "Switch to the next buffer";
-          };
-        }
-        {
-          key = "<leader>bp";
-          action = ":BufferLineCyclePrev<CR>";
-          options = {
-            silent = true;
-            desc = "Switch to the last buffer";
           };
         }
         {
